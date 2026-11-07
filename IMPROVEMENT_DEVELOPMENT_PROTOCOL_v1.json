@@ -1,0 +1,5234 @@
+{
+  "status": "Development snapshot before execution; NOT final held-out confirmation",
+  "source_sha256": {
+    "improvement_development.py": "0ffcd22f392537e1cf94e0035289230599beb4f286e0649d9d83a83029758087",
+    "guided_alternatives.py": "cd9ac5d1c9af4fea7e4e7ee6ddce7b2391a0a1d0b070c5c230063b99479a62c8",
+    "envelope_evidence.py": "caf535bbad6e21280f0ad203784da4530bab29fb375c13a6c705e581242f41c3",
+    "continuous_alternative.py": "9048380b17ba2cc1e6bbf72c779e5c9cf0176284673af87c145acc9fb143cae6",
+    "confirmatory_scenes.py": "851658cbc18aae799c1211f5104a5aa56147caa85c791e4cf784531edc9aced2",
+    "likelihood_baseline.py": "a75e427c3100e3924e80e5ba86336c5307b8c436786358a60050ae921587d6b9",
+    "pilot.py": "bd5c0e741af5128d9d5256a099f9a534172a9041cd21bcd2800efcba93d078cd",
+    "crossfit.py": "8ad0de2085ef91a0914a1cca01abe8568a72c6071b44aee2a77425ab689f5c6e",
+    "screen.py": "1f83bd08dfc4e50904c730e213080fd77782f6cd5aef0c4b1047b6c98ae6877d"
+  },
+  "cases": [
+    {
+      "id": "cal_0000",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620000,
+      "noise_seed": 720000,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0001",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620001,
+      "noise_seed": 720001,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0002",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620002,
+      "noise_seed": 720002,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0003",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620003,
+      "noise_seed": 720003,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0004",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620004,
+      "noise_seed": 720004,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0005",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620005,
+      "noise_seed": 720005,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0006",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620006,
+      "noise_seed": 720006,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0007",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620007,
+      "noise_seed": 720007,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0008",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620008,
+      "noise_seed": 720008,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0009",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620009,
+      "noise_seed": 720009,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0010",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620010,
+      "noise_seed": 720010,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0011",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620011,
+      "noise_seed": 720011,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0012",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620012,
+      "noise_seed": 720012,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0013",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620013,
+      "noise_seed": 720013,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0014",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620014,
+      "noise_seed": 720014,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0015",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620015,
+      "noise_seed": 720015,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0016",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620016,
+      "noise_seed": 720016,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0017",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620017,
+      "noise_seed": 720017,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0018",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620018,
+      "noise_seed": 720018,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0019",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620019,
+      "noise_seed": 720019,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0020",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620020,
+      "noise_seed": 720020,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0021",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620021,
+      "noise_seed": 720021,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0022",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620022,
+      "noise_seed": 720022,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0023",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620023,
+      "noise_seed": 720023,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0024",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620024,
+      "noise_seed": 720024,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0025",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620025,
+      "noise_seed": 720025,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0026",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620026,
+      "noise_seed": 720026,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0027",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620027,
+      "noise_seed": 720027,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0028",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620028,
+      "noise_seed": 720028,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0029",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620029,
+      "noise_seed": 720029,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0030",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620030,
+      "noise_seed": 720030,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0031",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620031,
+      "noise_seed": 720031,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0032",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620032,
+      "noise_seed": 720032,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0033",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620033,
+      "noise_seed": 720033,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0034",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620034,
+      "noise_seed": 720034,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0035",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620035,
+      "noise_seed": 720035,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0036",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620036,
+      "noise_seed": 720036,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0037",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620037,
+      "noise_seed": 720037,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0038",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620038,
+      "noise_seed": 720038,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0039",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620039,
+      "noise_seed": 720039,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0040",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620040,
+      "noise_seed": 720040,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0041",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620041,
+      "noise_seed": 720041,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0042",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620042,
+      "noise_seed": 720042,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0043",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620043,
+      "noise_seed": 720043,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0044",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620044,
+      "noise_seed": 720044,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0045",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620045,
+      "noise_seed": 720045,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0046",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620046,
+      "noise_seed": 720046,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0047",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620047,
+      "noise_seed": 720047,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0048",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620048,
+      "noise_seed": 720048,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0049",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620049,
+      "noise_seed": 720049,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0050",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620050,
+      "noise_seed": 720050,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0051",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620051,
+      "noise_seed": 720051,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0052",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620052,
+      "noise_seed": 720052,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0053",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620053,
+      "noise_seed": 720053,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0054",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620054,
+      "noise_seed": 720054,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0055",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620055,
+      "noise_seed": 720055,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0056",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620056,
+      "noise_seed": 720056,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0057",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620057,
+      "noise_seed": 720057,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0058",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620058,
+      "noise_seed": 720058,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0059",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620059,
+      "noise_seed": 720059,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0060",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620060,
+      "noise_seed": 720060,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0061",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620061,
+      "noise_seed": 720061,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0062",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620062,
+      "noise_seed": 720062,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0063",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620063,
+      "noise_seed": 720063,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0064",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620064,
+      "noise_seed": 720064,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0065",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620065,
+      "noise_seed": 720065,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0066",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620066,
+      "noise_seed": 720066,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0067",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620067,
+      "noise_seed": 720067,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0068",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620068,
+      "noise_seed": 720068,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0069",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620069,
+      "noise_seed": 720069,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0070",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620070,
+      "noise_seed": 720070,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0071",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620071,
+      "noise_seed": 720071,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0072",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620072,
+      "noise_seed": 720072,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0073",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620073,
+      "noise_seed": 720073,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0074",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620074,
+      "noise_seed": 720074,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0075",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620075,
+      "noise_seed": 720075,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0076",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620076,
+      "noise_seed": 720076,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0077",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620077,
+      "noise_seed": 720077,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0078",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620078,
+      "noise_seed": 720078,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0079",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620079,
+      "noise_seed": 720079,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0080",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620080,
+      "noise_seed": 720080,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0081",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620081,
+      "noise_seed": 720081,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0082",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620082,
+      "noise_seed": 720082,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0083",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620083,
+      "noise_seed": 720083,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0084",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620084,
+      "noise_seed": 720084,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0085",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620085,
+      "noise_seed": 720085,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0086",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620086,
+      "noise_seed": 720086,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0087",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620087,
+      "noise_seed": 720087,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0088",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620088,
+      "noise_seed": 720088,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0089",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620089,
+      "noise_seed": 720089,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0090",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620090,
+      "noise_seed": 720090,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0091",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620091,
+      "noise_seed": 720091,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0092",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620092,
+      "noise_seed": 720092,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0093",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620093,
+      "noise_seed": 720093,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0094",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620094,
+      "noise_seed": 720094,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0095",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620095,
+      "noise_seed": 720095,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0096",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620096,
+      "noise_seed": 720096,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0097",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620097,
+      "noise_seed": 720097,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0098",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620098,
+      "noise_seed": 720098,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0099",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620099,
+      "noise_seed": 720099,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0100",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620100,
+      "noise_seed": 720100,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0101",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620101,
+      "noise_seed": 720101,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0102",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620102,
+      "noise_seed": 720102,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0103",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620103,
+      "noise_seed": 720103,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0104",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620104,
+      "noise_seed": 720104,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0105",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620105,
+      "noise_seed": 720105,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0106",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620106,
+      "noise_seed": 720106,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0107",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620107,
+      "noise_seed": 720107,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0108",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620108,
+      "noise_seed": 720108,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0109",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620109,
+      "noise_seed": 720109,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0110",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620110,
+      "noise_seed": 720110,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0111",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620111,
+      "noise_seed": 720111,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0112",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620112,
+      "noise_seed": 720112,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0113",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620113,
+      "noise_seed": 720113,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0114",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620114,
+      "noise_seed": 720114,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0115",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620115,
+      "noise_seed": 720115,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0116",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620116,
+      "noise_seed": 720116,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0117",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620117,
+      "noise_seed": 720117,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0118",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620118,
+      "noise_seed": 720118,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0119",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620119,
+      "noise_seed": 720119,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0120",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620120,
+      "noise_seed": 720120,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0121",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620121,
+      "noise_seed": 720121,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0122",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620122,
+      "noise_seed": 720122,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0123",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620123,
+      "noise_seed": 720123,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0124",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620124,
+      "noise_seed": 720124,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0125",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620125,
+      "noise_seed": 720125,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0126",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620126,
+      "noise_seed": 720126,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0127",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620127,
+      "noise_seed": 720127,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0128",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620128,
+      "noise_seed": 720128,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0129",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620129,
+      "noise_seed": 720129,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0130",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620130,
+      "noise_seed": 720130,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0131",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620131,
+      "noise_seed": 720131,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0132",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620132,
+      "noise_seed": 720132,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0133",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620133,
+      "noise_seed": 720133,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0134",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620134,
+      "noise_seed": 720134,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0135",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620135,
+      "noise_seed": 720135,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0136",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620136,
+      "noise_seed": 720136,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0137",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620137,
+      "noise_seed": 720137,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0138",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620138,
+      "noise_seed": 720138,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0139",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620139,
+      "noise_seed": 720139,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0140",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620140,
+      "noise_seed": 720140,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0141",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620141,
+      "noise_seed": 720141,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0142",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620142,
+      "noise_seed": 720142,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0143",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620143,
+      "noise_seed": 720143,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0144",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620144,
+      "noise_seed": 720144,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0145",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620145,
+      "noise_seed": 720145,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0146",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620146,
+      "noise_seed": 720146,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0147",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620147,
+      "noise_seed": 720147,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0148",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620148,
+      "noise_seed": 720148,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0149",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620149,
+      "noise_seed": 720149,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0150",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620150,
+      "noise_seed": 720150,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0151",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620151,
+      "noise_seed": 720151,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0152",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620152,
+      "noise_seed": 720152,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0153",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620153,
+      "noise_seed": 720153,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0154",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620154,
+      "noise_seed": 720154,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0155",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620155,
+      "noise_seed": 720155,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0156",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620156,
+      "noise_seed": 720156,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0157",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620157,
+      "noise_seed": 720157,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0158",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620158,
+      "noise_seed": 720158,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0159",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620159,
+      "noise_seed": 720159,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0160",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620160,
+      "noise_seed": 720160,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0161",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620161,
+      "noise_seed": 720161,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0162",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620162,
+      "noise_seed": 720162,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0163",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620163,
+      "noise_seed": 720163,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0164",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620164,
+      "noise_seed": 720164,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0165",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620165,
+      "noise_seed": 720165,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0166",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620166,
+      "noise_seed": 720166,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0167",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620167,
+      "noise_seed": 720167,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0168",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620168,
+      "noise_seed": 720168,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0169",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620169,
+      "noise_seed": 720169,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0170",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620170,
+      "noise_seed": 720170,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0171",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620171,
+      "noise_seed": 720171,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0172",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620172,
+      "noise_seed": 720172,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0173",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620173,
+      "noise_seed": 720173,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0174",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620174,
+      "noise_seed": 720174,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0175",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620175,
+      "noise_seed": 720175,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0176",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620176,
+      "noise_seed": 720176,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0177",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620177,
+      "noise_seed": 720177,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0178",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620178,
+      "noise_seed": 720178,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0179",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620179,
+      "noise_seed": 720179,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0180",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620180,
+      "noise_seed": 720180,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0181",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620181,
+      "noise_seed": 720181,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0182",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620182,
+      "noise_seed": 720182,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0183",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620183,
+      "noise_seed": 720183,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0184",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620184,
+      "noise_seed": 720184,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0185",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620185,
+      "noise_seed": 720185,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0186",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620186,
+      "noise_seed": 720186,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0187",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620187,
+      "noise_seed": 720187,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0188",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620188,
+      "noise_seed": 720188,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0189",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620189,
+      "noise_seed": 720189,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0190",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620190,
+      "noise_seed": 720190,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0191",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620191,
+      "noise_seed": 720191,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0192",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620192,
+      "noise_seed": 720192,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0193",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620193,
+      "noise_seed": 720193,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0194",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620194,
+      "noise_seed": 720194,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0195",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620195,
+      "noise_seed": 720195,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0196",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620196,
+      "noise_seed": 720196,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0197",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620197,
+      "noise_seed": 720197,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0198",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620198,
+      "noise_seed": 720198,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0199",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620199,
+      "noise_seed": 720199,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0200",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620200,
+      "noise_seed": 720200,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0201",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620201,
+      "noise_seed": 720201,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0202",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620202,
+      "noise_seed": 720202,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0203",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620203,
+      "noise_seed": 720203,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0204",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620204,
+      "noise_seed": 720204,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0205",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620205,
+      "noise_seed": 720205,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0206",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620206,
+      "noise_seed": 720206,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0207",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620207,
+      "noise_seed": 720207,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0208",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620208,
+      "noise_seed": 720208,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0209",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620209,
+      "noise_seed": 720209,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0210",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620210,
+      "noise_seed": 720210,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0211",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620211,
+      "noise_seed": 720211,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0212",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620212,
+      "noise_seed": 720212,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0213",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620213,
+      "noise_seed": 720213,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0214",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620214,
+      "noise_seed": 720214,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0215",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620215,
+      "noise_seed": 720215,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0216",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620216,
+      "noise_seed": 720216,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0217",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620217,
+      "noise_seed": 720217,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0218",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620218,
+      "noise_seed": 720218,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0219",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620219,
+      "noise_seed": 720219,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0220",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620220,
+      "noise_seed": 720220,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0221",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620221,
+      "noise_seed": 720221,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0222",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620222,
+      "noise_seed": 720222,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0223",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620223,
+      "noise_seed": 720223,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0224",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620224,
+      "noise_seed": 720224,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0225",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620225,
+      "noise_seed": 720225,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0226",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620226,
+      "noise_seed": 720226,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0227",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620227,
+      "noise_seed": 720227,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0228",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620228,
+      "noise_seed": 720228,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0229",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620229,
+      "noise_seed": 720229,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0230",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620230,
+      "noise_seed": 720230,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0231",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620231,
+      "noise_seed": 720231,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0232",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620232,
+      "noise_seed": 720232,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0233",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620233,
+      "noise_seed": 720233,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0234",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620234,
+      "noise_seed": 720234,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0235",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620235,
+      "noise_seed": 720235,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0236",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620236,
+      "noise_seed": 720236,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0237",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620237,
+      "noise_seed": 720237,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0238",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620238,
+      "noise_seed": 720238,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0239",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620239,
+      "noise_seed": 720239,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0240",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620240,
+      "noise_seed": 720240,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0241",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620241,
+      "noise_seed": 720241,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0242",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620242,
+      "noise_seed": 720242,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0243",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620243,
+      "noise_seed": 720243,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0244",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620244,
+      "noise_seed": 720244,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0245",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620245,
+      "noise_seed": 720245,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0246",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620246,
+      "noise_seed": 720246,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0247",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620247,
+      "noise_seed": 720247,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0248",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620248,
+      "noise_seed": 720248,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0249",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620249,
+      "noise_seed": 720249,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0250",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620250,
+      "noise_seed": 720250,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0251",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620251,
+      "noise_seed": 720251,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0252",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620252,
+      "noise_seed": 720252,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0253",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620253,
+      "noise_seed": 720253,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0254",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620254,
+      "noise_seed": 720254,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0255",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620255,
+      "noise_seed": 720255,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0256",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620256,
+      "noise_seed": 720256,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0257",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620257,
+      "noise_seed": 720257,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0258",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620258,
+      "noise_seed": 720258,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0259",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620259,
+      "noise_seed": 720259,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0260",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620260,
+      "noise_seed": 720260,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0261",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620261,
+      "noise_seed": 720261,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0262",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620262,
+      "noise_seed": 720262,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0263",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620263,
+      "noise_seed": 720263,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0264",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620264,
+      "noise_seed": 720264,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0265",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620265,
+      "noise_seed": 720265,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0266",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620266,
+      "noise_seed": 720266,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0267",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620267,
+      "noise_seed": 720267,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0268",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620268,
+      "noise_seed": 720268,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0269",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620269,
+      "noise_seed": 720269,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0270",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620270,
+      "noise_seed": 720270,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0271",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620271,
+      "noise_seed": 720271,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0272",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620272,
+      "noise_seed": 720272,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0273",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620273,
+      "noise_seed": 720273,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0274",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620274,
+      "noise_seed": 720274,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0275",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620275,
+      "noise_seed": 720275,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0276",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620276,
+      "noise_seed": 720276,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0277",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620277,
+      "noise_seed": 720277,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0278",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620278,
+      "noise_seed": 720278,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0279",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620279,
+      "noise_seed": 720279,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0280",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620280,
+      "noise_seed": 720280,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0281",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620281,
+      "noise_seed": 720281,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0282",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620282,
+      "noise_seed": 720282,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0283",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620283,
+      "noise_seed": 720283,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0284",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620284,
+      "noise_seed": 720284,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0285",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620285,
+      "noise_seed": 720285,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0286",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620286,
+      "noise_seed": 720286,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0287",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620287,
+      "noise_seed": 720287,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0288",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620288,
+      "noise_seed": 720288,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0289",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620289,
+      "noise_seed": 720289,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0290",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620290,
+      "noise_seed": 720290,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0291",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620291,
+      "noise_seed": 720291,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0292",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620292,
+      "noise_seed": 720292,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0293",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620293,
+      "noise_seed": 720293,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0294",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620294,
+      "noise_seed": 720294,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0295",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620295,
+      "noise_seed": 720295,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0296",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620296,
+      "noise_seed": 720296,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0297",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620297,
+      "noise_seed": 720297,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0298",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620298,
+      "noise_seed": 720298,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0299",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620299,
+      "noise_seed": 720299,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0300",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620300,
+      "noise_seed": 720300,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0301",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620301,
+      "noise_seed": 720301,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0302",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620302,
+      "noise_seed": 720302,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0303",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620303,
+      "noise_seed": 720303,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0304",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620304,
+      "noise_seed": 720304,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0305",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620305,
+      "noise_seed": 720305,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0306",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620306,
+      "noise_seed": 720306,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0307",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620307,
+      "noise_seed": 720307,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0308",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620308,
+      "noise_seed": 720308,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0309",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620309,
+      "noise_seed": 720309,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0310",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620310,
+      "noise_seed": 720310,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0311",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620311,
+      "noise_seed": 720311,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0312",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620312,
+      "noise_seed": 720312,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0313",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620313,
+      "noise_seed": 720313,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0314",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620314,
+      "noise_seed": 720314,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0315",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620315,
+      "noise_seed": 720315,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0316",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620316,
+      "noise_seed": 720316,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0317",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620317,
+      "noise_seed": 720317,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0318",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620318,
+      "noise_seed": 720318,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0319",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620319,
+      "noise_seed": 720319,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0320",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620320,
+      "noise_seed": 720320,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0321",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620321,
+      "noise_seed": 720321,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0322",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620322,
+      "noise_seed": 720322,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0323",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620323,
+      "noise_seed": 720323,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0324",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620324,
+      "noise_seed": 720324,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0325",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620325,
+      "noise_seed": 720325,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0326",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620326,
+      "noise_seed": 720326,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0327",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620327,
+      "noise_seed": 720327,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0328",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620328,
+      "noise_seed": 720328,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0329",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620329,
+      "noise_seed": 720329,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0330",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620330,
+      "noise_seed": 720330,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0331",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620331,
+      "noise_seed": 720331,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0332",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620332,
+      "noise_seed": 720332,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0333",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620333,
+      "noise_seed": 720333,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0334",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620334,
+      "noise_seed": 720334,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0335",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620335,
+      "noise_seed": 720335,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0336",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620336,
+      "noise_seed": 720336,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0337",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620337,
+      "noise_seed": 720337,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0338",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620338,
+      "noise_seed": 720338,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0339",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620339,
+      "noise_seed": 720339,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0340",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620340,
+      "noise_seed": 720340,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0341",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620341,
+      "noise_seed": 720341,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0342",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620342,
+      "noise_seed": 720342,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0343",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620343,
+      "noise_seed": 720343,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0344",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620344,
+      "noise_seed": 720344,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0345",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620345,
+      "noise_seed": 720345,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0346",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620346,
+      "noise_seed": 720346,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0347",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620347,
+      "noise_seed": 720347,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0348",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620348,
+      "noise_seed": 720348,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0349",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620349,
+      "noise_seed": 720349,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0350",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620350,
+      "noise_seed": 720350,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0351",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620351,
+      "noise_seed": 720351,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0352",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620352,
+      "noise_seed": 720352,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0353",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620353,
+      "noise_seed": 720353,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0354",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620354,
+      "noise_seed": 720354,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0355",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620355,
+      "noise_seed": 720355,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0356",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620356,
+      "noise_seed": 720356,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0357",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620357,
+      "noise_seed": 720357,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0358",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620358,
+      "noise_seed": 720358,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0359",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620359,
+      "noise_seed": 720359,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0360",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620360,
+      "noise_seed": 720360,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0361",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620361,
+      "noise_seed": 720361,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0362",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620362,
+      "noise_seed": 720362,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0363",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620363,
+      "noise_seed": 720363,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0364",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620364,
+      "noise_seed": 720364,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0365",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620365,
+      "noise_seed": 720365,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0366",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620366,
+      "noise_seed": 720366,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0367",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620367,
+      "noise_seed": 720367,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0368",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620368,
+      "noise_seed": 720368,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0369",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620369,
+      "noise_seed": 720369,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0370",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620370,
+      "noise_seed": 720370,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0371",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620371,
+      "noise_seed": 720371,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0372",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620372,
+      "noise_seed": 720372,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0373",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620373,
+      "noise_seed": 720373,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0374",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620374,
+      "noise_seed": 720374,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0375",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620375,
+      "noise_seed": 720375,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0376",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620376,
+      "noise_seed": 720376,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0377",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620377,
+      "noise_seed": 720377,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0378",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620378,
+      "noise_seed": 720378,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0379",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620379,
+      "noise_seed": 720379,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0380",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620380,
+      "noise_seed": 720380,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0381",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620381,
+      "noise_seed": 720381,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0382",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620382,
+      "noise_seed": 720382,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0383",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620383,
+      "noise_seed": 720383,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0384",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620384,
+      "noise_seed": 720384,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0385",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620385,
+      "noise_seed": 720385,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0386",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620386,
+      "noise_seed": 720386,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0387",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620387,
+      "noise_seed": 720387,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0388",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620388,
+      "noise_seed": 720388,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0389",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620389,
+      "noise_seed": 720389,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0390",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620390,
+      "noise_seed": 720390,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0391",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620391,
+      "noise_seed": 720391,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0392",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620392,
+      "noise_seed": 720392,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0393",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620393,
+      "noise_seed": 720393,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0394",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620394,
+      "noise_seed": 720394,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0395",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620395,
+      "noise_seed": 720395,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0396",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620396,
+      "noise_seed": 720396,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0397",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620397,
+      "noise_seed": 720397,
+      "secondary": 6.0
+    },
+    {
+      "id": "cal_0398",
+      "split": "calibration",
+      "kind": "null",
+      "scene_seed": 620398,
+      "noise_seed": 720398,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0000",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621000,
+      "noise_seed": 721000,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0001",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621001,
+      "noise_seed": 721001,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0002",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621002,
+      "noise_seed": 721002,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0003",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621003,
+      "noise_seed": 721003,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0004",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621004,
+      "noise_seed": 721004,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0005",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621005,
+      "noise_seed": 721005,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0006",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621006,
+      "noise_seed": 721006,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0007",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621007,
+      "noise_seed": 721007,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0008",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621008,
+      "noise_seed": 721008,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0009",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621009,
+      "noise_seed": 721009,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0010",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621010,
+      "noise_seed": 721010,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0011",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621011,
+      "noise_seed": 721011,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0012",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621012,
+      "noise_seed": 721012,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0013",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621013,
+      "noise_seed": 721013,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0014",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621014,
+      "noise_seed": 721014,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0015",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621015,
+      "noise_seed": 721015,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0016",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621016,
+      "noise_seed": 721016,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0017",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621017,
+      "noise_seed": 721017,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0018",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621018,
+      "noise_seed": 721018,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0019",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621019,
+      "noise_seed": 721019,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0020",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621020,
+      "noise_seed": 721020,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0021",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621021,
+      "noise_seed": 721021,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0022",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621022,
+      "noise_seed": 721022,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0023",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621023,
+      "noise_seed": 721023,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0024",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621024,
+      "noise_seed": 721024,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0025",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621025,
+      "noise_seed": 721025,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0026",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621026,
+      "noise_seed": 721026,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0027",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621027,
+      "noise_seed": 721027,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0028",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621028,
+      "noise_seed": 721028,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0029",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621029,
+      "noise_seed": 721029,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0030",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621030,
+      "noise_seed": 721030,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0031",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621031,
+      "noise_seed": 721031,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0032",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621032,
+      "noise_seed": 721032,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0033",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621033,
+      "noise_seed": 721033,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0034",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621034,
+      "noise_seed": 721034,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0035",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621035,
+      "noise_seed": 721035,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0036",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621036,
+      "noise_seed": 721036,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0037",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621037,
+      "noise_seed": 721037,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0038",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621038,
+      "noise_seed": 721038,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0039",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621039,
+      "noise_seed": 721039,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0040",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621040,
+      "noise_seed": 721040,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0041",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621041,
+      "noise_seed": 721041,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0042",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621042,
+      "noise_seed": 721042,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0043",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621043,
+      "noise_seed": 721043,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0044",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621044,
+      "noise_seed": 721044,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0045",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621045,
+      "noise_seed": 721045,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0046",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621046,
+      "noise_seed": 721046,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0047",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621047,
+      "noise_seed": 721047,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0048",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621048,
+      "noise_seed": 721048,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0049",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621049,
+      "noise_seed": 721049,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0050",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621050,
+      "noise_seed": 721050,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0051",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621051,
+      "noise_seed": 721051,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0052",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621052,
+      "noise_seed": 721052,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0053",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621053,
+      "noise_seed": 721053,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0054",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621054,
+      "noise_seed": 721054,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0055",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621055,
+      "noise_seed": 721055,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0056",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621056,
+      "noise_seed": 721056,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0057",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621057,
+      "noise_seed": 721057,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0058",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621058,
+      "noise_seed": 721058,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0059",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621059,
+      "noise_seed": 721059,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0060",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621060,
+      "noise_seed": 721060,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0061",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621061,
+      "noise_seed": 721061,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0062",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621062,
+      "noise_seed": 721062,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0063",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621063,
+      "noise_seed": 721063,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0064",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621064,
+      "noise_seed": 721064,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0065",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621065,
+      "noise_seed": 721065,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0066",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621066,
+      "noise_seed": 721066,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0067",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621067,
+      "noise_seed": 721067,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0068",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621068,
+      "noise_seed": 721068,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0069",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621069,
+      "noise_seed": 721069,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0070",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621070,
+      "noise_seed": 721070,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0071",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621071,
+      "noise_seed": 721071,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0072",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621072,
+      "noise_seed": 721072,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0073",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621073,
+      "noise_seed": 721073,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0074",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621074,
+      "noise_seed": 721074,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0075",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621075,
+      "noise_seed": 721075,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0076",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621076,
+      "noise_seed": 721076,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0077",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621077,
+      "noise_seed": 721077,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0078",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621078,
+      "noise_seed": 721078,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0079",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621079,
+      "noise_seed": 721079,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0080",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621080,
+      "noise_seed": 721080,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0081",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621081,
+      "noise_seed": 721081,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0082",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621082,
+      "noise_seed": 721082,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0083",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621083,
+      "noise_seed": 721083,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0084",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621084,
+      "noise_seed": 721084,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0085",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621085,
+      "noise_seed": 721085,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0086",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621086,
+      "noise_seed": 721086,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0087",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621087,
+      "noise_seed": 721087,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0088",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621088,
+      "noise_seed": 721088,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0089",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621089,
+      "noise_seed": 721089,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0090",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621090,
+      "noise_seed": 721090,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0091",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621091,
+      "noise_seed": 721091,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0092",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621092,
+      "noise_seed": 721092,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0093",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621093,
+      "noise_seed": 721093,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0094",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621094,
+      "noise_seed": 721094,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0095",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621095,
+      "noise_seed": 721095,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0096",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621096,
+      "noise_seed": 721096,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0097",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621097,
+      "noise_seed": 721097,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0098",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621098,
+      "noise_seed": 721098,
+      "secondary": 6.0
+    },
+    {
+      "id": "null_0099",
+      "split": "evaluation",
+      "kind": "null",
+      "scene_seed": 621099,
+      "noise_seed": 721099,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0000",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622000,
+      "noise_seed": 722000,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0001",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622001,
+      "noise_seed": 722001,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0002",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622002,
+      "noise_seed": 722002,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0003",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622003,
+      "noise_seed": 722003,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0004",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622004,
+      "noise_seed": 722004,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0005",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622005,
+      "noise_seed": 722005,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0006",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622006,
+      "noise_seed": 722006,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0007",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622007,
+      "noise_seed": 722007,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0008",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622008,
+      "noise_seed": 722008,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0009",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622009,
+      "noise_seed": 722009,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0010",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622010,
+      "noise_seed": 722010,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0011",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622011,
+      "noise_seed": 722011,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0012",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622012,
+      "noise_seed": 722012,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0013",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622013,
+      "noise_seed": 722013,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0014",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622014,
+      "noise_seed": 722014,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0015",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622015,
+      "noise_seed": 722015,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0016",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622016,
+      "noise_seed": 722016,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0017",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622017,
+      "noise_seed": 722017,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0018",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622018,
+      "noise_seed": 722018,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0019",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622019,
+      "noise_seed": 722019,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0020",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622020,
+      "noise_seed": 722020,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0021",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622021,
+      "noise_seed": 722021,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0022",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622022,
+      "noise_seed": 722022,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0023",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622023,
+      "noise_seed": 722023,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0024",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622024,
+      "noise_seed": 722024,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0025",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622025,
+      "noise_seed": 722025,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0026",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622026,
+      "noise_seed": 722026,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0027",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622027,
+      "noise_seed": 722027,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0028",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622028,
+      "noise_seed": 722028,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0029",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622029,
+      "noise_seed": 722029,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0030",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622030,
+      "noise_seed": 722030,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0031",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622031,
+      "noise_seed": 722031,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0032",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622032,
+      "noise_seed": 722032,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0033",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622033,
+      "noise_seed": 722033,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0034",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622034,
+      "noise_seed": 722034,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0035",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622035,
+      "noise_seed": 722035,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0036",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622036,
+      "noise_seed": 722036,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0037",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622037,
+      "noise_seed": 722037,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0038",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622038,
+      "noise_seed": 722038,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0039",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622039,
+      "noise_seed": 722039,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0040",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622040,
+      "noise_seed": 722040,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0041",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622041,
+      "noise_seed": 722041,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0042",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622042,
+      "noise_seed": 722042,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0043",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622043,
+      "noise_seed": 722043,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0044",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622044,
+      "noise_seed": 722044,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0045",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622045,
+      "noise_seed": 722045,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0046",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622046,
+      "noise_seed": 722046,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0047",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622047,
+      "noise_seed": 722047,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0048",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622048,
+      "noise_seed": 722048,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0049",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622049,
+      "noise_seed": 722049,
+      "secondary": 3.0
+    },
+    {
+      "id": "positive_0050",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622050,
+      "noise_seed": 722050,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0051",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622051,
+      "noise_seed": 722051,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0052",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622052,
+      "noise_seed": 722052,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0053",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622053,
+      "noise_seed": 722053,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0054",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622054,
+      "noise_seed": 722054,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0055",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622055,
+      "noise_seed": 722055,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0056",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622056,
+      "noise_seed": 722056,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0057",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622057,
+      "noise_seed": 722057,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0058",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622058,
+      "noise_seed": 722058,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0059",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622059,
+      "noise_seed": 722059,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0060",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622060,
+      "noise_seed": 722060,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0061",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622061,
+      "noise_seed": 722061,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0062",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622062,
+      "noise_seed": 722062,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0063",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622063,
+      "noise_seed": 722063,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0064",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622064,
+      "noise_seed": 722064,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0065",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622065,
+      "noise_seed": 722065,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0066",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622066,
+      "noise_seed": 722066,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0067",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622067,
+      "noise_seed": 722067,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0068",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622068,
+      "noise_seed": 722068,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0069",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622069,
+      "noise_seed": 722069,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0070",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622070,
+      "noise_seed": 722070,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0071",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622071,
+      "noise_seed": 722071,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0072",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622072,
+      "noise_seed": 722072,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0073",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622073,
+      "noise_seed": 722073,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0074",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622074,
+      "noise_seed": 722074,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0075",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622075,
+      "noise_seed": 722075,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0076",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622076,
+      "noise_seed": 722076,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0077",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622077,
+      "noise_seed": 722077,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0078",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622078,
+      "noise_seed": 722078,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0079",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622079,
+      "noise_seed": 722079,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0080",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622080,
+      "noise_seed": 722080,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0081",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622081,
+      "noise_seed": 722081,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0082",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622082,
+      "noise_seed": 722082,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0083",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622083,
+      "noise_seed": 722083,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0084",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622084,
+      "noise_seed": 722084,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0085",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622085,
+      "noise_seed": 722085,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0086",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622086,
+      "noise_seed": 722086,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0087",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622087,
+      "noise_seed": 722087,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0088",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622088,
+      "noise_seed": 722088,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0089",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622089,
+      "noise_seed": 722089,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0090",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622090,
+      "noise_seed": 722090,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0091",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622091,
+      "noise_seed": 722091,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0092",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622092,
+      "noise_seed": 722092,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0093",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622093,
+      "noise_seed": 722093,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0094",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622094,
+      "noise_seed": 722094,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0095",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622095,
+      "noise_seed": 722095,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0096",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622096,
+      "noise_seed": 722096,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0097",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622097,
+      "noise_seed": 722097,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0098",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622098,
+      "noise_seed": 722098,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0099",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622099,
+      "noise_seed": 722099,
+      "secondary": 6.0
+    },
+    {
+      "id": "positive_0100",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622100,
+      "noise_seed": 722100,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0101",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622101,
+      "noise_seed": 722101,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0102",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622102,
+      "noise_seed": 722102,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0103",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622103,
+      "noise_seed": 722103,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0104",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622104,
+      "noise_seed": 722104,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0105",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622105,
+      "noise_seed": 722105,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0106",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622106,
+      "noise_seed": 722106,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0107",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622107,
+      "noise_seed": 722107,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0108",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622108,
+      "noise_seed": 722108,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0109",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622109,
+      "noise_seed": 722109,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0110",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622110,
+      "noise_seed": 722110,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0111",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622111,
+      "noise_seed": 722111,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0112",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622112,
+      "noise_seed": 722112,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0113",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622113,
+      "noise_seed": 722113,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0114",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622114,
+      "noise_seed": 722114,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0115",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622115,
+      "noise_seed": 722115,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0116",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622116,
+      "noise_seed": 722116,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0117",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622117,
+      "noise_seed": 722117,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0118",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622118,
+      "noise_seed": 722118,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0119",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622119,
+      "noise_seed": 722119,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0120",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622120,
+      "noise_seed": 722120,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0121",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622121,
+      "noise_seed": 722121,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0122",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622122,
+      "noise_seed": 722122,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0123",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622123,
+      "noise_seed": 722123,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0124",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622124,
+      "noise_seed": 722124,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0125",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622125,
+      "noise_seed": 722125,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0126",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622126,
+      "noise_seed": 722126,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0127",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622127,
+      "noise_seed": 722127,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0128",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622128,
+      "noise_seed": 722128,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0129",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622129,
+      "noise_seed": 722129,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0130",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622130,
+      "noise_seed": 722130,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0131",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622131,
+      "noise_seed": 722131,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0132",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622132,
+      "noise_seed": 722132,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0133",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622133,
+      "noise_seed": 722133,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0134",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622134,
+      "noise_seed": 722134,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0135",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622135,
+      "noise_seed": 722135,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0136",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622136,
+      "noise_seed": 722136,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0137",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622137,
+      "noise_seed": 722137,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0138",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622138,
+      "noise_seed": 722138,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0139",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622139,
+      "noise_seed": 722139,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0140",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622140,
+      "noise_seed": 722140,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0141",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622141,
+      "noise_seed": 722141,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0142",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622142,
+      "noise_seed": 722142,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0143",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622143,
+      "noise_seed": 722143,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0144",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622144,
+      "noise_seed": 722144,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0145",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622145,
+      "noise_seed": 722145,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0146",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622146,
+      "noise_seed": 722146,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0147",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622147,
+      "noise_seed": 722147,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0148",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622148,
+      "noise_seed": 722148,
+      "secondary": 10.0
+    },
+    {
+      "id": "positive_0149",
+      "split": "evaluation",
+      "kind": "positive",
+      "scene_seed": 622149,
+      "noise_seed": 722149,
+      "secondary": 10.0
+    }
+  ],
+  "settings": {
+    "alpha": 0.01,
+    "cycles": 1000,
+    "initial_cells": 32,
+    "max_boxes": 256,
+    "gap_tolerance": 0.01,
+    "fwhm_range": [
+      4.5,
+      5.5
+    ]
+  },
+  "variants": [
+    "old9",
+    "local3",
+    "guided15",
+    "guided25",
+    "mixture_local_guided",
+    "mixture_three"
+  ],
+  "notes": [
+    "All alternative parameters and weights exclude raw center before any preprocessing.",
+    "Mixture likelihood determines declaration; most likely component only determines reported delay.",
+    "Local likelihood and raw controls calibrated on399 distinct null scenes, rank396.",
+    "Oracle truth-reference alternatives are unavailable diagnostics and cannot be selected as methods.",
+    "These seeds are distinct from the frozen original confirmation. New final confirmation is still required."
+  ]
+}

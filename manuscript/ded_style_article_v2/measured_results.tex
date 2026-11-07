@@ -1,0 +1,13 @@
+We analyze the public 48-ns-holdoff measurements at optical densities 3 and 0, corresponding to low and high incident flux. Each acquisition supplies three disjoint segments of 20000 consecutive gaps: calibration, development and evaluation. The development segment exposes temporal clustering in low flux and motivates the additional transition component. Its form and the evaluation segment are fixed before fitting that component. Both fitting stages use calibration data only. Each segment retains its recorded timestamps.
+
+A fixed-cutoff comparator estimates electronics recovery as the minimum calibration gap minus one raw timing-resolution unit (0.008 ns). It gives 77.745 ns in low flux and 76.809 ns in high flux. Each cutoff assigns zero density to one gap in its evaluation segment. Learning a single cutoff therefore leaves a short-gap prediction failure.
+
+The variable-recovery and clustered-transition models assign finite density to all 40000 evaluation gaps. Their support contains all 10394778 gaps in the two complete acquisitions. Table~\ref{tab:measured} reports fitted parameters and evaluation results. The low-flux recovery scale reaches the 0.15-ns optimization bound; this segment does not resolve a narrower recovery distribution.
+
+A cumulative distribution function (CDF) gives the fraction of gaps no longer than a specified duration. Its largest absolute prediction error summarizes the difference between measured and predicted gap distributions. Figure~\ref{fig:measured} uses 100000 next-gap predictions per model and acquisition, conditioned on the measured preceding phases. In low flux, the clustered-transition component reduces the whole-distribution CDF distance from 0.2449 to 0.0366 and improves mean log density by 0.7522 nats per transition. In high flux, its fitted fraction reaches the $10^{-6}$ lower bound; log density is unchanged to five decimal places, and CDF distances are 0.0310 and 0.0313. The extra component is useful for the low-flux clustering and adds no predictive gain in the high-flux segment.
+
+\input{table_measured.tex}
+\begin{figure*}[t]\centering
+\includegraphics[width=\textwidth]{figures/fig06_measurements.pdf}
+\caption{Measured gap distributions and calibrated transition-model predictions. Each empirical curve uses 20000 evaluation gaps disjoint from calibration and development. Each model curve uses 100000 next-gap predictions conditioned on the measured preceding phases. The displayed range emphasizes short gaps; reported CDF distances use the whole gap distribution. The dotted vertical line marks the nominal 80-ns electronics setting. In high flux the model predictions nearly coincide.}
+\label{fig:measured}\end{figure*}

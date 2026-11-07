@@ -1,0 +1,44 @@
+{
+  "status": "POSTFAILURE_CLOSED_REFERENCE_DIAGNOSIS_NOT_CONFIRMATION",
+  "reference_totals": {
+    "legacy": {
+      "correct": 197,
+      "wrong": 1,
+      "false": 2,
+      "positive": 256,
+      "null": 384
+    },
+    "strong": {
+      "correct": 196,
+      "wrong": 1,
+      "false": 2,
+      "positive": 256,
+      "null": 384
+    }
+  },
+  "primary_totals": {
+    "correct": 203,
+    "wrong": 1,
+    "false": 4,
+    "positive": 256,
+    "null": 384
+  },
+  "primary_rules": {
+    "legacy": {
+      "at_least_correct": true,
+      "no_more_wrong": true,
+      "no_more_null": false
+    },
+    "strong": {
+      "at_least_correct": true,
+      "no_more_wrong": true,
+      "no_more_null": false
+    }
+  },
+  "all_point_rules_pass": false,
+  "control_audits_pass": true,
+  "continue_to_fresh_confirmation": false,
+  "frozen_development_rule_failed": true,
+  "closed_diagnostic_only": true,
+  "scope": "BOTHfrozenfull-LRreferencesonALLCLOSED640/199paths. POSTFAILUREresearchdiagnosis,notconfirmationorpermissionto changefailedgates. NotglobalML/physical/uniformrisk/Q1certification."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "EXECUTION_ONLY_FROZEN_BEFORE_PARALLEL_WORK",
+  "scientific_protocol_sha256": "5656b6cf3633045d69b6a904a690de2c32f242543733a6f1761d83ddc4c4c7e1",
+  "runner_sha256": "aa916473fd2a3dacb9bb651ee44feec9ee376aa15b70a05337ba32a1016d5d52",
+  "workers": 4,
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "reason": "Sequential worker timing roughly7s/query;resume existing committed frozen workers in4processes. No endpoint analysis inspected. Existing scientific sources,case seeds,worker outputs anddecision criteria unchanged. Singleparentwriter consumes input-order results. Runtime after restart is parallel walltime,not a serial performance claim."
+}

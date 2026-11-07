@@ -1,0 +1,207 @@
+{
+  "status": "COMPLETE",
+  "rows": [
+    {
+      "file": "FGS_td048_2019_01_28_acq1.mat",
+      "optical_density": 3,
+      "parameters": {
+        "amplitude": 0.00047844887651152067,
+        "delay_ns": 3.395770602504903,
+        "background": 0.002733866593386472,
+        "recovery_location_ns": 77.48283430387892,
+        "recovery_scale_ns": 0.15,
+        "detector_ns": 50.0,
+        "hard_recovery_ns": 77.74476000577606
+      },
+      "cluster_parameters": {
+        "flux_scale": 0.7606925829544088,
+        "cluster_fraction": 0.23979024567527002,
+        "cluster_exponential_mean_ns": 71.88861997725141
+      },
+      "evaluation": {
+        "random_finite": 20000,
+        "hard_finite": 19997,
+        "random_mean_logdensity": -11.067907712009566,
+        "hard_mean_logdensity": null,
+        "random_minus_hard_mean": null,
+        "refinement_max_abs_logdensity": 3.208180692659823e-05,
+        "refinement_mean_abs_logdensity": 3.920120487047463e-06
+      },
+      "fresh_evaluation": {
+        "file": "FGS_td048_2019_01_28_acq1.mat",
+        "parameters": {
+          "flux_scale": 0.7606925829544088,
+          "cluster_fraction": 0.23979024567527002,
+          "cluster_exponential_mean_ns": 71.88861997725141
+        },
+        "best": {
+          "x": [
+            -0.27352596731640044,
+            0.23979024567527002,
+            4.275117976501213
+          ],
+          "negative_mean_logdensity": 10.315335774411308,
+          "success": true,
+          "evaluations": 11,
+          "seconds": 1.363376900088042
+        },
+        "starts": [
+          {
+            "x": [
+              -0.27352596731640044,
+              0.23979024567527002,
+              4.275117976501213
+            ],
+            "negative_mean_logdensity": 10.315335774411308,
+            "success": true,
+            "evaluations": 11,
+            "seconds": 1.363376900088042
+          },
+          {
+            "x": [
+              -0.2735258407465316,
+              0.23979013508682487,
+              4.2751173715158055
+            ],
+            "negative_mean_logdensity": 10.315335774411368,
+            "success": true,
+            "evaluations": 13,
+            "seconds": 1.608172900043428
+          }
+        ],
+        "evaluation_n": 20000,
+        "evaluation_pair_range": [
+          40400,
+          60400
+        ],
+        "all_finite": true,
+        "mean_log_score_gain": 0.7522023680202067,
+        "cdf_distance": 0.036629999999999996,
+        "baseline_cdf_distance": 0.24489999999999998,
+        "fixed_cutoff_zero_densities": 1,
+        "derivative_max_errors": [
+          6.464162538577511e-10,
+          1.6446909612000127e-08,
+          1.3877787807814457e-09
+        ],
+        "data_sha256": "322c93bed38a31aa656d3f64cb7209a8c5cc2fb3823117f8ba62cd0ff6ef9645"
+      },
+      "all_gaps": 3224376,
+      "all_gaps_below50": 0
+    },
+    {
+      "file": "FGS_td048_2019_01_28_acq2.mat",
+      "optical_density": 0,
+      "parameters": {
+        "amplitude": 0.3834771386915133,
+        "delay_ns": 3.3916163191694064,
+        "background": 2.0925230475823984,
+        "recovery_location_ns": 80.15869439547649,
+        "recovery_scale_ns": 1.4797664414008256,
+        "detector_ns": 50.0,
+        "hard_recovery_ns": 76.80880000640003
+      },
+      "cluster_parameters": {
+        "flux_scale": 0.9999994673390199,
+        "cluster_fraction": 1e-06,
+        "cluster_exponential_mean_ns": 40.538951971423145
+      },
+      "evaluation": {
+        "random_finite": 20000,
+        "hard_finite": 19998,
+        "random_mean_logdensity": -4.7404150183443665,
+        "hard_mean_logdensity": null,
+        "random_minus_hard_mean": null,
+        "refinement_max_abs_logdensity": 0.03316352560827962,
+        "refinement_mean_abs_logdensity": 0.0019841207474989076
+      },
+      "fresh_evaluation": {
+        "file": "FGS_td048_2019_01_28_acq2.mat",
+        "parameters": {
+          "flux_scale": 0.9999994673390199,
+          "cluster_fraction": 1e-06,
+          "cluster_exponential_mean_ns": 40.538951971423145
+        },
+        "best": {
+          "x": [
+            -5.326611219959044e-07,
+            1e-06,
+            3.7022632889734406
+          ],
+          "negative_mean_logdensity": 4.747947786585848,
+          "success": true,
+          "evaluations": 8,
+          "seconds": 0.9761113999411464
+        },
+        "starts": [
+          {
+            "x": [
+              -5.326611219959044e-07,
+              1e-06,
+              3.7022632889734406
+            ],
+            "negative_mean_logdensity": 4.747947786585848,
+            "success": true,
+            "evaluations": 8,
+            "seconds": 0.9761113999411464
+          },
+          {
+            "x": [
+              -5.390207535443804e-07,
+              1e-06,
+              3.692181511079871
+            ],
+            "negative_mean_logdensity": 4.747947786976182,
+            "success": true,
+            "evaluations": 5,
+            "seconds": 0.624446599977091
+          }
+        ],
+        "evaluation_n": 20000,
+        "evaluation_pair_range": [
+          40400,
+          60400
+        ],
+        "all_finite": true,
+        "mean_log_score_gain": -2.086373999458102e-08,
+        "cdf_distance": 0.031299999999999994,
+        "baseline_cdf_distance": 0.031039999999999984,
+        "fixed_cutoff_zero_densities": 1,
+        "derivative_max_errors": [
+          5.880131936919497e-10,
+          5.289468862912372e-10,
+          1.2809198146612744e-09
+        ],
+        "data_sha256": "88c0852e0fa568f8124b6727405990374218e823e2fc2dc72d168ef1465050d8"
+      },
+      "all_gaps": 7170402,
+      "all_gaps_below50": 0
+    }
+  ],
+  "total_measured_gaps": 10394778,
+  "input_hashes": {
+    "results/measured_recovery_v1/analysis.json": "f6eb7c8c691c420d6cba237df691da32916314b7080c3c95cd30b2e4950ca4d7",
+    "results/measured_recovery_v1/predictive.json": "62b169297ce2d869fd9e48ec563c7fd28273e63224e0b7841f33bb509d91b096",
+    "results/measured_recovery_v1/formula_audit.json": "8e395e6d247773714c6215358302c76af6fad0ca5435e3ac8d55a940d5e15996",
+    "results/measured_recovery_v1/results_audit.json": "8b3eb98521dde06bd402f118ebfce6c71d57a4bf94d058da5cb3acf422b3f8d5",
+    "results/measured_cluster_v1/analysis.json": "a737f00ec706d05f17e109adc4ed27cbf03cdbcfee4ce328947c3442fde0619a",
+    "results/measured_cluster_v1/audit.json": "92f5541bd6e812a6278dd2c2fec15e4cbb8f696d1f7bbca3f67b8305c529d44a",
+    "MEASURED_RECOVERY_PROTOCOL_20261107.json": "8ada4c00b648336b379a680866d3f1e1963c3200bf19d170a72a55a5e9b1e315",
+    "MEASURED_CLUSTER_PROTOCOL_20261107.json": "330622efcaf8393a9b9161abfd87c4f8edf79007517405851243f0bdbdc81ec0",
+    "tools/measurement_recovery_model.py": "4809836a9c2ee011de0c49a35a7b439328680b31d11dc4a9f6dee8801d9da4d3",
+    "tools/measurement_recovery_study.py": "52efc44cd8132f5d0ddd9c2cd679ed9389b913473d97bb19ceb951586637b49b",
+    "tools/measurement_recovery_predictive.py": "d23a118786dfa10d48b2ad2c9846ca680d4816dda46e8a0defb0c2f988f561df",
+    "tools/audit_measurement_recovery.py": "8b3ac2081a06ec26f4f88440c67a688a88b80d360eae1eb09ea45441424682d9",
+    "tools/audit_measured_results.py": "a583eb9a09b1202cb3ab39c1dcf5be7b9f2958679ab189e7aa307fc0059a349b",
+    "tools/measured_cluster_extension.py": "b932a826e09d7341d97c29699bf3ac108f522b71c5ff783402e972764b782887",
+    "tools/audit_measured_cluster.py": "14bc6ef8beea7373df3a81da80a50d325224244ceb41f7f2d030ce8a91db8212",
+    "tools/build_measurement_assets.py": "c9b1327c333e2c05e7283d457e297d220e53f1b01820a0732fc3a7033ee14110",
+    "results/measured_recovery_v1/FGS_td048_2019_01_28_acq1_heldout.npz": "f01e099a2005fda5e3316897e159b485d3c1ff157d3869d7b3c7448c332fe7bb",
+    "results/measured_recovery_v1/FGS_td048_2019_01_28_acq1_predictive.npz": "5c5340b8b5ad79c81c577c626fd56a63a62cc2fc953d23bd360d0eccb7be2b81",
+    "results/measured_cluster_v1/FGS_td048_2019_01_28_acq1.npz": "322c93bed38a31aa656d3f64cb7209a8c5cc2fb3823117f8ba62cd0ff6ef9645",
+    "results/measured_recovery_v1/FGS_td048_2019_01_28_acq2_heldout.npz": "9bff406447f65b7dc26371b2f98fb55742f168293e967596c72e863eadfc110d",
+    "results/measured_recovery_v1/FGS_td048_2019_01_28_acq2_predictive.npz": "744c49c5661404d8b96216bf26ca39a36f35828c48d7deede0f95902bba9e24a",
+    "results/measured_cluster_v1/FGS_td048_2019_01_28_acq2.npz": "88c0852e0fa568f8124b6727405990374218e823e2fc2dc72d168ef1465050d8"
+  },
+  "builder_sha256": "c9b1327c333e2c05e7283d457e297d220e53f1b01820a0732fc3a7033ee14110"
+}

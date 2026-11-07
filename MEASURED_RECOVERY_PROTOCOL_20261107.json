@@ -1,0 +1,50 @@
+{
+  "status": "FIXED_BEFORE_FITTED_MEASUREMENT_RESULTS",
+  "files": [
+    "FGS_td048_2019_01_28_acq1.mat",
+    "FGS_td048_2019_01_28_acq2.mat"
+  ],
+  "inputs": {
+    "data\\highflux_raw\\2019_01_28\\FGS_td048_2019_01_28_acq1.mat": "74e8aa95c4b04f2face829e771aa77bafb6b712914b0bf147dedfcc047268098",
+    "data\\highflux_raw\\2019_01_28\\FGS_td048_2019_01_28_acq2.mat": "46997b1d5721ab339ec78b64e47e106d4c042b00f5d9e49fdb1d2777d63f5105",
+    "data\\highflux_raw\\2019_01_28\\laser_calib_100.mat": "69391ff9b96dce1d8fba65ab5c962d77c3e81a69eb063a0f23185b0991ceebf8"
+  },
+  "sources": {
+    "measurement_recovery_model.py": "4809836a9c2ee011de0c49a35a7b439328680b31d11dc4a9f6dee8801d9da4d3",
+    "measurement_recovery_study.py": "52efc44cd8132f5d0ddd9c2cd679ed9389b913473d97bb19ceb951586637b49b"
+  },
+  "calibration_pair_range": [
+    100,
+    20100
+  ],
+  "evaluation_pair_range": [
+    20200,
+    40200
+  ],
+  "bins": 128,
+  "detector_recovery_ns": 50.0,
+  "integration_step_ns": 0.125,
+  "refinement_step_ns": 0.0625,
+  "starts": [
+    [
+      78.0,
+      1.0
+    ],
+    [
+      82.0,
+      3.0
+    ]
+  ],
+  "mu_bounds_ns": [
+    60.0,
+    95.0
+  ],
+  "sd_bounds_ns": [
+    0.15,
+    8.0
+  ],
+  "fitting": "Conditional likelihood of all consecutive gaps. Independent supplied measured pulse shape; a, delay and B fit jointly with recovery mean-location and scale. Two fixed starts; select by calibration likelihood only. Recovery normal truncated to [Td,2Td], independent at each recorded avalanche. Td=holdoff+2ns follows source convention and remains fixed.",
+  "comparator": "Fixed recovery set to calibration minimum gap minus one raw time-resolution unit. Rate nuisance refitted on calibration only; no test-data parameter tuning. Nominal 80ns zero-density coverage also reported. No gap removal, timestamp clipping or invented second surface.",
+  "endpoints": "All-file model coverage; predictive log density per heldout transition; all starts and mesh refinement. Real records have one surface and no independent two-surface labels. No measured secondary-detection accuracy claim.",
+  "scope": "Exploratory measured-data model extension. This study does not retroactively change frozen simulation bank or its 199-draw results."
+}

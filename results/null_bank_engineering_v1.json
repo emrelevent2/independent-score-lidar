@@ -1,0 +1,140 @@
+{
+  "status": "ENGINEERING_ONLY_COMPLETE",
+  "regimes": [
+    {
+      "regime": "moderate",
+      "timings": [
+        {
+          "all4_full_variants_seconds": 0.01688859984278679,
+          "primary_only_seconds": 0.00039080018177628517,
+          "full_joint_with6safe_starts_seconds": 0.020706299925222993,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 3
+        },
+        {
+          "all4_full_variants_seconds": 0.0004958000499755144,
+          "primary_only_seconds": 0.00037029990926384926,
+          "full_joint_with6safe_starts_seconds": 0.010040999855846167,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 3
+        },
+        {
+          "all4_full_variants_seconds": 0.00043100002221763134,
+          "primary_only_seconds": 0.0003638998605310917,
+          "full_joint_with6safe_starts_seconds": 0.01048840000294149,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 3
+        },
+        {
+          "all4_full_variants_seconds": 0.0004342000465840101,
+          "primary_only_seconds": 0.00036550010554492474,
+          "full_joint_with6safe_starts_seconds": 0.010924600064754486,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 1
+        }
+      ]
+    },
+    {
+      "regime": "near",
+      "timings": [
+        {
+          "all4_full_variants_seconds": 0.00041600014083087444,
+          "primary_only_seconds": 0.0003434000536799431,
+          "full_joint_with6safe_starts_seconds": 0.00924049993045628,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 2
+        },
+        {
+          "all4_full_variants_seconds": 0.00039599998854100704,
+          "primary_only_seconds": 0.0003578001633286476,
+          "full_joint_with6safe_starts_seconds": 0.00856680003926158,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 1
+        },
+        {
+          "all4_full_variants_seconds": 0.0004072999581694603,
+          "primary_only_seconds": 0.0003440000582486391,
+          "full_joint_with6safe_starts_seconds": 0.008601099951192737,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 1
+        },
+        {
+          "all4_full_variants_seconds": 0.00039510009810328484,
+          "primary_only_seconds": 0.00034549995325505733,
+          "full_joint_with6safe_starts_seconds": 0.009185299975797534,
+          "full_null_evaluations": 0,
+          "full_joint_evaluations": 2
+        }
+      ]
+    },
+    {
+      "regime": "bright_hidden",
+      "timings": [
+        {
+          "all4_full_variants_seconds": 0.17395250010304153,
+          "primary_only_seconds": 0.13586700009182096,
+          "full_joint_with6safe_starts_seconds": 0.5326135000213981,
+          "full_null_evaluations": 9,
+          "full_joint_evaluations": 21
+        },
+        {
+          "all4_full_variants_seconds": 0.17742939991876483,
+          "primary_only_seconds": 0.3452591001987457,
+          "full_joint_with6safe_starts_seconds": 1.2796132999937981,
+          "full_null_evaluations": 11,
+          "full_joint_evaluations": 22
+        },
+        {
+          "all4_full_variants_seconds": 0.39692119997926056,
+          "primary_only_seconds": 0.360180800082162,
+          "full_joint_with6safe_starts_seconds": 1.3899706001393497,
+          "full_null_evaluations": 11,
+          "full_joint_evaluations": 26
+        },
+        {
+          "all4_full_variants_seconds": 0.4081087000668049,
+          "primary_only_seconds": 0.36662269989028573,
+          "full_joint_with6safe_starts_seconds": 1.1895782998763025,
+          "full_null_evaluations": 11,
+          "full_joint_evaluations": 19
+        }
+      ]
+    },
+    {
+      "regime": "weak_hidden",
+      "timings": [
+        {
+          "all4_full_variants_seconds": 0.07322609983384609,
+          "primary_only_seconds": 0.04574490012601018,
+          "full_joint_with6safe_starts_seconds": 0.19034640002064407,
+          "full_null_evaluations": 13,
+          "full_joint_evaluations": 37
+        },
+        {
+          "all4_full_variants_seconds": 0.07768720015883446,
+          "primary_only_seconds": 0.051624299958348274,
+          "full_joint_with6safe_starts_seconds": 0.20983199984766543,
+          "full_null_evaluations": 16,
+          "full_joint_evaluations": 34
+        },
+        {
+          "all4_full_variants_seconds": 0.08028750005178154,
+          "primary_only_seconds": 0.05319519992917776,
+          "full_joint_with6safe_starts_seconds": 0.19991500000469387,
+          "full_null_evaluations": 15,
+          "full_joint_evaluations": 34
+        },
+        {
+          "all4_full_variants_seconds": 0.06893950002267957,
+          "primary_only_seconds": 0.04372050007805228,
+          "full_joint_with6safe_starts_seconds": 0.18919299985282123,
+          "full_null_evaluations": 12,
+          "full_joint_evaluations": 35
+        }
+      ]
+    }
+  ],
+  "bank_sha256": "aee2cc7ca58b5986dd4c27d86ba841675215fb2f48738ea7b956cf3804b594d8",
+  "score_source_sha256": "fbbf1bca7a943e737127151b2a18e0ab4c69d4bb6143b46825640f4a7216b98d",
+  "scope": "4knownphysicalengineeringqueryrecords plus4nullpaths/regime;no efficacyendpoint/pvalue. All4variants andseparateprimarypass exactparity. Timingexcludescommoncensoredpilot/exposure/geometryconstruction;fulljointincludesitsnullrefit+6safealternativefits+6fulllikevaluations+1fullrefinement. Not isolated/end-to-end/hardware claim;not new efficacydata."
+}

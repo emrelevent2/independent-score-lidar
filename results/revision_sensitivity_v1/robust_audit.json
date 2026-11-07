@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "cases": 864,
+  "acquisition_hashes": 864,
+  "incompatible_acquisitions": 189,
+  "observed_score_replays": 1350,
+  "rank_checks": 1350,
+  "independent_full_localizer_values": 675,
+  "max_localizer_loglik_gap": 4.547473508864641e-13,
+  "warning_draws_checked": 8,
+  "strict_full_null_refinements": [
+    {
+      "case": "robust_0117",
+      "draw": 194,
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "robust_0175",
+      "draw": 102,
+      "improvement": 3.865352482534945e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "robust_0204",
+      "draw": 64,
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "robust_0286",
+      "draw": 119,
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "robust_0421",
+      "draw": 73,
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "robust_0443",
+      "draw": 108,
+      "improvement": 2.0463630789890885e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "robust_0536",
+      "draw": 91,
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "robust_0814",
+      "draw": 163,
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    }
+  ],
+  "calibration_generator_checks": [],
+  "localizer_warnings": [],
+  "operating_point_changes": [],
+  "records_sha256": "f2759c68fe13187f8ad3cf1d63fef6bc8e1ea14030deabea2cbcd020859370fc",
+  "protocol_sha256": "248fb89339d6ac7592b87eb395db1ac5fe0266e0b61595ab1b5aae456c85718e",
+  "auditor_sha256": "4f530c267b01681df61f2d8b90f59816f046ce3f3218bb133a073f9b4bef1ebe",
+  "seconds": 7253.25827770005
+}

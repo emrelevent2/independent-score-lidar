@@ -1,0 +1,233 @@
+{
+  "status": "COMPLETE_KNOWN_MODEL_INFORMATION_DIAGNOSIS",
+  "groups": [
+    {
+      "regime": "moderate",
+      "records": 500,
+      "file": "moderate_information.npz",
+      "sha256": "e41cbcdd495f3f48e302beb1989294052572f5b1a0cd82337660b49b5eadd89c",
+      "all_query_observed_arrays_sha256": "f49c15dc2fa3a3e3dcc0be65f9b521e6a2fcccd19f25bb23baa5fbc503ee55b2",
+      "directions": [
+        {
+          "gap": 6.0,
+          "full_efficient_amplitude_information": 12520.915546157472,
+          "censored_efficient_amplitude_information": 12520.915546157472,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "gap": 10.0,
+          "full_efficient_amplitude_information": 14025.05122802279,
+          "censored_efficient_amplitude_information": 14025.05122802279,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "gap": 12.0,
+          "full_efficient_amplitude_information": 14160.746964380853,
+          "censored_efficient_amplitude_information": 14160.746964380853,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "gap": 20.0,
+          "full_efficient_amplitude_information": 23901.569236088395,
+          "censored_efficient_amplitude_information": 23901.569236088395,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "original_separation_model_screen": "KNOWN_NO_HIDDEN_INFORMATION_IDENTITY",
+      "raw_empirical_opg_efficient_ratios": [
+        0.9857042544640392,
+        1.0045699178491545,
+        1.001360949943252,
+        0.9878396482870228
+      ]
+    },
+    {
+      "regime": "near",
+      "records": 500,
+      "file": "near_information.npz",
+      "sha256": "aec698b3dd8ed87004eff69165243ea6607abd35743318f3a20bfda4483404dd",
+      "all_query_observed_arrays_sha256": "81d6dd136448282964acc9d8783341dfefca8b446e0ad05178d45dea0ce1893f",
+      "directions": [
+        {
+          "gap": 6.0,
+          "full_efficient_amplitude_information": 3104.8375404330427,
+          "censored_efficient_amplitude_information": 3104.8375404330427,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "gap": 10.0,
+          "full_efficient_amplitude_information": 3214.1096770738886,
+          "censored_efficient_amplitude_information": 3214.1096770738886,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "gap": 12.0,
+          "full_efficient_amplitude_information": 3213.8414654760745,
+          "censored_efficient_amplitude_information": 3213.8414654760745,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "gap": 20.0,
+          "full_efficient_amplitude_information": 3212.0218816693905,
+          "censored_efficient_amplitude_information": 3212.0218816693905,
+          "ratio": 1.0,
+          "paired_path_bootstrap95": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "original_separation_model_screen": "KNOWN_NO_HIDDEN_INFORMATION_IDENTITY",
+      "raw_empirical_opg_efficient_ratios": [
+        1.0142476855060316,
+        1.0072115661090169,
+        1.0041631788069556,
+        0.9861588357684832
+      ]
+    },
+    {
+      "regime": "bright_hidden",
+      "records": 500,
+      "file": "bright_hidden_information.npz",
+      "sha256": "162de4376b9ebd43a9a54c9446c2b0f0bb4502ff81d5b2f0cfc6a4316fb236bc",
+      "all_query_observed_arrays_sha256": "f52fc79c27a3359a88a0bef25a0c416074dcec0f9fe6c7f9079055b079c104bd",
+      "directions": [
+        {
+          "gap": 6.0,
+          "full_efficient_amplitude_information": 502.1985052847999,
+          "censored_efficient_amplitude_information": 326.7763932363541,
+          "ratio": 1.5368261468066475,
+          "paired_path_bootstrap95": [
+            1.4366124657239068,
+            1.6459157943919394
+          ]
+        },
+        {
+          "gap": 10.0,
+          "full_efficient_amplitude_information": 687.6436231678556,
+          "censored_efficient_amplitude_information": 358.77601633099675,
+          "ratio": 1.9166376565524235,
+          "paired_path_bootstrap95": [
+            1.8152653503203189,
+            2.017072051911068
+          ]
+        },
+        {
+          "gap": 12.0,
+          "full_efficient_amplitude_information": 726.1356430523542,
+          "censored_efficient_amplitude_information": 357.8325363924303,
+          "ratio": 2.0292610906013606,
+          "paired_path_bootstrap95": [
+            1.9273820666214287,
+            2.1348139681042078
+          ]
+        },
+        {
+          "gap": 20.0,
+          "full_efficient_amplitude_information": 1746.7001183606305,
+          "censored_efficient_amplitude_information": 412.2182790002175,
+          "ratio": 4.237318448364365,
+          "paired_path_bootstrap95": [
+            4.089838112267771,
+            4.386223737657304
+          ]
+        }
+      ],
+      "original_separation_model_screen": "LOCAL_INFORMATION_OPPORTUNITY",
+      "raw_empirical_opg_efficient_ratios": [
+        1.5368261468066475,
+        1.9166376565524235,
+        2.0292610906013606,
+        4.237318448364365
+      ]
+    },
+    {
+      "regime": "weak_hidden",
+      "records": 500,
+      "file": "weak_hidden_information.npz",
+      "sha256": "a52b08538e97c45e275b68b66396908ef34d6d3021d492102ee0bb2090f6380a",
+      "all_query_observed_arrays_sha256": "10b672c5d959e05c19d9bb1c3e01abe7a98a2574818c7cbdbdf3268a71aea391",
+      "directions": [
+        {
+          "gap": 6.0,
+          "full_efficient_amplitude_information": 81004.17466549082,
+          "censored_efficient_amplitude_information": 58671.44731952971,
+          "ratio": 1.3806404710682383,
+          "paired_path_bootstrap95": [
+            1.3267025116595321,
+            1.4299433490770228
+          ]
+        },
+        {
+          "gap": 10.0,
+          "full_efficient_amplitude_information": 92380.31734712426,
+          "censored_efficient_amplitude_information": 63595.048740371174,
+          "ratio": 1.4526338005379926,
+          "paired_path_bootstrap95": [
+            1.3995393746019464,
+            1.506788693415399
+          ]
+        },
+        {
+          "gap": 12.0,
+          "full_efficient_amplitude_information": 92180.81991819401,
+          "censored_efficient_amplitude_information": 63548.358426153376,
+          "ratio": 1.4505617800546824,
+          "paired_path_bootstrap95": [
+            1.397618765233338,
+            1.5042816784206465
+          ]
+        },
+        {
+          "gap": 20.0,
+          "full_efficient_amplitude_information": 92100.32161193802,
+          "censored_efficient_amplitude_information": 63427.970581929294,
+          "ratio": 1.452045852436236,
+          "paired_path_bootstrap95": [
+            1.4029354700561023,
+            1.5008614782954506
+          ]
+        }
+      ],
+      "original_separation_model_screen": "LOCAL_INFORMATION_OPPORTUNITY",
+      "raw_empirical_opg_efficient_ratios": [
+        1.3806404710682383,
+        1.4526338005379926,
+        1.4505617800546824,
+        1.452045852436236
+      ]
+    }
+  ],
+  "records_total": 2000,
+  "protocol_sha256": "2b3dc9f832b6e3d51b9a630e81b84dc5af3712a08216a66712580b211f811900",
+  "seconds": 23.78277529985644,
+  "scope": "Known-null/local-directioninformationonly. Delta isnotidentifiedunderH0;thesehypotheticalfixed-directionSchurcomplementsarenotaregularjointCRBforunknownsecondarylocationorafinite-powerbound. Alloriginal4regimesretained;noeasierphysics. FreshmodelpathsNOTefficacyconfirmation. Ordinaryfloatingarithmetic,knownIRF/recovery/initialstate;no physicalvalidation/newtheoremclaim."
+}

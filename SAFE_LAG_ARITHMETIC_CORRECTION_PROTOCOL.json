@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_BEFORE_FULL_ARITHMETIC_CORRECTION_REPLAY",
+  "sources": {
+    "src/safe_lag_correction_replay.py": "08e8b8295e1fae7465075d73052f7ad748a66a9071f1b79606bff947298008e5",
+    "src/outward_safety_lag.py": "c50433905e59be4f442e4039b025d49640b69b98b85bc5fcaa6b7e90be4caf0f",
+    "src/test_outward_safety_lag.py": "ab50dc7317cdeb50dbf53ea29b12d5dde2e0d2e39bfe0854d36d696f78c439a4"
+  },
+  "base_protocol_sha256": "ea22d485979b9e36a417b654ecea345d354939f50c5e5cd15fdf8570a132d77c",
+  "inputs": {
+    "results\\safe_donor_development_v1\\records.sqlite3": "419ff5e2750de52c50333e92af6abebe12a1ee11ca60718402e446cda40f2aa2",
+    "results\\safe_donor_development_v1\\analysis.json": "fca8d240981417908dffd046bbd170e0b2a3915b7302cd0804b2589f59cdacd0"
+  },
+  "reason": "Original safe_lag uses nearest IEEE sum. For exact supplied Td<Te,that can be below exact Td+Te. Bound routine correctly certifies its supplied lag,but bridge from recovery parameters to guaranteed-safe lag needs outward rounding.",
+  "change": "Recompute only observed certified decisions using exact recovery sum rounded UP. Original donor predictors unchanged:they are arbitrary fixed positive intensities for the proof,so their training-risk approximation does not affect conditional validity. Original approximate bootstrap controls and all original outputs retained. No efficacy,threshold,prior or model-family tuning.",
+  "scope": "Post-study arithmetic repair on CLOSED data,not independent confirmation. Exact recorded dyadic paths and exact supplied recovery parameters,not physical timestamp/recovery uncertainty."
+}

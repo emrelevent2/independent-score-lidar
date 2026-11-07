@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "analysis_sha256": "f6eb7c8c691c420d6cba237df691da32916314b7080c3c95cd30b2e4950ca4d7",
+  "source_sha256": "d23a118786dfa10d48b2ad2c9846ca680d4816dda46e8a0defb0c2f988f561df",
+  "rows": [
+    {
+      "file": "FGS_td048_2019_01_28_acq1.mat",
+      "conditional_predictions": 100000,
+      "evaluation_gaps": 20000,
+      "descriptive_marginal_cdf_distance": 0.24269,
+      "predictions_sha256": "5c5340b8b5ad79c81c577c626fd56a63a62cc2fc953d23bd360d0eccb7be2b81"
+    },
+    {
+      "file": "FGS_td048_2019_01_28_acq2.mat",
+      "conditional_predictions": 100000,
+      "evaluation_gaps": 20000,
+      "descriptive_marginal_cdf_distance": 0.032200000000000006,
+      "predictions_sha256": "744c49c5661404d8b96216bf26ca39a36f35828c48d7deede0f95902bba9e24a"
+    }
+  ],
+  "interpretation": "Predictions condition on empirical preceding phases. CDF distances are descriptive model checks, not a two-surface accuracy measure or a calibrated goodness-of-fit p-value."
+}

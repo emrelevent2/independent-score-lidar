@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_CONDITIONAL_CONTROL_RUNNER_BEFORE_FRESH_AGGREGATE_OUTCOMES",
+  "study_protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "metadata_addendum_sha256": "83a118d37db86fd7a921dc35cd970e0c19191302ee1d282a4f350b657f214c0f",
+  "frozen_numerical_worker_addendum_sha256": "7c8960854f70ecf378b6286a085b40d3415785ba860a499ee881a6df580acd93",
+  "sources": {
+    "localization_full_joint_control.py": "1fdc7c8ef6b2c18a4b55c8936054f0f5a25c83f003ac6daef0dfc30c65fa41b3"
+  },
+  "execution": "OnlyafterfreshmainpreliminaryPASSandmainintegrity,parentwarning, localizerwarningauditsPASS. BOTHlegacyandstrongfull-LRreferences onALL640NEWqueries/ALL199commonpaths,8workers,threads1. PassfreshrowandfreshprotocoltothefrozenV2worker. No old-study run/read/export function is called.",
+  "reporting": "Preserveeveryfrozenmainrow. SeparateSQLiteinsideNEWstudyoutput. Mainrecordshash/protocol/manifestpinnedinresumestatebeforewrites. No extra export to old output paths.",
+  "rule": "Localizedprimaryatleastcorrectandnomorewrong/nullthanBOTHfull-LR referencesatfrozenalpha.01. Indepcontrolintegrityandwarningaudits mandatorybeforelargerfreshconfirmation. No subgroup or weakercontrol substitution;no globalML,physical,uniformriskorQ1claim."
+}

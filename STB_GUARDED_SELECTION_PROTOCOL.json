@@ -1,0 +1,194 @@
+{
+  "status": "Annotation-only selection AFTER fixed guarded-policy freeze; BEFORE all new histograms/outcomes.",
+  "created_utc": "2026-11-06T02:38:36.225413+00:00",
+  "source_sha256": "ab6a67c63094ff64c510859592ad4940869b0b436bb90384290a96969f0d355d",
+  "range_reader_sha256": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca",
+  "rule_sha256": "691fa8eb0b5d152f298ad990c27aec9a8910871a162cc55ad90a4b91a02215af",
+  "candidates": [
+    {
+      "sequence": 1,
+      "archive": "Annotations/p1/Sequence1.zip",
+      "archive_bytes": 100558372,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 2,
+      "archive": "Annotations/p1/Sequence2.zip",
+      "archive_bytes": 37333328,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 4,
+      "archive": "Annotations/p1/Sequence4.zip",
+      "archive_bytes": 58901782,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 5,
+      "archive": "Annotations/p1/Sequence5.zip",
+      "archive_bytes": 37624737,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 6,
+      "archive": "Annotations/p1/Sequence6.zip",
+      "archive_bytes": 42037304,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 8,
+      "archive": "Annotations/p1/Sequence8.zip",
+      "archive_bytes": 12882026,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 9,
+      "archive": "Annotations/p1/Sequence9.zip",
+      "archive_bytes": 21586380,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 10,
+      "archive": "Annotations/p1/Sequence10.zip",
+      "archive_bytes": 6258310,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 11,
+      "archive": "Annotations/p1/Sequence11.zip",
+      "archive_bytes": 28765724,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 12,
+      "archive": "Annotations/p1/Sequence12.zip",
+      "archive_bytes": 23715989,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 13,
+      "archive": "Annotations/p1/Sequence13.zip",
+      "archive_bytes": 12943298,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 14,
+      "archive": "Annotations/p1/Sequence14.zip",
+      "archive_bytes": 39590810,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 15,
+      "archive": "Annotations/p1/Sequence15.zip",
+      "archive_bytes": 9621790,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 16,
+      "archive": "Annotations/p1/Sequence16.zip",
+      "archive_bytes": 28686108,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 18,
+      "archive": "Annotations/p1/Sequence18.zip",
+      "archive_bytes": 43123225,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 19,
+      "archive": "Annotations/p1/Sequence19.zip",
+      "archive_bytes": 36482729,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 20,
+      "archive": "Annotations/p1/Sequence20.zip",
+      "archive_bytes": 74292177,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 3,
+      "archive": "Annotations/p1/Sequence3.zip",
+      "archive_bytes": 99339250,
+      "positions": [
+        "quarter",
+        "three_quarters"
+      ]
+    },
+    {
+      "sequence": 17,
+      "archive": "Annotations/p1/Sequence17.zip",
+      "archive_bytes": 67784474,
+      "positions": [
+        "quarter",
+        "three_quarters",
+        "middle",
+        "last"
+      ]
+    }
+  ],
+  "excluded_count_frames": [
+    "Sequence17/RawDataHistogramMap_frame_0_1769007349292309_semantic.npy",
+    "Sequence3/RawDataHistogramMap_frame_0_1768817568281351_semantic.npy"
+  ],
+  "selection": "First eligible frame per sequence in stated order, up to4sequences. If fewer than4sequences qualify, fill to4frames from remaining eligible distinct frames in the same order.",
+  "criterion": "Exactly2known intervals1--13,gap>=8bins,margin4pixels; at least100eligible two-window and1000known-one pixels.",
+  "notes": [
+    "Sequence7excluded entirely as development. Untested sequences precede closed test sequences3and17.",
+    "No histogram intensity, method score or performance metric participates in eligibility.",
+    "Frames from3/17are new captures within already seen sequences, not independent unseen-scene validation.",
+    "All noneligible screens and member identities retained. Unknown14/Unlabeled0never become physical negatives."
+  ]
+}

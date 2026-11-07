@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_BEFORE_CONTINUOUS_EXPOSURE_RECONSTRUCTION",
+  "sources": {
+    "tools\\deadtime_exposure_probe.py": "c31ecd384e2756429ec8a1822fdf9c84d98e21e71f24b9b3e81b573fd84f5013",
+    "src\\deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5",
+    "src\\test_deadtime_exposure.py": "53d8ebdebe9a4d8375c3e9f049eedca6a234e2f568396a0d9f53c4ab6a280ec7",
+    "DED_SOURCE_REPRODUCTION_PROTOCOL_v2.json": "53bb9f5dcb2847a2d6d3f829a979a12181cdb7ccb62899cae351ff19c4815b64",
+    "results\\ded_source_reproduction_v2\\five_block_stats.npz": "3fedc2079194a3602bd51a03470d49edfbea66e001ef3648bb635d33902a0de2"
+  },
+  "inputs": [
+    {
+      "archive_path": "2019_01_28/FGS_td198_2019_01_28_acq14.mat",
+      "local_path": "data\\highflux_raw\\2019_01_28\\FGS_td198_2019_01_28_acq14.mat",
+      "size": 20133276,
+      "compressed_size": 18250738,
+      "zip_crc32": "4091c435",
+      "sha256": "cd1b55c68272a830a3c69fdf78b2198036b49607b9e4ab304c2124db5683cc26"
+    },
+    {
+      "archive_path": "2019_01_28/laser_calib_100.mat",
+      "local_path": "data\\highflux_raw\\2019_01_28\\laser_calib_100.mat",
+      "size": 3168,
+      "compressed_size": 3171,
+      "zip_crc32": "674094cf",
+      "sha256": "69391ff9b96dce1d8fba65ab5c962d77c3e81a69eb063a0f23185b0991ceebf8"
+    }
+  ],
+  "settings": {
+    "starts": [
+      10000,
+      20000,
+      30000,
+      40000,
+      50000
+    ],
+    "cycles": 10000,
+    "bins": 625,
+    "period": "actual MAT tr",
+    "dead_time": "MAT T_holdoff,198ns",
+    "edge_policy": "Preserve raw times;carry phase>=actualperiod into next period;condition on latest prior hit"
+  },
+  "scope": "Descriptive fixed-five-block reconstruction only,not new detection performance. Exact duration arithmetic at recorded timestamps for known fixed nonparalyzable dead time and piecewise-constant rate. Timestamp quantization/jitter/recovery uncertainty unmodelled. Counts not conditionally independent Poisson given random exposures. Comparing rounded source A with duration E also changes bin grid to cover actual period;not a controlled efficacy ablation."
+}

@@ -1,0 +1,82 @@
+{
+  "status": "FROZEN_BEFORE_NEW_CONTINUOUS_GAP_SAMPLES",
+  "sources": {
+    "src/ct_dual_reference.py": "46dde731f3a9c8138a102f1c272c393b842ae5fcdef59a5ec283dbcff5dc606c",
+    "src/ct_dual_outer_reference.py": "5d495e74ef5212165228e8d9c14d08925b67d461a93336db69c6d71d80f2d646",
+    "src/ct_dual_fast.py": "91ce24b84c27ab276aec1fb60b2d69384cf63c4213825b6fe675fb177b8e45a8",
+    "src/test_ct_dual_reference.py": "51bfd4e781a04d09308c0dd775c37a2d39ea34e6f790b6839aae86cce6f22173",
+    "src/test_ct_dual_fast.py": "27c7c4fea60bd678199492597ce6affb8d66085e9a216027d1494956af58940d",
+    "tools/check_ct_dual_kernel.py": "aa00c490c3da19d561970344989e74b88393503734a9da1771259d39709e1a03"
+  },
+  "clock_reference_protocol_sha256": "e9eeaa951ca58b40f062fb64649053719da51ce19d2166ba3b8e3803436ac623",
+  "homogeneous_reference_protocol_sha256": "be5c155afaf69e653ba897165f545b867ce3c17da31e0cd64dd977a22939a643",
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "numba": "0.59.1"
+  },
+  "bins": 64,
+  "sigma": 1.5,
+  "phases": [
+    0.0,
+    0.37,
+    15.31,
+    42.1
+  ],
+  "samples_per_case_phase": 100000,
+  "seed_base": 8917402639,
+  "familywise_DKW_failure_probability": 0.001,
+  "cases": [
+    {
+      "name": "moderate",
+      "theta": [
+        0.8,
+        15.3,
+        0.3,
+        0.065,
+        27.3
+      ],
+      "td": 83.7,
+      "te": 40.0
+    },
+    {
+      "name": "near",
+      "theta": [
+        0.8,
+        15.3,
+        1.0,
+        0.09,
+        21.3
+      ],
+      "td": 126.7,
+      "te": 80.0
+    },
+    {
+      "name": "bright_hidden",
+      "theta": [
+        2.4,
+        15.3,
+        0.8,
+        0.15,
+        25.3
+      ],
+      "td": 31.7,
+      "te": 80.0
+    },
+    {
+      "name": "weak_hidden",
+      "theta": [
+        0.25,
+        15.3,
+        0.1,
+        0.035,
+        35.3
+      ],
+      "td": 83.7,
+      "te": 100.0
+    }
+  ],
+  "criterion": "16known-parameter conditionalCDFchecks,100000independentcontinuousinverse-hazardphoton paths each. DKWunionbound.001 and normalization atfirstobservablegap within1e-8. OriginalperiodicpiecewiseconstantGaussianbin-rate model,originalfractionalrecoveryvalues. No parameter/depthfitting or efficacy endpoint.",
+  "scope": "Continuous-time full-observation model validation covering ALLoriginal4recoveryregimes and up to2hiddenavalanches. Not a secondary-return detection/improvement result,not finiteunknown-null guarantee or novelty/Q1 evidence."
+}

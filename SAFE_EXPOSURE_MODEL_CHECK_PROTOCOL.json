@@ -1,0 +1,50 @@
+{
+  "status": "FROZEN_BEFORE_TWO_DEAD_TIME_POINT_MODEL_CHECK",
+  "sources": {
+    "safe_exposure_model_check.py": "32e03295bf50066424df29eb1b8777f9b72f77f0abc4ff9d43a3b05381591c41",
+    "safe_deadtime_exposure.py": "c5e47cf59873c23e86392f997f76749d3d6d8a5dc3219d0d13c8f75c4544bf19",
+    "test_safe_deadtime_exposure.py": "5d13405dbde0c5605a82b624dae02ea7c3ab2d2061ec7cfcc1cd73aa6dcd3ff3",
+    "deadtime_path_bootstrap.py": "01feac2e052aa36404210269eda6355de4a3f9826b7e4369342671b1e5e6999f",
+    "deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5",
+    "deadtime_scan.py": "7ab8180f8127a0cb255711095eefad929003ccef0217ad5f40412b064fb5f69a"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "numba": "0.59.1"
+  },
+  "settings": {
+    "bins": 16,
+    "cycles": 200,
+    "replicates_per_regime": 2048,
+    "seed_base": 81764019,
+    "alternative_ratio": 0.9
+  },
+  "regimes": [
+    {
+      "name": "no_hidden",
+      "td": 19.3,
+      "te": 8.0,
+      "rate": 0.04
+    },
+    {
+      "name": "moderate_hidden",
+      "td": 50.3,
+      "te": 80.7,
+      "rate": 0.04
+    },
+    {
+      "name": "intermediate_hidden",
+      "td": 23.7,
+      "te": 61.2,
+      "rate": 0.04
+    },
+    {
+      "name": "many_hidden",
+      "td": 5.3,
+      "te": 61.2,
+      "rate": 0.15
+    }
+  ],
+  "scope": "Implementation/point-null martingale model check ONLY. Homogeneous known incident rates;alternative0.9xtrue fixed before simulation,not a fitted secondary-surface detector. No composite-null,physical-data or novelty/efficacy claim. Safe lag known from Optica2021Tmin;hidden avalanches simulated explicitly. Naive max(td,te) comparison deliberately misspecified when hidden avalanches matter;not a strong detection baseline."
+}

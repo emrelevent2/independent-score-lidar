@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_METADATA_CLARIFICATION_BEFORE_ANY_FRESH_LOCALIZATION_QUERY",
+  "protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "reason": "The new protocol copies the parent dictionary. Some inherited prose fields describe the historical parent design, not the new localization procedure. This addendum resolves that metadata ambiguity before any fresh query is generated. All frozen sources and numerical algorithms remain unchanged.",
+  "historical_parent_fields": ["design", "primary", "controls", "ablations", "preliminary_rule", "numerical"],
+  "authoritative_new_fields": ["settings", "methods", "primary_method", "bootstrap_seed_offset_from_parent", "algorithm", "calibration", "primary_rule", "additional_control", "scope"],
+  "current_design": "640 NEW queries, 256 positive and 384 null, all4 original regimes/all7 heterogeneous families/16 donors, unchanged photon budgets and 2-bin tolerance. Fifteen methods: original12 plus matched localized censored-score common/original and localized_full_bank PRIMARY.",
+  "query_seed_base": 27190463851,
+  "bootstrap_seed_base": 420000000000,
+  "current_primary": "Frozen bank/full-null-refit score and rank pvalue; one full-observation two-return localization initialized at its selected score peak. No-hidden regimes exactly reuse matched safe localization. Refinement changes only reported locations; no changed detection statistic, declaration or bootstrap score.",
+  "current_preliminary_rule": "Use the protocol primary_rule field and frozen rules() implementation. Strict more correct and fewer total errors versus both raw censored scores, full_opg_safe and raw full_bank_refit, with no increase in wrong/null separately. At least correct and no more wrong/null against every remaining comparator including both equally refined censored scores. Alpha0.01 unchanged.",
+  "stronger_control_requirement": "Full protocol additional_control field remains mandatory. Both legacy and V2 equal-information full likelihood references on all fresh640/all199 common paths, plus independent main/localizer/control warning/integrity audits, before fresh larger confirmation. Parent control runner's old output paths must not be used for this study.",
+  "fidelity": "No source/protocol/data edits, no numerical algorithm or scientific gate weakened, and no results removed or tolerance/alpha changed. Original frozen metadata retained for provenance. This addendum is part of the review evidence, not an efficacy result."
+}

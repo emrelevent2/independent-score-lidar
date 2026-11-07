@@ -1,0 +1,54 @@
+{
+  "status": "FROZEN_BEFORE_NEW_HOMOGENEOUS_GAP_SAMPLES",
+  "sources": {
+    "src/homogeneous_dual_deadtime.py": "800bcb4925a062b14e5483304f1d2ce57c0ce4359a4e3dc906bcd6aa9232218d",
+    "src/test_homogeneous_dual_deadtime.py": "3e6c3d55cb008858672475224183fc6f2fe7b8fdc2aa51a8696137135aadf838",
+    "src/deadtime_path_bootstrap.py": "01feac2e052aa36404210269eda6355de4a3f9826b7e4369342671b1e5e6999f",
+    "src/deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5",
+    "src/deadtime_scan.py": "7ab8180f8127a0cb255711095eefad929003ccef0217ad5f40412b064fb5f69a",
+    "tools/check_homogeneous_dual_kernel.py": "31ca7c39ab489150c581ccfcbda1a0a1054946ae2363f6cbc13f8ea1542caff4"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "numba": "0.59.1"
+  },
+  "samples_per_regime": 100000,
+  "seed_base": 4617927001,
+  "familywise_DKW_failure_probability": 0.001,
+  "cases": [
+    {
+      "name": "detector_dominant",
+      "td": 83.7,
+      "te": 40.0,
+      "rate": 0.02
+    },
+    {
+      "name": "bright_hidden",
+      "td": 31.7,
+      "te": 80.0,
+      "rate": 0.05
+    },
+    {
+      "name": "many_hidden",
+      "td": 7.0,
+      "te": 50.0,
+      "rate": 0.3
+    },
+    {
+      "name": "weak_hidden",
+      "td": 83.7,
+      "te": 100.0,
+      "rate": 0.005
+    },
+    {
+      "name": "three_recovery_window",
+      "td": 10.0,
+      "te": 35.0,
+      "rate": 0.2
+    }
+  ],
+  "criterion": "For5fixed known-rate regenerative i.i.d.gap distributions,each empiricalCDF must bewithin sqrt(log(2*5/.001)/(2*100000)) of its analyticalCDF. Union DKW bound=.001 under the specified homogeneous law. Numerical normalization integral+exact exponential tail must bewithin1e-9 of1. No parameter fitting or outcome-based selection.",
+  "scope": "Homogeneous renewal-overshoot model check including multiple unrecorded avalanches. Standard renewal reasoning,not a priority claim. NOT a periodic pulse model,depth estimator,improved detector,Q1 result,or efficacy confirmation."
+}

@@ -1,0 +1,636 @@
+{
+  "status": "Frozen AFTER development choice and BEFORE any selected test histogram acquisition or outcome.",
+  "frozen_utc": "2026-11-06T01:45:11.432572+00:00",
+  "source_sha256": {
+    "real_multiframe_test.py": "ff760904713943111f52930dfd6a3a3c778ee16e48dff20e25357880b1227c41",
+    "real_multiframe_analysis.py": "f29b4d681712b055e21daf544b94234f80a0405bbc224f28a310af41a99286dd",
+    "real_poisson_methods_v2.py": "06ef4efffc366846eae576dad9325c1f0024b8fbdef7dc1099711b78de1d2da4",
+    "anchored_poisson.py": "71ca77231bfad2db126b959ed7e1b58e06f1d08606dad4d03986c8da94ad0160",
+    "real_poisson_analysis_v2.py": "da0759485f0960194413808149c20b9e99ce3a318d290c13b9ef07a29099b04d",
+    "real_poisson_development_v2.py": "57b224513ecb5c3d4568cf30ae77662b63830311582df0f096e1a6dbc918635c",
+    "likelihood_baseline.py": "a75e427c3100e3924e80e5ba86336c5307b8c436786358a60050ae921587d6b9",
+    "stb_remote_zip.py": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca"
+  },
+  "input_sha256": {
+    "results/real_poisson_development_v2/analysis.json": "cd8cfb84693d3ad21bdc9b864af9fcd26ce1e36054bf2b3318bc0a689da1dcad",
+    "results/real_poisson_development_v2/calibration.json": "3089587a5d91e215c7366d07aec08be2434adcbbc9208b6e645bf2c06b1e4097",
+    "results/anchored_development_v1/analysis.json": "5a0d022647ef7a34fb22c9fd7a0a4ae23d7b29bff24c46621283217d7c07e409",
+    "results/anchored_development_v1/calibration.json": "0b1f58514104ef5ee1c71375d1d7861e1dc2b7a2b13bf7a01c8adf5062127309",
+    "data/stb_real_test_selection_more/selection.json": "4b662698c84abd3c12905dc52bd1869a9db85c6b520d3b1a24c2bda38beca5a3",
+    "data/real_poisson_development_v1/empirical_profile.npz": "7bcb1def3c8ab94567ae983d857800868983c7386163471836028fa578a3f22f"
+  },
+  "frames": [
+    {
+      "sequence": 17,
+      "archive": "Annotations/p1/Sequence17.zip",
+      "archive_bytes": 67784474,
+      "protocol_sha256": "58355d0cc88be07364511655d9a19f627bbe16d4b8472b61c7a766e30b3e0566",
+      "member": "Sequence17/RawDataHistogramMap_frame_0_1769007349292309_semantic.npy",
+      "crc32": 287682224,
+      "uncompressed_bytes": 33030272,
+      "original_member_sha256": "fe60fcc650b5dbc7d5e0fe62a87ccafb11e4f2ba820d1faefb85a5d4dd4e4fe2",
+      "local_numeric_file": "Sequence17_labels.npz",
+      "local_sha256": "b26e6ffc228bacfd2c234943ab6a13ed4d1ef106f1f5e2ec80363ca6d18443d3",
+      "eligible_two_window_pixels": 1381,
+      "known_window_counts": {
+        "0": 11852,
+        "1": 35340,
+        "2": 1960
+      },
+      "remote_bytes_read": 226891,
+      "label_file_relative": "data/stb_real_test_selection/Sequence17_labels.npz",
+      "position": "first"
+    },
+    {
+      "sequence": 3,
+      "archive": "Annotations/p1/Sequence3.zip",
+      "archive_bytes": 99339250,
+      "position": "middle",
+      "protocol_sha256": "46b818b48121cb0dc1c79b0c575b02c73395f048dde2a9652eeddda71bd05316",
+      "member": "Sequence3/RawDataHistogramMap_frame_0_1768817568281351_semantic.npy",
+      "crc32": 3350548366,
+      "original_member_sha256": "bb658264cde8f8ca5d7e953078c7ddf2cea14cda477bbe703313bfd1980213b6",
+      "label_file_relative": "data/stb_real_test_selection_more/Sequence3_middle_labels.npz",
+      "local_sha256": "aa81db458613e5d62bbfcb71e2b8b01703f8c57171f78efc4ad06cc5cecacd80",
+      "eligible_two_window_pixels": 4250
+    }
+  ],
+  "selected_kinds": {
+    "local": "gaussian",
+    "guided": "gaussian",
+    "spatial": "gaussian",
+    "routed": "gaussian",
+    "naive_union": "gaussian",
+    "disagreement": "gaussian"
+  },
+  "anchored_selected": {
+    "id": "local_fallback",
+    "kind": "gaussian",
+    "depth_sigma": null,
+    "method": "local",
+    "groups": [
+      {
+        "evaluation_one": {
+          "n": 100,
+          "declared": 1,
+          "pair": 0,
+          "weak_window_agreement": 94,
+          "accepted_unmatched": 1,
+          "primary_agreement": 94,
+          "duplicate_known_window": 0
+        },
+        "evaluation_two": {
+          "n": 200,
+          "declared": 26,
+          "pair": 26,
+          "weak_window_agreement": 45,
+          "accepted_unmatched": 0,
+          "primary_agreement": 193,
+          "duplicate_known_window": 0
+        }
+      },
+      {
+        "evaluation_one": {
+          "n": 100,
+          "declared": 1,
+          "pair": 0,
+          "weak_window_agreement": 100,
+          "accepted_unmatched": 1,
+          "primary_agreement": 100,
+          "duplicate_known_window": 0
+        },
+        "evaluation_two": {
+          "n": 200,
+          "declared": 42,
+          "pair": 41,
+          "weak_window_agreement": 49,
+          "accepted_unmatched": 1,
+          "primary_agreement": 196,
+          "duplicate_known_window": 0
+        }
+      },
+      {
+        "evaluation_one": {
+          "n": 100,
+          "declared": 3,
+          "pair": 0,
+          "weak_window_agreement": 100,
+          "accepted_unmatched": 3,
+          "primary_agreement": 100,
+          "duplicate_known_window": 0
+        },
+        "evaluation_two": {
+          "n": 200,
+          "declared": 51,
+          "pair": 50,
+          "weak_window_agreement": 60,
+          "accepted_unmatched": 1,
+          "primary_agreement": 200,
+          "duplicate_known_window": 0
+        }
+      }
+    ],
+    "eligible": true,
+    "total_pairs": 117,
+    "total_unmatched": 7
+  },
+  "development_calibration": {
+    "gaussian_0": {
+      "kind": "gaussian",
+      "probability": 0.01,
+      "normalizers": {
+        "local": 19.12105245334773,
+        "guided": 16.74741826563737
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.1093975503145075,
+          "0.01": 0.945335472751374
+        },
+        "guided": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        },
+        "spatial": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        },
+        "routed": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        },
+        "naive_union": {
+          "0.005": 1.2199779878629047,
+          "0.01": 0.9972296377916143
+        },
+        "disagreement": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        }
+      }
+    },
+    "gaussian_1": {
+      "kind": "gaussian",
+      "probability": 0.025,
+      "normalizers": {
+        "local": 39.23060174520371,
+        "guided": 39.23060174520414
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.0419923466546352,
+          "0.01": 0.8424496021976535
+        },
+        "guided": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        },
+        "spatial": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        },
+        "routed": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        },
+        "naive_union": {
+          "0.005": 1.0419923466546352,
+          "0.01": 0.8424496021976668
+        },
+        "disagreement": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        }
+      }
+    },
+    "gaussian_2": {
+      "kind": "gaussian",
+      "probability": 0.05,
+      "normalizers": {
+        "local": 60.608359365374184,
+        "guided": 60.60835936538055
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.3806797740030627,
+          "0.01": 0.8942230792540532
+        },
+        "guided": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        },
+        "spatial": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        },
+        "routed": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        },
+        "naive_union": {
+          "0.005": 1.3806797740030627,
+          "0.01": 0.8942230792540532
+        },
+        "disagreement": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        }
+      }
+    },
+    "empirical_0": {
+      "kind": "empirical",
+      "probability": 0.01,
+      "normalizers": {
+        "local": 20.72422433284671,
+        "guided": 16.78960539417438
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.1002221246207897,
+          "0.01": 1.013505431620663
+        },
+        "guided": {
+          "0.005": 1.156134098632181,
+          "0.01": 1.0484585513381728
+        },
+        "spatial": {
+          "0.005": 1.156134098632181,
+          "0.01": 1.0484585513381728
+        },
+        "routed": {
+          "0.005": 1.185181247475823,
+          "0.01": 1.091508798949286
+        },
+        "naive_union": {
+          "0.005": 1.185181247475823,
+          "0.01": 1.1002221246207897
+        },
+        "disagreement": {
+          "0.005": 1.185181247475823,
+          "0.01": 1.091508798949286
+        }
+      }
+    },
+    "empirical_1": {
+      "kind": "empirical",
+      "probability": 0.025,
+      "normalizers": {
+        "local": 32.51984686754946,
+        "guided": 29.528681898303102
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.3388917313412485,
+          "0.01": 1.021911871870262
+        },
+        "guided": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.2284395660898748
+        },
+        "spatial": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.2284395660898748
+        },
+        "routed": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.210280270174158
+        },
+        "naive_union": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.2284395660898748
+        },
+        "disagreement": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.210280270174158
+        }
+      }
+    },
+    "empirical_2": {
+      "kind": "empirical",
+      "probability": 0.05,
+      "normalizers": {
+        "local": 61.558319767685845,
+        "guided": 60.89091521412776
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.2180028874622728,
+          "0.01": 0.8866706788955623
+        },
+        "guided": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        },
+        "spatial": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        },
+        "routed": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        },
+        "naive_union": {
+          "0.005": 1.2180028874622728,
+          "0.01": 0.8983318343279783
+        },
+        "disagreement": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        }
+      }
+    }
+  },
+  "anchored_calibration": {
+    "sigma4_0": {
+      "normalizers": {
+        "local": 19.12105245334773,
+        "guided": 17.166991593314542
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.1693927596825624,
+          "0.01": 0.9183206404984715
+        },
+        "spatial": {
+          "0.005": 1.1693927596825624,
+          "0.01": 0.9183206404984715
+        },
+        "routed": {
+          "0.005": 1.1693927596825624,
+          "0.01": 0.9183206404984715
+        },
+        "naive_union": {
+          "0.005": 1.1693927596825624,
+          "0.01": 0.9972296377916143
+        },
+        "disagreement": {
+          "0.005": 1.1693927596825624,
+          "0.01": 0.9972296377916143
+        }
+      }
+    },
+    "sigma4_1": {
+      "normalizers": {
+        "local": 39.23060174520371,
+        "guided": 39.23060174520415
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.0419923466546264,
+          "0.01": 0.7360162471001865
+        },
+        "spatial": {
+          "0.005": 1.0419923466546264,
+          "0.01": 0.7360162471001865
+        },
+        "routed": {
+          "0.005": 1.0419923466546264,
+          "0.01": 0.7360162471001865
+        },
+        "naive_union": {
+          "0.005": 1.0419923466546352,
+          "0.01": 0.8424496021976585
+        },
+        "disagreement": {
+          "0.005": 1.0419923466546264,
+          "0.01": 0.8424496021976585
+        }
+      }
+    },
+    "sigma4_2": {
+      "normalizers": {
+        "local": 60.608359365374184,
+        "guided": 57.97835063071315
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.3914983996450863,
+          "0.01": 0.808247074325281
+        },
+        "spatial": {
+          "0.005": 1.3914983996450863,
+          "0.01": 0.808247074325281
+        },
+        "routed": {
+          "0.005": 1.3914983996450863,
+          "0.01": 0.808247074325281
+        },
+        "naive_union": {
+          "0.005": 1.4432806364315995,
+          "0.01": 0.9129387934772228
+        },
+        "disagreement": {
+          "0.005": 1.4432806364315995,
+          "0.01": 0.9129387934772228
+        }
+      }
+    },
+    "sigma8_0": {
+      "normalizers": {
+        "local": 19.12105245334773,
+        "guided": 14.416386967627368
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.2536608351556688,
+          "0.01": 1.0879926759490288
+        },
+        "spatial": {
+          "0.005": 1.2536608351556688,
+          "0.01": 1.0879926759490288
+        },
+        "routed": {
+          "0.005": 1.2536608351556688,
+          "0.01": 1.0879926759490288
+        },
+        "naive_union": {
+          "0.005": 1.2536608351556688,
+          "0.01": 1.0935335428221402
+        },
+        "disagreement": {
+          "0.005": 1.2536608351556688,
+          "0.01": 1.0935335428221402
+        }
+      }
+    },
+    "sigma8_1": {
+      "normalizers": {
+        "local": 39.23060174520371,
+        "guided": 26.37210997636501
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0901202770727547
+        },
+        "spatial": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0901202770727547
+        },
+        "routed": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0901202770727547
+        },
+        "naive_union": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0901202770727547
+        },
+        "disagreement": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0901202770727547
+        }
+      }
+    },
+    "sigma8_2": {
+      "normalizers": {
+        "local": 60.608359365374184,
+        "guided": 48.149031976210956
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.6755639481300364,
+          "0.01": 0.9732455741713043
+        },
+        "spatial": {
+          "0.005": 1.6755639481300364,
+          "0.01": 0.9732455741713043
+        },
+        "routed": {
+          "0.005": 1.6755639481300364,
+          "0.01": 0.9732455741713043
+        },
+        "naive_union": {
+          "0.005": 1.6755639481300364,
+          "0.01": 1.0991579791095807
+        },
+        "disagreement": {
+          "0.005": 1.6755639481300364,
+          "0.01": 1.0991579791095807
+        }
+      }
+    },
+    "sigma16_0": {
+      "normalizers": {
+        "local": 19.12105245334773,
+        "guided": 14.41638696762729
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.2538376779929188,
+          "0.01": 1.093533542822151
+        },
+        "spatial": {
+          "0.005": 1.2538376779929188,
+          "0.01": 1.093533542822151
+        },
+        "routed": {
+          "0.005": 1.2538376779929188,
+          "0.01": 1.093533542822151
+        },
+        "naive_union": {
+          "0.005": 1.2538376779929188,
+          "0.01": 1.0979463516379868
+        },
+        "disagreement": {
+          "0.005": 1.2538376779929188,
+          "0.01": 1.0979463516379868
+        }
+      }
+    },
+    "sigma16_1": {
+      "normalizers": {
+        "local": 39.23060174520371,
+        "guided": 26.37210997636501
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0135466529520762
+        },
+        "spatial": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0135466529520762
+        },
+        "routed": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0135466529520762
+        },
+        "naive_union": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0135466529520762
+        },
+        "disagreement": {
+          "0.005": 1.5500461210647787,
+          "0.01": 1.0135466529520762
+        }
+      }
+    },
+    "sigma16_2": {
+      "normalizers": {
+        "local": 60.608359365374184,
+        "guided": 48.149031976211
+      },
+      "methods": {
+        "guided": {
+          "0.005": 1.6755639481300357,
+          "0.01": 1.0990525472929173
+        },
+        "spatial": {
+          "0.005": 1.6755639481300357,
+          "0.01": 1.0990525472929173
+        },
+        "routed": {
+          "0.005": 1.6755639481300357,
+          "0.01": 1.0990525472929173
+        },
+        "naive_union": {
+          "0.005": 1.6755639481300357,
+          "0.01": 1.1094293453591322
+        },
+        "disagreement": {
+          "0.005": 1.6755639481300357,
+          "0.01": 1.1094293453591322
+        }
+      }
+    }
+  },
+  "settings": {
+    "probabilities": [
+      0.01,
+      0.025,
+      0.05
+    ],
+    "known_one_queries": 1000,
+    "two_interval_queries": 500,
+    "coordinate_seed": 20261113,
+    "attenuation_seed": 2026111300,
+    "alphas": [
+      0.005,
+      0.01
+    ],
+    "primary_alpha": 0.01,
+    "route_gate": 3.5,
+    "disagreement_ratio": 1.5,
+    "interval_tolerance_bins": 2.0,
+    "spatial_block_size": 16,
+    "bootstrap_replicates": 2000
+  },
+  "endpoints": [
+    "Primary: Sequence17 first frame, one-to-one agreement with two released known intervals, at each attenuation separately.",
+    "Secondary validation: Sequence3 middle frame, selected from annotations only; all frames reported, no favorable frame choice.",
+    "Known-one-interval accepted-unmatched declarations; these are not proven physical false positives.",
+    "Weak-interval agreement, primary agreement, duplicate-in-known-window and declarations not matching both known intervals remain separate.",
+    "Paired16x16spatial-block bootstrap differences conditional on each frame; attenuation replicates are not independent scenes."
+  ],
+  "notes": [
+    "All baseline response families selected independently by the same fixed development objective.",
+    "Selected anchored variant uses query primary and thus has no donor-independence/e-value guarantee.",
+    "If unchanged local fallback won development, report fallback explicitly; do not claim a new effective method.",
+    "Every cutoff and score normalizer transfers unchanged from development; no test-dependent threshold fitting.",
+    "Counts are numerically thinned full recorded histograms, not fresh physical low-exposure captures.",
+    "Known1--13intervals only. Unknown14and Unlabeled0never become negative labels. Multiple windows originate from released peak-peeling labels.",
+    "Integer temporal bins only; unresolved P1timing prevents defensible metre conversion.",
+    "Only two selected ZIP members fetched with bounded range, CRC and memberSHA; no full archive hash claim.",
+    "Single working Poisson model, numerical multistart fits; no sensor-calibrated error guarantee or FPGA performance claim."
+  ]
+}

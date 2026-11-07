@@ -1,0 +1,9 @@
+{
+  "status": "FROZEN_CLOSED_KNOWN_MODEL_DIAGNOSTIC_NOT_EFFICACY",
+  "source_sha256": "4bef86f97a2e077d36fea2bd624905e338d6e68be227b6444c7b0632d7b625c7",
+  "closed_information_protocol_sha256": "2b3dc9f832b6e3d51b9a630e81b84dc5af3712a08216a66712580b211f811900",
+  "closed_information_analysis_sha256": "df2cf02c1ec955485c4ac141306839c4ccebac424e45b1b6babecbf5521f2431",
+  "scope": "Regenerateall2000ALREADYCLOSEDknown-nullinformationpaths. No fresh efficacyrecords,fitselection,pvalues,locationsorTP/FPendpoints. Standardmartingaleorthogonalityisaproofstatement;finiteMonteCarlo crossmomentsareonlydescriptivechecks,notexactcertificates.",
+  "quantities": "Fourfixedsecondarydirectionsandfourlocalparameters. Fullscoreminusknownactivescore;samplemeansandcrossmoments withiidrecordMonteCarlostandarderrors. No pass/failMCzgate.",
+  "independent_checks": "Allsaveddatahashesandperrecordinformationmatrices. 16GL32gradientchecksandindependentfloatingriskreconstructions atpathindices0,125,250,499ineachregime."
+}

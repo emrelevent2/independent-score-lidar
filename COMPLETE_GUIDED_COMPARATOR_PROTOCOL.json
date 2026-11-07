@@ -1,0 +1,19 @@
+{
+  "status": "Additional strong comparator frozen before final accuracy inspection",
+  "frozen_utc": "2026-11-05T23:23:06.590789+00:00",
+  "main_protocol_sha256": "7fb2afc7f064a7a1fb2ce14ea077915a40a69e9e0e33fdea620ea72cfcad6de7",
+  "source_sha256": {
+    "complete_guided_confirmation.py": "ffa006deb4280c78e3d25ceb8119d717615022fbac519517d27fdacd07fda08d",
+    "complete_guided_likelihood.py": "ff565ea85e466c8b63fab69dca4bbc7e8e052b72c015fa95a0a169b07364ef58",
+    "guided_alternatives.py": "cd9ac5d1c9af4fea7e4e7ee6ddce7b2391a0a1d0b070c5c230063b99479a62c8",
+    "adaptive_evidence.py": "f35f2b3bd60ebb6401cb1aaa41e2c82231c707b346ed4f51bad9b323903763d4",
+    "likelihood_baseline.py": "a75e427c3100e3924e80e5ba86336c5307b8c436786358a60050ae921587d6b9"
+  },
+  "notes": [
+    "Close nuisance-start loophole: primary full range0--255; starts at donor primary, best null and three queried primary peaks.",
+    "Secondary refines within2bins of same guided donor proposal; three secondary starts.",
+    "Same1999 calibration cases and0.005/0.01 order-statistic rules as every full-study calibrated control.",
+    "Earlier simpler guided control retained; do not select the weaker baseline for claims.",
+    "No test accuracy inspected; source settings will not be tuned on these data."
+  ]
+}

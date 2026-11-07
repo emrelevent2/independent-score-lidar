@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "observed_control_fits_replayed": 1280,
+  "independent_quadrature_fitted_loglik_checks": 1280,
+  "max_quadrature_loglik_gap": 4.547473508864641e-13,
+  "independent_rankpvalues": 1280,
+  "independent_endpoints": 3840,
+  "exact_nohidden_identity_cases": 320,
+  "whole_workers_replayed": 28,
+  "common_bootstrap_paths_replayed": 5572,
+  "descriptive_operating_points": {
+    "0.005": {
+      "legacy": {
+        "correct": 190,
+        "wrong": 0,
+        "false": 0,
+        "positive": 256,
+        "null": 384
+      },
+      "strong": {
+        "correct": 190,
+        "wrong": 0,
+        "false": 0,
+        "positive": 256,
+        "null": 384
+      }
+    },
+    "0.01": {
+      "legacy": {
+        "correct": 197,
+        "wrong": 1,
+        "false": 2,
+        "positive": 256,
+        "null": 384
+      },
+      "strong": {
+        "correct": 196,
+        "wrong": 1,
+        "false": 2,
+        "positive": 256,
+        "null": 384
+      }
+    },
+    "0.02": {
+      "legacy": {
+        "correct": 209,
+        "wrong": 1,
+        "false": 7,
+        "positive": 256,
+        "null": 384
+      },
+      "strong": {
+        "correct": 209,
+        "wrong": 1,
+        "false": 7,
+        "positive": 256,
+        "null": 384
+      }
+    }
+  },
+  "main_records_sha256": "6a2d5d5a6c1bfdc8ca1fabbc00d929d8a286a6c93ad0dbc1fbd30b352a8dbecd",
+  "reference_records_sha256": "1e421bfeb4631c2869dff84ad4e02730c9082d5729f02736449c0e827f96ea0d",
+  "auditor_source_sha256": "df550b4db252d6f9fdf61a6934142cad49f1687929bf3ee1ecf760a291789f16",
+  "seconds": 7610.786496399902,
+  "scope": "All640observedfits,1280ranks,3840endpoints;1280independentquadraturevalues. 28wholeworkers5572paths,notall127360paths. Allwarnings requireseparateaudit. No globalML,physical,uniformnull,efficacyorQ1certification."
+}

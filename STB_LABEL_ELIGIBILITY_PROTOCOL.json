@@ -1,0 +1,66 @@
+{
+  "status": "Annotation-only screen; no method output has been evaluated on these frames.",
+  "created_utc": "2026-11-06T00:54:14.023399+00:00",
+  "source_sha256": {
+    "stb_label_eligibility.py": "c632e4ae68eaaf846e649e9dd61e70697753ec5ec2d6fd8a2a476f8a83ad4290",
+    "stb_remote_zip.py": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca"
+  },
+  "candidates": [
+    {
+      "archive": "Annotations/p2/Sequence21.zip",
+      "size": 30602679,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "archive": "Annotations/p2/Sequence22.zip",
+      "size": 36242239,
+      "positions": [
+        "first",
+        "middle"
+      ]
+    },
+    {
+      "archive": "Annotations/p1/Sequence1.zip",
+      "size": 100558372,
+      "positions": [
+        "first",
+        "middle"
+      ]
+    },
+    {
+      "archive": "Annotations/p1/Sequence7.zip",
+      "size": 5610003,
+      "positions": [
+        "first",
+        "middle"
+      ]
+    }
+  ],
+  "rule": "Lexically first archive/member with at least100pixels having exactly2known annotation intervals separated by at least8bins.",
+  "known_class_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "unknown_class_id": 14,
+  "notes": [
+    "Author label tool identifies14asUnknown, not a fourteenth known semantic class.",
+    "Other labels/zero are not evidence of absence of a physical secondary return.",
+    "Eligibility uses annotations only, never proposed-method accuracy, calibration score or favorable photon noise.",
+    "All screened candidates and counts remain in the record; only eligible histogram files need to be downloaded.",
+    "Selected frames are development. Fresh real evaluation selection must be frozen separately."
+  ]
+}

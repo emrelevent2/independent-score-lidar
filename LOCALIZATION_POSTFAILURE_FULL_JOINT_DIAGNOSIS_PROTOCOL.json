@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_AFTER_FAILED_LOCALIZATION_GATE_CLOSED_RESEARCH_DIAGNOSIS_ONLY",
+  "source_records_sha256": "6a2d5d5a6c1bfdc8ca1fabbc00d929d8a286a6c93ad0dbc1fbd30b352a8dbecd",
+  "study_protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "metadata_addendum_sha256": "83a118d37db86fd7a921dc35cd970e0c19191302ee1d282a4f350b657f214c0f",
+  "frozen_numerical_worker_addendum_sha256": "7c8960854f70ecf378b6286a085b40d3415785ba860a499ee881a6df580acd93",
+  "sources": {
+    "localization_postfailure_full_joint_diagnosis.py": "8a8760307fd694cca4b84126bd98be7ae65b6611dd1202a3e7e6bd8788e9f065"
+  },
+  "reason": "Closedfreshdevelopmentyielded203/1/4vsraw185/2/5andmatched186/1/5, butthelockedall-comparatorgateFAILEDduetonullcounts2--3insomecontrols. Computebothfull-LRreferencesasfurtherresearchtoinformthenextproposal. No reinterpretationofthefailedgateandnoautomaticauthorizationofconfirmation.",
+  "execution": "AFTERFAILEDmainruleandcompletedmainintegrity,parentwarning, localizerwarningauditsPASS. BOTHlegacyandstrongfull-LRreferences onALL640CLOSEDqueries/ALL199commonpaths,8workers,threads1. PassfreshrowandfreshprotocoltothefrozenV2worker. No old-study run/read/export function is called.",
+  "reporting": "Preserveeveryfrozenmainrow. SeparateSQLiteinsideNEWstudyoutput. Mainrecordshash/protocol/manifestpinnedinresumestatebeforewrites. No extra export to old output paths.",
+  "rule": "PointcontrastsaredescriptiveCLOSEDdiagnosticsonly. Theearlier15-methodprimarygateFAILEDandisUNCHANGED. No result here permits the locked3200confirmation or a superiority claim. Both references and independent integrity/warning audits coverALL640/199,notafavorable subset. No globalML,physicalorQ1claim."
+}

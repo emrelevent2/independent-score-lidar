@@ -1,0 +1,14 @@
+{
+  "status": "Additional role-invariant endpoints, declared before final accuracy inspection; original primary endpoint unchanged",
+  "created_utc": "2026-11-05T23:23:56.888666+00:00",
+  "main_protocol_sha256": "7fb2afc7f064a7a1fb2ce14ea077915a40a69e9e0e33fdea620ea72cfcad6de7",
+  "notes": [
+    "Different algorithms assign primary/secondary by brightness or temporal ordering. Noisy brightness reversals must not be mistaken for missing a recovered point pair.",
+    "Retain declared-secondary within2bins as the original primary metric.",
+    "Also report weak-return-any-channel recall: a declared positive with either estimated point within2bins of the true secondary.",
+    "Also report unordered two-return recall: declared positive with a one-to-one match of both estimated points to the true primary and secondary within2bins.",
+    "All null declarations remain false irrespective of point ordering. Thresholds and decisions are unchanged.",
+    "Use reported primary/secondary coordinates. For uniform/local3 proposals, recompute their primary from unchanged frozen source and input, verifying the recomputed secondary matches the saved value.",
+    "Oracle coordinates remain diagnostic only. No endpoint is used to tune methods on final data."
+  ]
+}

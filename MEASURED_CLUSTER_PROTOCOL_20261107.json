@@ -1,0 +1,46 @@
+{
+  "status": "FIXED_BEFORE_NEW_HELDOUT_EVALUATION",
+  "source_sha256": "b932a826e09d7341d97c29699bf3ac108f522b71c5ff783402e972764b782887",
+  "recovery_analysis_sha256": "f6eb7c8c691c420d6cba237df691da32916314b7080c3c95cd30b2e4950ca4d7",
+  "earlier_diagnostic_sha256": "62b169297ce2d869fd9e48ec563c7fd28273e63224e0b7841f33bb509d91b096",
+  "development": "Recovery-only heldout CDF distances .24269 low and .03220 high motivated a clustered-transition component. Earlier analysis and all outcomes retained. The new evaluation segment has not been used for fitting or model comparison.",
+  "calibration_pair_range": [
+    100,
+    20100
+  ],
+  "evaluation_pair_range": [
+    40400,
+    60400
+  ],
+  "starts": [
+    [
+      0.75,
+      0.25,
+      40.0
+    ],
+    [
+      1.0,
+      0.05,
+      40.0
+    ]
+  ],
+  "bounds": {
+    "flux_scale": [
+      0.05,
+      2.0
+    ],
+    "cluster_fraction": [
+      1e-06,
+      0.8
+    ],
+    "cluster_exponential_mean_ns": [
+      1.0,
+      1000.0
+    ]
+  },
+  "model": "Normalized conditional mixture (1-pi)*f_random_recovery(s|phase;q*lambda)+pi*density(R+Exp(tau)). Recovery parameters, pulse phase and signal/background ratio come from the recovery-only fit on the same calibration segment. Fit q,pi,tau only; two fixed starts and analytic/checked derivatives. Mixture is a working transition model for clustering; the cause is not identified as afterpulsing.",
+  "endpoints": "All heldout densities and mean log-score difference versus recovery-only, descriptive predictive marginal CDF distance. Fixed sample-minimum comparator coverage on same new heldout segment. All previously shown outcomes preserved; no measured two-surface detection claim.",
+  "integration_step_ns": 0.125,
+  "predictions": 100000,
+  "seed_base": 7912611047
+}

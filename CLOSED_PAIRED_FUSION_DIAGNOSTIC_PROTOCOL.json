@@ -1,0 +1,20 @@
+{
+  "status": "FROZEN_AFTER_BASE_RESULTS_CLOSED_BEFORE_FUSION_RECOUNT",
+  "sources": {
+    "src/closed_paired_fusion_diagnostic.py": "178dd1330f55b3a5bcb1488729fa14b1f60318df4870d15055a2197a0c37a006",
+    "src/paired_rank_fusion.py": "872929c244583f022dc7bdb55a2010de4a2addc8f81893b12394600411e9b8fe",
+    "src/test_paired_rank_fusion.py": "68b6f063a577ac5104836a542fdd4888c8f813f6f4cf048432dfdb90d1d66064"
+  },
+  "inputs": {
+    "results\\safe_donor_development_v1\\records.sqlite3": "419ff5e2750de52c50333e92af6abebe12a1ee11ca60718402e446cda40f2aa2",
+    "results\\safe_donor_spatial_control_v1\\records.sqlite3": "6c86ac9ac012e9f3f0c5e7b744432c7e4943e825c969ee1182dffafed4d874e4",
+    "results\\safe_donor_development_v1\\analysis.json": "fca8d240981417908dffd046bbd170e0b2a3915b7302cd0804b2589f59cdacd0",
+    "results\\safe_donor_spatial_control_v1\\analysis.json": "a7e1b516ed65a774ff6f56651e81eae284d392324274d19cc5a0e6a892d3caf8"
+  },
+  "methods": [
+    "paired_min_rank",
+    "paired_min_rank_with_agreement"
+  ],
+  "selection": "Symmetric paired ranks of local and equal-context prior-score statistics,including observed row. Select smaller component p,local on ties. Second candidate additionally requires reported secondary delays agree within one pulseFWHM=2sqrt(2log2)*sigma. This only removes declarations,no extra chance to reject. No labels in either rule.",
+  "scope": "CLOSED development diagnostic following failed base methods. Any apparent gain is hypothesis generation,not efficacy confirmation. Generic minP/rankfusion and agreement gating are established. Fitted-null bootstrap pvalues remain approximate;certified guarantee does not transfer."
+}

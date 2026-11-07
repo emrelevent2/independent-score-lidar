@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "zero_afterpulse_reduction": {
+    "old_gaps": 10076,
+    "new_gaps": 10105,
+    "KS_statistic": 0.00698141919531306,
+    "limit": 0.035
+  },
+  "afterpulse_physical_replay_cases": 20,
+  "all_query_and_calibration_seeds_distinct": true,
+  "primary_evaluator_parity_cases": 2,
+  "max_null_loglik_gap": 0.0,
+  "protocol_sha256": "248fb89339d6ac7592b87eb395db1ac5fe0266e0b61595ab1b5aae456c85718e",
+  "test_source_sha256": "9828097ba1b60d7c5ebbf025afc262e3240f54827c78bebcf9b9cb9c028b5676"
+}

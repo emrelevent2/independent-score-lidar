@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.nbc
+*.nbi
+data/highflux_raw/
+*.log
+output/reproduction_check.json

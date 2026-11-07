@@ -1,0 +1,30 @@
+{
+  "status": "DEVELOPMENT after weak donor-only real results; query-primary anchoring has no independence guarantee.",
+  "created_utc": "2026-11-06T01:39:30.368042+00:00",
+  "source_sha256": {
+    "anchored_development.py": "14223cc814d7cbd749ac065e470eaf6fe2f5e408349140c351d8df34c8e6448a",
+    "anchored_poisson.py": "71ca77231bfad2db126b959ed7e1b58e06f1d08606dad4d03986c8da94ad0160",
+    "real_poisson_methods_v2.py": "06ef4efffc366846eae576dad9325c1f0024b8fbdef7dc1099711b78de1d2da4"
+  },
+  "manifest_sha256": "82278b3ab44a53a1515036203e96e8b070b6445de14211514d61338eb6357843",
+  "base_protocol_sha256": "68af35aab7dc1cd9323ec2d3fbef1e17ac65be566f1aafbea4aed01a87c7f6f0",
+  "settings": {
+    "kind": "gaussian",
+    "depth_sigmas": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "probabilities": [
+      0.01,
+      0.025,
+      0.05
+    ]
+  },
+  "notes": [
+    "Same fixed899developmentqueries and three thinnedframes. Gaussian selected in prior response-family comparison.",
+    "Original donor-only median anchor may lie between disconnected surfaces. Anchor here comes from query null fit.",
+    "Three residual starts on the pooled histogram; every raw center still excluded from pooling.",
+    "All test histograms remain unread. Further selection must remain developmental."
+  ]
+}

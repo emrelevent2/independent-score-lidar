@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "rows": 1280,
+  "rank_checks": 1280,
+  "no_hidden_exact_identities": 640,
+  "independent_QR_score_checks": 28,
+  "max_QR_score_gap": 2.842170943040401e-14,
+  "records_sha256": "e7e9bfd62ed8e0da044d063c9f820b4501f95bf1a77b33a9c4845bba783dbb98",
+  "validation_sha256": "9ec2e322585ae54504e27860849c4706a137e3b1f97417278759bde772add65b",
+  "protocol_sha256": "09155bda050965e366b5049c7c48386a7fa715a69212d6651c1661b1c949b55b",
+  "auditor_sha256": "75ca8870b295aa1301dd3089b61ee8d0b01b006b72e726cddef4705e99fe4d3a"
+}

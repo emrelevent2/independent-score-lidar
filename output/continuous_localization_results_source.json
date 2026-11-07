@@ -1,0 +1,166 @@
+{
+  "status": "WORKING_RESEARCH_NOT_SUBMISSION_READY",
+  "primary_gate_passed": false,
+  "totals": {
+    "safe_score_common": {
+      "correct": 187,
+      "wrong": 2,
+      "false": 5,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_joint_common": {
+      "correct": 182,
+      "wrong": 1,
+      "false": 3,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_context_max_common": {
+      "correct": 182,
+      "wrong": 1,
+      "false": 3,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_context_transport_common": {
+      "correct": 182,
+      "wrong": 1,
+      "false": 3,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_score_original": {
+      "correct": 185,
+      "wrong": 2,
+      "false": 5,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_joint_original": {
+      "correct": 179,
+      "wrong": 1,
+      "false": 4,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_context_max_original": {
+      "correct": 179,
+      "wrong": 1,
+      "false": 4,
+      "positive": 256,
+      "null": 384
+    },
+    "safe_context_transport_original": {
+      "correct": 179,
+      "wrong": 1,
+      "false": 4,
+      "positive": 256,
+      "null": 384
+    },
+    "full_opg_safe": {
+      "correct": 189,
+      "wrong": 1,
+      "false": 4,
+      "positive": 256,
+      "null": 384
+    },
+    "full_opg_refit": {
+      "correct": 185,
+      "wrong": 1,
+      "false": 2,
+      "positive": 256,
+      "null": 384
+    },
+    "full_bank_safe": {
+      "correct": 200,
+      "wrong": 2,
+      "false": 3,
+      "positive": 256,
+      "null": 384
+    },
+    "full_bank_refit": {
+      "correct": 202,
+      "wrong": 2,
+      "false": 4,
+      "positive": 256,
+      "null": 384
+    },
+    "localized_safe_score_common": {
+      "correct": 188,
+      "wrong": 1,
+      "false": 5,
+      "positive": 256,
+      "null": 384
+    },
+    "localized_safe_score_original": {
+      "correct": 186,
+      "wrong": 1,
+      "false": 5,
+      "positive": 256,
+      "null": 384
+    },
+    "localized_full_bank": {
+      "correct": 203,
+      "wrong": 1,
+      "false": 4,
+      "positive": 256,
+      "null": 384
+    }
+  },
+  "labels": {
+    "safe_score_common": "Censored score, common",
+    "safe_joint_common": "Joint fit, common",
+    "safe_context_max_common": "Context maximum, common",
+    "safe_context_transport_common": "Transported profile, common",
+    "safe_score_original": "Censored score, original",
+    "safe_joint_original": "Joint fit, original",
+    "safe_context_max_original": "Context maximum, original",
+    "safe_context_transport_original": "Transported profile, original",
+    "full_opg_safe": "Empirical full, safe pilot",
+    "full_opg_refit": "Empirical full, refitted null",
+    "full_bank_safe": "Bank full, safe pilot",
+    "full_bank_refit": "Bank full, refitted null",
+    "localized_safe_score_common": "Localized censored, common",
+    "localized_safe_score_original": "Localized censored, original",
+    "localized_full_bank": "Localized bank full (primary)"
+  },
+  "input_hashes": {
+    "results\\score_peak_localization_development_v1\\records.sqlite3": "6a2d5d5a6c1bfdc8ca1fabbc00d929d8a286a6c93ad0dbc1fbd30b352a8dbecd",
+    "results\\score_peak_localization_development_v1\\completion.json": "9f4937fba2c9bbc2844c403d8b1f90d304994598e00429897b87ec34415c2864",
+    "results\\score_peak_localization_development_v1\\analysis.json": "1508556aa9605045eee5d5721befcf8d9ec8d3110b628a3a49c0d7925c179716",
+    "results\\score_peak_localization_development_v1\\integrity.json": "275da1465f6ec853d0f43893b014b9a8bfcef58b61460b6e727940a2c14f9977",
+    "results\\score_peak_localization_development_v1\\parent_failure_audit.json": "aa006f9f0211cb3df455f50ff47e1a537767a93eafa7d64edcfe8258c98f8716",
+    "results\\score_peak_localization_development_v1\\failure_audit.json": "ed5f1efb22fd1563b8d79b995d232156142de0c2e4b3e5893429e1b1f22fd264",
+    "SCORE_PEAK_LOCALIZATION_DEVELOPMENT_PROTOCOL.json": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+    "results\\localization_test_runtime_v1.json": "4aa7fe77026f16f88fe68e26a6c392031c8b78ff7aa140325aeaa3a557ac0de1"
+  },
+  "engineering_groups": [
+    {
+      "regime": "moderate",
+      "primary_total_charged_seconds": 0.7504896011669189,
+      "reference_total_charged_seconds": 4.3699571010656655,
+      "reference_to_primary_charged_ratio": 5.8228083297502335
+    },
+    {
+      "regime": "near",
+      "primary_total_charged_seconds": 1.3871469015721232,
+      "reference_total_charged_seconds": 7.587869001785293,
+      "reference_to_primary_charged_ratio": 5.470126482772359
+    },
+    {
+      "regime": "bright_hidden",
+      "primary_total_charged_seconds": 116.79337809677236,
+      "reference_total_charged_seconds": 987.8398740990087,
+      "reference_to_primary_charged_ratio": 8.458012690415606
+    },
+    {
+      "regime": "weak_hidden",
+      "primary_total_charged_seconds": 19.962609799578786,
+      "reference_total_charged_seconds": 168.50158279947937,
+      "reference_to_primary_charged_ratio": 8.440859411229626
+    }
+  ],
+  "tex_sha256": "da0f834253d99011e6b9f72ad0d5b00a3770546af9806788d9ab1e9ce2a8fd8a",
+  "scope": "Completeindependent640developmentwithfailedall-comparatorrule;notconfirmationorQ1readiness."
+}

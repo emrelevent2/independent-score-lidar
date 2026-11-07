@@ -1,0 +1,58 @@
+{
+  "status": "FROZEN_BEFORE_LOCAL_REAL_DATA_PROXY_REPRODUCTION",
+  "source_commit": "d63dc5d8e2395ff1104a81946b989c4345d0baab",
+  "highflux_code_commit": "1494365d05867fa6bff9b989dc4f0bd5817a0b4e",
+  "upstream_sources": {
+    "src\\spl_fisher_bounds\\constants.py": "75866868631f3bc11b321da231d9a8cf5714e5f12aaddb18eaebdfdb2c4a4733",
+    "src\\spl_fisher_bounds\\estimators.py": "e079caecb0161ecb88a20c5144c97e89f58c9d0f7fc1669ea94e650b8a8cc7c2",
+    "src\\spl_fisher_bounds\\highfluxspl.py": "582dc0d6812cb103a6a6de25b62001b4d99c2fd1db1ede6672d3d179337494b0",
+    "src\\spl_fisher_bounds\\model.py": "fbc2a087f767341bb8f15a88438e28afa79256fe8ba907c064d541a02a5080d7",
+    "src\\spl_fisher_bounds\\outputs.py": "72673fb0c246e7a8a532aba8d1ca9de01b6fed2a6e7392b2e682e75aa44edd44",
+    "src\\spl_fisher_bounds\\plotting.py": "52c56be6b66ce8dd4c5f28f29c411bf8e79d96e5ed3bc337cb179bb3996d6684",
+    "src\\spl_fisher_bounds\\simulation.py": "0d0216d50c4ee19349c404ee59f0af1f272b50daa9ccd9e73f7742443544d662",
+    "src\\spl_fisher_bounds\\synthetic_experiments.py": "1c5d97bf4dcf8a13164daf750208b36dffd7f1024e1850766085c5839bb3b000",
+    "src\\spl_fisher_bounds\\__init__.py": "22dcacd63f45e3bc43d0198d3f6a67af8f0e0b9bd34bb52b4f0c4f17e4da69c0"
+  },
+  "adapter_source_sha256": "c68973d693492e7531298162f11428162f39798e6df53dc489f22ddbab6a6b33",
+  "data_manifest_sha256": "db5cb84c4c38f7254373e20d93acbaf77ea8186613b2e77bc9a88ec0c39332d1",
+  "inputs": [
+    {
+      "archive_path": "2019_01_28/FGS_td198_2019_01_28_acq14.mat",
+      "local_path": "data\\highflux_raw\\2019_01_28\\FGS_td198_2019_01_28_acq14.mat",
+      "size": 20133276,
+      "compressed_size": 18250738,
+      "zip_crc32": "4091c435",
+      "sha256": "cd1b55c68272a830a3c69fdf78b2198036b49607b9e4ab304c2124db5683cc26"
+    },
+    {
+      "archive_path": "2019_01_28/laser_calib_100.mat",
+      "local_path": "data\\highflux_raw\\2019_01_28\\laser_calib_100.mat",
+      "size": 3168,
+      "compressed_size": 3171,
+      "zip_crc32": "674094cf",
+      "sha256": "69391ff9b96dce1d8fba65ab5c962d77c3e81a69eb063a0f23185b0991ceebf8"
+    }
+  ],
+  "settings": {
+    "aggregation_factor": 20,
+    "block_starts": [
+      10000,
+      20000,
+      30000,
+      40000,
+      50000
+    ],
+    "block_cycles": 10000
+  },
+  "published_reference": {
+    "periods": 9999925,
+    "phase_bins": 625,
+    "bin_width_ns": 0.16,
+    "dead_time_ns": 198.0,
+    "proxy_a": 0.262,
+    "proxy_tau": 17.933,
+    "proxy_b": 0.002469,
+    "weighted_r2": 0.9915
+  },
+  "scope": "Published-source parsing/full-record empirical-template fit only. FULL-record fit is a PROXY,not independent physical truth or valid training predictor for later heldout tests. No new secondary-return efficacy claim. Measured pulse file is smoothed waveform,not independent finite-count calibration evidence."
+}

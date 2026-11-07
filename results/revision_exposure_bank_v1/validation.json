@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "profiles": 32,
+  "records": 6400,
+  "directions": 7232,
+  "absolute_log_variance_ratio_quantiles": {
+    "median": 0.012048759763902206,
+    "p95": 0.2790727571693641,
+    "max": 0.5059439349803877
+  },
+  "bank_sha256": "dafc1b5bb61e5bc5d00aca59fba9abf834c178d9622728551dff5ce4bb7e155d",
+  "protocol_sha256": "09155bda050965e366b5049c7c48386a7fa715a69212d6651c1661b1c949b55b"
+}

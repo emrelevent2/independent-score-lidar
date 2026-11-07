@@ -1,0 +1,24 @@
+{
+  "status": "POST HOC development using closed first guided confirmation; fresh confirmation mandatory",
+  "created_utc": "2026-11-05T23:48:57.180057+00:00",
+  "source_sha256": {
+    "profile_development.py": "1420507209bcaf218357d495873ccb4c1d62cf218f5c8552ddf15f0cc5c83457",
+    "profile_proposals.py": "aff939a02f0c8032c2e7fb47223c6c4323facf9174f29c89e91276f05cffb6b4",
+    "likelihood_baseline.py": "a75e427c3100e3924e80e5ba86336c5307b8c436786358a60050ae921587d6b9",
+    "adaptive_evidence.py": "f35f2b3bd60ebb6401cb1aaa41e2c82231c707b346ed4f51bad9b323903763d4"
+  },
+  "variants": [
+    "fixed_secondary",
+    "fixed_both",
+    "refined_presence_donor_report"
+  ],
+  "alpha": [
+    0.005,
+    0.01
+  ],
+  "notes": [
+    "No new hand-tuned spatial bandwidth or shrinkage coefficient. Test two structural choices: fix secondary only or both donor centers.",
+    "Third variant retains complete guided likelihood decisions exactly and changes only reported secondary to the fixed donor coordinate.",
+    "Every current result is development, including reuse of calibration/test data. No claim of new independent confirmation."
+  ]
+}

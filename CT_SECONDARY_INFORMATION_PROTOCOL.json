@@ -1,0 +1,61 @@
+{
+  "status": "FROZEN_BEFORE_FRESH_INFORMATION_PATHS",
+  "sources": {
+    "tools/ct_secondary_information.py": "3f60b6db9ea682434727bed90f32b98cfd29727d0c2b06011682a5e3ee18b53c"
+  },
+  "model_protocol_sha256": "2af63893b041e7247cd89b3523a7e78b482603230876883831bda74990d3b86e",
+  "seed_base": 7102984639,
+  "records_per_regime": 500,
+  "bins": 64,
+  "sigma": 1.5,
+  "primary_phase": 15.3,
+  "secondary_gaps": [
+    6.0,
+    10.0,
+    12.0,
+    20.0
+  ],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 5148397021,
+  "regimes": [
+    {
+      "name": "moderate",
+      "a": 0.8,
+      "b": 0.3,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 40.0,
+      "original_gap": 12.0
+    },
+    {
+      "name": "near",
+      "a": 0.8,
+      "b": 1.0,
+      "cycles": 1500,
+      "td": 126.7,
+      "te": 80.0,
+      "original_gap": 6.0
+    },
+    {
+      "name": "bright_hidden",
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "td": 31.7,
+      "te": 80.0,
+      "original_gap": 10.0
+    },
+    {
+      "name": "weak_hidden",
+      "a": 0.25,
+      "b": 0.1,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 100.0,
+      "original_gap": 20.0
+    }
+  ],
+  "design": "2000freshcompletecontinuousNULLrecords,500perregime. Knownnominala/tau/B/sigma/recoveries. No secondary photons andno fitted detector,pvalues,locationsorTP/FP endpoints. Four hypothetical knownsecondaryamplitudedirections atfixedseparations. Full64phaseper-factorOPGaveragedoverindependentrecords estimatesexpectedinformation. Censored expectedHessian=diag(E/lambda)thenphaseJacobianprojection. InTd>=Te,useknownexactfull/censoredinformationidentity,andreportempiricalOPGdiscrepancyseparately.",
+  "analysis": "Eachdirectionhas4parameters(a,tau,B,c),withsecondarylocationhypotheticallyfixed. Nuisance-efficientamplitudeinformation=Hcc-Hcnu inv(Hnunu) Hnuc. Jointpath-resamplingpercentile95intervals,2000draws. TheseareapproximateMCuncertaintyintervals,not finitecertificates. Predictivego:originalhidden-regimeseparationlowerCIratio>1.15. UpperCI<=1.05indicateslittlemodeledlocalinformationopportunity;otherwiseuncertain. This is a model-design screen,NOT a secondary-detection or Q1 goalgate.",
+  "scope": "Known-null/local-directioninformationonly. Delta isnotidentifiedunderH0;thesehypotheticalfixed-directionSchurcomplementsarenotaregularjointCRBforunknownsecondarylocationorafinite-powerbound. Alloriginal4regimesretained;noeasierphysics. FreshmodelpathsNOTefficacyconfirmation. Ordinaryfloatingarithmetic,knownIRF/recovery/initialstate;no physicalvalidation/newtheoremclaim."
+}

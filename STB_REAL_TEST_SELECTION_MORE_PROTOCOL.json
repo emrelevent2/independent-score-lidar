@@ -1,0 +1,170 @@
+{
+  "status": "Prospective annotation-only coverage expansion before any real test histogram/method result.",
+  "created_utc": "2026-11-06T01:32:33.959809+00:00",
+  "source_sha256": "ef0754d0201db42175ad138b31f7abf60382a0a11f90dd60f95dc108d10b4751",
+  "range_reader_sha256": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca",
+  "original_selection_sha256": "dc5b538ddfaea5112401e0372385c730ca3313b7163b25d454892aa64a8aa302",
+  "candidates": [
+    {
+      "sequence": 2,
+      "archive": "Annotations/p1/Sequence2.zip",
+      "archive_bytes": 37333328,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 3,
+      "archive": "Annotations/p1/Sequence3.zip",
+      "archive_bytes": 99339250,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 4,
+      "archive": "Annotations/p1/Sequence4.zip",
+      "archive_bytes": 58901782,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 5,
+      "archive": "Annotations/p1/Sequence5.zip",
+      "archive_bytes": 37624737,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 6,
+      "archive": "Annotations/p1/Sequence6.zip",
+      "archive_bytes": 42037304,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 8,
+      "archive": "Annotations/p1/Sequence8.zip",
+      "archive_bytes": 12882026,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 9,
+      "archive": "Annotations/p1/Sequence9.zip",
+      "archive_bytes": 21586380,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 10,
+      "archive": "Annotations/p1/Sequence10.zip",
+      "archive_bytes": 6258310,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 11,
+      "archive": "Annotations/p1/Sequence11.zip",
+      "archive_bytes": 28765724,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 12,
+      "archive": "Annotations/p1/Sequence12.zip",
+      "archive_bytes": 23715989,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 13,
+      "archive": "Annotations/p1/Sequence13.zip",
+      "archive_bytes": 12943298,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 14,
+      "archive": "Annotations/p1/Sequence14.zip",
+      "archive_bytes": 39590810,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 15,
+      "archive": "Annotations/p1/Sequence15.zip",
+      "archive_bytes": 9621790,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 16,
+      "archive": "Annotations/p1/Sequence16.zip",
+      "archive_bytes": 28686108,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 18,
+      "archive": "Annotations/p1/Sequence18.zip",
+      "archive_bytes": 43123225,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 19,
+      "archive": "Annotations/p1/Sequence19.zip",
+      "archive_bytes": 36482729,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    },
+    {
+      "sequence": 20,
+      "archive": "Annotations/p1/Sequence20.zip",
+      "archive_bytes": 74292177,
+      "positions": [
+        "middle",
+        "last"
+      ]
+    }
+  ],
+  "selection": "Keep originalSequence17primary; add first3other eligible sequences in numeric order, middle before last. At most1frame persequence.",
+  "criterion": "Exactly2known intervals1--13,gap>=8bins,query>=4pixels from edge; >=100eligiblepixels/frame.",
+  "notes": [
+    "No method outputs, photon counts or test histograms select these frames.",
+    "All candidates and failures of eligibility retained. This is an annotated multi-return cohort, not a random scene sample.",
+    "Sequence7isdevelopment;1waspreviouslyscreened;17alreadyhasitsfixedprimaryframe.",
+    "Zero/Unknown14are never physical negatives. Selected test histograms stay unread until final real-method freeze."
+  ]
+}

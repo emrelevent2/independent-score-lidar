@@ -1,0 +1,1364 @@
+{
+  "status": "PASS",
+  "observed_warning_cases_checked": 1,
+  "distinct_warning_draws_regenerated": 127,
+  "stricter_component_refinements": 225,
+  "max_loglik_improvement": 9.094947017729282e-12,
+  "refinements": [
+    {
+      "case": "0_coherent_005",
+      "label": "draw_15_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_coherent_005",
+      "label": "draw_15_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_coherent_010",
+      "label": "draw_111_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_010",
+      "label": "draw_111_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_010",
+      "label": "draw_145_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_010",
+      "label": "draw_145_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_010",
+      "label": "draw_159_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_010",
+      "label": "draw_159_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_011",
+      "label": "draw_122_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_011",
+      "label": "draw_122_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_013",
+      "label": "draw_197_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_013",
+      "label": "draw_197_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_coherent_015",
+      "label": "draw_42_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_coherent_015",
+      "label": "draw_42_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_isolated_001",
+      "label": "draw_78_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_001",
+      "label": "draw_78_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_005",
+      "label": "draw_5_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_005",
+      "label": "draw_5_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_007",
+      "label": "draw_25_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_007",
+      "label": "draw_25_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_007",
+      "label": "draw_72_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_007",
+      "label": "draw_72_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_010",
+      "label": "draw_166_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_010",
+      "label": "draw_166_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_010",
+      "label": "draw_183_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_010",
+      "label": "draw_183_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_011",
+      "label": "draw_62_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_011",
+      "label": "draw_62_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_014",
+      "label": "draw_182_legacy_original",
+      "improvement": 9.094947017729282e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_isolated_014",
+      "label": "draw_182_legacy_recomputed",
+      "improvement": 9.094947017729282e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_isolated_015",
+      "label": "draw_41_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_isolated_015",
+      "label": "draw_41_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_003",
+      "label": "draw_196_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_003",
+      "label": "draw_196_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_005",
+      "label": "draw_97_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_005",
+      "label": "draw_97_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_010",
+      "label": "draw_12_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_misleading_010",
+      "label": "draw_12_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_misleading_013",
+      "label": "draw_30_safe_alternative_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_misleading_014",
+      "label": "draw_46_legacy_original",
+      "improvement": 9.094947017729282e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_misleading_014",
+      "label": "draw_46_legacy_recomputed",
+      "improvement": 9.094947017729282e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_misleading_014",
+      "label": "draw_160_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_014",
+      "label": "draw_160_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_misleading_015",
+      "label": "draw_146_legacy_original",
+      "improvement": 1.8189894035458565e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_misleading_015",
+      "label": "draw_146_legacy_recomputed",
+      "improvement": 1.8189894035458565e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_positive_002",
+      "label": "draw_127_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_002",
+      "label": "draw_127_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_002",
+      "label": "draw_155_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_002",
+      "label": "draw_155_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_004",
+      "label": "draw_141_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_004",
+      "label": "draw_141_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_008",
+      "label": "draw_11_safe_alternative_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_positive_012",
+      "label": "draw_134_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_012",
+      "label": "draw_134_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_013",
+      "label": "draw_162_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_013",
+      "label": "draw_162_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_014",
+      "label": "draw_12_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_positive_014",
+      "label": "draw_12_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_24_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_24_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_52_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_52_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_93_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_93_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_114_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_000",
+      "label": "draw_114_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_002",
+      "label": "draw_56_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_002",
+      "label": "draw_56_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_012",
+      "label": "draw_43_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_012",
+      "label": "draw_43_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_014",
+      "label": "draw_66_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_014",
+      "label": "draw_66_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_016",
+      "label": "draw_13_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_016",
+      "label": "draw_13_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_016",
+      "label": "draw_94_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_clean_null_016",
+      "label": "draw_94_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_clean_null_016",
+      "label": "draw_129_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_016",
+      "label": "draw_129_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_017",
+      "label": "draw_55_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_017",
+      "label": "draw_55_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_025",
+      "label": "draw_191_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_025",
+      "label": "draw_191_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_027",
+      "label": "draw_29_safe_alternative_4",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_clean_null_027",
+      "label": "draw_84_legacy_original",
+      "improvement": 1.3642420526593924e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_clean_null_027",
+      "label": "draw_84_legacy_recomputed",
+      "improvement": 1.3642420526593924e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_clean_null_027",
+      "label": "draw_192_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_027",
+      "label": "draw_192_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_028",
+      "label": "draw_24_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_028",
+      "label": "draw_24_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_030",
+      "label": "draw_25_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_clean_null_030",
+      "label": "draw_25_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_13_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_13_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_43_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_43_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_44_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_44_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_62_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_62_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_73_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_73_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_122_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_122_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_154_legacy_original",
+      "improvement": 3.183231456205249e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_001",
+      "label": "draw_154_legacy_recomputed",
+      "improvement": 3.183231456205249e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_003",
+      "label": "draw_111_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_003",
+      "label": "draw_111_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_005",
+      "label": "draw_112_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_005",
+      "label": "draw_112_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_006",
+      "label": "draw_76_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_006",
+      "label": "draw_76_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_008",
+      "label": "draw_194_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_008",
+      "label": "draw_194_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_011",
+      "label": "draw_133_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_011",
+      "label": "draw_133_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_012",
+      "label": "draw_45_safe_alternative_2",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_012",
+      "label": "draw_86_legacy_original",
+      "improvement": 9.094947017729282e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_012",
+      "label": "draw_86_legacy_recomputed",
+      "improvement": 9.094947017729282e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_012",
+      "label": "draw_181_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_012",
+      "label": "draw_181_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_014",
+      "label": "draw_59_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_014",
+      "label": "draw_59_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_016",
+      "label": "draw_14_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_016",
+      "label": "draw_14_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_016",
+      "label": "draw_123_safe_alternative_4",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_022",
+      "label": "draw_190_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_022",
+      "label": "draw_190_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_026",
+      "label": "draw_82_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_026",
+      "label": "draw_82_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_026",
+      "label": "draw_86_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_026",
+      "label": "draw_86_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_borrow_null_028",
+      "label": "draw_159_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_028",
+      "label": "draw_159_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_030",
+      "label": "draw_142_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_030",
+      "label": "draw_142_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_031",
+      "label": "draw_130_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_031",
+      "label": "draw_130_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_031",
+      "label": "draw_180_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_borrow_null_031",
+      "label": "draw_180_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_000",
+      "label": "draw_174_safe_alternative_2",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_002",
+      "label": "draw_141_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_002",
+      "label": "draw_141_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_005",
+      "label": "draw_16_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_005",
+      "label": "draw_16_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_006",
+      "label": "draw_3_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_006",
+      "label": "draw_3_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_006",
+      "label": "draw_139_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_006",
+      "label": "draw_139_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_010",
+      "label": "draw_145_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_010",
+      "label": "draw_145_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_011",
+      "label": "draw_31_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_011",
+      "label": "draw_31_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_011",
+      "label": "draw_76_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_011",
+      "label": "draw_76_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_013",
+      "label": "draw_48_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_013",
+      "label": "draw_48_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_013",
+      "label": "draw_74_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_013",
+      "label": "draw_74_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_014",
+      "label": "draw_43_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_014",
+      "label": "draw_43_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_014",
+      "label": "draw_48_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_014",
+      "label": "draw_48_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_015",
+      "label": "draw_42_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_015",
+      "label": "draw_42_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_015",
+      "label": "draw_143_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_015",
+      "label": "draw_143_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_015",
+      "label": "draw_171_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_015",
+      "label": "draw_171_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_017",
+      "label": "draw_149_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_017",
+      "label": "draw_149_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_018",
+      "label": "draw_165_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_018",
+      "label": "draw_165_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_019",
+      "label": "draw_84_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_019",
+      "label": "draw_84_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_021",
+      "label": "draw_81_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_021",
+      "label": "draw_81_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_025",
+      "label": "draw_97_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_025",
+      "label": "draw_97_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_028",
+      "label": "draw_170_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_028",
+      "label": "draw_170_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_028",
+      "label": "draw_187_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_028",
+      "label": "draw_187_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_029",
+      "label": "draw_170_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_029",
+      "label": "draw_170_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "0_primary_jump_null_030",
+      "label": "draw_170_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_030",
+      "label": "draw_170_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_031",
+      "label": "draw_29_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "0_primary_jump_null_031",
+      "label": "draw_29_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "1_isolated_006",
+      "label": "observed_legacy_original",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "1_isolated_006",
+      "label": "observed_legacy_recomputed",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "2_coherent_010",
+      "label": "draw_14_full_null",
+      "improvement": 4.320099833421409e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "2_primary_jump_null_016",
+      "label": "draw_61_strong_original_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "2_primary_jump_null_016",
+      "label": "draw_61_strong_recomputed_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_coherent_001",
+      "label": "draw_63_full_null",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_coherent_002",
+      "label": "draw_59_strong_original_1",
+      "improvement": 1.5916157281026244e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_coherent_002",
+      "label": "draw_59_strong_recomputed_1",
+      "improvement": 1.5916157281026244e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_coherent_004",
+      "label": "draw_23_safe_alternative_5",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_misleading_002",
+      "label": "draw_155_safe_alternative_4",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_misleading_004",
+      "label": "draw_177_safe_alternative_4",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_misleading_006",
+      "label": "draw_120_safe_alternative_0",
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_misleading_014",
+      "label": "draw_94_full_null",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_primary_jump_positive_002",
+      "label": "draw_160_safe_alternative_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_positive_008",
+      "label": "draw_117_safe_alternative_1",
+      "improvement": 4.547473508864641e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_positive_009",
+      "label": "draw_38_safe_alternative_3",
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_positive_013",
+      "label": "draw_176_full_null",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_clean_null_016",
+      "label": "draw_9_full_null",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_clean_null_019",
+      "label": "draw_38_legacy_original",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_clean_null_019",
+      "label": "draw_38_legacy_recomputed",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_clean_null_028",
+      "label": "draw_115_safe_alternative_2",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_016",
+      "label": "draw_174_safe_alternative_0",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_017",
+      "label": "draw_119_full_null",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_borrow_null_017",
+      "label": "draw_157_full_null",
+      "improvement": 6.821210263296962e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_019",
+      "label": "draw_24_full_null",
+      "improvement": 6.821210263296962e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_022",
+      "label": "draw_95_legacy_original",
+      "improvement": 1.1368683772161603e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_022",
+      "label": "draw_95_legacy_recomputed",
+      "improvement": 1.1368683772161603e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_022",
+      "label": "draw_181_safe_alternative_5",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_borrow_null_030",
+      "label": "draw_145_full_null",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_primary_jump_null_007",
+      "label": "draw_19_safe_alternative_4",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_null_010",
+      "label": "draw_101_safe_alternative_3",
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_null_016",
+      "label": "draw_19_safe_alternative_3",
+      "improvement": 2.2737367544323206e-13,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_null_017",
+      "label": "draw_95_safe_alternative_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_null_020",
+      "label": "draw_121_strong_original_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_primary_jump_null_020",
+      "label": "draw_121_strong_recomputed_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": false
+    },
+    {
+      "case": "3_primary_jump_null_029",
+      "label": "draw_45_full_null",
+      "improvement": 2.0463630789890885e-12,
+      "reference_optimizer_success": true
+    },
+    {
+      "case": "3_primary_jump_null_030",
+      "label": "draw_197_safe_alternative_1",
+      "improvement": 0.0,
+      "reference_optimizer_success": true
+    }
+  ],
+  "operatingpoint_endpoint_changes": [],
+  "reference_records_sha256": "1e421bfeb4631c2869dff84ad4e02730c9082d5729f02736449c0e827f96ea0d",
+  "main_records_sha256": "6a2d5d5a6c1bfdc8ca1fabbc00d929d8a286a6c93ad0dbc1fbd30b352a8dbecd",
+  "seconds": 7601.882824000204,
+  "scope": "Unionofallrecordedcontrol/commonmainwarnings. IndependentGL32strictfullfits, NumPysafealternativesandsafenullrefinements. Changesarehypothetical, frozenrecordsunmodified. NotglobalML,physical,uniformriskorQ1certification."
+}

@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_ENGINEERING_ONLY_NO_EFFICACY_ENDPOINTS",
+  "source_sha256": "f0b6150dff417d0fd39b1d50e89b0518bf9fe52f6b8e1f929c4a16dfbaf20fa5",
+  "study_protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "control_manifest_sha256": "74f793835e2ee143b53166dccf64ab00b20194d739d8d264bef4fac8797695eb",
+  "query_seed_base": 5938172401,
+  "draw_seed_base": 6048713927,
+  "bootstrap_replicates": 199,
+  "regimes": "All4originalregimes,originalnominalrateparameters,knownGaussianbinwidth1.5, originalcycles/continuoustwo-recoveryphysics,primary15.3andnominalsecondarygap.",
+  "design": "Fourindependentengineeringqueries,NOTfresh640cohort. One fullbank score plus oneobservedfullalternativelocalization;B199completebootstrapscorepasses. Reference:fullnull,6safealternativefits,legacyfullfitandadditionalfullscore starts oneverydraw. Samequery3startfullnullgenerator/sharedphysicalpaths. No pvalues,rejectionlabels,TP/FPorselectedoperatingpointscomputed/stored.",
+  "timing": "Warmoneprocessunderconcurrentload. Sharedsimulation/exposure/pilot/geometry preparationmeasuredonceandchargedtobothmethods;eachdoesownfullnullrefit. Observedquerypreparation,generatorandlocalization/referencesincluded. Notisolatedend-to-endlatency,multicorescaling,FPGAorutilityclaim."
+}

@@ -1,0 +1,232 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "8ada4c00b648336b379a680866d3f1e1963c3200bf19d170a72a55a5e9b1e315",
+  "rows": [
+    {
+      "file": "FGS_td048_2019_01_28_acq1.mat",
+      "metadata": {
+        "events": 3224377,
+        "pairs": 3224376,
+        "holdoff_ns": 48.0,
+        "optical_density": 3.0,
+        "raw_resolution_ns": 0.008
+      },
+      "period_ns": 100.00076000577604,
+      "calibration_n": 20000,
+      "evaluation_n": 20000,
+      "calibration_pair_range": [
+        100,
+        20100
+      ],
+      "evaluation_pair_range": [
+        20200,
+        40200
+      ],
+      "best": {
+        "x": [
+          -7.644961193925434,
+          3.395770602504903,
+          -5.902038337267229,
+          77.48283430387892,
+          -1.8971199848858813
+        ],
+        "negative_mean_logdensity": 11.072624520496582,
+        "success": true,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "evaluations": 264,
+        "seconds": 196.5853609999176
+      },
+      "starts": [
+        {
+          "x": [
+            -7.6449676710115,
+            3.3957713862600634,
+            -5.9020403698893755,
+            77.48467662186147,
+            -1.8971199848858813
+          ],
+          "negative_mean_logdensity": 11.072624521128827,
+          "success": true,
+          "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+          "evaluations": 336,
+          "seconds": 249.15170589997433
+        },
+        {
+          "x": [
+            -7.644961193925434,
+            3.395770602504903,
+            -5.902038337267229,
+            77.48283430387892,
+            -1.8971199848858813
+          ],
+          "negative_mean_logdensity": 11.072624520496582,
+          "success": true,
+          "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+          "evaluations": 264,
+          "seconds": 196.5853609999176
+        }
+      ],
+      "hard_fit": {
+        "x": [
+          -7.644962241815756,
+          3.395771993360493,
+          -5.902030837449094
+        ],
+        "negative_mean_logdensity": 11.072617118475229,
+        "success": true,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "evaluations": 56,
+        "seconds": 41.37917619990185
+      },
+      "hard_starts": [
+        {
+          "x": [
+            -7.644962241815756,
+            3.395771993360493,
+            -5.902030837449094
+          ],
+          "negative_mean_logdensity": 11.072617118475229,
+          "success": true,
+          "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+          "evaluations": 56,
+          "seconds": 41.37917619990185
+        }
+      ],
+      "parameters": {
+        "amplitude": 0.00047844887651152067,
+        "delay_ns": 3.395770602504903,
+        "background": 0.002733866593386472,
+        "recovery_location_ns": 77.48283430387892,
+        "recovery_scale_ns": 0.15,
+        "detector_ns": 50.0,
+        "hard_recovery_ns": 77.74476000577606
+      },
+      "nominal80_zero_density_all": 1783,
+      "hard_zero_density_all": 265,
+      "random_zero_density_all": 0,
+      "minimum_gap_all_ns": 76.12876000577604,
+      "evaluation": {
+        "random_finite": 20000,
+        "hard_finite": 19997,
+        "random_mean_logdensity": -11.067907712009566,
+        "hard_mean_logdensity": null,
+        "random_minus_hard_mean": null,
+        "refinement_max_abs_logdensity": 3.208180692659823e-05,
+        "refinement_mean_abs_logdensity": 3.920120487047463e-06
+      }
+    },
+    {
+      "file": "FGS_td048_2019_01_28_acq2.mat",
+      "metadata": {
+        "events": 7170403,
+        "pairs": 7170402,
+        "holdoff_ns": 48.0,
+        "optical_density": 0.0,
+        "raw_resolution_ns": 0.008
+      },
+      "period_ns": 100.00080000640004,
+      "calibration_n": 20000,
+      "evaluation_n": 20000,
+      "calibration_pair_range": [
+        100,
+        20100
+      ],
+      "evaluation_pair_range": [
+        20200,
+        40200
+      ],
+      "best": {
+        "x": [
+          -0.9584752722293793,
+          3.3916163191694064,
+          0.738370537697131,
+          80.15869439547649,
+          0.39188426545842986
+        ],
+        "negative_mean_logdensity": 4.747947763699964,
+        "success": true,
+        "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+        "evaluations": 252,
+        "seconds": 185.02469299989752
+      },
+      "starts": [
+        {
+          "x": [
+            -0.9584752722293793,
+            3.3916163191694064,
+            0.738370537697131,
+            80.15869439547649,
+            0.39188426545842986
+          ],
+          "negative_mean_logdensity": 4.747947763699964,
+          "success": true,
+          "message": "CONVERGENCE: NORM_OF_PROJECTED_GRADIENT_<=_PGTOL",
+          "evaluations": 252,
+          "seconds": 185.02469299989752
+        },
+        {
+          "x": [
+            -0.9584792848043582,
+            3.39161586103087,
+            0.7383697447826734,
+            80.15869075446267,
+            0.3918728154300933
+          ],
+          "negative_mean_logdensity": 4.747947763702126,
+          "success": true,
+          "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+          "evaluations": 198,
+          "seconds": 145.58095710002817
+        }
+      ],
+      "hard_fit": {
+        "x": [
+          -1.0147869224588533,
+          3.390870831155471,
+          0.6951466978686305
+        ],
+        "negative_mean_logdensity": 4.7733503616531845,
+        "success": true,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "evaluations": 72,
+        "seconds": 52.7496704000514
+      },
+      "hard_starts": [
+        {
+          "x": [
+            -1.0147869224588533,
+            3.390870831155471,
+            0.6951466978686305
+          ],
+          "negative_mean_logdensity": 4.7733503616531845,
+          "success": true,
+          "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+          "evaluations": 72,
+          "seconds": 52.7496704000514
+        }
+      ],
+      "parameters": {
+        "amplitude": 0.3834771386915133,
+        "delay_ns": 3.3916163191694064,
+        "background": 2.0925230475823984,
+        "recovery_location_ns": 80.15869439547649,
+        "recovery_scale_ns": 1.4797664414008256,
+        "detector_ns": 50.0,
+        "hard_recovery_ns": 76.80880000640003
+      },
+      "nominal80_zero_density_all": 28330,
+      "hard_zero_density_all": 319,
+      "random_zero_density_all": 0,
+      "minimum_gap_all_ns": 76.28080000640004,
+      "evaluation": {
+        "random_finite": 20000,
+        "hard_finite": 19998,
+        "random_mean_logdensity": -4.7404150183443665,
+        "hard_mean_logdensity": null,
+        "random_minus_hard_mean": null,
+        "refinement_max_abs_logdensity": 0.03316352560827962,
+        "refinement_mean_abs_logdensity": 0.0019841207474989076
+      }
+    }
+  ]
+}

@@ -1,0 +1,1600 @@
+{
+  "status": "FROZEN_BEFORE_ANY_JOINT_SCORES_ON_SELECTED_CLOSED768_COHORT",
+  "sources": {
+    "src/background_lobe_confidence.py": "9926ecbb788dacbaa024e719ea6f1597972f20c69c9f000eb31fa3849c305409",
+    "src/background_lobe_development.py": "7b499117aedd2c341aa893e110ff864fe590bafe06db084b7867c64ae4d13940",
+    "src/calibration_confidence.py": "bc0ef0df856f873f705007602935bcb67e715ee19842eabb1d041df53611b30b",
+    "src/calibration_confidence_v2.py": "95d81002f1be1e00e8f025284e982ae95245cd3425b6a8c376afc44a07fbd82d",
+    "src/conditional_calibration.py": "2df21e70bfc6f3379b489cdde0b673ecb6536ee64bede82aa69cc828e3f08c2d",
+    "src/conditional_joint_development.py": "20d43d643efd2f5eb02284c7b487307b4506502dce09a38f8ca50bb3979ee4da",
+    "src/continuous_alternative.py": "9048380b17ba2cc1e6bbf72c779e5c9cf0176284673af87c145acc9fb143cae6",
+    "src/coverage_alternative.py": "174cbae15e9778c82c6870235bb9c31f12a07b35c938c9a70397801ff02343d2",
+    "src/crossfit.py": "8ad0de2085ef91a0914a1cca01abe8568a72c6071b44aee2a77425ab689f5c6e",
+    "src/envelope_evidence.py": "caf535bbad6e21280f0ad203784da4530bab29fb375c13a6c705e581242f41c3",
+    "src/fixed_irf_control.py": "1bde5ba3aae6a18353a0566a130d12a4d55be09bc9d9874d8b28cf20246a1a28",
+    "src/guided_alternatives.py": "cd9ac5d1c9af4fea7e4e7ee6ddce7b2391a0a1d0b070c5c230063b99479a62c8",
+    "src/joint_calibration_envelope.py": "13d6570c1c4e38c286d2a6932843ae1e2be7689bf45dee818453a411b7fa97ee",
+    "src/joint_calibration_model.py": "1b60a99945ce62021d2907e1a2ee293b4db7331c3e80055bf442248d49fb239f",
+    "src/joint_detector.py": "16086e85eb26071db89e1785e4d2285ede05c0f50428d5dac02cbabaac2f984f",
+    "src/likelihood_evidence.py": "f9345250d3c2b35d2389c188ef07f0bba93d7607cfa984edb1e3a17a8c870073",
+    "src/linear_envelope_profile.py": "b198822c5d4a18563f7003a98a7b25894b45b678a06ff924cefd910d3dbf75cd",
+    "src/methods.py": "da56f8f54367e53b38168f1c8d2a2a8609dde41a777f78af51d6b421ef4f5ec5",
+    "src/pilot.py": "bd5c0e741af5128d9d5256a099f9a534172a9041cd21bcd2800efcba93d078cd",
+    "src/screen.py": "1f83bd08dfc4e50904c730e213080fd77782f6cd5aef0c4b1047b6c98ae6877d",
+    "src/shoulder_alternative.py": "2758ac966b634c6302b8033cdee56b40ba2f5a015a1fb4441e952191f179e223",
+    "src/shoulder_calibrated_development.py": "f5b1a137904bfc6d5ab4c65bc88d8aa39043009ce21284b8db7ef6b96bc52b94",
+    "src/shoulder_development.py": "f9f90fa2bb22f724db9e4730273e803e185e5bb682ca9a06269f9c695129f863",
+    "src/shoulder_envelope.py": "39bdd93bea795049e58d174148bdf9c2739e6435f414748f7fc90a6d43df5c3e",
+    "src/support_routing.py": "9af17e8ac5cf3d85efda89dd9a96fbd532418848776b23a1db568dd2b629cfa7",
+    "src/shoulder_confirmation.py": "4da4d1d1fa854f96b115d527ebe25fb974a79d45a6040e88462bc2311e2ffab4",
+    "src/point_irf_comparison.py": "54fab323894706182dbbb6aa2afbb761a87b91d2afbb9e7c901f56e17fc71e35",
+    "src/conditional_joint_diagnostic.py": "9cc8f4b9dbcbedeb98bc7a26456fa40e6129e34e839ff9cd4a1bb7c0908b5e83"
+  },
+  "selection": [
+    {
+      "id": "far_two_0001",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0001",
+        "group": "far_two",
+        "seed": 2026312801,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "far_two_0002",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0002",
+        "group": "far_two",
+        "seed": 2026312802,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 2
+      }
+    },
+    {
+      "id": "far_two_0004",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0004",
+        "group": "far_two",
+        "seed": 2026312804,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 4
+      }
+    },
+    {
+      "id": "far_two_0005",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0005",
+        "group": "far_two",
+        "seed": 2026312805,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "far_two_0006",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0006",
+        "group": "far_two",
+        "seed": 2026312806,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 6
+      }
+    },
+    {
+      "id": "far_two_0007",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0007",
+        "group": "far_two",
+        "seed": 2026312807,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "far_two_0008",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0008",
+        "group": "far_two",
+        "seed": 2026312808,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 32.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 8
+      }
+    },
+    {
+      "id": "far_two_0009",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0009",
+        "group": "far_two",
+        "seed": 2026312809,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 32.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 9
+      }
+    },
+    {
+      "id": "far_two_0010",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0010",
+        "group": "far_two",
+        "seed": 2026312810,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 32.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 10
+      }
+    },
+    {
+      "id": "far_two_0011",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0011",
+        "group": "far_two",
+        "seed": 2026312811,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 32.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 11
+      }
+    },
+    {
+      "id": "far_two_0012",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0012",
+        "group": "far_two",
+        "seed": 2026312812,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "isolated",
+        "stratum": 12
+      }
+    },
+    {
+      "id": "far_two_0013",
+      "cohort": "regression",
+      "case": {
+        "id": "far_two_0013",
+        "group": "far_two",
+        "seed": 2026312813,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "isolated",
+        "stratum": 13
+      }
+    },
+    {
+      "id": "far_two_0144",
+      "cohort": "repair",
+      "case": {
+        "id": "far_two_0144",
+        "group": "far_two",
+        "seed": 2026312944,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 0
+      }
+    },
+    {
+      "id": "near_two_0000",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0000",
+        "group": "near_two",
+        "seed": 2026412800,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 0
+      }
+    },
+    {
+      "id": "near_two_0001",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0001",
+        "group": "near_two",
+        "seed": 2026412801,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0002",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0002",
+        "group": "near_two",
+        "seed": 2026412802,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 2
+      }
+    },
+    {
+      "id": "near_two_0003",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0003",
+        "group": "near_two",
+        "seed": 2026412803,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "near_two_0004",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0004",
+        "group": "near_two",
+        "seed": 2026412804,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 4
+      }
+    },
+    {
+      "id": "near_two_0005",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0005",
+        "group": "near_two",
+        "seed": 2026412805,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "near_two_0006",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0006",
+        "group": "near_two",
+        "seed": 2026412806,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 6
+      }
+    },
+    {
+      "id": "near_two_0007",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0007",
+        "group": "near_two",
+        "seed": 2026412807,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "near_two_0008",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0008",
+        "group": "near_two",
+        "seed": 2026412808,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 32.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 8
+      }
+    },
+    {
+      "id": "near_two_0009",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0009",
+        "group": "near_two",
+        "seed": 2026412809,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 32.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 9
+      }
+    },
+    {
+      "id": "near_two_0010",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0010",
+        "group": "near_two",
+        "seed": 2026412810,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 32.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 10
+      }
+    },
+    {
+      "id": "near_two_0011",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0011",
+        "group": "near_two",
+        "seed": 2026412811,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 32.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 11
+      }
+    },
+    {
+      "id": "near_two_0013",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0013",
+        "group": "near_two",
+        "seed": 2026412813,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 13
+      }
+    },
+    {
+      "id": "near_two_0014",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0014",
+        "group": "near_two",
+        "seed": 2026412814,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 14
+      }
+    },
+    {
+      "id": "near_two_0016",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0016",
+        "group": "near_two",
+        "seed": 2026412816,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 16
+      }
+    },
+    {
+      "id": "near_two_0017",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0017",
+        "group": "near_two",
+        "seed": 2026412817,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 17
+      }
+    },
+    {
+      "id": "near_two_0018",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0018",
+        "group": "near_two",
+        "seed": 2026412818,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 18
+      }
+    },
+    {
+      "id": "near_two_0019",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0019",
+        "group": "near_two",
+        "seed": 2026412819,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 19
+      }
+    },
+    {
+      "id": "near_two_0020",
+      "cohort": "regression",
+      "case": {
+        "id": "near_two_0020",
+        "group": "near_two",
+        "seed": 2026412820,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 32.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 20
+      }
+    },
+    {
+      "id": "near_two_0025",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0025",
+        "group": "near_two",
+        "seed": 2026412825,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0027",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0027",
+        "group": "near_two",
+        "seed": 2026412827,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "near_two_0029",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0029",
+        "group": "near_two",
+        "seed": 2026412829,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "near_two_0031",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0031",
+        "group": "near_two",
+        "seed": 2026412831,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "near_two_0036",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0036",
+        "group": "near_two",
+        "seed": 2026412836,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 12
+      }
+    },
+    {
+      "id": "near_two_0037",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0037",
+        "group": "near_two",
+        "seed": 2026412837,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 13
+      }
+    },
+    {
+      "id": "near_two_0041",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0041",
+        "group": "near_two",
+        "seed": 2026412841,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 17
+      }
+    },
+    {
+      "id": "near_two_0043",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0043",
+        "group": "near_two",
+        "seed": 2026412843,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 19
+      }
+    },
+    {
+      "id": "near_two_0045",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0045",
+        "group": "near_two",
+        "seed": 2026412845,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 32.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 21
+      }
+    },
+    {
+      "id": "near_two_0049",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0049",
+        "group": "near_two",
+        "seed": 2026412849,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0051",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0051",
+        "group": "near_two",
+        "seed": 2026412851,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "near_two_0055",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0055",
+        "group": "near_two",
+        "seed": 2026412855,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "near_two_0060",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0060",
+        "group": "near_two",
+        "seed": 2026412860,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 12
+      }
+    },
+    {
+      "id": "near_two_0063",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0063",
+        "group": "near_two",
+        "seed": 2026412863,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 15
+      }
+    },
+    {
+      "id": "near_two_0065",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0065",
+        "group": "near_two",
+        "seed": 2026412865,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 17
+      }
+    },
+    {
+      "id": "near_two_0067",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0067",
+        "group": "near_two",
+        "seed": 2026412867,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 19
+      }
+    },
+    {
+      "id": "near_two_0072",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0072",
+        "group": "near_two",
+        "seed": 2026412872,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 0
+      }
+    },
+    {
+      "id": "near_two_0073",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0073",
+        "group": "near_two",
+        "seed": 2026412873,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0074",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0074",
+        "group": "near_two",
+        "seed": 2026412874,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 2
+      }
+    },
+    {
+      "id": "near_two_0075",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0075",
+        "group": "near_two",
+        "seed": 2026412875,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "near_two_0077",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0077",
+        "group": "near_two",
+        "seed": 2026412877,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "near_two_0086",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0086",
+        "group": "near_two",
+        "seed": 2026412886,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 14
+      }
+    },
+    {
+      "id": "near_two_0089",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0089",
+        "group": "near_two",
+        "seed": 2026412889,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 17
+      }
+    },
+    {
+      "id": "near_two_0091",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0091",
+        "group": "near_two",
+        "seed": 2026412891,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 19
+      }
+    },
+    {
+      "id": "near_two_0097",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0097",
+        "group": "near_two",
+        "seed": 2026412897,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0101",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0101",
+        "group": "near_two",
+        "seed": 2026412901,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "near_two_0103",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0103",
+        "group": "near_two",
+        "seed": 2026412903,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "near_two_0109",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0109",
+        "group": "near_two",
+        "seed": 2026412909,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 13
+      }
+    },
+    {
+      "id": "near_two_0110",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0110",
+        "group": "near_two",
+        "seed": 2026412910,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 14
+      }
+    },
+    {
+      "id": "near_two_0113",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0113",
+        "group": "near_two",
+        "seed": 2026412913,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 17
+      }
+    },
+    {
+      "id": "near_two_0115",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0115",
+        "group": "near_two",
+        "seed": 2026412915,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 19
+      }
+    },
+    {
+      "id": "near_two_0123",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0123",
+        "group": "near_two",
+        "seed": 2026412923,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "near_two_0127",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0127",
+        "group": "near_two",
+        "seed": 2026412927,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "near_two_0132",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0132",
+        "group": "near_two",
+        "seed": 2026412932,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 12
+      }
+    },
+    {
+      "id": "near_two_0133",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0133",
+        "group": "near_two",
+        "seed": 2026412933,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 13
+      }
+    },
+    {
+      "id": "near_two_0139",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0139",
+        "group": "near_two",
+        "seed": 2026412939,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 19
+      }
+    },
+    {
+      "id": "near_two_0145",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0145",
+        "group": "near_two",
+        "seed": 2026412945,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0161",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0161",
+        "group": "near_two",
+        "seed": 2026412961,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 17
+      }
+    },
+    {
+      "id": "near_two_0169",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0169",
+        "group": "near_two",
+        "seed": 2026412969,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 8.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "near_two_0175",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0175",
+        "group": "near_two",
+        "seed": 2026412975,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "near_two_0184",
+      "cohort": "repair",
+      "case": {
+        "id": "near_two_0184",
+        "group": "near_two",
+        "seed": 2026412984,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 16.0,
+        "separation": 16,
+        "eta": 0.0,
+        "geometry": "isolated",
+        "stratum": 16
+      }
+    },
+    {
+      "id": "null_lobe_0000",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0000",
+        "group": "null_lobe",
+        "seed": 2026212800,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 0
+      }
+    },
+    {
+      "id": "null_lobe_0001",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0001",
+        "group": "null_lobe",
+        "seed": 2026212801,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "null_lobe_0002",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0002",
+        "group": "null_lobe",
+        "seed": 2026212802,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 2
+      }
+    },
+    {
+      "id": "null_lobe_0003",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0003",
+        "group": "null_lobe",
+        "seed": 2026212803,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "null_lobe_0004",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0004",
+        "group": "null_lobe",
+        "seed": 2026212804,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 4
+      }
+    },
+    {
+      "id": "null_lobe_0005",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0005",
+        "group": "null_lobe",
+        "seed": 2026212805,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "null_lobe_0006",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0006",
+        "group": "null_lobe",
+        "seed": 2026212806,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 6
+      }
+    },
+    {
+      "id": "null_lobe_0007",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0007",
+        "group": "null_lobe",
+        "seed": 2026212807,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.125,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "null_lobe_0008",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0008",
+        "group": "null_lobe",
+        "seed": 2026212808,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 8
+      }
+    },
+    {
+      "id": "null_lobe_0009",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0009",
+        "group": "null_lobe",
+        "seed": 2026212809,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 9
+      }
+    },
+    {
+      "id": "null_lobe_0010",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0010",
+        "group": "null_lobe",
+        "seed": 2026212810,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 10
+      }
+    },
+    {
+      "id": "null_lobe_0011",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_lobe_0011",
+        "group": "null_lobe",
+        "seed": 2026212811,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0625,
+        "geometry": "coherent",
+        "stratum": 11
+      }
+    },
+    {
+      "id": "null_plain_0000",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0000",
+        "group": "null_plain",
+        "seed": 2026112800,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 0
+      }
+    },
+    {
+      "id": "null_plain_0001",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0001",
+        "group": "null_plain",
+        "seed": 2026112801,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 1
+      }
+    },
+    {
+      "id": "null_plain_0002",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0002",
+        "group": "null_plain",
+        "seed": 2026112802,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 2
+      }
+    },
+    {
+      "id": "null_plain_0003",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0003",
+        "group": "null_plain",
+        "seed": 2026112803,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 3
+      }
+    },
+    {
+      "id": "null_plain_0004",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0004",
+        "group": "null_plain",
+        "seed": 2026112804,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 4
+      }
+    },
+    {
+      "id": "null_plain_0005",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0005",
+        "group": "null_plain",
+        "seed": 2026112805,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 5
+      }
+    },
+    {
+      "id": "null_plain_0006",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0006",
+        "group": "null_plain",
+        "seed": 2026112806,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 6
+      }
+    },
+    {
+      "id": "null_plain_0007",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0007",
+        "group": "null_plain",
+        "seed": 2026112807,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 7
+      }
+    },
+    {
+      "id": "null_plain_0008",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0008",
+        "group": "null_plain",
+        "seed": 2026112808,
+        "primary": 100.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 8
+      }
+    },
+    {
+      "id": "null_plain_0009",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0009",
+        "group": "null_plain",
+        "seed": 2026112809,
+        "primary": 300.0,
+        "background": 5.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 9
+      }
+    },
+    {
+      "id": "null_plain_0010",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0010",
+        "group": "null_plain",
+        "seed": 2026112810,
+        "primary": 100.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 10
+      }
+    },
+    {
+      "id": "null_plain_0011",
+      "cohort": "null_sanity",
+      "case": {
+        "id": "null_plain_0011",
+        "group": "null_plain",
+        "seed": 2026112811,
+        "primary": 300.0,
+        "background": 20.0,
+        "secondary": 0.0,
+        "separation": 64,
+        "eta": 0.0,
+        "geometry": "coherent",
+        "stratum": 11
+      }
+    }
+  ],
+  "parent_protocol_sha256": "3f88ca9fe29dce5bea655b060614e1faf637dd9967b6d704afb7bee2c4faa9fd",
+  "parent_sqlite_sha256": "5872bcdd5c9343d660ffbbd9e2bc9d5f054e4f4745bdf7ea25ca96e93eff12c2",
+  "point_sqlite_sha256": "bab31c1d327f72e92343bbbe194c58f6de7e004ea7e7d76ea9a3a2b786a3947f",
+  "pilot_protocol_sha256": "a080eb5754750552cbc45f2f10a57992d233187e8f2a39889bc1b6f57bb3bf23",
+  "rationale": "Preserve failed24casepilot. Separate diagnostic of all point-correct/confidence-missed cases,24old-confidence-correct regression cases and24physical-null sanity cases; outcome selection explicit.",
+  "settings": {
+    "calibration_cycles": 100000,
+    "split_seed_base": 2026120100,
+    "folds": 2,
+    "max_joint_boxes": 1024
+  },
+  "inference": "Descriptive repair/regression/sanity counts ONLY; no unbiased net recall,false-alarm rate,independent efficacy or successful primary claim. No method/threshold change. Do not count these samples as new independent scenes.",
+  "next_step": "Only evidence of useful repair with tolerable regression would motivate a new prospective protocol; this diagnostic does not itself establish that result."
+}

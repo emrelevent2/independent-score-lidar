@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript when available."
+title: "Independent score normalization for weak-return detection in single-photon lidar"
+type: software
+authors:
+  - family-names: Levent
+    given-names: Vecdi Emre
+repository-code: "https://github.com/emrelevent2/independent-score-lidar"
+version: "1.0.0"
+date-released: "2026-11-07"

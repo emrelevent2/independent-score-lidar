@@ -1,0 +1,300 @@
+{
+  "status": "Frozen final guarded real test BEFORE any selected count acquisition or outcome.",
+  "frozen_utc": "2026-11-06T02:45:08.474141+00:00",
+  "source_sha256": {
+    "guarded_real_confirmation.py": "665712ce2dc7c08f89bbcdb9a535fad85e1575cce31ab1fa0b67580fb8f013be",
+    "guarded_real_analysis.py": "08acc7baaf182943f9ba14601aec938bd9a24195a74fe1800f3d2d19092c2c0a",
+    "guarded_real_policy.py": "944880f45bd5432136dd2850a92056c9e01998d3e43b3dec702780646e1d195f",
+    "real_poisson_methods_v2.py": "06ef4efffc366846eae576dad9325c1f0024b8fbdef7dc1099711b78de1d2da4",
+    "real_poisson_analysis_v2.py": "da0759485f0960194413808149c20b9e99ce3a318d290c13b9ef07a29099b04d",
+    "real_poisson_development_v2.py": "57b224513ecb5c3d4568cf30ae77662b63830311582df0f096e1a6dbc918635c",
+    "likelihood_baseline.py": "a75e427c3100e3924e80e5ba86336c5307b8c436786358a60050ae921587d6b9",
+    "real_multiframe_test.py": "ff760904713943111f52930dfd6a3a3c778ee16e48dff20e25357880b1227c41",
+    "anchored_poisson.py": "71ca77231bfad2db126b959ed7e1b58e06f1d08606dad4d03986c8da94ad0160",
+    "stb_remote_zip.py": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca",
+    "stb_guarded_selection.py": "ab6a67c63094ff64c510859592ad4940869b0b436bb90384290a96969f0d355d"
+  },
+  "selection_sha256": "66c624e58ad3bcfb1bdc630f5b88c3a725f1161e3e5efe8e3e3db32b9828994f",
+  "rule_sha256": "691fa8eb0b5d152f298ad990c27aec9a8910871a162cc55ad90a4b91a02215af",
+  "frames": [
+    {
+      "sequence": 3,
+      "position": "quarter",
+      "member": "Sequence3/RawDataHistogramMap_frame_0_1768815374306790_semantic.npy",
+      "member_index": 232,
+      "members": 929,
+      "protocol_sha256": "b8d33906467f86497bebb790ce2fe21b73b09e1678f316fd9b1e405ac8168a00",
+      "archive": "Annotations/p1/Sequence3.zip",
+      "archive_bytes": 99339250,
+      "status": "Annotation only; counts unread",
+      "eligible": true,
+      "eligible_two_window_pixels": 2240,
+      "known_one_pixels": 26630,
+      "crc32": 3500472134,
+      "original_member_sha256": "c42a9a309547f59dd02653c774fab25e4a48ebba3eed95705c65303092066bf1",
+      "label_file_relative": "data/stb_guarded_selection_v1/Sequence3_quarter_labels.npz",
+      "local_sha256": "fddb59068413cd3258efba5a53d7c212e439b6116faf8078f1258dd5a5c75be0"
+    },
+    {
+      "sequence": 3,
+      "position": "three_quarters",
+      "member": "Sequence3/RawDataHistogramMap_frame_0_1768818743645628_semantic.npy",
+      "member_index": 696,
+      "members": 929,
+      "protocol_sha256": "b8d33906467f86497bebb790ce2fe21b73b09e1678f316fd9b1e405ac8168a00",
+      "archive": "Annotations/p1/Sequence3.zip",
+      "archive_bytes": 99339250,
+      "status": "Annotation only; counts unread",
+      "eligible": true,
+      "eligible_two_window_pixels": 618,
+      "known_one_pixels": 18171,
+      "crc32": 2209883474,
+      "original_member_sha256": "cb5e93d95d6a3c1c01d75f456e52479470655f1dd8b5486c895765e3c5180033",
+      "label_file_relative": "data/stb_guarded_selection_v1/Sequence3_three_quarters_labels.npz",
+      "local_sha256": "ba23923ab76fab2c56d15807d5e7c3c6f6f051d1b026bac3625536d837fa3c7d"
+    }
+  ],
+  "calibration": {
+    "gaussian_0": {
+      "kind": "gaussian",
+      "probability": 0.01,
+      "normalizers": {
+        "local": 19.12105245334773,
+        "guided": 16.74741826563737
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.1093975503145075,
+          "0.01": 0.945335472751374
+        },
+        "guided": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        },
+        "spatial": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        },
+        "routed": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        },
+        "naive_union": {
+          "0.005": 1.2199779878629047,
+          "0.01": 0.9972296377916143
+        },
+        "disagreement": {
+          "0.005": 1.161562367108708,
+          "0.01": 0.9413273416447091
+        }
+      }
+    },
+    "gaussian_1": {
+      "kind": "gaussian",
+      "probability": 0.025,
+      "normalizers": {
+        "local": 39.23060174520371,
+        "guided": 39.23060174520414
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.0419923466546352,
+          "0.01": 0.8424496021976535
+        },
+        "guided": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        },
+        "spatial": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        },
+        "routed": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        },
+        "naive_union": {
+          "0.005": 1.0419923466546352,
+          "0.01": 0.8424496021976668
+        },
+        "disagreement": {
+          "0.005": 1.041992346654626,
+          "0.01": 0.8424496021976668
+        }
+      }
+    },
+    "gaussian_2": {
+      "kind": "gaussian",
+      "probability": 0.05,
+      "normalizers": {
+        "local": 60.608359365374184,
+        "guided": 60.60835936538055
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.3806797740030627,
+          "0.01": 0.8942230792540532
+        },
+        "guided": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        },
+        "spatial": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        },
+        "routed": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        },
+        "naive_union": {
+          "0.005": 1.3806797740030627,
+          "0.01": 0.8942230792540532
+        },
+        "disagreement": {
+          "0.005": 1.3311164163071212,
+          "0.01": 0.8737129089836915
+        }
+      }
+    },
+    "empirical_0": {
+      "kind": "empirical",
+      "probability": 0.01,
+      "normalizers": {
+        "local": 20.72422433284671,
+        "guided": 16.78960539417438
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.1002221246207897,
+          "0.01": 1.013505431620663
+        },
+        "guided": {
+          "0.005": 1.156134098632181,
+          "0.01": 1.0484585513381728
+        },
+        "spatial": {
+          "0.005": 1.156134098632181,
+          "0.01": 1.0484585513381728
+        },
+        "routed": {
+          "0.005": 1.185181247475823,
+          "0.01": 1.091508798949286
+        },
+        "naive_union": {
+          "0.005": 1.185181247475823,
+          "0.01": 1.1002221246207897
+        },
+        "disagreement": {
+          "0.005": 1.185181247475823,
+          "0.01": 1.091508798949286
+        }
+      }
+    },
+    "empirical_1": {
+      "kind": "empirical",
+      "probability": 0.025,
+      "normalizers": {
+        "local": 32.51984686754946,
+        "guided": 29.528681898303102
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.3388917313412485,
+          "0.01": 1.021911871870262
+        },
+        "guided": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.2284395660898748
+        },
+        "spatial": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.2284395660898748
+        },
+        "routed": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.210280270174158
+        },
+        "naive_union": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.2284395660898748
+        },
+        "disagreement": {
+          "0.005": 1.4745293659503977,
+          "0.01": 1.210280270174158
+        }
+      }
+    },
+    "empirical_2": {
+      "kind": "empirical",
+      "probability": 0.05,
+      "normalizers": {
+        "local": 61.558319767685845,
+        "guided": 60.89091521412776
+      },
+      "methods": {
+        "local": {
+          "0.005": 1.2180028874622728,
+          "0.01": 0.8866706788955623
+        },
+        "guided": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        },
+        "spatial": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        },
+        "routed": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        },
+        "naive_union": {
+          "0.005": 1.2180028874622728,
+          "0.01": 0.8983318343279783
+        },
+        "disagreement": {
+          "0.005": 1.07055118250216,
+          "0.01": 0.8983318343279783
+        }
+      }
+    }
+  },
+  "calibration_sha256": "3089587a5d91e215c7366d07aec08be2434adcbbc9208b6e645bf2c06b1e4097",
+  "settings": {
+    "probabilities": [
+      0.01,
+      0.025,
+      0.05
+    ],
+    "primary_retention": 0.025,
+    "primary_alpha": 0.01,
+    "alphas": [
+      0.005,
+      0.01
+    ],
+    "coordinate_seed": 20261116,
+    "attenuation_seed": 2026111600,
+    "known_one_queries": 1000,
+    "two_interval_cap": 500,
+    "spatial_block_size": 16,
+    "bootstrap_replicates": 5000,
+    "bootstrap_seed": 20261117
+  },
+  "endpoints": [
+    "Primary: equal-frame mean of guarded-minus-local annotated pair agreement at2.5%retention,1%nominal score cutoff.",
+    "All other retentions and cutoffs secondary; report every selected frame and policy without outcome selection.",
+    "Known-one accepted-unmatched,accepted-incomplete pair,weak-window agreement and primary agreement remain separate.",
+    "Exact local/guarded score,threshold and declaration identity must hold for every query.",
+    "Approximate conditional-frame spatial block-weighting intervals:Exp(1)weights per16x16pixel block,shared across frames of the same sequence."
+  ],
+  "notes": [
+    "Same simulation-derived4bin,.5raw-score,.5blend,3.5support constants; no new real tuning.",
+    "Working-Poisson support replaces the first-event count-noise proxy. No acquisition-cycle count is inferred.",
+    "Existing development Gaussian normalizers and cutoffs transfer unchanged for every policy.",
+    "New captures of already seen sequences are not independently new scenes; conditional frame analysis only.",
+    "Labels are histogram-derived semantic intervals,not exhaustive independent physical hidden-surface truth.",
+    "Numerical count thinning is not a fresh physical low-exposure capture; no image-wide guarantee or FPGA claim.",
+    "No posterior best-frame/best-retention/best-method switch. An adverse or zero result is retained."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "DEVELOPMENT technical rerun of unchanged real inputs after normalized donor weights underflowed inV1.",
+  "created_utc": "2026-11-06T01:29:26.625200+00:00",
+  "source_sha256": {
+    "real_poisson_development_v2.py": "57b224513ecb5c3d4568cf30ae77662b63830311582df0f096e1a6dbc918635c",
+    "real_poisson_methods_v2.py": "06ef4efffc366846eae576dad9325c1f0024b8fbdef7dc1099711b78de1d2da4",
+    "likelihood_baseline.py": "a75e427c3100e3924e80e5ba86336c5307b8c436786358a60050ae921587d6b9"
+  },
+  "input_sha256": {
+    "data/stb_multireturn_development/frame_histograms.npz": "bbc3f43fc8f2ca37acbd342d634e9a2a151f9bb7ccedcff068927154c30a149c",
+    "results/stb_multireturn_inventory_v1/reference_windows.npz": "4f722b81a2591141e7bb9cebff3f457347a1d9e016db66eb819a9f873433aca4"
+  },
+  "settings": {
+    "kinds": [
+      "gaussian",
+      "empirical"
+    ],
+    "probabilities": [
+      0.01,
+      0.025,
+      0.05
+    ],
+    "width_range": [
+      3.0,
+      16.0
+    ],
+    "profile_pixels": 1000,
+    "normalization_pixels": 200,
+    "calibration_pixels": 399,
+    "evaluation_one": 100,
+    "evaluation_two": 200,
+    "alpha": [
+      0.005,
+      0.01
+    ],
+    "normalization_alpha": 0.01,
+    "route_gate": 3.5,
+    "disagreement_ratio": 1.5,
+    "profile_radius": 24,
+    "selection_seed": 20261112
+  },
+  "notes": [
+    "No acquisition-cycle count is invented; unrestricted nonnegative count amplitudes and a working Poisson likelihood.",
+    "Gaussian/empirical effective-response families allow widths3--16bins based on development annotation-width inventory, not test accuracy.",
+    "Empirical pulse is estimated only from1000distinct bright known-one-interval DEVELOPMENT pixels; other query sets exclude those pixels.",
+    "Unknown14/Unlabeled0never supply negative labels. One known window does not prove a single physical surface.",
+    "Independent Bernoulli count thinning of recorded full histograms is controlled numerical attenuation, not newly acquired low-exposure data.",
+    "All methods and both response kinds share exactly the same thinned frames and fixed query coordinates.",
+    "Normalization and calibration queries are disjoint; overlap of neighboring windows remains, so no exchangeability/conditional sensor guarantee is asserted.",
+    "Primary two-window endpoint matches both intervals one-to-one, independent of reported brightness order.",
+    "Report weak-window agreement and unmatched declarations separately; no physical false-positive labels are invented.",
+    "The selected Sequence17 test histogram remains unread. Development outcomes can select real working-model settings before a new frozen real test.",
+    "Only implementation change: subtract max(log_weights) before exponentiation. Algebraically identical normalized weights; no scientific parameter, input, annotation, query or random seed changes."
+  ],
+  "prepared_protocol_sha256": "9443b11122a840dbab3a177433dd57974502c6fcc85a9875dc3a79d6502f2253",
+  "prepared_manifest_sha256": "82278b3ab44a53a1515036203e96e8b070b6445de14211514d61338eb6357843"
+}

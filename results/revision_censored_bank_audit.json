@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "query_pairs": 640,
+  "rank_checks": 1280,
+  "no_hidden_exact_identities": 320,
+  "training_cell_path_hash_checks": 200,
+  "independent_QR_projected_scores": 14,
+  "max_score_gap": 4.263256414560601e-14,
+  "FFT_original_equivalence_fixtures": 20,
+  "heldout_validation": {
+    "heldout_records": 6400,
+    "profiles": 32,
+    "directions": 7232,
+    "absolute_log_variance_ratio_quantiles": {
+      "median": 0.06339171915894176,
+      "p95": 0.3201872117020729,
+      "max": 0.6699040844435702
+    },
+    "interpretation": "Held-out descriptive approximation check. No newly invented acceptance gate."
+  },
+  "source_sha256": "01d9f09eecd6feba52880e7c44debe103fbf48f1b8b6a629ecab3585f06ed137",
+  "original_bank_records_sha256": "ad94420f1bc42c32ab6e59bfdee375aa681bca16f01b5953562d86cca52751af",
+  "common_bank_records_sha256": "cde423ba0fc0c2b4f27138ca535523a8a249b1f7f13abf8a42f1cc92e0f53e1e",
+  "seconds": 8.272234899923205
+}

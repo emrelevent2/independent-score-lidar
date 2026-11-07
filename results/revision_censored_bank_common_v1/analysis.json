@@ -1,0 +1,122 @@
+{
+  "status": "COMPLETE",
+  "cases": 640,
+  "totals": {
+    "0.005": {
+      "correct": 172,
+      "wrong": 1,
+      "false": 5,
+      "positive": 256,
+      "null": 384
+    },
+    "0.01": {
+      "correct": 187,
+      "wrong": 1,
+      "false": 7,
+      "positive": 256,
+      "null": 384
+    },
+    "0.02": {
+      "correct": 195,
+      "wrong": 1,
+      "false": 9,
+      "positive": 256,
+      "null": 384
+    }
+  },
+  "by_regime": {
+    "0.005": {
+      "0": {
+        "correct": 60,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      },
+      "1": {
+        "correct": 42,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      },
+      "2": {
+        "correct": 9,
+        "wrong": 1,
+        "false": 3,
+        "positive": 64,
+        "null": 96
+      },
+      "3": {
+        "correct": 61,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      }
+    },
+    "0.01": {
+      "0": {
+        "correct": 61,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      },
+      "1": {
+        "correct": 49,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      },
+      "2": {
+        "correct": 14,
+        "wrong": 1,
+        "false": 5,
+        "positive": 64,
+        "null": 96
+      },
+      "3": {
+        "correct": 63,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      }
+    },
+    "0.02": {
+      "0": {
+        "correct": 63,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      },
+      "1": {
+        "correct": 53,
+        "wrong": 0,
+        "false": 1,
+        "positive": 64,
+        "null": 96
+      },
+      "2": {
+        "correct": 16,
+        "wrong": 1,
+        "false": 5,
+        "positive": 64,
+        "null": 96
+      },
+      "3": {
+        "correct": 63,
+        "wrong": 0,
+        "false": 1,
+        "positive": 64,
+        "null": 96
+      }
+    }
+  },
+  "protocol_sha256": "d4aac0c7f063c768c7c34477856259c860020aa52f38783104742c03f9eb3bd8",
+  "records_sha256": "cde423ba0fc0c2b4f27138ca535523a8a249b1f7f13abf8a42f1cc92e0f53e1e",
+  "seconds": 69.93959670001641
+}

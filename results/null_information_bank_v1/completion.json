@@ -1,0 +1,4610 @@
+{
+  "status": "TRAINING_COMPLETE",
+  "protocol_sha256": "ed333d4697cb727c6f38dd96e1ee3a556cb0dab6d2e32ce7b395483ffe645424",
+  "bank_sha256": "aee2cc7ca58b5986dd4c27d86ba841675215fb2f48738ea7b956cf3804b594d8",
+  "cells": [
+    {
+      "cell": {
+        "id": "0_0_0_0",
+        "index": 0,
+        "ri": 0,
+        "ai": 0,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          0.6,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\0_0_0_0.npz",
+      "sha256": "acfef9440a7ebaf847f7182415f76564fea637dda3c90b3f7afa7aebc56a7cc6",
+      "metadata": {
+        "records": 200,
+        "observed_events": 73937,
+        "observed_arrays_sha256": "2a908e34db29d9bfc649d8a808cdcf415823ce5994da10e3ffc73e4cde2a1bd7",
+        "minimum_eigenvalue": 2734.5905781953393
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_0_1",
+        "index": 1,
+        "ri": 0,
+        "ai": 0,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          0.6,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\0_0_0_1.npz",
+      "sha256": "bad6db99e7809cb09085f7dc573060f5c95a1e2fe8efca940fe247b8024d672b",
+      "metadata": {
+        "records": 200,
+        "observed_events": 74062,
+        "observed_arrays_sha256": "3c0dbcb72ebd6d570e936487168ec9adda7f0a05506dbb4f5d7bb3598ed0124d",
+        "minimum_eigenvalue": 2740.674125952254
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_0_2",
+        "index": 2,
+        "ri": 0,
+        "ai": 0,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          0.6,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\0_0_0_2.npz",
+      "sha256": "581eb7fec9264e18d0da9618227aa2dec77fb132f954af68ae743affb4773b11",
+      "metadata": {
+        "records": 200,
+        "observed_events": 73808,
+        "observed_arrays_sha256": "295f06ce586e1de6ac027e65a2ebdb569b14b262a307e60e455cbef060536fe6",
+        "minimum_eigenvalue": 2756.2961341532523
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_0_3",
+        "index": 3,
+        "ri": 0,
+        "ai": 0,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          0.6,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\0_0_0_3.npz",
+      "sha256": "2a75cba31f47991367cd683c05b0cb527afd6d47539395221b6e950fdbab63f3",
+      "metadata": {
+        "records": 200,
+        "observed_events": 74147,
+        "observed_arrays_sha256": "4a77817231b17fea4f51b8ef5fc72457c937c441f41e59e2aa34239d3dff6344",
+        "minimum_eigenvalue": 2813.6538626113147
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_1_0",
+        "index": 4,
+        "ri": 0,
+        "ai": 0,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          0.6,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\0_0_1_0.npz",
+      "sha256": "747ae257cb087e9f2c864e2b2facf73361f77bbcfad9ec38e3adca4a5527d19d",
+      "metadata": {
+        "records": 200,
+        "observed_events": 82727,
+        "observed_arrays_sha256": "0a252a05e40d81cfb5398d2a15b060e8c51163a797f0d914225c1a05d98e77e8",
+        "minimum_eigenvalue": 2338.4710266728116
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_1_1",
+        "index": 5,
+        "ri": 0,
+        "ai": 0,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          0.6,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\0_0_1_1.npz",
+      "sha256": "2fcb4e8a7fb3f4c56c67a80e5e9f34feb78673f99d3823a9edd53c7ff69375e5",
+      "metadata": {
+        "records": 200,
+        "observed_events": 82619,
+        "observed_arrays_sha256": "dcc91351d20084cb45a6da8ebd8af0974b8cd5f4abc4417ae6371e7f6ff17b7e",
+        "minimum_eigenvalue": 2349.2986620431334
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_1_2",
+        "index": 6,
+        "ri": 0,
+        "ai": 0,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          0.6,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\0_0_1_2.npz",
+      "sha256": "8c9a92015ceb5580ed177b79fd33c9cfdec9e12c205baca031be90faf3ad80ff",
+      "metadata": {
+        "records": 200,
+        "observed_events": 82790,
+        "observed_arrays_sha256": "9bf79862053afdd537bb485de5c13a4f3effce69c7c33cfddb942915253ab6b8",
+        "minimum_eigenvalue": 2396.587712619044
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_1_3",
+        "index": 7,
+        "ri": 0,
+        "ai": 0,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          0.6,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\0_0_1_3.npz",
+      "sha256": "cd1e423d893be2073af76201aebe52849344d078c5f8ac77e70a9c2ff57634f1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 82862,
+        "observed_arrays_sha256": "a84dd319eeb2632bb2788f2b537f3139fa850e3dfe51896fed2258b06a39b3cf",
+        "minimum_eigenvalue": 2375.808575490572
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_2_0",
+        "index": 8,
+        "ri": 0,
+        "ai": 0,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          0.6,
+          15.0,
+          0.8
+        ]
+      },
+      "file": "cells\\0_0_2_0.npz",
+      "sha256": "f6b1cd03f4aab0bf50e81b9405cdcf4035958aa4a389f7132e2bf6d7e820e7a2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 94824,
+        "observed_arrays_sha256": "94b80172b30191de39bd3f95ebd90ab37bd674379d7455955bd2cdbfcfcd5e7c",
+        "minimum_eigenvalue": 1789.319002717523
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_2_1",
+        "index": 9,
+        "ri": 0,
+        "ai": 0,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          0.6,
+          15.25,
+          0.8
+        ]
+      },
+      "file": "cells\\0_0_2_1.npz",
+      "sha256": "d96aedbe32baf51b984cfdf5e6a184727537e63b4e711b26a4d373cfc5a7b0c0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 94869,
+        "observed_arrays_sha256": "a1afa500446e53fbb6134d52ee9452b47c9935fba3a43356972d969456d8cff6",
+        "minimum_eigenvalue": 1777.640478088769
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_2_2",
+        "index": 10,
+        "ri": 0,
+        "ai": 0,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          0.6,
+          15.5,
+          0.8
+        ]
+      },
+      "file": "cells\\0_0_2_2.npz",
+      "sha256": "d5bda8d559acf501fbd0f65a2a32bd526cb3ff16dfc0a4c6bac75500278d05e7",
+      "metadata": {
+        "records": 200,
+        "observed_events": 94712,
+        "observed_arrays_sha256": "1d1f1e9733714a19cb938b43accf05037e8010ab4321357877e78cae3828b86c",
+        "minimum_eigenvalue": 1819.3629088530015
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_2_3",
+        "index": 11,
+        "ri": 0,
+        "ai": 0,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          0.6,
+          15.75,
+          0.8
+        ]
+      },
+      "file": "cells\\0_0_2_3.npz",
+      "sha256": "f65ff955507eea2bfc85431b3156ae3c98b2acc65bc96adb2693c1fd32cc08cc",
+      "metadata": {
+        "records": 200,
+        "observed_events": 95026,
+        "observed_arrays_sha256": "59c06f692245510d2d42d2c058bf19f1618a30cbd033ccc185144b6dd2cd6649",
+        "minimum_eigenvalue": 1827.8519358414305
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_3_0",
+        "index": 12,
+        "ri": 0,
+        "ai": 0,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          0.6,
+          15.0,
+          1.6
+        ]
+      },
+      "file": "cells\\0_0_3_0.npz",
+      "sha256": "10ab25c8a74385a11938c76293bc32d6df332df6e1969a0a9e2b4cf4d7609683",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108280,
+        "observed_arrays_sha256": "cc039471c954f37fa350b1de12d4f53af2d4d5abe1078f413c7bbc4fe881660b",
+        "minimum_eigenvalue": 1119.2264610321427
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_3_1",
+        "index": 13,
+        "ri": 0,
+        "ai": 0,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          0.6,
+          15.25,
+          1.6
+        ]
+      },
+      "file": "cells\\0_0_3_1.npz",
+      "sha256": "db4e358d03ea8bdf1397db8505059639eed6ccad72e71fe37df312f85e41240a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108233,
+        "observed_arrays_sha256": "1746b4d813868d718b668328bdffa3dea494d905bfb40c28bbb4854158547c2a",
+        "minimum_eigenvalue": 1117.2881356959822
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_3_2",
+        "index": 14,
+        "ri": 0,
+        "ai": 0,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          0.6,
+          15.5,
+          1.6
+        ]
+      },
+      "file": "cells\\0_0_3_2.npz",
+      "sha256": "90780ebea27c896706b81393618b405ebe5099777ff034a8da05504d3d214ce2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108310,
+        "observed_arrays_sha256": "5987d81605b666a48d4b1500ab99fe0bf80cca493cbdd3c3058702f339814285",
+        "minimum_eigenvalue": 1145.2197850086693
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_3_3",
+        "index": 15,
+        "ri": 0,
+        "ai": 0,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          0.6,
+          15.75,
+          1.6
+        ]
+      },
+      "file": "cells\\0_0_3_3.npz",
+      "sha256": "64e30ea4dda48bf8aa9d798fab7483ae338e8431454d9e7739558b3546ae24f2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108430,
+        "observed_arrays_sha256": "0aff79f1ffc9a1b92db2ec1d5de74b71a95d72e3ccac23913b7eb214188846e0",
+        "minimum_eigenvalue": 1145.5707825214347
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_4_0",
+        "index": 16,
+        "ri": 0,
+        "ai": 0,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          0.6,
+          15.0,
+          3.2
+        ]
+      },
+      "file": "cells\\0_0_4_0.npz",
+      "sha256": "ac24fead3781f2be820fed70a57f0d65d5563a6351754e3226843818f072cdfe",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119488,
+        "observed_arrays_sha256": "830c303f18353b5139a5e6780f7f5aec01caf0ee8152dea0573d4185ade90255",
+        "minimum_eigenvalue": 522.4476947226642
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_4_1",
+        "index": 17,
+        "ri": 0,
+        "ai": 0,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          0.6,
+          15.25,
+          3.2
+        ]
+      },
+      "file": "cells\\0_0_4_1.npz",
+      "sha256": "f885473c07bcf31562b7e0fc7437d91dea34caf49c865351082a4db8a2cf2ece",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119278,
+        "observed_arrays_sha256": "da4df9625de74d204fd0ce971c9001e7f592cb814e82079f6b590a5992d6c14e",
+        "minimum_eigenvalue": 527.7370309764018
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_4_2",
+        "index": 18,
+        "ri": 0,
+        "ai": 0,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          0.6,
+          15.5,
+          3.2
+        ]
+      },
+      "file": "cells\\0_0_4_2.npz",
+      "sha256": "009c5b57358a4fc47ca0d9cd5c60cf0af970fabd0d2b68397a543aec342e678e",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119350,
+        "observed_arrays_sha256": "81871fe65ab46720c7026dfea7b70a5c70440953c235c2a83add87eddf1f2eb3",
+        "minimum_eigenvalue": 520.6711622034331
+      }
+    },
+    {
+      "cell": {
+        "id": "0_0_4_3",
+        "index": 19,
+        "ri": 0,
+        "ai": 0,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          0.6,
+          15.75,
+          3.2
+        ]
+      },
+      "file": "cells\\0_0_4_3.npz",
+      "sha256": "9c42c75d8edbcbc9a297d5edd2d4e4910612cfcccba91b278f5418c982ec3b8a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119292,
+        "observed_arrays_sha256": "d877d41b80bd80cf1d92ee5fcc03f953ccde97d8bdf88755bac8be4cbafa0f07",
+        "minimum_eigenvalue": 534.1907091179058
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_0_0",
+        "index": 20,
+        "ri": 0,
+        "ai": 1,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          1.2,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\0_1_0_0.npz",
+      "sha256": "58249c900f8c9f8530339fd41d549cd756b47c626be239051d398132754355ec",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88844,
+        "observed_arrays_sha256": "d037492ac0b25a9193d54dec237788a65fd7fb1607a85c707dc9fa86d84b59b4",
+        "minimum_eigenvalue": 839.0151590923857
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_0_1",
+        "index": 21,
+        "ri": 0,
+        "ai": 1,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          1.2,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\0_1_0_1.npz",
+      "sha256": "2bc01f7e96e83924d1c98eaa0946842cc2d9b61bb9aef25af2bc7644ca42c5bb",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88702,
+        "observed_arrays_sha256": "45442c221beae37b5ce2e4ad35f0f7570388441fdbd5f9a4de01eae20c8f2837",
+        "minimum_eigenvalue": 868.2913254802351
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_0_2",
+        "index": 22,
+        "ri": 0,
+        "ai": 1,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          1.2,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\0_1_0_2.npz",
+      "sha256": "fbb48ab0ec207f5c1c9b343ddc09f0dfd71a2b9afe0983b6761d70c398347d54",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88849,
+        "observed_arrays_sha256": "3b97d33d23799843c1c189d917c453a477dbd2159ae8cf1b9371c8ca801ab518",
+        "minimum_eigenvalue": 848.2037136810986
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_0_3",
+        "index": 23,
+        "ri": 0,
+        "ai": 1,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          1.2,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\0_1_0_3.npz",
+      "sha256": "0cec93f9cd576034bc01f33830fae2243e63bfd65d66c96253d2de56fdff6d5c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88781,
+        "observed_arrays_sha256": "65c7fcddbd705435154030a4f162d35bdcd9f8304f270e2089956c255aa7696f",
+        "minimum_eigenvalue": 840.1308784197912
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_1_0",
+        "index": 24,
+        "ri": 0,
+        "ai": 1,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          1.2,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\0_1_1_0.npz",
+      "sha256": "1ea0c73892a353a435d6a489c5579055e8f88014b4701cc0dbcb3969486992f7",
+      "metadata": {
+        "records": 200,
+        "observed_events": 94130,
+        "observed_arrays_sha256": "a4fcdb4283d7e6d84af6d69f34b087d9e2634c20a4a48dd5a7b4a663a96cefe3",
+        "minimum_eigenvalue": 738.4391075428028
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_1_1",
+        "index": 25,
+        "ri": 0,
+        "ai": 1,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          1.2,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\0_1_1_1.npz",
+      "sha256": "713193d1327435e17961f413248060279e9161002b0aef3c3342172f34308524",
+      "metadata": {
+        "records": 200,
+        "observed_events": 94213,
+        "observed_arrays_sha256": "89940874d3b528c01a6e387327b6922d20bffa48ba536245c4ce8912a7f976b5",
+        "minimum_eigenvalue": 768.6415904538146
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_1_2",
+        "index": 26,
+        "ri": 0,
+        "ai": 1,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          1.2,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\0_1_1_2.npz",
+      "sha256": "2db354e10684fa4672e949717e8dfddc957a222b72d2b98fe74325382bee2cf8",
+      "metadata": {
+        "records": 200,
+        "observed_events": 93929,
+        "observed_arrays_sha256": "43a150ad47428e29b975ce03a8a6c2d32949eb390f98500ca73bd825e5a74d2c",
+        "minimum_eigenvalue": 749.264751699026
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_1_3",
+        "index": 27,
+        "ri": 0,
+        "ai": 1,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          1.2,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\0_1_1_3.npz",
+      "sha256": "ef77cabdbcd7855129a845b1cb55dcc6d192b01cad2c300f90631358a3a5771d",
+      "metadata": {
+        "records": 200,
+        "observed_events": 93960,
+        "observed_arrays_sha256": "01f025f1a84308cfa2364b4453597c3db4aa3d9ca52a522329b9dbe393753a2b",
+        "minimum_eigenvalue": 735.3394352986811
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_2_0",
+        "index": 28,
+        "ri": 0,
+        "ai": 1,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          1.2,
+          15.0,
+          0.8
+        ]
+      },
+      "file": "cells\\0_1_2_0.npz",
+      "sha256": "7648015f7036a84bda147bb5fdbbc0c49e315f9aec450bd8abd2302bb20cdff2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101793,
+        "observed_arrays_sha256": "b644b2d8419337f6ee754a06dfb67c338fe0b626dcca33e96adda03e1c3a2fbf",
+        "minimum_eigenvalue": 594.4264660154118
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_2_1",
+        "index": 29,
+        "ri": 0,
+        "ai": 1,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          1.2,
+          15.25,
+          0.8
+        ]
+      },
+      "file": "cells\\0_1_2_1.npz",
+      "sha256": "81d3da03660da9646784fcdb78f5fa5afcbded0351329e3c6fd397f6dab40bff",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101901,
+        "observed_arrays_sha256": "d163292c85a90481333a98117212b46432362a83629da422ffddc8dd933e69b2",
+        "minimum_eigenvalue": 600.3022649941336
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_2_2",
+        "index": 30,
+        "ri": 0,
+        "ai": 1,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          1.2,
+          15.5,
+          0.8
+        ]
+      },
+      "file": "cells\\0_1_2_2.npz",
+      "sha256": "32367263a44a516761dcc048edf82c9bedb69460efb8351050569ccc643d6c86",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101687,
+        "observed_arrays_sha256": "6ba7af46bd585f3f30b0fca46b5bd2d0e29c40e170b68734438b0e2f78ead9f6",
+        "minimum_eigenvalue": 603.6596885799045
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_2_3",
+        "index": 31,
+        "ri": 0,
+        "ai": 1,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          1.2,
+          15.75,
+          0.8
+        ]
+      },
+      "file": "cells\\0_1_2_3.npz",
+      "sha256": "3d9002877a15ac8d3561cc1e5bc235bb8caf288cd88476ca44d9244e9c32ff56",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101651,
+        "observed_arrays_sha256": "6a0d7e8e09ec7e430f8b57b14e94bd3cd84006bcaa3aaa231506cc41d6b5410e",
+        "minimum_eigenvalue": 588.8566855719616
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_3_0",
+        "index": 32,
+        "ri": 0,
+        "ai": 1,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          1.2,
+          15.0,
+          1.6
+        ]
+      },
+      "file": "cells\\0_1_3_0.npz",
+      "sha256": "ba44163bc6af86f5039525869f66625fa34bb75d1213081be10d3612b7a20ec0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 111488,
+        "observed_arrays_sha256": "c719c7b64bfc611233649c90ff85d9073cc69f9c3fd1e4ccaee49b302e8d776f",
+        "minimum_eigenvalue": 384.9210379926438
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_3_1",
+        "index": 33,
+        "ri": 0,
+        "ai": 1,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          1.2,
+          15.25,
+          1.6
+        ]
+      },
+      "file": "cells\\0_1_3_1.npz",
+      "sha256": "6c51f86a7c52045e65562f039c8d0db393e694a3e21d8ad3b15dc354eff32371",
+      "metadata": {
+        "records": 200,
+        "observed_events": 111530,
+        "observed_arrays_sha256": "b989a4a9f4873a7c8ff92cadfb52ad807530f578e4f5202bf6ca30ac86f6042a",
+        "minimum_eigenvalue": 385.77548036552
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_3_2",
+        "index": 34,
+        "ri": 0,
+        "ai": 1,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          1.2,
+          15.5,
+          1.6
+        ]
+      },
+      "file": "cells\\0_1_3_2.npz",
+      "sha256": "be27e4eff4aa44413760e590dc9eabc890083f594cc51595e876484983a68483",
+      "metadata": {
+        "records": 200,
+        "observed_events": 111327,
+        "observed_arrays_sha256": "52414a79daa8515662d723796af03b6f2f12ea623d68d936fbc3c4f5834df4f5",
+        "minimum_eigenvalue": 393.55536529815157
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_3_3",
+        "index": 35,
+        "ri": 0,
+        "ai": 1,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          1.2,
+          15.75,
+          1.6
+        ]
+      },
+      "file": "cells\\0_1_3_3.npz",
+      "sha256": "e97be07eece121b86a4c9c8919cf31113f48ead42e1e55ef1fdf536e241d3aec",
+      "metadata": {
+        "records": 200,
+        "observed_events": 111384,
+        "observed_arrays_sha256": "ebadb9ba3844dcf434956f6e069eeb81efee4505cc2a6f4c728920662457dcc5",
+        "minimum_eigenvalue": 383.1614849999974
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_4_0",
+        "index": 36,
+        "ri": 0,
+        "ai": 1,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          1.2,
+          15.0,
+          3.2
+        ]
+      },
+      "file": "cells\\0_1_4_0.npz",
+      "sha256": "cda9e0ee7bc771412fe9be05501645a629a1b8fa536749443154bfb2025f8862",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120344,
+        "observed_arrays_sha256": "c5f099fd78f060caa656d5d6ea7ed2159a73324a880d5dd1dc252a30f9312507",
+        "minimum_eigenvalue": 181.98967320786426
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_4_1",
+        "index": 37,
+        "ri": 0,
+        "ai": 1,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          1.2,
+          15.25,
+          3.2
+        ]
+      },
+      "file": "cells\\0_1_4_1.npz",
+      "sha256": "feaf02ba90eb9b5874e8e4b0d432bc3de7fef87860aade825520b050f49c41e0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120409,
+        "observed_arrays_sha256": "e8e546037c668d0342d58840955670cdd9ef69cae49cd1197e68dbbdcd0ca100",
+        "minimum_eigenvalue": 181.2340124027351
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_4_2",
+        "index": 38,
+        "ri": 0,
+        "ai": 1,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          1.2,
+          15.5,
+          3.2
+        ]
+      },
+      "file": "cells\\0_1_4_2.npz",
+      "sha256": "d8c37b515bde95ef459f82d8294fb2d0f8a031734d81c9d6cb2dac34efcc2672",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120400,
+        "observed_arrays_sha256": "92589f3f40d29da342e3d444584998cc8e724af8bb1caac655875f7756c223d2",
+        "minimum_eigenvalue": 184.06357626717264
+      }
+    },
+    {
+      "cell": {
+        "id": "0_1_4_3",
+        "index": 39,
+        "ri": 0,
+        "ai": 1,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          1.2,
+          15.75,
+          3.2
+        ]
+      },
+      "file": "cells\\0_1_4_3.npz",
+      "sha256": "219e0e145222a7e8b2e65c2a70da48795dc104cc20481c59066c14c5578cc9b2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120264,
+        "observed_arrays_sha256": "c39828aad1e5577ca120b427448612a296ffaa54b7bfb116dd7ef446feab3517",
+        "minimum_eigenvalue": 185.52555814663953
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_0_0",
+        "index": 40,
+        "ri": 0,
+        "ai": 2,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          2.4,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\0_2_0_0.npz",
+      "sha256": "20c7e19eaa8f9b055dbc11dcd8b14b57024fb273ff297facc6c3b05d2b910cd5",
+      "metadata": {
+        "records": 200,
+        "observed_events": 98767,
+        "observed_arrays_sha256": "f7890017b6c6617d16d73f5ad9c435f0cb558686d3be5d9cac81b9267eba9791",
+        "minimum_eigenvalue": 169.70330169002466
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_0_1",
+        "index": 41,
+        "ri": 0,
+        "ai": 2,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          2.4,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\0_2_0_1.npz",
+      "sha256": "153cab722a3cd6af6c3b1166e96ca810df7a41d420151ca5325ff945e5041032",
+      "metadata": {
+        "records": 200,
+        "observed_events": 98876,
+        "observed_arrays_sha256": "40f0e0ae5d7431370e02ceb26ee8de925b0e6e20e075f858769be5d155031600",
+        "minimum_eigenvalue": 163.36237468242427
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_0_2",
+        "index": 42,
+        "ri": 0,
+        "ai": 2,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          2.4,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\0_2_0_2.npz",
+      "sha256": "ceeada0a2c9ef02c09d30f2efdd144e1aa7eb90e57cfc4b58859c0bffd58a6f2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 98695,
+        "observed_arrays_sha256": "bba1bdf49cf55f110c00f4e92a739cd679aaeb3f2cf75cd1513998a0a060d87b",
+        "minimum_eigenvalue": 164.3028416464641
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_0_3",
+        "index": 43,
+        "ri": 0,
+        "ai": 2,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          2.4,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\0_2_0_3.npz",
+      "sha256": "b53db1ea8eb5353792591fa326a811b49be6c73ebd842f6a9e4d3a12cff0dd57",
+      "metadata": {
+        "records": 200,
+        "observed_events": 98832,
+        "observed_arrays_sha256": "20d39e94a1175eb8e72c1e549d9476ba1cef276fafa5ecd4278b496cef540723",
+        "minimum_eigenvalue": 169.13419591024066
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_1_0",
+        "index": 44,
+        "ri": 0,
+        "ai": 2,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          2.4,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\0_2_1_0.npz",
+      "sha256": "007e0ffae01a66da89542a8a11429e7877dab92d47a9cc9e883176caf0e59839",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101838,
+        "observed_arrays_sha256": "d0c737c5aa437749fc5d6ba9fbe85d01ab47a0b39a86ea860a274381735d12b2",
+        "minimum_eigenvalue": 152.6230263873125
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_1_1",
+        "index": 45,
+        "ri": 0,
+        "ai": 2,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          2.4,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\0_2_1_1.npz",
+      "sha256": "04087374c06d2367dcd33fec96edce9cfe113337433b1a9d401e24461f8c9d48",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101739,
+        "observed_arrays_sha256": "15d797d8d77b8964dc9798902a0d2a2e7b6a9a9755ffe685b9471978a58d2f0f",
+        "minimum_eigenvalue": 148.28875188810213
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_1_2",
+        "index": 46,
+        "ri": 0,
+        "ai": 2,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          2.4,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\0_2_1_2.npz",
+      "sha256": "3c8e7670452020ba4c89d88715958bd8fd6c7eaa0856c9833f61da42d59fe2cd",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101706,
+        "observed_arrays_sha256": "c4a9fbcaf0f7a7ec01d246df4eb5d895ee0f376559b70c822ff153a3bcd77003",
+        "minimum_eigenvalue": 145.49671416570436
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_1_3",
+        "index": 47,
+        "ri": 0,
+        "ai": 2,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          2.4,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\0_2_1_3.npz",
+      "sha256": "d1e08a5be4e8d1cc7071452e6acb2b7d731869583ea5191008f50e16e16f01cc",
+      "metadata": {
+        "records": 200,
+        "observed_events": 101686,
+        "observed_arrays_sha256": "a2c42b38e8a5b103979e69695c1b964732fc0c75c916382229e12f9ae2d36a10",
+        "minimum_eigenvalue": 153.28104373832363
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_2_0",
+        "index": 48,
+        "ri": 0,
+        "ai": 2,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          2.4,
+          15.0,
+          0.8
+        ]
+      },
+      "file": "cells\\0_2_2_0.npz",
+      "sha256": "b375ae3deb67844404d343548586a1481f0ab3f726b63f6d84daad6c2bc407de",
+      "metadata": {
+        "records": 200,
+        "observed_events": 106800,
+        "observed_arrays_sha256": "cfec3317f58522c83314579fd46eafeceef786a947ec8d7ef1a8ef21eafc92d8",
+        "minimum_eigenvalue": 122.39335733359914
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_2_1",
+        "index": 49,
+        "ri": 0,
+        "ai": 2,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          2.4,
+          15.25,
+          0.8
+        ]
+      },
+      "file": "cells\\0_2_2_1.npz",
+      "sha256": "76bd97ad4f8ce673d86b4a23e5c008a3b94dd9e2676e59f7402c2db702a3a503",
+      "metadata": {
+        "records": 200,
+        "observed_events": 106728,
+        "observed_arrays_sha256": "91eb7e639bf0aeed82d582b484fdc8437864f6a424c972efa137bb20b892c27b",
+        "minimum_eigenvalue": 118.91565763686842
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_2_2",
+        "index": 50,
+        "ri": 0,
+        "ai": 2,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          2.4,
+          15.5,
+          0.8
+        ]
+      },
+      "file": "cells\\0_2_2_2.npz",
+      "sha256": "4432f6d75411b341a5fa61e701b102129fc7b2ff8ead8c2ef841a30f4066f5d6",
+      "metadata": {
+        "records": 200,
+        "observed_events": 106775,
+        "observed_arrays_sha256": "d3efda945cca34a87c7cf678734dbd3374c365e5620ad81e2ba28a519cab0134",
+        "minimum_eigenvalue": 119.01233418450931
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_2_3",
+        "index": 51,
+        "ri": 0,
+        "ai": 2,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          2.4,
+          15.75,
+          0.8
+        ]
+      },
+      "file": "cells\\0_2_2_3.npz",
+      "sha256": "b1d061e4ff5694f4bf5c840da324681eeac5d4af56516146e05d3a00c79fc251",
+      "metadata": {
+        "records": 200,
+        "observed_events": 106660,
+        "observed_arrays_sha256": "f0556acc44a67f02b1d60b9268fea6d18d8268dd4394b7341eb696daac8569e3",
+        "minimum_eigenvalue": 122.1448903300255
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_3_0",
+        "index": 52,
+        "ri": 0,
+        "ai": 2,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          2.4,
+          15.0,
+          1.6
+        ]
+      },
+      "file": "cells\\0_2_3_0.npz",
+      "sha256": "78ede1c0dbf7d27c27748a5e2eaa20708fd045a88e9598bc997e8020c6b8d548",
+      "metadata": {
+        "records": 200,
+        "observed_events": 113698,
+        "observed_arrays_sha256": "39c7d39a3c1b0a003a2d81f5d66fbfdebb55ca4576792bd0862fe06b8c72089d",
+        "minimum_eigenvalue": 79.75960888904626
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_3_1",
+        "index": 53,
+        "ri": 0,
+        "ai": 2,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          2.4,
+          15.25,
+          1.6
+        ]
+      },
+      "file": "cells\\0_2_3_1.npz",
+      "sha256": "5a2e436e1baaf5d7590e9296f23eb357cff666e38554ca4d931e972295acc9f7",
+      "metadata": {
+        "records": 200,
+        "observed_events": 113735,
+        "observed_arrays_sha256": "c529daba7ec30320df1b51ac5c120309057858b5b31524e3e7b32d8efbe31405",
+        "minimum_eigenvalue": 76.44167605266644
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_3_2",
+        "index": 54,
+        "ri": 0,
+        "ai": 2,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          2.4,
+          15.5,
+          1.6
+        ]
+      },
+      "file": "cells\\0_2_3_2.npz",
+      "sha256": "168a0d35a6e251abad544bbaa49854af4b8aaa9f775459ebc5ca10910a5fc721",
+      "metadata": {
+        "records": 200,
+        "observed_events": 113677,
+        "observed_arrays_sha256": "80255d006ea829adaadb11752186f36e171c03c00e5459ed75545fe441e7d1af",
+        "minimum_eigenvalue": 78.3781217760572
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_3_3",
+        "index": 55,
+        "ri": 0,
+        "ai": 2,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          2.4,
+          15.75,
+          1.6
+        ]
+      },
+      "file": "cells\\0_2_3_3.npz",
+      "sha256": "76d40208c334132f15eb6d56ab8666822b4f1f93a31c50b3fd97cf1a8a3b9221",
+      "metadata": {
+        "records": 200,
+        "observed_events": 113798,
+        "observed_arrays_sha256": "8f37cd76dc5eee8ebf9cc01b6e963539db11332ea80443b10385b866e630939b",
+        "minimum_eigenvalue": 77.65827179224571
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_4_0",
+        "index": 56,
+        "ri": 0,
+        "ai": 2,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          2.4,
+          15.0,
+          3.2
+        ]
+      },
+      "file": "cells\\0_2_4_0.npz",
+      "sha256": "1e8b2c0617538089c42f046cdc2b4d859185567c6483f349110d803b8ed1804e",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120998,
+        "observed_arrays_sha256": "951e75d716f277e202451251d7509914627ab5e94ca4685efc40db004f51f8ac",
+        "minimum_eigenvalue": 38.624428858538465
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_4_1",
+        "index": 57,
+        "ri": 0,
+        "ai": 2,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          2.4,
+          15.25,
+          3.2
+        ]
+      },
+      "file": "cells\\0_2_4_1.npz",
+      "sha256": "3861ce77e96446fa8364f2ed602dc41003b55cd8b083492df3acbc66691aa734",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120991,
+        "observed_arrays_sha256": "0bba631093eae347ee6a111f10cc14e88ee17cd1769de5dd34e2005e974ae2b7",
+        "minimum_eigenvalue": 39.21046218087504
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_4_2",
+        "index": 58,
+        "ri": 0,
+        "ai": 2,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          2.4,
+          15.5,
+          3.2
+        ]
+      },
+      "file": "cells\\0_2_4_2.npz",
+      "sha256": "d32a45e68dea335c7171bfca55250e0ac36c69770ecb800a0f95a02642dbda55",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120886,
+        "observed_arrays_sha256": "ffccd6f9b0bb8f458e3042c7822037910fe27902cac90a6f6cf7e451ed1d54b5",
+        "minimum_eigenvalue": 39.32436250770729
+      }
+    },
+    {
+      "cell": {
+        "id": "0_2_4_3",
+        "index": 59,
+        "ri": 0,
+        "ai": 2,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          2.4,
+          15.75,
+          3.2
+        ]
+      },
+      "file": "cells\\0_2_4_3.npz",
+      "sha256": "9e8201333d79ab999a224adea6a7b1271e703373c9b6512e5668d21f0ef2a4ee",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120926,
+        "observed_arrays_sha256": "f296ddde409eef902a2e291158272fd04f9edf0becbac91dbe52fc28112d8515",
+        "minimum_eigenvalue": 39.96413163641145
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_0_0",
+        "index": 60,
+        "ri": 0,
+        "ai": 3,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          4.8,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\0_3_0_0.npz",
+      "sha256": "b927a6b3a23661648125557984cbc1120704b7c381ce965d5794a6ecde95c523",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102210,
+        "observed_arrays_sha256": "e6ceee2400a86b7c60d04d8f7fa8928248830ecfcecec16f5e920f97156465c0",
+        "minimum_eigenvalue": 10.952818951685414
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_0_1",
+        "index": 61,
+        "ri": 0,
+        "ai": 3,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          4.8,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\0_3_0_1.npz",
+      "sha256": "44541190909b9090714a4b53a2e60c360bec63cef474f1776d94f73695da0126",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102075,
+        "observed_arrays_sha256": "eeea2352c6095b9fdc2e773e293a428070e2626ab0b9820708f8a318d77cfe53",
+        "minimum_eigenvalue": 12.154406730731887
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_0_2",
+        "index": 62,
+        "ri": 0,
+        "ai": 3,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          4.8,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\0_3_0_2.npz",
+      "sha256": "8c3a94bd600c679bb03ec0e7c923310b5b2f27a2b40e6bc9c6071eb6e03aa3b0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102142,
+        "observed_arrays_sha256": "fe75c3f6fcd14bf20d4967cad997a1f6f47f15970ad6bd74f30603086c86705e",
+        "minimum_eigenvalue": 0.6943741493635542
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_0_3",
+        "index": 63,
+        "ri": 0,
+        "ai": 3,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          4.8,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\0_3_0_3.npz",
+      "sha256": "6f954f0cd46c9476862457cbdc90f15271649ea7c8fedd7a51657ad5813dc481",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102195,
+        "observed_arrays_sha256": "be6964b38322b30e53eaffa354f23e2a724e1fbcf6422eee4310dfc77337c958",
+        "minimum_eigenvalue": 11.161666165126416
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_1_0",
+        "index": 64,
+        "ri": 0,
+        "ai": 3,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          4.8,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\0_3_1_0.npz",
+      "sha256": "c284fc83a70a5cce16ca07216f488cabe4e6e8a5e3829fe480c8330b06c63c56",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104453,
+        "observed_arrays_sha256": "ff4ccc62602934b22821dcd02a3b2978dae870c760bab7456499fc5254c17938",
+        "minimum_eigenvalue": 10.485879304458962
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_1_1",
+        "index": 65,
+        "ri": 0,
+        "ai": 3,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          4.8,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\0_3_1_1.npz",
+      "sha256": "45089c877ef7316ef2d412c759a7a6612983c21715dbfbb6618d02db14df1c11",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104511,
+        "observed_arrays_sha256": "5f319f0574c1747fe1a50cc0a6ce6bd91c653646dfa31b1f9fd7a07d80f96f67",
+        "minimum_eigenvalue": 10.19029384960888
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_1_2",
+        "index": 66,
+        "ri": 0,
+        "ai": 3,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          4.8,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\0_3_1_2.npz",
+      "sha256": "b19c4f949493565e92a9b66565be856de1f0256827352b9a92ae623fd26e223a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104429,
+        "observed_arrays_sha256": "bdad9887e7a48a464d56cb37013bbef2201a49b0787e5bdc178367e6b172fa25",
+        "minimum_eigenvalue": 10.149944059732881
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_1_3",
+        "index": 67,
+        "ri": 0,
+        "ai": 3,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          4.8,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\0_3_1_3.npz",
+      "sha256": "aa144b0c6524c3ec6dfd59479c638457eb5ff016d4532d66ceabcee09a9472bf",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104477,
+        "observed_arrays_sha256": "fc51e840c2eaf0683b002d8635a22d6a4cb160a5bd1b091edb22c3274ec5cec6",
+        "minimum_eigenvalue": 10.460469582442526
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_2_0",
+        "index": 68,
+        "ri": 0,
+        "ai": 3,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          4.8,
+          15.0,
+          0.8
+        ]
+      },
+      "file": "cells\\0_3_2_0.npz",
+      "sha256": "57bd10d97575587dde048f0bc75d7bac3ea476308db9ac369a625d92a19994fa",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108476,
+        "observed_arrays_sha256": "ce478f6435d38b9f192fd19485f4d43d1098edc458b1f0e51a4e3aebf5ff7601",
+        "minimum_eigenvalue": 8.448513530010624
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_2_1",
+        "index": 69,
+        "ri": 0,
+        "ai": 3,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          4.8,
+          15.25,
+          0.8
+        ]
+      },
+      "file": "cells\\0_3_2_1.npz",
+      "sha256": "73905ad5e705de0cec8ead6ee1ac50fd5249317b0b4405d6da347d3a548c0d88",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108430,
+        "observed_arrays_sha256": "ca5ec1cfe2af08bb089148f2b754fb510e407b45f1b94491cef1fa6e68ec3bbe",
+        "minimum_eigenvalue": 8.498496195728162
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_2_2",
+        "index": 70,
+        "ri": 0,
+        "ai": 3,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          4.8,
+          15.5,
+          0.8
+        ]
+      },
+      "file": "cells\\0_3_2_2.npz",
+      "sha256": "d63f50dca4e0b11a1c3b8ea31dd11fdffbe61ab9cf1480ab13cc20740288f768",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108579,
+        "observed_arrays_sha256": "c2f152ad444e0924dd8f3b1d57f0b9775c6138de226fb468c5a8fc24703dda97",
+        "minimum_eigenvalue": 8.53389368298138
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_2_3",
+        "index": 71,
+        "ri": 0,
+        "ai": 3,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          4.8,
+          15.75,
+          0.8
+        ]
+      },
+      "file": "cells\\0_3_2_3.npz",
+      "sha256": "453b480db2a8411f18992d05e91eeec7f4b816aaaa154ac92ec9902ee04f6eba",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108443,
+        "observed_arrays_sha256": "75b52fad5149b223c37f630bf0581affe29647c3e227faba9e5af5985a3f5e01",
+        "minimum_eigenvalue": 8.306638193442376
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_3_0",
+        "index": 72,
+        "ri": 0,
+        "ai": 3,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          4.8,
+          15.0,
+          1.6
+        ]
+      },
+      "file": "cells\\0_3_3_0.npz",
+      "sha256": "50771fdf969ccc0520d05a8bfc390715a0ebdd6f8b5935f049c11caaa167c67a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114560,
+        "observed_arrays_sha256": "37a8d0cc0785082dd28dfdbc7551102f9137762f8244f55b77bacf678d1a71e5",
+        "minimum_eigenvalue": 6.112276933178032
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_3_1",
+        "index": 73,
+        "ri": 0,
+        "ai": 3,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          4.8,
+          15.25,
+          1.6
+        ]
+      },
+      "file": "cells\\0_3_3_1.npz",
+      "sha256": "220704e579be2f868b6cb82c534955c36b74505f1d4783518a605520a0ac86b0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114622,
+        "observed_arrays_sha256": "1a56ef2969f999d9e2ec08b1763b5086f19ac9f137a8f52ee40edca2c34fffea",
+        "minimum_eigenvalue": 5.963600488607944
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_3_2",
+        "index": 74,
+        "ri": 0,
+        "ai": 3,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          4.8,
+          15.5,
+          1.6
+        ]
+      },
+      "file": "cells\\0_3_3_2.npz",
+      "sha256": "d5ca9587cbef7b561cb3d4e009e4c46bf7db4cd0e4e4ef942e93a20b9e2edd92",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114528,
+        "observed_arrays_sha256": "98011fadd3bea202d35a6eee536bf4de5797aeed884b135400de897f65463c31",
+        "minimum_eigenvalue": 6.214488341835487
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_3_3",
+        "index": 75,
+        "ri": 0,
+        "ai": 3,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          4.8,
+          15.75,
+          1.6
+        ]
+      },
+      "file": "cells\\0_3_3_3.npz",
+      "sha256": "58109cefc4701b12c7143118247d6e5a547d5a94e8cceca821af83f9b3cdbb4c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114553,
+        "observed_arrays_sha256": "019452521a424c9f375b59ecd68dc2d524989e52d967ad9249a770af163facb3",
+        "minimum_eigenvalue": 6.5869557857610515
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_4_0",
+        "index": 76,
+        "ri": 0,
+        "ai": 3,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          4.8,
+          15.0,
+          3.2
+        ]
+      },
+      "file": "cells\\0_3_4_0.npz",
+      "sha256": "4c55b90acf0c1674bc13fdfb8f61c2b9656b1c8473884df855a2f10bbe7e39e3",
+      "metadata": {
+        "records": 200,
+        "observed_events": 121080,
+        "observed_arrays_sha256": "06cd19fede301a5580f021a1ff4e29a0e345abd8b0fe7c5081193aa03cc84aed",
+        "minimum_eigenvalue": 4.685078932312267
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_4_1",
+        "index": 77,
+        "ri": 0,
+        "ai": 3,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          4.8,
+          15.25,
+          3.2
+        ]
+      },
+      "file": "cells\\0_3_4_1.npz",
+      "sha256": "c9582f00ee27a80d1067fa4229cc3c3d33a008397d2de69e3b7680471ed987ea",
+      "metadata": {
+        "records": 200,
+        "observed_events": 121175,
+        "observed_arrays_sha256": "3ef77c07120666ef4d7c37cbad0ee324f27822204a918290fcacd1677dd1ec0b",
+        "minimum_eigenvalue": 4.425457010691968
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_4_2",
+        "index": 78,
+        "ri": 0,
+        "ai": 3,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          4.8,
+          15.5,
+          3.2
+        ]
+      },
+      "file": "cells\\0_3_4_2.npz",
+      "sha256": "57b9d01a5855cc47e132493cc70358b0dde879f2398b2af73f0863b53539aa18",
+      "metadata": {
+        "records": 200,
+        "observed_events": 121043,
+        "observed_arrays_sha256": "f827bb041c4fd64c3cbd2447d848fce21488aac55c4f5af3f9854aa1e1142aa0",
+        "minimum_eigenvalue": 4.576272620548733
+      }
+    },
+    {
+      "cell": {
+        "id": "0_3_4_3",
+        "index": 79,
+        "ri": 0,
+        "ai": 3,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          4.8,
+          15.75,
+          3.2
+        ]
+      },
+      "file": "cells\\0_3_4_3.npz",
+      "sha256": "5762121f23b1231e1d20fcd27e53940f8a4291f6cf81b9c95f2aa048482c4ac0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 121158,
+        "observed_arrays_sha256": "ec3a0291f2b30bb5f8d4777c2e82d30aecda5455e90020961c84279ffd853ed0",
+        "minimum_eigenvalue": 4.570237650939353
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_0_0",
+        "index": 80,
+        "ri": 0,
+        "ai": 4,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          9.6,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\0_4_0_0.npz",
+      "sha256": "0090e1762569d4cb491b3c5c0e03741053df51c63a999659e87e266e37f991cd",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102426,
+        "observed_arrays_sha256": "9bc98476f02951945560e38201a497d200e13cbe8c3e5647bf85538527584da2",
+        "minimum_eigenvalue": 0.002225377195240873
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_0_1",
+        "index": 81,
+        "ri": 0,
+        "ai": 4,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          9.6,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\0_4_0_1.npz",
+      "sha256": "9363e89c2ef3ac2a1d7d67aaeaa6ddc8a986c199fa36325531c341058e4a2792",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102483,
+        "observed_arrays_sha256": "f3a1cf8c65e85a84c9343e92f231aa690c14cf1d4dc07e8bfbe8386f6e8f76e8",
+        "minimum_eigenvalue": 0.009006597207342811
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_0_2",
+        "index": 82,
+        "ri": 0,
+        "ai": 4,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          9.6,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\0_4_0_2.npz",
+      "sha256": "df5d46e6bcc472da5251d4d30232e17591bd2f61bb3fb49e52f3c4b0603a4cf3",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102523,
+        "observed_arrays_sha256": "6379b369015aeed04867f6e2a0b740ffa57a23332c7fc4bcd95d56a3511344ce",
+        "minimum_eigenvalue": 0.0019663430978238043
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_0_3",
+        "index": 83,
+        "ri": 0,
+        "ai": 4,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          9.6,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\0_4_0_3.npz",
+      "sha256": "eceb36fb4b89f20b61c8cc5bc3add3a2da34475070534054e5b307e6e60b1915",
+      "metadata": {
+        "records": 200,
+        "observed_events": 102478,
+        "observed_arrays_sha256": "2b51eb812b6a38779bc0935f716314a43e3acf05284dc0c110368e4bc3954491",
+        "minimum_eigenvalue": 0.0006256284344470767
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_1_0",
+        "index": 84,
+        "ri": 0,
+        "ai": 4,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          9.6,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\0_4_1_0.npz",
+      "sha256": "92a43b6b262d01102ab98fdc936862f5680e6477e28bbb770d4d8e23dd590fc8",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104665,
+        "observed_arrays_sha256": "96b58800f77f917fac3e527d298bfce0f5c290072c6c374c475e862f2ad642cc",
+        "minimum_eigenvalue": 0.14293434834389757
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_1_1",
+        "index": 85,
+        "ri": 0,
+        "ai": 4,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          9.6,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\0_4_1_1.npz",
+      "sha256": "5aa4838ee27ec7bb0b29ee30147a5d90a0571d0d1a4f59fb22448a86ac9dc7d4",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104680,
+        "observed_arrays_sha256": "89177dc435f3b86f1ec4c5a82a8f20f68f739a47a10fb92a2061a5938f1c1cf6",
+        "minimum_eigenvalue": 0.15176756048161627
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_1_2",
+        "index": 86,
+        "ri": 0,
+        "ai": 4,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          9.6,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\0_4_1_2.npz",
+      "sha256": "20d8fa705bba5bd10818dbe79c33ca97f7b8510d495aca2a2e6fb20a3093d73c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104741,
+        "observed_arrays_sha256": "c4bc46746848a6167e3e06c0f402c66b4c76aa9fa1b73508a5787af0b348aa84",
+        "minimum_eigenvalue": 0.1398618915803604
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_1_3",
+        "index": 87,
+        "ri": 0,
+        "ai": 4,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          9.6,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\0_4_1_3.npz",
+      "sha256": "dabcdb37261fbecf5bc04d76aeb99fe233b6792ead3f9727d0d5eaf5291ebd1f",
+      "metadata": {
+        "records": 200,
+        "observed_events": 104642,
+        "observed_arrays_sha256": "4bcc82557d4f03ca76ef88d7526d659bc213fdb7499c4e6f8aab73dddee23531",
+        "minimum_eigenvalue": 0.13500566127042885
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_2_0",
+        "index": 88,
+        "ri": 0,
+        "ai": 4,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          9.6,
+          15.0,
+          0.8
+        ]
+      },
+      "file": "cells\\0_4_2_0.npz",
+      "sha256": "02d3d3b9f05a0bf3156abee7266d133bdd70c0e8bd55fdcca78d1daea6911f45",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108613,
+        "observed_arrays_sha256": "21232c28b708067a2c0a92d488ab352eb72f88d5c6cb88b0fac2a292e4206ede",
+        "minimum_eigenvalue": 0.16446324297275924
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_2_1",
+        "index": 89,
+        "ri": 0,
+        "ai": 4,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          9.6,
+          15.25,
+          0.8
+        ]
+      },
+      "file": "cells\\0_4_2_1.npz",
+      "sha256": "5cb0827f202c596d076f0066fe02fec457fd8811fd4bb566422ca52a8d4ea424",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108596,
+        "observed_arrays_sha256": "e71d766647f0094d03cdaa975b256f49cea3132e7a9cdfe9d65b3d9f947c3ad1",
+        "minimum_eigenvalue": 0.13424800815673296
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_2_2",
+        "index": 90,
+        "ri": 0,
+        "ai": 4,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          9.6,
+          15.5,
+          0.8
+        ]
+      },
+      "file": "cells\\0_4_2_2.npz",
+      "sha256": "0d18f169a13f6e1146536049515e0e0131e955bd0fd194a1dac334ad1cf2f0c7",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108557,
+        "observed_arrays_sha256": "b823d54dbd3ded64981c5008b8f8a80d06a37b31da6751cbd7229fb510af2282",
+        "minimum_eigenvalue": 0.20215520107993631
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_2_3",
+        "index": 91,
+        "ri": 0,
+        "ai": 4,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          9.6,
+          15.75,
+          0.8
+        ]
+      },
+      "file": "cells\\0_4_2_3.npz",
+      "sha256": "ac963a4e6f9bfad754cbac16fabd52b90ae35eefe8910148b77219c2f8b5c1e0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 108665,
+        "observed_arrays_sha256": "3738e4132190445a5ac3062b833a65e760997d2afa64d312dfd6f0aa221d3a85",
+        "minimum_eigenvalue": 0.2286212282191821
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_3_0",
+        "index": 92,
+        "ri": 0,
+        "ai": 4,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          9.6,
+          15.0,
+          1.6
+        ]
+      },
+      "file": "cells\\0_4_3_0.npz",
+      "sha256": "da397ffdb28c28e55ed63cbd1a71d3f6da19ee03eea51fb284c60232743af6ee",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114567,
+        "observed_arrays_sha256": "3ce23d8aefe31bc9fe70b5613303ee6095601a6fc2c277b9c7a24b1632d18cd9",
+        "minimum_eigenvalue": 0.22358951624921022
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_3_1",
+        "index": 93,
+        "ri": 0,
+        "ai": 4,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          9.6,
+          15.25,
+          1.6
+        ]
+      },
+      "file": "cells\\0_4_3_1.npz",
+      "sha256": "f3ccf19c6e5ad8b5ee33433edf0c3cd588190f31f52d72e7440b8947eff8f718",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114567,
+        "observed_arrays_sha256": "60da575a49a67fa7822394735d22be5015a7a6f44f1128c737518e809b7f5982",
+        "minimum_eigenvalue": 0.307007215728174
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_3_2",
+        "index": 94,
+        "ri": 0,
+        "ai": 4,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          9.6,
+          15.5,
+          1.6
+        ]
+      },
+      "file": "cells\\0_4_3_2.npz",
+      "sha256": "5645790c491424ca41b6a4866fab43a14873dcd31dd340737a7538db4e6275a2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114556,
+        "observed_arrays_sha256": "e5be4085b2fa0cd5d83a2c52a9933b9259a357e08e54e50cc9316aee85bb57b3",
+        "minimum_eigenvalue": 0.189105426198916
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_3_3",
+        "index": 95,
+        "ri": 0,
+        "ai": 4,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          9.6,
+          15.75,
+          1.6
+        ]
+      },
+      "file": "cells\\0_4_3_3.npz",
+      "sha256": "cc4742ab0f8226420c6fe665a73e80b0f42b5be2fd94447b6d77ca787dd544b8",
+      "metadata": {
+        "records": 200,
+        "observed_events": 114543,
+        "observed_arrays_sha256": "9556c248849379cffd1c1bff53a1e75ca08e4a049f861a383bfabe8df31a2ee3",
+        "minimum_eigenvalue": 0.2378551447872321
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_4_0",
+        "index": 96,
+        "ri": 0,
+        "ai": 4,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          9.6,
+          15.0,
+          3.2
+        ]
+      },
+      "file": "cells\\0_4_4_0.npz",
+      "sha256": "9784aee10e3721a9245e6290da1e9cb910c5d9256701797b3440840feff59493",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120904,
+        "observed_arrays_sha256": "9cf248cedaf6990388e41c1ce9507982b11ecb83aa97334452ee3aa7912115b6",
+        "minimum_eigenvalue": 0.315033161099703
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_4_1",
+        "index": 97,
+        "ri": 0,
+        "ai": 4,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          9.6,
+          15.25,
+          3.2
+        ]
+      },
+      "file": "cells\\0_4_4_1.npz",
+      "sha256": "8d39fd14a71bd5eedad5d1846ac6ca9d595e45c74a5ea5393870d5e144cf532e",
+      "metadata": {
+        "records": 200,
+        "observed_events": 121029,
+        "observed_arrays_sha256": "b67df32c5cbee75c0e31224611ee747ad9d768487f1c7f28c8ed7a8e058da466",
+        "minimum_eigenvalue": 0.3452203341008225
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_4_2",
+        "index": 98,
+        "ri": 0,
+        "ai": 4,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          9.6,
+          15.5,
+          3.2
+        ]
+      },
+      "file": "cells\\0_4_4_2.npz",
+      "sha256": "4914a530178de67dbee43b96b9de95315eaac01baa852422247da26607fb0e9f",
+      "metadata": {
+        "records": 200,
+        "observed_events": 121138,
+        "observed_arrays_sha256": "53c2975ddd47a93995f6a44d299873acbe3a0c22a198b5006263b728cdcc30ad",
+        "minimum_eigenvalue": 0.37896403215477364
+      }
+    },
+    {
+      "cell": {
+        "id": "0_4_4_3",
+        "index": 99,
+        "ri": 0,
+        "ai": 4,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          9.6,
+          15.75,
+          3.2
+        ]
+      },
+      "file": "cells\\0_4_4_3.npz",
+      "sha256": "105c33fe720acd612490b8b3ee5c45542d562d86192d8ceb0b8a03c2a1726b07",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120974,
+        "observed_arrays_sha256": "cf7966577c7eb0702b0d22dc6818b6c5760a36aefd516a56db6da777b4fa97e1",
+        "minimum_eigenvalue": 0.3713523892409062
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_0_0",
+        "index": 100,
+        "ri": 1,
+        "ai": 0,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          0.0625,
+          15.0,
+          0.025
+        ]
+      },
+      "file": "cells\\1_0_0_0.npz",
+      "sha256": "0e1a13a717ea918b37c9b9d8ea7d89198e8c700ac8af76f06a2f867a0fd1c1d5",
+      "metadata": {
+        "records": 200,
+        "observed_events": 23109,
+        "observed_arrays_sha256": "24fea0ade4ae4b53516dcd5de0d158b8891596668d72d8b8baa21d0fd8bdd62f",
+        "minimum_eigenvalue": 81652.49633611953
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_0_1",
+        "index": 101,
+        "ri": 1,
+        "ai": 0,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          0.0625,
+          15.25,
+          0.025
+        ]
+      },
+      "file": "cells\\1_0_0_1.npz",
+      "sha256": "f2047f8acf680c43af19f318896fb5f1262255632022eff39119611c533e71f0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 23177,
+        "observed_arrays_sha256": "3e2e6dfd3fbe9bb6364199e9496979eea7c229225417ec88ead5696a8e014a1d",
+        "minimum_eigenvalue": 78898.52145337682
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_0_2",
+        "index": 102,
+        "ri": 1,
+        "ai": 0,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          0.0625,
+          15.5,
+          0.025
+        ]
+      },
+      "file": "cells\\1_0_0_2.npz",
+      "sha256": "8c94e30c28b5621efb422af692dbc927f3ed71a9cd3138460706696f1507a750",
+      "metadata": {
+        "records": 200,
+        "observed_events": 23218,
+        "observed_arrays_sha256": "0f132fea1d795ac317b90e9609d17e5bb5134afb1d136ff650b2c87b35d94661",
+        "minimum_eigenvalue": 77242.9544824213
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_0_3",
+        "index": 103,
+        "ri": 1,
+        "ai": 0,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          0.0625,
+          15.75,
+          0.025
+        ]
+      },
+      "file": "cells\\1_0_0_3.npz",
+      "sha256": "16e7c75643940ff6c75db6fe2811b7ae977a752378d8cbb382443114fa1a6fb7",
+      "metadata": {
+        "records": 200,
+        "observed_events": 23220,
+        "observed_arrays_sha256": "89409e442df58adea56a87154912dc96c03399d17b3d27857499244568dce092",
+        "minimum_eigenvalue": 81458.6416757119
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_1_0",
+        "index": 104,
+        "ri": 1,
+        "ai": 0,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          0.0625,
+          15.0,
+          0.05
+        ]
+      },
+      "file": "cells\\1_0_1_0.npz",
+      "sha256": "e0d38f56a1722564cdb03317dbf11368bd3495d163814034e198cb39e7b60b49",
+      "metadata": {
+        "records": 200,
+        "observed_events": 28450,
+        "observed_arrays_sha256": "23afa1682258fd9f088ded337908017ff1cb6f3f1ebd3fd388f720248a0fc4b4",
+        "minimum_eigenvalue": 77763.06508195435
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_1_1",
+        "index": 105,
+        "ri": 1,
+        "ai": 0,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          0.0625,
+          15.25,
+          0.05
+        ]
+      },
+      "file": "cells\\1_0_1_1.npz",
+      "sha256": "d71c5666e1c8b64442c8d415da4c44f9c569c0a4449c4bacfd1a48e4932dd83d",
+      "metadata": {
+        "records": 200,
+        "observed_events": 28742,
+        "observed_arrays_sha256": "4959408a5dd14d5566415b04923c5bc26c748583cce0a36541074148cb3dd74a",
+        "minimum_eigenvalue": 75957.16646377993
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_1_2",
+        "index": 106,
+        "ri": 1,
+        "ai": 0,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          0.0625,
+          15.5,
+          0.05
+        ]
+      },
+      "file": "cells\\1_0_1_2.npz",
+      "sha256": "06a6992ca28c19eb6938cf9a19cacca80fe1655423536acc33b52972de5f2a7b",
+      "metadata": {
+        "records": 200,
+        "observed_events": 28835,
+        "observed_arrays_sha256": "3bbb9ebfe4f534b557ceab6d8b173ff59d0fa14660bd1c064436ae16a4b96e8d",
+        "minimum_eigenvalue": 74448.77522941306
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_1_3",
+        "index": 107,
+        "ri": 1,
+        "ai": 0,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          0.0625,
+          15.75,
+          0.05
+        ]
+      },
+      "file": "cells\\1_0_1_3.npz",
+      "sha256": "e8c4a8c766f7db48c2e45ccc18195dc0a6aa3962c9bcfea9fb8a6ee3462df9f4",
+      "metadata": {
+        "records": 200,
+        "observed_events": 28779,
+        "observed_arrays_sha256": "6215235c41024ed92bb7cc75f7772481ff05531e5af88889aac7d8f0c17cbafa",
+        "minimum_eigenvalue": 74975.11110510006
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_2_0",
+        "index": 108,
+        "ri": 1,
+        "ai": 0,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          0.0625,
+          15.0,
+          0.1
+        ]
+      },
+      "file": "cells\\1_0_2_0.npz",
+      "sha256": "81ce022ebc028db75c74faa2941bcc9de64eec859b5d22ef4af89f7bc0214277",
+      "metadata": {
+        "records": 200,
+        "observed_events": 38816,
+        "observed_arrays_sha256": "e837cf611f7032061d5c3e0d10898e6d39d000760def2f50d4144a22f29d2170",
+        "minimum_eigenvalue": 69159.76937789006
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_2_1",
+        "index": 109,
+        "ri": 1,
+        "ai": 0,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          0.0625,
+          15.25,
+          0.1
+        ]
+      },
+      "file": "cells\\1_0_2_1.npz",
+      "sha256": "50a45d65c52227029e4c1bf0ebd11d07d1b96185e0817686c326f7dfe84e3b58",
+      "metadata": {
+        "records": 200,
+        "observed_events": 38858,
+        "observed_arrays_sha256": "fbf87adfe7b2d96b957c90cb470213f09f3d086c5aedb2dfe8fced16b8bdfbbe",
+        "minimum_eigenvalue": 66404.70498736601
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_2_2",
+        "index": 110,
+        "ri": 1,
+        "ai": 0,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          0.0625,
+          15.5,
+          0.1
+        ]
+      },
+      "file": "cells\\1_0_2_2.npz",
+      "sha256": "afa6b4a68096bc5b61e2bcba09a67025be2baeffb1a9a217ae8356b19c56f23c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 38781,
+        "observed_arrays_sha256": "72c65fd180e238e3f4d4a7f702d4aeb8abd98930aed2b9f3d42af00c95cb1913",
+        "minimum_eigenvalue": 66388.98031571499
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_2_3",
+        "index": 111,
+        "ri": 1,
+        "ai": 0,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          0.0625,
+          15.75,
+          0.1
+        ]
+      },
+      "file": "cells\\1_0_2_3.npz",
+      "sha256": "cb9346cda0abb5ad44f19d3130abac2b7e42e2d2a70abe607c3495a6b4360c68",
+      "metadata": {
+        "records": 200,
+        "observed_events": 38787,
+        "observed_arrays_sha256": "c414029aa7311c6c6fa0e3f35989dd3d670b92adcbe7906ea74e87290c091112",
+        "minimum_eigenvalue": 68738.93133396357
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_3_0",
+        "index": 112,
+        "ri": 1,
+        "ai": 0,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          0.0625,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\1_0_3_0.npz",
+      "sha256": "14fbcd3be6d315e2e3643784acc5cf0feb36f7e08e1302dbead7898e2b34ad97",
+      "metadata": {
+        "records": 200,
+        "observed_events": 55075,
+        "observed_arrays_sha256": "9be8933ce5ddad31fc3072019fbf6724b2c64a5b11eedb15fe19ea0622f4456d",
+        "minimum_eigenvalue": 56316.21379726273
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_3_1",
+        "index": 113,
+        "ri": 1,
+        "ai": 0,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          0.0625,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\1_0_3_1.npz",
+      "sha256": "01ed25b815af32aa696fb5b6edd84cdb9049fcb0e704ffd8e438697324fbafa2",
+      "metadata": {
+        "records": 200,
+        "observed_events": 55001,
+        "observed_arrays_sha256": "237e6c7ef7f86c9ed8d859fec91651e9f78a7eb2a23a772b686cb5064c6de2a5",
+        "minimum_eigenvalue": 53894.55614883398
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_3_2",
+        "index": 114,
+        "ri": 1,
+        "ai": 0,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          0.0625,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\1_0_3_2.npz",
+      "sha256": "fc14f1742d17900ff25b4599a5a79f545140372cc7f5bc87e400aa399c90a421",
+      "metadata": {
+        "records": 200,
+        "observed_events": 55165,
+        "observed_arrays_sha256": "6927df91d872423b17a74271b4caa90ba600ea3f76ed0f043c64a1f89037308a",
+        "minimum_eigenvalue": 52857.70102226643
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_3_3",
+        "index": 115,
+        "ri": 1,
+        "ai": 0,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          0.0625,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\1_0_3_3.npz",
+      "sha256": "278e86446f060848717ab8009c89f390e941dc71f55782a8871bdb2c86f9a600",
+      "metadata": {
+        "records": 200,
+        "observed_events": 55203,
+        "observed_arrays_sha256": "7041721ac16b8170e553909f3d4ae3f934557e5c16ce2a9e55ddf54c1fd6e2ef",
+        "minimum_eigenvalue": 54754.38715734772
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_4_0",
+        "index": 116,
+        "ri": 1,
+        "ai": 0,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          0.0625,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\1_0_4_0.npz",
+      "sha256": "a56daf4f3348dad58e4f6ed97adcd532cfe62e8a5f325dc1885959d81b686706",
+      "metadata": {
+        "records": 200,
+        "observed_events": 77687,
+        "observed_arrays_sha256": "8c6e0acbff2bf7941c942ece64fa5e7705b2c874ac759509cbb4d7185fe2d003",
+        "minimum_eigenvalue": 37714.47301978698
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_4_1",
+        "index": 117,
+        "ri": 1,
+        "ai": 0,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          0.0625,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\1_0_4_1.npz",
+      "sha256": "d9092853a9666dd665010c8901aa3f84e7d59c3b3523701885bc982d5c4e9511",
+      "metadata": {
+        "records": 200,
+        "observed_events": 78021,
+        "observed_arrays_sha256": "744e4045dc3e98622b0f69c73b359d27b499796fad0b216af33edb74fc9784d2",
+        "minimum_eigenvalue": 37697.95613289938
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_4_2",
+        "index": 118,
+        "ri": 1,
+        "ai": 0,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          0.0625,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\1_0_4_2.npz",
+      "sha256": "adc4b858f12320922d2e211e2952e753c4c3551e7dd636d55ab50601cd774aa0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 77877,
+        "observed_arrays_sha256": "cb08b44067d0875d7a5323ded22dd8dc1a2fe4e8cfa377e3321478bc31f04b8a",
+        "minimum_eigenvalue": 36258.41981382101
+      }
+    },
+    {
+      "cell": {
+        "id": "1_0_4_3",
+        "index": 119,
+        "ri": 1,
+        "ai": 0,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          0.0625,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\1_0_4_3.npz",
+      "sha256": "b2a2b3ea295201f29284a73482eea0265839af2e5391631a1268192dbe8eadb7",
+      "metadata": {
+        "records": 200,
+        "observed_events": 78183,
+        "observed_arrays_sha256": "42d4641e1badc1384b2a7a31f06c82c71f2de68ecd301815f710614e30e122d2",
+        "minimum_eigenvalue": 37478.02477231911
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_0_0",
+        "index": 120,
+        "ri": 1,
+        "ai": 1,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          0.125,
+          15.0,
+          0.025
+        ]
+      },
+      "file": "cells\\1_1_0_0.npz",
+      "sha256": "77a99c6ae1d5e1ae6f68e44462be9b63868467b7dcbfeaa00dc4a659e6823b62",
+      "metadata": {
+        "records": 200,
+        "observed_events": 36552,
+        "observed_arrays_sha256": "bb066f294c17e7704623bd2c55312a0988e23bc6e439da3ae2270da1ace95f61",
+        "minimum_eigenvalue": 38384.518826696774
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_0_1",
+        "index": 121,
+        "ri": 1,
+        "ai": 1,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          0.125,
+          15.25,
+          0.025
+        ]
+      },
+      "file": "cells\\1_1_0_1.npz",
+      "sha256": "0773651bcefb1fe097f74d0f4363a391acf849b0353700081d21c6c32b7e16a1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 36505,
+        "observed_arrays_sha256": "f52ebd101023da7790fec3a4b466d7d5580cefb6530427216b4bf05ededdafd7",
+        "minimum_eigenvalue": 37007.27613372478
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_0_2",
+        "index": 122,
+        "ri": 1,
+        "ai": 1,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          0.125,
+          15.5,
+          0.025
+        ]
+      },
+      "file": "cells\\1_1_0_2.npz",
+      "sha256": "d01a611784dad84d55a06c2102ec6c46dcfc09083037cd6b3c17a43da0239ab0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 36647,
+        "observed_arrays_sha256": "3bdb8bdd69178d10dccd9198bbe2c54316321ab2b27c75c49a449a3981d09090",
+        "minimum_eigenvalue": 37232.9973838788
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_0_3",
+        "index": 123,
+        "ri": 1,
+        "ai": 1,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          0.125,
+          15.75,
+          0.025
+        ]
+      },
+      "file": "cells\\1_1_0_3.npz",
+      "sha256": "5f5b6bd549adf1cb3e6eab5490ba31a5a05f75fc5487840b281d064cb639de34",
+      "metadata": {
+        "records": 200,
+        "observed_events": 36840,
+        "observed_arrays_sha256": "8e0ea0dbd000c671d0425873353c477fcacca99131f1e0abcbea9a3dd3307a9b",
+        "minimum_eigenvalue": 37969.97006085597
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_1_0",
+        "index": 124,
+        "ri": 1,
+        "ai": 1,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          0.125,
+          15.0,
+          0.05
+        ]
+      },
+      "file": "cells\\1_1_1_0.npz",
+      "sha256": "5d5ecd710a859eca0ca97ac1e646892a7a37377a250199fd30138d49318c48dd",
+      "metadata": {
+        "records": 200,
+        "observed_events": 41117,
+        "observed_arrays_sha256": "d323f953b1a6d655e416498388d989157927247cfcecfcce1f16097c738fade6",
+        "minimum_eigenvalue": 36785.92138365736
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_1_1",
+        "index": 125,
+        "ri": 1,
+        "ai": 1,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          0.125,
+          15.25,
+          0.05
+        ]
+      },
+      "file": "cells\\1_1_1_1.npz",
+      "sha256": "084467ec8144d612f37506d7078104fc5261ca4d592c3e27404110d127b12e0d",
+      "metadata": {
+        "records": 200,
+        "observed_events": 41487,
+        "observed_arrays_sha256": "f5164067eae9c5a5207f58401aa46d888eef8801186716e805592063a1253c90",
+        "minimum_eigenvalue": 35076.918547165806
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_1_2",
+        "index": 126,
+        "ri": 1,
+        "ai": 1,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          0.125,
+          15.5,
+          0.05
+        ]
+      },
+      "file": "cells\\1_1_1_2.npz",
+      "sha256": "8b7130521476e8aa525592aa0a7b82e74ef23038408f668edf9a512bb662cf44",
+      "metadata": {
+        "records": 200,
+        "observed_events": 41327,
+        "observed_arrays_sha256": "b0d61670665e30b4cc4cf6eb2fca78b9a3b9d10a53b86fdc12b07b2409a49b9e",
+        "minimum_eigenvalue": 34941.76894681276
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_1_3",
+        "index": 127,
+        "ri": 1,
+        "ai": 1,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          0.125,
+          15.75,
+          0.05
+        ]
+      },
+      "file": "cells\\1_1_1_3.npz",
+      "sha256": "883754386d2feafffb1dd85953784d618bb0abbebb966969168ce3ee6166a383",
+      "metadata": {
+        "records": 200,
+        "observed_events": 41255,
+        "observed_arrays_sha256": "5dff8ae120941aafb00e2ad56679b62a9289fc60f09fbc6623bb367d2c22c13d",
+        "minimum_eigenvalue": 36086.47565566894
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_2_0",
+        "index": 128,
+        "ri": 1,
+        "ai": 1,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          0.125,
+          15.0,
+          0.1
+        ]
+      },
+      "file": "cells\\1_1_2_0.npz",
+      "sha256": "afa679cd1f1a179310e694bd9694ecac3934b94a1d3bccd909cadbbdba444b7c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 49877,
+        "observed_arrays_sha256": "3c4dc321463d0d1a056bec10f952e50a01daac489c005be15d3b8f7acb7bad0f",
+        "minimum_eigenvalue": 33441.97025579107
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_2_1",
+        "index": 129,
+        "ri": 1,
+        "ai": 1,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          0.125,
+          15.25,
+          0.1
+        ]
+      },
+      "file": "cells\\1_1_2_1.npz",
+      "sha256": "7154fec2731a6c0dcaf62c0437925a62883b4561fe20c152fb1e5204e483731c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 49696,
+        "observed_arrays_sha256": "4e0aaa16d8f679b90d6bc71be2334fea4aff468d3b7682b9e91a59fab61eff57",
+        "minimum_eigenvalue": 32849.431697723674
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_2_2",
+        "index": 130,
+        "ri": 1,
+        "ai": 1,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          0.125,
+          15.5,
+          0.1
+        ]
+      },
+      "file": "cells\\1_1_2_2.npz",
+      "sha256": "f5f58dd057bd5ecfe268791e4edaed251c2c6976519b702b92a1f513b59df5b6",
+      "metadata": {
+        "records": 200,
+        "observed_events": 49881,
+        "observed_arrays_sha256": "09b0d08c955b4325703c024c53e7e6bf1d65dbb432ade00c32e4b84f58e2e1cc",
+        "minimum_eigenvalue": 33203.42204632017
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_2_3",
+        "index": 131,
+        "ri": 1,
+        "ai": 1,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          0.125,
+          15.75,
+          0.1
+        ]
+      },
+      "file": "cells\\1_1_2_3.npz",
+      "sha256": "1bb819519b27126c2c4b10fcf3d74e0d0daf29d4c121d7413b80a08849c15f5f",
+      "metadata": {
+        "records": 200,
+        "observed_events": 49899,
+        "observed_arrays_sha256": "ce92a4f321ea07583d31fe9f9c7d127c24fd0c53f6b4d69e1f51e6d07634cc6d",
+        "minimum_eigenvalue": 32653.142184177246
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_3_0",
+        "index": 132,
+        "ri": 1,
+        "ai": 1,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          0.125,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\1_1_3_0.npz",
+      "sha256": "de9b2606ae15c3c7038a1c7ba6f7f619f193f05360666eb730007d8d158becde",
+      "metadata": {
+        "records": 200,
+        "observed_events": 63798,
+        "observed_arrays_sha256": "687159c5407570d8b2f899f68b605a18fd6c72b5254849fef1895e988eb45e57",
+        "minimum_eigenvalue": 28186.861257459153
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_3_1",
+        "index": 133,
+        "ri": 1,
+        "ai": 1,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          0.125,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\1_1_3_1.npz",
+      "sha256": "9ee71c6e3334bd45d6a4df30cd8d3b6c2b0ed5d63fcb4ad556b400f8a4932be0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 63821,
+        "observed_arrays_sha256": "105f17ecfa3644ecc7a448c28a3217109be305dfad18fac7c79637a36e1fe0c0",
+        "minimum_eigenvalue": 27210.591674216048
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_3_2",
+        "index": 134,
+        "ri": 1,
+        "ai": 1,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          0.125,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\1_1_3_2.npz",
+      "sha256": "09323d2eda377f83eaa7d594cdef2e72b6af4f4cc2142181ad025a2dc9a18c28",
+      "metadata": {
+        "records": 200,
+        "observed_events": 63688,
+        "observed_arrays_sha256": "cbbf4dbf8423728cc731dc82d5a82c7d8c6e44c581e169c74f3ec3220766f158",
+        "minimum_eigenvalue": 27166.52049703402
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_3_3",
+        "index": 135,
+        "ri": 1,
+        "ai": 1,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          0.125,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\1_1_3_3.npz",
+      "sha256": "9307bbac6ae4bacdc74861a494316a594267791ef05cfb9e2d0d51edc9919b0e",
+      "metadata": {
+        "records": 200,
+        "observed_events": 63746,
+        "observed_arrays_sha256": "2dfbc5e2157ebbe7dd54b51f7e374c4cce60eb0ffccf2ff558ef5b22ac29ac66",
+        "minimum_eigenvalue": 28243.116630637298
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_4_0",
+        "index": 136,
+        "ri": 1,
+        "ai": 1,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          0.125,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\1_1_4_0.npz",
+      "sha256": "1168837bbbadbf237e14f847955eeceb7b4224117bdde30be706461d3a8fec6e",
+      "metadata": {
+        "records": 200,
+        "observed_events": 83325,
+        "observed_arrays_sha256": "afbca7e87b32700d22edd014fbca573c3198fa82dd481501c0e677ace87ab2c6",
+        "minimum_eigenvalue": 20731.261637215095
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_4_1",
+        "index": 137,
+        "ri": 1,
+        "ai": 1,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          0.125,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\1_1_4_1.npz",
+      "sha256": "e393f38f0d90417bd5bd8369d2b2b9026883452687f7734f222adab7fd7f48bc",
+      "metadata": {
+        "records": 200,
+        "observed_events": 83369,
+        "observed_arrays_sha256": "db1a10e6828c6633f02dbb6ccb6cc229a0562614ebfefd675b60f99ad2f43667",
+        "minimum_eigenvalue": 20483.64035576559
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_4_2",
+        "index": 138,
+        "ri": 1,
+        "ai": 1,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          0.125,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\1_1_4_2.npz",
+      "sha256": "33978d62ce7eadded3c53e7f5a3339108ca9440ce5bbe9b6248d53c344eebfd0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 83198,
+        "observed_arrays_sha256": "b7fa537e28363ae92142c7b0ea17ce8e6531cca353e0ba94de870082ac804c83",
+        "minimum_eigenvalue": 20120.47042035619
+      }
+    },
+    {
+      "cell": {
+        "id": "1_1_4_3",
+        "index": 139,
+        "ri": 1,
+        "ai": 1,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          0.125,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\1_1_4_3.npz",
+      "sha256": "a48140d68be5b340061085428417601595802501f34aec013d9d98bf79a04c99",
+      "metadata": {
+        "records": 200,
+        "observed_events": 83061,
+        "observed_arrays_sha256": "260b43ba0d915ce1398daac9b522010b52c7bf0bc7b8b215354be204f5746480",
+        "minimum_eigenvalue": 20856.274495385333
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_0_0",
+        "index": 140,
+        "ri": 1,
+        "ai": 2,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          0.25,
+          15.0,
+          0.025
+        ]
+      },
+      "file": "cells\\1_2_0_0.npz",
+      "sha256": "4cbcd9295f3bdb6485e2558518337ae928ead3a6f97ba281d732632faca267c4",
+      "metadata": {
+        "records": 200,
+        "observed_events": 57726,
+        "observed_arrays_sha256": "77b5babd7aa88f89e1f1174e45194aa71d3e4813a56cc5528a265ac55dcd17bd",
+        "minimum_eigenvalue": 16396.988649858682
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_0_1",
+        "index": 141,
+        "ri": 1,
+        "ai": 2,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          0.25,
+          15.25,
+          0.025
+        ]
+      },
+      "file": "cells\\1_2_0_1.npz",
+      "sha256": "e71ca0e282f34333e772de76531a4aaaf4d71b0791d8909e321c60fea6fdd0c1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 58112,
+        "observed_arrays_sha256": "dbcc17113c208da97613608fe0d1dd4f18e7e11cd99964cd83c4075507e8224c",
+        "minimum_eigenvalue": 16018.918544373595
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_0_2",
+        "index": 142,
+        "ri": 1,
+        "ai": 2,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          0.25,
+          15.5,
+          0.025
+        ]
+      },
+      "file": "cells\\1_2_0_2.npz",
+      "sha256": "505640a3b59cf2190d49a30aca0ab5c3871b882cc1048440dcb1adc5f4b4ca7a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 58214,
+        "observed_arrays_sha256": "b8e770caa04fd8494423e2ef2218add5b228f039c2bd19da099a933152a19f95",
+        "minimum_eigenvalue": 16164.617070411556
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_0_3",
+        "index": 143,
+        "ri": 1,
+        "ai": 2,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          0.25,
+          15.75,
+          0.025
+        ]
+      },
+      "file": "cells\\1_2_0_3.npz",
+      "sha256": "887788251bac2e28768d7b878518b62fab548e8a02c32e8ee6a1bf180c8584a5",
+      "metadata": {
+        "records": 200,
+        "observed_events": 57632,
+        "observed_arrays_sha256": "7ee40ac5d4b74f00fcc4dd157036257b402229f53c3c91be8d343b04dbc77bc9",
+        "minimum_eigenvalue": 16558.079213648973
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_1_0",
+        "index": 144,
+        "ri": 1,
+        "ai": 2,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          0.25,
+          15.0,
+          0.05
+        ]
+      },
+      "file": "cells\\1_2_1_0.npz",
+      "sha256": "e399351761a52e5023ad0fec0a4435a7ed252ad971404c8a3ab9450ae4c70d10",
+      "metadata": {
+        "records": 200,
+        "observed_events": 61381,
+        "observed_arrays_sha256": "d55a688db68423430369611529cbdae8d6bdd106fc0e1d3ada73ed71ffb19d86",
+        "minimum_eigenvalue": 15806.026626714858
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_1_1",
+        "index": 145,
+        "ri": 1,
+        "ai": 2,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          0.25,
+          15.25,
+          0.05
+        ]
+      },
+      "file": "cells\\1_2_1_1.npz",
+      "sha256": "f37f14612577a421859aec0758a0724a860f9382ffb8ba7d1902a7abc1cc1ea1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 61161,
+        "observed_arrays_sha256": "4f7f3fe51f45a1e1a4a502e7c486afafaf6b1514322dda12433c5315d11566c0",
+        "minimum_eigenvalue": 15442.847062320476
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_1_2",
+        "index": 146,
+        "ri": 1,
+        "ai": 2,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          0.25,
+          15.5,
+          0.05
+        ]
+      },
+      "file": "cells\\1_2_1_2.npz",
+      "sha256": "d6cd4da50e3a7c9533846aa5203665462a378504ac8edda6219d9b4d70e21e24",
+      "metadata": {
+        "records": 200,
+        "observed_events": 61213,
+        "observed_arrays_sha256": "98773d5d99789b5d0ad3b8402e88d239e3ededce4884c687bd40fbd8e6d5081e",
+        "minimum_eigenvalue": 15391.062370556221
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_1_3",
+        "index": 147,
+        "ri": 1,
+        "ai": 2,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          0.25,
+          15.75,
+          0.05
+        ]
+      },
+      "file": "cells\\1_2_1_3.npz",
+      "sha256": "23d864a39c8d054f90fbd9c90abf016ac0fdb7df2256742b56b040e553d1c813",
+      "metadata": {
+        "records": 200,
+        "observed_events": 61137,
+        "observed_arrays_sha256": "3f0544f94e83dbbafb4c8470bff5874b35f5332bd02e4c290d159dfd4a559768",
+        "minimum_eigenvalue": 15720.435239409295
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_2_0",
+        "index": 148,
+        "ri": 1,
+        "ai": 2,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          0.25,
+          15.0,
+          0.1
+        ]
+      },
+      "file": "cells\\1_2_2_0.npz",
+      "sha256": "d68905a79f87dccdac3a142f831abf6de3b16cb805aebb75b77b05e30b020ca1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 67315,
+        "observed_arrays_sha256": "8ea2d57a9d9e61864b0cd42edb6070311bd9330d2df6514c958bbda29f64cd8b",
+        "minimum_eigenvalue": 14785.840149176242
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_2_1",
+        "index": 149,
+        "ri": 1,
+        "ai": 2,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          0.25,
+          15.25,
+          0.1
+        ]
+      },
+      "file": "cells\\1_2_2_1.npz",
+      "sha256": "764573e321a478ef124afd00cfc56ec41a5af0b72af0d8edd9f4901e922d12dc",
+      "metadata": {
+        "records": 200,
+        "observed_events": 67412,
+        "observed_arrays_sha256": "583f93237b482626b428fccd5192058c275aeb53165b20bfa6ead8f636a0d114",
+        "minimum_eigenvalue": 14319.125143158579
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_2_2",
+        "index": 150,
+        "ri": 1,
+        "ai": 2,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          0.25,
+          15.5,
+          0.1
+        ]
+      },
+      "file": "cells\\1_2_2_2.npz",
+      "sha256": "7456f7aec32bd557a4624c1acc48ba3a0349d0ddbdafdae8d2068f8ce00dd6f0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 67599,
+        "observed_arrays_sha256": "cebb91fad80b9ea4afe6c3c49795603142f927b0fb5f6418f82ded576e8753de",
+        "minimum_eigenvalue": 14286.93609826017
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_2_3",
+        "index": 151,
+        "ri": 1,
+        "ai": 2,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          0.25,
+          15.75,
+          0.1
+        ]
+      },
+      "file": "cells\\1_2_2_3.npz",
+      "sha256": "aa338f6fbf101f21e82f256e412442901755ff687dde5a31511ce81ac9125308",
+      "metadata": {
+        "records": 200,
+        "observed_events": 67321,
+        "observed_arrays_sha256": "f7199a9550aef6e8b65dd64935d96d911092689a70e3fb002819f5ced3d04424",
+        "minimum_eigenvalue": 14594.143341668738
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_3_0",
+        "index": 152,
+        "ri": 1,
+        "ai": 2,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          0.25,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\1_2_3_0.npz",
+      "sha256": "9d9aa4dcc3148e8bf1ee1033c1f88b155fa499c4250d9694ed5b9117784720aa",
+      "metadata": {
+        "records": 200,
+        "observed_events": 77644,
+        "observed_arrays_sha256": "7ba366448b353e8108306b4c1b9acd9f85772d14dd03d36e4ad3f057bfbd3d68",
+        "minimum_eigenvalue": 12631.631040111068
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_3_1",
+        "index": 153,
+        "ri": 1,
+        "ai": 2,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          0.25,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\1_2_3_1.npz",
+      "sha256": "186218c6d4ca604f32d68792f50374c952176d61b8318815f452cfeec2a6d333",
+      "metadata": {
+        "records": 200,
+        "observed_events": 77674,
+        "observed_arrays_sha256": "88c07ca361a7e1dc2e1392fef88e71d487e5740c2ef4cb24eebbd63c4ade3a9f",
+        "minimum_eigenvalue": 12458.805012588628
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_3_2",
+        "index": 154,
+        "ri": 1,
+        "ai": 2,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          0.25,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\1_2_3_2.npz",
+      "sha256": "a810d94427686c61c0c7239f788628d9bb99e97c203b1d7be0fca8797c64284f",
+      "metadata": {
+        "records": 200,
+        "observed_events": 77799,
+        "observed_arrays_sha256": "2302bd1e69b419669b40467b9f1f36404dfd595d265fd3e9662cf607547d34a5",
+        "minimum_eigenvalue": 12537.930304233474
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_3_3",
+        "index": 155,
+        "ri": 1,
+        "ai": 2,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          0.25,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\1_2_3_3.npz",
+      "sha256": "d66d358005f045d28834ec82885af3af79f6ddd6f62f09e3b2a0bf1d436075cd",
+      "metadata": {
+        "records": 200,
+        "observed_events": 77623,
+        "observed_arrays_sha256": "cfdc48c023ae3efbfdbfaef844859ba6f11a72748c818f2e0cb674279335e422",
+        "minimum_eigenvalue": 12888.810412706973
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_4_0",
+        "index": 156,
+        "ri": 1,
+        "ai": 2,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          0.25,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\1_2_4_0.npz",
+      "sha256": "191949a4264ce1898f494ab714d1a092f6fe7185b16b0b297218b67c09008b36",
+      "metadata": {
+        "records": 200,
+        "observed_events": 92256,
+        "observed_arrays_sha256": "4f3935aaf83ed433802e96c880794be98f9e8003b862d3b8f35b3056e6c5ca6d",
+        "minimum_eigenvalue": 9858.038792761867
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_4_1",
+        "index": 157,
+        "ri": 1,
+        "ai": 2,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          0.25,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\1_2_4_1.npz",
+      "sha256": "1bdbcc113b42582a6c7597fa8faa0516e492dbd9f5e8552177ebbdc85a5a5326",
+      "metadata": {
+        "records": 200,
+        "observed_events": 92177,
+        "observed_arrays_sha256": "251a447ac356a97026f82eccc2ac5dbec85edc761d63ffec295bfef1a088d31c",
+        "minimum_eigenvalue": 9696.353460865997
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_4_2",
+        "index": 158,
+        "ri": 1,
+        "ai": 2,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          0.25,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\1_2_4_2.npz",
+      "sha256": "ba17d7ea69e44ce9945d9fecfe6e64035b1b75962179ff593f81aeccb51cda52",
+      "metadata": {
+        "records": 200,
+        "observed_events": 92186,
+        "observed_arrays_sha256": "a53ffd101671c33ad292c9b7cb92578b20e41ce4a7a1e0ec0c2725a001f9d6da",
+        "minimum_eigenvalue": 9764.148732643916
+      }
+    },
+    {
+      "cell": {
+        "id": "1_2_4_3",
+        "index": 159,
+        "ri": 1,
+        "ai": 2,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          0.25,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\1_2_4_3.npz",
+      "sha256": "a2bafc64da38676c1b38cd8a4a1dced0f195f445c0d5b2c314353669d304da16",
+      "metadata": {
+        "records": 200,
+        "observed_events": 92248,
+        "observed_arrays_sha256": "c655b59139aa6a50dc8e49b35bc7a3c757329ae90651a72b2f285fa34c0a6fcd",
+        "minimum_eigenvalue": 9986.497094159391
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_0_0",
+        "index": 160,
+        "ri": 1,
+        "ai": 3,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          0.5,
+          15.0,
+          0.025
+        ]
+      },
+      "file": "cells\\1_3_0_0.npz",
+      "sha256": "518c89f399cb1b8863ccc9c7c0a743be1cd74b3b2545578d18a1eb623f06b519",
+      "metadata": {
+        "records": 200,
+        "observed_events": 86689,
+        "observed_arrays_sha256": "330ce2c759b1aa83a8841b0c4d09757f6857b9a747f2b08d2d3c78fbea4be603",
+        "minimum_eigenvalue": 6176.393057993483
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_0_1",
+        "index": 161,
+        "ri": 1,
+        "ai": 3,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          0.5,
+          15.25,
+          0.025
+        ]
+      },
+      "file": "cells\\1_3_0_1.npz",
+      "sha256": "7afeca8f62404ba83dab7f58cb9a6bc007650f76fc502ccc5b09ae1d687bed0a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 86639,
+        "observed_arrays_sha256": "e380508d6bd46e1a1d0bf81f1946c5cee2a92665db4202b817a6a1015414ca08",
+        "minimum_eigenvalue": 6126.487185670087
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_0_2",
+        "index": 162,
+        "ri": 1,
+        "ai": 3,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          0.5,
+          15.5,
+          0.025
+        ]
+      },
+      "file": "cells\\1_3_0_2.npz",
+      "sha256": "4c3dcbe71bb809a0c194942ee0b709c7d039a77eccd9ffcee6bd6c1377833c47",
+      "metadata": {
+        "records": 200,
+        "observed_events": 86567,
+        "observed_arrays_sha256": "59c203b7230fc60b57c69d356de63f1d78bb9fe81f6e99dba4e7058849a4c48c",
+        "minimum_eigenvalue": 6287.506077696479
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_0_3",
+        "index": 163,
+        "ri": 1,
+        "ai": 3,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          0.5,
+          15.75,
+          0.025
+        ]
+      },
+      "file": "cells\\1_3_0_3.npz",
+      "sha256": "cd42fad3a59c66913d00936aa16b4fa9d970dc7c28d24d431eb35d8649342669",
+      "metadata": {
+        "records": 200,
+        "observed_events": 86632,
+        "observed_arrays_sha256": "6880028fd2e1e85b4c58d1f1bdd95d08b293ac2bf3670be5764e18c272663daf",
+        "minimum_eigenvalue": 6425.216187645709
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_1_0",
+        "index": 164,
+        "ri": 1,
+        "ai": 3,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          0.5,
+          15.0,
+          0.05
+        ]
+      },
+      "file": "cells\\1_3_1_0.npz",
+      "sha256": "279b100565a20e2beb2cfd09551588ca819c994f563ca554475d855f91e72958",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88452,
+        "observed_arrays_sha256": "10e51cddd3a3ce323d6fa73f4f3d472052bfe300d77e6e3413a490a451d9b4a9",
+        "minimum_eigenvalue": 5968.518373604124
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_1_1",
+        "index": 165,
+        "ri": 1,
+        "ai": 3,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          0.5,
+          15.25,
+          0.05
+        ]
+      },
+      "file": "cells\\1_3_1_1.npz",
+      "sha256": "5ad8aaf00e9ae18e8b71db663c5abdfe37b030ae3fa8e8bcbc998a10e21c74fd",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88467,
+        "observed_arrays_sha256": "a603d3469765d4b7661204b7126bd61347857f8bfe81462a6103442017d3407e",
+        "minimum_eigenvalue": 5978.517894037892
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_1_2",
+        "index": 166,
+        "ri": 1,
+        "ai": 3,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          0.5,
+          15.5,
+          0.05
+        ]
+      },
+      "file": "cells\\1_3_1_2.npz",
+      "sha256": "ad2221abde0fefc6f011d8cb565e00ed2064c76558bab4030320b36548af5685",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88420,
+        "observed_arrays_sha256": "ae0b2aaa30403059c365d847a40801af3795cb07d09cbfa9cb2750f283087aba",
+        "minimum_eigenvalue": 6027.054784949208
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_1_3",
+        "index": 167,
+        "ri": 1,
+        "ai": 3,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          0.5,
+          15.75,
+          0.05
+        ]
+      },
+      "file": "cells\\1_3_1_3.npz",
+      "sha256": "477c4f9894c54b879b307cd84724fcb386e7408469c7554881c339c2bdfb7125",
+      "metadata": {
+        "records": 200,
+        "observed_events": 88403,
+        "observed_arrays_sha256": "c2a8f749810a5e11af4b2254f2cb7aedb87b0c3c244a139ffe86a6fecb7eaf0a",
+        "minimum_eigenvalue": 6153.516614881972
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_2_0",
+        "index": 168,
+        "ri": 1,
+        "ai": 3,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          0.5,
+          15.0,
+          0.1
+        ]
+      },
+      "file": "cells\\1_3_2_0.npz",
+      "sha256": "64b957d7d50dc2fe8d607f879c91acca30544d9638d2765ed4a2e01170f70cc1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 91739,
+        "observed_arrays_sha256": "dd2dcd497a9e5075420778bb8fcd069e65f5133c2be642004b09e2f217dde2ff",
+        "minimum_eigenvalue": 5619.974844758863
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_2_1",
+        "index": 169,
+        "ri": 1,
+        "ai": 3,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          0.5,
+          15.25,
+          0.1
+        ]
+      },
+      "file": "cells\\1_3_2_1.npz",
+      "sha256": "35ef60e83bb8ca96f9c1f1f35993675bc1be19a7fc453baaa727052b1adcd67f",
+      "metadata": {
+        "records": 200,
+        "observed_events": 91612,
+        "observed_arrays_sha256": "4251b62cf8261f1788c1981462867334d86aabb2453258247d5fc716f0c56884",
+        "minimum_eigenvalue": 5567.563840643294
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_2_2",
+        "index": 170,
+        "ri": 1,
+        "ai": 3,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          0.5,
+          15.5,
+          0.1
+        ]
+      },
+      "file": "cells\\1_3_2_2.npz",
+      "sha256": "9bb2f0284a0be0c22710cf83b1d3edb9a9440646a643d05a5adae321e6157a0b",
+      "metadata": {
+        "records": 200,
+        "observed_events": 91889,
+        "observed_arrays_sha256": "24557b603fcc8b0d612a5201fd719e9c5fa40b39ca86d46f5488f4e938e81bde",
+        "minimum_eigenvalue": 5669.11622903007
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_2_3",
+        "index": 171,
+        "ri": 1,
+        "ai": 3,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          0.5,
+          15.75,
+          0.1
+        ]
+      },
+      "file": "cells\\1_3_2_3.npz",
+      "sha256": "3569114af835968e9f62c00563ca8b9577f3bf21bde337c1286d4e775fa95409",
+      "metadata": {
+        "records": 200,
+        "observed_events": 91586,
+        "observed_arrays_sha256": "bafda575cc8a56c478fe1f33b187c47cd204699925e053e4955ba235c86ff836",
+        "minimum_eigenvalue": 5825.131450914727
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_3_0",
+        "index": 172,
+        "ri": 1,
+        "ai": 3,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          0.5,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\1_3_3_0.npz",
+      "sha256": "bc90b2b892abbaf1484653300fd2bc909ff8d249653bdf9091dc1b1796dd85f1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 97116,
+        "observed_arrays_sha256": "6c67454c362292f781415e14307d517d854d82768cb34561b9d9f56df92e91d7",
+        "minimum_eigenvalue": 4994.763888038554
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_3_1",
+        "index": 173,
+        "ri": 1,
+        "ai": 3,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          0.5,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\1_3_3_1.npz",
+      "sha256": "e501be110763a1adff0ceb37ccd1acacbb64a4254ec5d183a0cee9e85ad0ac51",
+      "metadata": {
+        "records": 200,
+        "observed_events": 97045,
+        "observed_arrays_sha256": "00f1eb6f5491b6a8e4e5431a81fb75a97a0f6021581e10312e4b9a4bbbe6cdcd",
+        "minimum_eigenvalue": 4949.642145140846
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_3_2",
+        "index": 174,
+        "ri": 1,
+        "ai": 3,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          0.5,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\1_3_3_2.npz",
+      "sha256": "331e7a873371d44c4fb92a5464e46cf95b0a0328ac4b737573129ac1c985e7c8",
+      "metadata": {
+        "records": 200,
+        "observed_events": 97242,
+        "observed_arrays_sha256": "62e9bc5f4954def011dc2a8366e9ddbfbcb0e90e2205834c239f750da04ccb93",
+        "minimum_eigenvalue": 5023.971077779269
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_3_3",
+        "index": 175,
+        "ri": 1,
+        "ai": 3,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          0.5,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\1_3_3_3.npz",
+      "sha256": "ba986a0ac873e01a5e32df72f387a7230385bb079f69c980fe03907581bef7e0",
+      "metadata": {
+        "records": 200,
+        "observed_events": 97377,
+        "observed_arrays_sha256": "fa3c91e49e39b806bab4cf80497ef9f5b89c566ff0d4388402336eada6a8bcec",
+        "minimum_eigenvalue": 5198.336921731477
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_4_0",
+        "index": 176,
+        "ri": 1,
+        "ai": 3,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          0.5,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\1_3_4_0.npz",
+      "sha256": "0daa37436f6f6fad0f576db2699acb7bad9ce88c981a25cea70889cbbe0f7d18",
+      "metadata": {
+        "records": 200,
+        "observed_events": 105259,
+        "observed_arrays_sha256": "b4bb131ed3df46c5637d8bd4d953969abeefe25e1151319f0eeb8d9df041221d",
+        "minimum_eigenvalue": 4022.7303169315755
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_4_1",
+        "index": 177,
+        "ri": 1,
+        "ai": 3,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          0.5,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\1_3_4_1.npz",
+      "sha256": "c26e676d7f582d8c6c24cf4764c77e5d6f9fa4ca8ad78f7f92157bd708bcb364",
+      "metadata": {
+        "records": 200,
+        "observed_events": 105446,
+        "observed_arrays_sha256": "80997a387ec62ec69de0c52da424bdd26aafe3e115a000e6c48d887eaff22e78",
+        "minimum_eigenvalue": 3996.4285299601024
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_4_2",
+        "index": 178,
+        "ri": 1,
+        "ai": 3,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          0.5,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\1_3_4_2.npz",
+      "sha256": "7f11f403a9a6aabca0912f06eabef6ab21e6cde479fd3c7df3569df8003b3341",
+      "metadata": {
+        "records": 200,
+        "observed_events": 105330,
+        "observed_arrays_sha256": "5a157f61fedb88c09755ad941f542ced7efe32fb0b212db5dac65da6f93a4d6d",
+        "minimum_eigenvalue": 4063.6776813672836
+      }
+    },
+    {
+      "cell": {
+        "id": "1_3_4_3",
+        "index": 179,
+        "ri": 1,
+        "ai": 3,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          0.5,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\1_3_4_3.npz",
+      "sha256": "2cb8c2d0cd79efcb46c1832b4c5e19b93af960f6ef7d1f14077ec84963cc850d",
+      "metadata": {
+        "records": 200,
+        "observed_events": 105555,
+        "observed_arrays_sha256": "13bed4a9fc785a492a4da3177c32a0f6ec1aa31fd8446b4c9051841bb90e4c73",
+        "minimum_eigenvalue": 4129.991245800917
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_0_0",
+        "index": 180,
+        "ri": 1,
+        "ai": 4,
+        "bi": 0,
+        "fi": 0,
+        "theta": [
+          1.0,
+          15.0,
+          0.025
+        ]
+      },
+      "file": "cells\\1_4_0_0.npz",
+      "sha256": "0b7071f0885f786a7820a22448824f539a0db7d39ed64b38e7c22df982fd3dc1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 116703,
+        "observed_arrays_sha256": "6a9782d1760ab604307d68aaae6e2f3d14ca25ad7fd63cabf9e5ce37812ae39e",
+        "minimum_eigenvalue": 1945.941565009136
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_0_1",
+        "index": 181,
+        "ri": 1,
+        "ai": 4,
+        "bi": 0,
+        "fi": 1,
+        "theta": [
+          1.0,
+          15.25,
+          0.025
+        ]
+      },
+      "file": "cells\\1_4_0_1.npz",
+      "sha256": "97db28093f6f309b49b4538348e1d522fd2478e62cf83f07abf346bc577fd491",
+      "metadata": {
+        "records": 200,
+        "observed_events": 116660,
+        "observed_arrays_sha256": "d008feac1767d7f116f37d95fabedfac5432a53d1294acf8d79c1e66688fec41",
+        "minimum_eigenvalue": 1980.3439689787792
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_0_2",
+        "index": 182,
+        "ri": 1,
+        "ai": 4,
+        "bi": 0,
+        "fi": 2,
+        "theta": [
+          1.0,
+          15.5,
+          0.025
+        ]
+      },
+      "file": "cells\\1_4_0_2.npz",
+      "sha256": "714d8452a45b3f67824174589b686048e3cf3aba69c0b1f4e113c61cc884e528",
+      "metadata": {
+        "records": 200,
+        "observed_events": 116647,
+        "observed_arrays_sha256": "5b17de2aee7afb7b0c9b31b2872fa733712fc28958b844f42a73e510ccf43b9a",
+        "minimum_eigenvalue": 2034.2979013087468
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_0_3",
+        "index": 183,
+        "ri": 1,
+        "ai": 4,
+        "bi": 0,
+        "fi": 3,
+        "theta": [
+          1.0,
+          15.75,
+          0.025
+        ]
+      },
+      "file": "cells\\1_4_0_3.npz",
+      "sha256": "eafd22ba99ce7b010f671cb8895a2eb7444c335f0d5d2022ab0484c65ba356f4",
+      "metadata": {
+        "records": 200,
+        "observed_events": 116571,
+        "observed_arrays_sha256": "dc16a80efd9e7a8dd994ee9b10777259b5be7f15136e26e98dea1650ef9effd3",
+        "minimum_eigenvalue": 1950.5585948850137
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_1_0",
+        "index": 184,
+        "ri": 1,
+        "ai": 4,
+        "bi": 1,
+        "fi": 0,
+        "theta": [
+          1.0,
+          15.0,
+          0.05
+        ]
+      },
+      "file": "cells\\1_4_1_0.npz",
+      "sha256": "65f11d150fa344da46751af656d25056d2cc5cc0067ca1cea9ae95659c13e17a",
+      "metadata": {
+        "records": 200,
+        "observed_events": 116955,
+        "observed_arrays_sha256": "ad7dee5e1f9225643dadb2187f0c3d3347dbc8da76f1e02e685d82a290ce2e14",
+        "minimum_eigenvalue": 1879.1326875073314
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_1_1",
+        "index": 185,
+        "ri": 1,
+        "ai": 4,
+        "bi": 1,
+        "fi": 1,
+        "theta": [
+          1.0,
+          15.25,
+          0.05
+        ]
+      },
+      "file": "cells\\1_4_1_1.npz",
+      "sha256": "0c49ed4f15fae3319d2d27a52e93b38f3596ea2bbedf3bd4a559e8066131cb57",
+      "metadata": {
+        "records": 200,
+        "observed_events": 117107,
+        "observed_arrays_sha256": "00d94027b218974c0d7e3424152b215d1b8c18ce10e2eed47827dc8cfcfb5700",
+        "minimum_eigenvalue": 1925.3795720001906
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_1_2",
+        "index": 186,
+        "ri": 1,
+        "ai": 4,
+        "bi": 1,
+        "fi": 2,
+        "theta": [
+          1.0,
+          15.5,
+          0.05
+        ]
+      },
+      "file": "cells\\1_4_1_2.npz",
+      "sha256": "989c80325e3b23bf3e67d0685c275e1e6a02bf1ca42c94748d6bb032e1288463",
+      "metadata": {
+        "records": 200,
+        "observed_events": 116961,
+        "observed_arrays_sha256": "c40f9922ff1f1ba7e97b808ad67be4d6578b5fdb25e0482a5f07011714cdb0c1",
+        "minimum_eigenvalue": 1962.3664662394335
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_1_3",
+        "index": 187,
+        "ri": 1,
+        "ai": 4,
+        "bi": 1,
+        "fi": 3,
+        "theta": [
+          1.0,
+          15.75,
+          0.05
+        ]
+      },
+      "file": "cells\\1_4_1_3.npz",
+      "sha256": "f8885396e6d262cde4a6502ffe2fbd6f1086806a2a49d926c20c465f746f58d3",
+      "metadata": {
+        "records": 200,
+        "observed_events": 117123,
+        "observed_arrays_sha256": "39d5f98699bc6f9884cd0b9ab19ed0cc1d3c54e09b584f86def1a66569137f94",
+        "minimum_eigenvalue": 1904.302712300389
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_2_0",
+        "index": 188,
+        "ri": 1,
+        "ai": 4,
+        "bi": 2,
+        "fi": 0,
+        "theta": [
+          1.0,
+          15.0,
+          0.1
+        ]
+      },
+      "file": "cells\\1_4_2_0.npz",
+      "sha256": "ab867eaee88179101f3d67147cc6daaf5bd8f40c122c10b955231ab7c3f6b4c8",
+      "metadata": {
+        "records": 200,
+        "observed_events": 117839,
+        "observed_arrays_sha256": "6591709498eb361d0ac395c8dd401458d06186e8a301aee5a0be37f9594d871b",
+        "minimum_eigenvalue": 1777.1250559428058
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_2_1",
+        "index": 189,
+        "ri": 1,
+        "ai": 4,
+        "bi": 2,
+        "fi": 1,
+        "theta": [
+          1.0,
+          15.25,
+          0.1
+        ]
+      },
+      "file": "cells\\1_4_2_1.npz",
+      "sha256": "c550e52e4992c8bfc14798c02ecce22c29a8eca9a879b4ba957d151be43f698f",
+      "metadata": {
+        "records": 200,
+        "observed_events": 117892,
+        "observed_arrays_sha256": "ef2b19579aa16369eaaaf3e34f1bfbae081477c1ed6c1ff5bcccc9d8f3d503dc",
+        "minimum_eigenvalue": 1818.6072971898323
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_2_2",
+        "index": 190,
+        "ri": 1,
+        "ai": 4,
+        "bi": 2,
+        "fi": 2,
+        "theta": [
+          1.0,
+          15.5,
+          0.1
+        ]
+      },
+      "file": "cells\\1_4_2_2.npz",
+      "sha256": "d45311be8a504e5a3c1abcffe9c2696ab017197a72de25694d4b9f3a3aa0ad86",
+      "metadata": {
+        "records": 200,
+        "observed_events": 117784,
+        "observed_arrays_sha256": "c57b7158aad7bce9abd93ab5f97a868821d19a9f80ee1c3c697da922b62b67ec",
+        "minimum_eigenvalue": 1835.450247792249
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_2_3",
+        "index": 191,
+        "ri": 1,
+        "ai": 4,
+        "bi": 2,
+        "fi": 3,
+        "theta": [
+          1.0,
+          15.75,
+          0.1
+        ]
+      },
+      "file": "cells\\1_4_2_3.npz",
+      "sha256": "f218577f2237b27b1169582ae1d50fe010319fca57c2c88dc3e50e808f3fc0e4",
+      "metadata": {
+        "records": 200,
+        "observed_events": 117977,
+        "observed_arrays_sha256": "b3189dab39fc56c7fdc237a153ab1964f2668be1c0a5a1277e7e93cf34c60a29",
+        "minimum_eigenvalue": 1777.1684171955426
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_3_0",
+        "index": 192,
+        "ri": 1,
+        "ai": 4,
+        "bi": 3,
+        "fi": 0,
+        "theta": [
+          1.0,
+          15.0,
+          0.2
+        ]
+      },
+      "file": "cells\\1_4_3_0.npz",
+      "sha256": "82bbc7894149e92ef21472cda6da7aaea487dd0c0358750cd6b068b1225c8e26",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119146,
+        "observed_arrays_sha256": "2b9bbf6c2b2ce7cf2540874d09c1aed91dfc74ed3b52126f678a1243c705c1c5",
+        "minimum_eigenvalue": 1582.7752431776264
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_3_1",
+        "index": 193,
+        "ri": 1,
+        "ai": 4,
+        "bi": 3,
+        "fi": 1,
+        "theta": [
+          1.0,
+          15.25,
+          0.2
+        ]
+      },
+      "file": "cells\\1_4_3_1.npz",
+      "sha256": "9a36676effa94f5cb86e3e6fb26f056f7ee8e7fde6ab5aef231240cce376efe1",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119187,
+        "observed_arrays_sha256": "fc88397c52c080c034a9df83c5e89f33afc74bc39667c7591d20ed54a2816c14",
+        "minimum_eigenvalue": 1596.7690531154792
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_3_2",
+        "index": 194,
+        "ri": 1,
+        "ai": 4,
+        "bi": 3,
+        "fi": 2,
+        "theta": [
+          1.0,
+          15.5,
+          0.2
+        ]
+      },
+      "file": "cells\\1_4_3_2.npz",
+      "sha256": "b88cbd454265d7d0556d83e60f3a3b10dee997a7e1f47f9a869cbc1437bfc3e3",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119201,
+        "observed_arrays_sha256": "99782dbe01d01f246609cae0d0f8b703bed5bbe3beec58e6f2c619f542765d66",
+        "minimum_eigenvalue": 1609.7814970601
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_3_3",
+        "index": 195,
+        "ri": 1,
+        "ai": 4,
+        "bi": 3,
+        "fi": 3,
+        "theta": [
+          1.0,
+          15.75,
+          0.2
+        ]
+      },
+      "file": "cells\\1_4_3_3.npz",
+      "sha256": "5f38b2c72f85fa4d6af76abae7e3b7e8f01cfed023019fab5d39b092b7a0a047",
+      "metadata": {
+        "records": 200,
+        "observed_events": 119154,
+        "observed_arrays_sha256": "1e879712f37e7ddc1ed3e28ec8a1502b81070883f57271909c5f36dd6734ac00",
+        "minimum_eigenvalue": 1568.226964585957
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_4_0",
+        "index": 196,
+        "ri": 1,
+        "ai": 4,
+        "bi": 4,
+        "fi": 0,
+        "theta": [
+          1.0,
+          15.0,
+          0.4
+        ]
+      },
+      "file": "cells\\1_4_4_0.npz",
+      "sha256": "78e863e9b0b8a06c802bff4c547dfb6f4b548d089029b391c1ee3a4db279e96c",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120735,
+        "observed_arrays_sha256": "d98cdf1460ef247eedb643e33dfe13dd62b6aea84bf3c81cdb7cb373f9f3bc76",
+        "minimum_eigenvalue": 1237.966815501442
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_4_1",
+        "index": 197,
+        "ri": 1,
+        "ai": 4,
+        "bi": 4,
+        "fi": 1,
+        "theta": [
+          1.0,
+          15.25,
+          0.4
+        ]
+      },
+      "file": "cells\\1_4_4_1.npz",
+      "sha256": "7ed546b8338c0027149b8dc559a0ee48e97dfb9238ffbe1081c883aea1a9bc8d",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120794,
+        "observed_arrays_sha256": "d6f385df3f63f48af55dc490fb91e68cb4d487323aab8d3e5f16705261b447ec",
+        "minimum_eigenvalue": 1245.6820532200259
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_4_2",
+        "index": 198,
+        "ri": 1,
+        "ai": 4,
+        "bi": 4,
+        "fi": 2,
+        "theta": [
+          1.0,
+          15.5,
+          0.4
+        ]
+      },
+      "file": "cells\\1_4_4_2.npz",
+      "sha256": "b6507aeab4b6752f276c8d229f792c6b732e52be51211939dd2927c7fa80ddbd",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120771,
+        "observed_arrays_sha256": "0d2c2816d96ea8da709f3b3433ac13312b34646964473ed77a6272a1c93ff9ff",
+        "minimum_eigenvalue": 1267.4091670468245
+      }
+    },
+    {
+      "cell": {
+        "id": "1_4_4_3",
+        "index": 199,
+        "ri": 1,
+        "ai": 4,
+        "bi": 4,
+        "fi": 3,
+        "theta": [
+          1.0,
+          15.75,
+          0.4
+        ]
+      },
+      "file": "cells\\1_4_4_3.npz",
+      "sha256": "69ddfb8972b66a72b9c38ff3e9ddf0f29c57ad0818461c4b811c3bc71c1ab528",
+      "metadata": {
+        "records": 200,
+        "observed_events": 120865,
+        "observed_arrays_sha256": "bdb6a8e6f4aeed89b7ece10a9f994668771697bcf37fd454054a8c2a66d0d1e6",
+        "minimum_eigenvalue": 1245.2547607012698
+      }
+    }
+  ],
+  "records": 40000,
+  "seconds_this_invocation": 224.10558850015514,
+  "scope": "Independentnullsimulation/interpolation and expected-informationweightingareestablished. FiniteMonteCarloandphase-rotation/interpolationapproximationsremain. Knownwidth/recovery/initialstate;no physicalvalidation,uniformriskguaranteeornewstatisticaltheorem. No efficacycohortproduceduntiltraining/validation/sourcechecks complete."
+}

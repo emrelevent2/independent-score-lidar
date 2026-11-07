@@ -1,0 +1,33 @@
+\begin{table*}[t]\centering
+\caption{Bright-hidden model-mismatch results at $\alpha=0.01$. Correct localization uses all 32 positive acquisitions, including unavailable records. Wrong locations are counts on those positives. False-alarm fractions use applicable null records. The final column counts positive/null acquisitions for which no test is computed. Common calibration requires the full likelihood; own-null censored calibration uses its own null fit. Dashes indicate no applicable null records.}
+\label{tab:robust}
+\begin{tabular}{llrrrr}\toprule
+True acquisition & Method / calibration & Correct /32 & Wrong & False / applicable & No test (pos; null)\\\midrule
+Nominal & Full bank / common & 13/32 & 0 & 0/64 & 0/32; 0/64\\
+Nominal & Censored / common & 8/32 & 0 & 2/64 & 0/32; 0/64\\
+Nominal & Censored / own-null & 9/32 & 0 & 1/64 & 0/32; 0/64\\
+$T_d$: $-5\%$ & Full bank / common & 8/32 & 1 & 1/64 & 0/32; 0/64\\
+$T_d$: $-5\%$ & Censored / common & 2/32 & 1 & 1/64 & 0/32; 0/64\\
+$T_d$: $-5\%$ & Censored / own-null & 1/32 & 1 & 1/64 & 0/32; 0/64\\
+$T_d$: $+5\%$ & Full bank / common & 9/32 & 0 & 1/64 & 0/32; 0/64\\
+$T_d$: $+5\%$ & Censored / common & 7/32 & 0 & 1/64 & 0/32; 0/64\\
+$T_d$: $+5\%$ & Censored / own-null & 6/32 & 0 & 0/64 & 0/32; 0/64\\
+$T_e$: $-2\%$ & Full bank / common & 0/32 & 0 & --- & 32/32; 64/64\\
+$T_e$: $-2\%$ & Censored / common & 0/32 & 0 & --- & 32/32; 64/64\\
+$T_e$: $-2\%$ & Censored / own-null & 7/32 & 1 & 0/64 & 0/32; 0/64\\
+$T_e$: $+2\%$ & Full bank / common & 10/32 & 1 & 0/64 & 0/32; 0/64\\
+$T_e$: $+2\%$ & Censored / common & 5/32 & 1 & 1/64 & 0/32; 0/64\\
+$T_e$: $+2\%$ & Censored / own-null & 4/32 & 1 & 0/64 & 0/32; 0/64\\
+Jitter: 0.1 bin & Full bank / common & 11/32 & 1 & 0/53 & 8/32; 11/64\\
+Jitter: 0.1 bin & Censored / common & 5/32 & 1 & 1/53 & 8/32; 11/64\\
+Jitter: 0.1 bin & Censored / own-null & 6/32 & 2 & 1/64 & 0/32; 0/64\\
+Jitter: 0.5 bin & Full bank / common & 4/32 & 0 & 0/15 & 25/32; 49/64\\
+Jitter: 0.5 bin & Censored / common & 1/32 & 0 & 0/15 & 25/32; 49/64\\
+Jitter: 0.5 bin & Censored / own-null & 6/32 & 1 & 0/64 & 1/32; 0/64\\
+Afterpulse: 1\% & Full bank / common & 8/32 & 0 & 2/64 & 0/32; 0/64\\
+Afterpulse: 1\% & Censored / common & 2/32 & 1 & 1/64 & 0/32; 0/64\\
+Afterpulse: 1\% & Censored / own-null & 2/32 & 1 & 1/64 & 0/32; 0/64\\
+Afterpulse: 5\% & Full bank / common & 9/32 & 0 & 2/64 & 0/32; 0/64\\
+Afterpulse: 5\% & Censored / common & 3/32 & 1 & 0/64 & 0/32; 0/64\\
+Afterpulse: 5\% & Censored / own-null & 3/32 & 1 & 1/64 & 0/32; 0/64\\
+\bottomrule\end{tabular}\end{table*}

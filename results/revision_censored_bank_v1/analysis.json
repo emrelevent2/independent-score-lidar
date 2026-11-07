@@ -1,0 +1,120 @@
+{
+  "status": "COMPLETE",
+  "totals": {
+    "0.005": {
+      "correct": 169,
+      "wrong": 1,
+      "false": 3,
+      "positive": 256,
+      "null": 384
+    },
+    "0.01": {
+      "correct": 183,
+      "wrong": 1,
+      "false": 6,
+      "positive": 256,
+      "null": 384
+    },
+    "0.02": {
+      "correct": 197,
+      "wrong": 1,
+      "false": 9,
+      "positive": 256,
+      "null": 384
+    }
+  },
+  "by_regime": {
+    "0.005": {
+      "0": {
+        "correct": 60,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      },
+      "1": {
+        "correct": 42,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      },
+      "2": {
+        "correct": 8,
+        "wrong": 1,
+        "false": 1,
+        "positive": 64,
+        "null": 96
+      },
+      "3": {
+        "correct": 59,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      }
+    },
+    "0.01": {
+      "0": {
+        "correct": 61,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      },
+      "1": {
+        "correct": 49,
+        "wrong": 0,
+        "false": 0,
+        "positive": 64,
+        "null": 96
+      },
+      "2": {
+        "correct": 11,
+        "wrong": 1,
+        "false": 3,
+        "positive": 64,
+        "null": 96
+      },
+      "3": {
+        "correct": 62,
+        "wrong": 0,
+        "false": 1,
+        "positive": 64,
+        "null": 96
+      }
+    },
+    "0.02": {
+      "0": {
+        "correct": 63,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      },
+      "1": {
+        "correct": 53,
+        "wrong": 0,
+        "false": 1,
+        "positive": 64,
+        "null": 96
+      },
+      "2": {
+        "correct": 18,
+        "wrong": 1,
+        "false": 4,
+        "positive": 64,
+        "null": 96
+      },
+      "3": {
+        "correct": 63,
+        "wrong": 0,
+        "false": 2,
+        "positive": 64,
+        "null": 96
+      }
+    }
+  },
+  "records_sha256": "ad94420f1bc42c32ab6e59bfdee375aa681bca16f01b5953562d86cca52751af",
+  "bank_sha256": "2416954a86d4b251a299f01bf1ea6918c9829548a7a4a00987dcfbc353da66d8"
+}

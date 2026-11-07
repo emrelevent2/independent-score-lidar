@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "all200training_cell_keys_hashes_and_consolidated_matrices_checked": true,
+  "all_training_continuous_records_regenerated": 40000,
+  "whole_cell_matrix_replays": 16,
+  "whole_cell_training_paths_replayed": 3200,
+  "independent_quadrature64factor_score_checks": 16,
+  "max_reference_factor_score_gap": 9.094947017729282e-13,
+  "bank_sha256": "aee2cc7ca58b5986dd4c27d86ba841675215fb2f48738ea7b956cf3804b594d8",
+  "completion_sha256": "76ae1f44e5964f280f3b970f4fffc1a2dd7f6a52144d9de1fe008702cc87ac7a",
+  "seconds": 94.6048474998679,
+  "scope": "All40,000trainingrecordsprovenance/consolidation;16full200recordcellmatrixreplays;16independent32pointquadrature64scorefixtures acrossgridcorners/phases. Limited fullmatrixreplay,not all40kfullgradients. No utility orphysical/finiteFisherclaim."
+}

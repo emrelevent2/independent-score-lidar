@@ -1,0 +1,156 @@
+{
+  "regimes": [
+    {
+      "name": "moderate",
+      "a": 0.8,
+      "b": 0.3,
+      "c": 0.065,
+      "gap": 12,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 40.0
+    },
+    {
+      "name": "near",
+      "a": 0.8,
+      "b": 1.0,
+      "c": 0.09,
+      "gap": 6,
+      "cycles": 1500,
+      "td": 126.7,
+      "te": 80.0
+    },
+    {
+      "name": "bright_hidden",
+      "a": 2.4,
+      "b": 0.8,
+      "c": 0.15,
+      "gap": 10,
+      "cycles": 1000,
+      "td": 31.7,
+      "te": 80.0
+    },
+    {
+      "name": "weak_hidden",
+      "a": 0.25,
+      "b": 0.1,
+      "c": 0.035,
+      "gap": 20,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 100.0
+    }
+  ],
+  "families": {
+    "positive": [
+      "coherent",
+      "isolated",
+      "misleading",
+      "primary_jump_positive"
+    ],
+    "null": [
+      "clean_null",
+      "borrow_null",
+      "primary_jump_null"
+    ]
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "numba": "0.59.1",
+    "flint": "0.9.0"
+  },
+  "execution": {
+    "workers": 8,
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "status": "FROZEN_BEFORE_CONFIRMATION_DATA_AND_BEFORE_DEVELOPMENT_AGGREGATE_OUTCOMES",
+  "settings": {
+    "bins": 64,
+    "sigma": 1.5,
+    "donors": 16,
+    "positive_per_family_regime": 80,
+    "null_per_family_regime": 160,
+    "bootstrap_replicates": 199,
+    "seed_base": 37419865021,
+    "primary_phase": 15.3,
+    "base_phase_jitter": [
+      -0.4,
+      0.4
+    ],
+    "query_phase_offset": [
+      -0.75,
+      0.75
+    ],
+    "query_amplitude_scale": [
+      0.7,
+      1.3
+    ],
+    "query_background_scale": [
+      0.75,
+      1.25
+    ],
+    "donor_phase_offset": [
+      -0.15,
+      0.15
+    ],
+    "donor_amplitude_scale": [
+      0.9,
+      1.1
+    ],
+    "donor_background_scale": [
+      0.9,
+      1.1
+    ],
+    "gap_jitter": [
+      -0.35,
+      0.35
+    ],
+    "jump_magnitude": 4.0,
+    "jump_jitter": [
+      -0.3,
+      0.3
+    ],
+    "pilot_time_fraction": 0.25,
+    "alpha": 0.01,
+    "tolerance": 2
+  },
+  "methods": [
+    "safe_score_common",
+    "safe_joint_common",
+    "safe_context_max_common",
+    "safe_context_transport_common",
+    "safe_score_original",
+    "safe_joint_original",
+    "safe_context_max_original",
+    "safe_context_transport_original",
+    "full_opg_safe",
+    "full_opg_refit",
+    "full_bank_safe",
+    "full_bank_refit",
+    "localized_safe_score_common",
+    "localized_safe_score_original",
+    "localized_full_bank"
+  ],
+  "primary_method": "localized_full_bank",
+  "total_cases": 3200,
+  "bootstrap_seed_offset_from_parent": 530000000000,
+  "sources": {
+    "localization_fresh_confirmation.py": "d276457589c69cbc5651aea05b9fbff4c66d4739e65cdc1f4d4c095fd76bc12b",
+    "localization_confirmation_statistics.py": "6fd18c6e516898e36082ae18e44dd9312d3f127ac88a29cd29d6883611907d5e",
+    "test_localization_confirmation_statistics.py": "3689996da42aabac83650cb7de747a09355def39d4fa4d7cbde1ed83d0be180b"
+  },
+  "design_sha256": "0f4944ffad199f566b14e1cc8116335a02b53274ec36e97d4abad7418ec6c258",
+  "statistics_manifest_sha256": "930a1e9854606819237c5a91450e99902a537f3521b70155e28cd4e39d1eaacb",
+  "development_protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "development_control_manifest_sha256": "74f793835e2ee143b53166dccf64ab00b20194d739d8d264bef4fac8797695eb",
+  "algorithm": "IDENTICALfrozen15-pipelineworkerandone-startobservedlocalization. Onlycasecounts/queryseeds/MCseedschangeaslockeddesign. No retraining, alpha/tolerance/IRF/recovery/acquisition/contrastchanges.",
+  "analysis": "All15corepipelinesat3200cases. Developmentpointrulesretained, plus all4positiveone-sided98.75percentpaired-stratifiedbootstrapbounds againstBOTHmatchedlocalizedcensoredscores. Everymain/statistical warningauditrequired. BOTHfull-LRreferencesonALL3200/199commonpaths andallcontrolauditsrequiredforanysuccessclaim.",
+  "execution_gate": "Currentfresh640developmentprimaryandallmainauditsPASS; BOTHdevelopmentfull-LRcomparisonsandindependentauditsPASS. Confirmationcorefirst;expensivefull-LRstageconditionalon confirmedcorepoint+uncertainty+numericalPASS. Deferralafter alreadyfailedconfirmationcorecannotauthorizeasuccessclaim.",
+  "scope": "Lockedprospectiveconfirmationdesign. Coreorcontrolpointpassalone isnotmanuscriptsubmissionreadiness,physicalvalidationorQ1certification."
+}

@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "mixture_formula_comparisons": [
+    {
+      "phase": 3.1,
+      "gap": 76.0,
+      "actual": 2.442016123979534e-07,
+      "independent": 2.442016123979529e-07,
+      "abs_difference": 4.764560328305439e-22,
+      "relative_difference": 1.9510765230088137e-15
+    },
+    {
+      "phase": 18.4,
+      "gap": 80.0,
+      "actual": 0.0037040911034085912,
+      "independent": 0.003704091103408586,
+      "abs_difference": 5.204170427930421e-18,
+      "relative_difference": 1.4049790576536926e-15
+    },
+    {
+      "phase": 3.1,
+      "gap": 100.0,
+      "actual": 0.006065306597126337,
+      "independent": 0.006065306597126333,
+      "abs_difference": 3.469446951953614e-18,
+      "relative_difference": 5.7201509872516505e-16
+    },
+    {
+      "phase": 18.4,
+      "gap": 125.0,
+      "actual": 0.006670667480915661,
+      "independent": 0.0066706674806602875,
+      "abs_difference": 2.553738470689737e-13,
+      "relative_difference": 3.828310252450117e-11
+    },
+    {
+      "phase": 3.1,
+      "gap": 180.0,
+      "actual": 0.004073304822691798,
+      "independent": 0.00407330482269179,
+      "abs_difference": 7.806255641895632e-18,
+      "relative_difference": 1.9164427858205245e-15
+    },
+    {
+      "phase": 3.1,
+      "gap": 76.0,
+      "actual": 2.255707030385329e-07,
+      "independent": 2.2557070303853278e-07,
+      "abs_difference": 1.0587911840678754e-22,
+      "relative_difference": 4.693832886121781e-16
+    },
+    {
+      "phase": 18.4,
+      "gap": 80.0,
+      "actual": 0.0034352077245158375,
+      "independent": 0.003435207724515835,
+      "abs_difference": 2.6020852139652106e-18,
+      "relative_difference": 7.574753617940102e-16
+    },
+    {
+      "phase": 3.1,
+      "gap": 100.0,
+      "actual": 0.005738656756881462,
+      "independent": 0.0057386567568814655,
+      "abs_difference": 3.469446951953614e-18,
+      "relative_difference": 6.04574746136063e-16
+    },
+    {
+      "phase": 18.4,
+      "gap": 125.0,
+      "actual": 0.005516175275611388,
+      "independent": 0.005516175355789424,
+      "abs_difference": 8.017803608539875e-11,
+      "relative_difference": 1.4535077461097938e-08
+    },
+    {
+      "phase": 3.1,
+      "gap": 180.0,
+      "actual": 0.0034763175448451825,
+      "independent": 0.0034763175445686758,
+      "abs_difference": 2.7650668213419216e-13,
+      "relative_difference": 7.954011064558826e-11
+    }
+  ],
+  "constant_rate_total_mass": 0.9999998182174008,
+  "model_source_sha256": "4809836a9c2ee011de0c49a35a7b439328680b31d11dc4a9f6dee8801d9da4d3",
+  "audit_source_sha256": "8b3ac2081a06ec26f4f88440c67a688a88b80d360eae1eb09ea45441424682d9",
+  "note": "Independent reference averages the existing fixed-recovery path-density kernel over electronics recovery. Period/bin Jacobian applied explicitly."
+}

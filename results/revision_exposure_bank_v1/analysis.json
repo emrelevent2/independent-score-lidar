@@ -1,0 +1,55 @@
+{
+  "status": "COMPLETE",
+  "cases": 1280,
+  "totals": {
+    "original": {
+      "0.005": {
+        "correct": 170,
+        "wrong": 1,
+        "false": 3,
+        "positive": 256,
+        "null": 384
+      },
+      "0.01": {
+        "correct": 184,
+        "wrong": 1,
+        "false": 6,
+        "positive": 256,
+        "null": 384
+      },
+      "0.02": {
+        "correct": 197,
+        "wrong": 1,
+        "false": 10,
+        "positive": 256,
+        "null": 384
+      }
+    },
+    "common": {
+      "0.005": {
+        "correct": 175,
+        "wrong": 1,
+        "false": 5,
+        "positive": 256,
+        "null": 384
+      },
+      "0.01": {
+        "correct": 187,
+        "wrong": 1,
+        "false": 7,
+        "positive": 256,
+        "null": 384
+      },
+      "0.02": {
+        "correct": 195,
+        "wrong": 1,
+        "false": 9,
+        "positive": 256,
+        "null": 384
+      }
+    }
+  },
+  "records_sha256": "e7e9bfd62ed8e0da044d063c9f820b4501f95bf1a77b33a9c4845bba783dbb98",
+  "protocol_sha256": "09155bda050965e366b5049c7c48386a7fa715a69212d6651c1661b1c949b55b",
+  "seconds": 137.75300440005958
+}

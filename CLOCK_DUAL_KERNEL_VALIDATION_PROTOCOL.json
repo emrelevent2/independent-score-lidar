@@ -1,0 +1,84 @@
+{
+  "status": "FROZEN_BEFORE_NEW_PERIODIC_CLOCK_GAP_SAMPLES",
+  "sources": {
+    "src/clock_dual_transition.py": "024bd487ecbfcef2e5d63feb9c38a8d1cdfa0cb9de3ff60009f0a1e041a9816b",
+    "src/clock_dual_gradient.py": "6e9c22652b630e24616d4ce43882cbb975cee501898dd5904f8ab621456a391e",
+    "src/clock_pulse_likelihood.py": "e032e724543b17f9fd37846a38b9f01546af91be1415e7033b167a965541b563",
+    "src/test_clock_dual_transition.py": "3b85699d0d965cedc35d564b253bac33bad49eed7728d636eaaade3cba67ab4f",
+    "src/test_clock_dual_gradient.py": "a4b41b0ce02baaffcd5f54107ca62483894a4c17e33ec615d4574f2b409b95fd",
+    "src/test_clock_pulse_likelihood.py": "fa292f0c5f016216ba3457b45168f7bb8683ebd4d394d27be8838a40eb9e25a1",
+    "src/homogeneous_dual_deadtime.py": "800bcb4925a062b14e5483304f1d2ce57c0ce4359a4e3dc906bcd6aa9232218d",
+    "src/deadtime_path_bootstrap.py": "01feac2e052aa36404210269eda6355de4a3f9826b7e4369342671b1e5e6999f",
+    "src/deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5",
+    "src/deadtime_scan.py": "7ab8180f8127a0cb255711095eefad929003ccef0217ad5f40412b064fb5f69a",
+    "src/safe_deadtime_exposure.py": "c5e47cf59873c23e86392f997f76749d3d6d8a5dc3219d0d13c8f75c4544bf19",
+    "tools/check_clock_dual_kernel.py": "6b28d7119973c50e76473f8445401fa7a5d2a9fbedf3c708add4081e355f9f24"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "numba": "0.59.1"
+  },
+  "bins": 64,
+  "sigma": 1.5,
+  "phases": [
+    0,
+    13,
+    31,
+    47
+  ],
+  "samples_per_case_phase": 100000,
+  "seed_base": 6810942731,
+  "familywise_DKW_failure_probability": 0.001,
+  "cases": [
+    {
+      "name": "detector_dominant",
+      "theta": [
+        0.8,
+        15.3,
+        0.3,
+        0.065,
+        27.3
+      ],
+      "dd": 83,
+      "de": 39
+    },
+    {
+      "name": "single_return_hidden",
+      "theta": [
+        2.4,
+        15.3,
+        0.8
+      ],
+      "dd": 31,
+      "de": 79
+    },
+    {
+      "name": "two_returns_hidden",
+      "theta": [
+        2.4,
+        15.3,
+        0.8,
+        0.15,
+        25.3
+      ],
+      "dd": 31,
+      "de": 79
+    },
+    {
+      "name": "many_hidden_renewals",
+      "theta": [
+        4.0,
+        15.3,
+        0.2,
+        0.3,
+        28.3
+      ],
+      "dd": 7,
+      "de": 79
+    }
+  ],
+  "criterion": "16fixed known-parameter conditional gap distributions,each100000independent resets at given recorded phase. Compare empirical and modelCDF at BOTHsides of discrete jump locations(tieshandled). DKWunionbound=.001;epsilon=sqrt(log(2*16/.001)/(2*100000)). All64phase short-mass+tail normalization error<=1e-10.",
+  "scope": "Exact finite-clock model validation,not a continuous-time detector/efficacy result. Independent inverse-hazard Bernoulli event simulation checks transient table summation with latent detector resets.12unit checks separately cover exhaustive small paths,full derivatives and limited homogeneous refinement to continuous time. Does not prove improved precision/recall,novelty,Q1 or submission readiness."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "FROZEN_BEFORE_ORIGINAL_GENERATOR_ROBUSTNESS_CONTROL",
+  "source_sha256": "911a8502d0b3f0878d54289488cfec7763a2ffb967bd57d91ec9b63cec79f2ba",
+  "parent_protocol_sha256": "248fb89339d6ac7592b87eb395db1ac5fe0266e0b61595ab1b5aae456c85718e",
+  "design": "All 864 fixed mismatch acquisitions, same hashes and truth. The original known-active criterion uses its own null fit as the bootstrap generator, nominal Td/Te and 199 complete paths, same paired seed formula. Repeat safe fit and quarter-grid score in every draw; observed-only safe localizer. This control remains applicable to below-nominal-support gaps. Only timestamps outside [0,H) make its acquisition domain incompatible. Main full/common-generator records remain unchanged.",
+  "reason": "A support-invalid full likelihood also prevents common-generator calibration. A censored criterion with its original generator can still operate and must be reported, rather than inheriting the full model support failure. This companion was specified from model structure before inspecting its efficacy outcomes.",
+  "workers": 2
+}

@@ -1,0 +1,22 @@
+\begin{table*}[t]\centering
+\caption{Per-regime counts at $\alpha=0.01$. Correct and wrong locations use 64 positives per regime; false alarms use 96 nulls. The censored bank uses common calibration.}
+\label{tab:regime_results}
+\begin{tabular}{llrrr}\toprule
+Regime & Method & Correct /64 & Wrong /64 & False /96\\\midrule
+Moderate & Censored + localization & 61 & 0 & 2\\
+Moderate & Censored information bank & 61 & 0 & 2\\
+Moderate & Full bank + localization & 61 & 0 & 2\\
+Moderate & Full LR / extended starts & 61 & 0 & 2\\
+Near & Censored + localization & 49 & 0 & 0\\
+Near & Censored information bank & 49 & 0 & 0\\
+Near & Full bank + localization & 49 & 0 & 0\\
+Near & Full LR / extended starts & 48 & 0 & 0\\
+Bright hidden & Censored + localization & 14 & 1 & 2\\
+Bright hidden & Censored information bank & 14 & 1 & 5\\
+Bright hidden & Full bank + localization & 30 & 1 & 2\\
+Bright hidden & Full LR / extended starts & 24 & 1 & 0\\
+Weak hidden & Censored + localization & 62 & 0 & 1\\
+Weak hidden & Censored information bank & 63 & 0 & 0\\
+Weak hidden & Full bank + localization & 63 & 0 & 0\\
+Weak hidden & Full LR / extended starts & 63 & 0 & 0\\
+\bottomrule\end{tabular}\end{table*}

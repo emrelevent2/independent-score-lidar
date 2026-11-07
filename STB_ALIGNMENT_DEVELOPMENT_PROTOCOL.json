@@ -1,0 +1,31 @@
+{
+  "status": "DEVELOPMENT geometry audit on already downloaded scene1; no new method accuracy claim.",
+  "created_utc": "2026-11-06T00:41:41.721585+00:00",
+  "source_sha256": "8e942726836fc6241e4507e11677ba8139bbc8725cc8bad14163e9f27fa9008f",
+  "input_sha256": {
+    "data/stb_metadata/config/intrinsics.npy": "6f45a6b4c7cc80310744d530654d3fe84a75b60982fc54b25935bdfa20152aa2",
+    "data/stb_metadata/config/offset.txt": "b33a3e4aa756024df10acc0b97d2867327e9ccc350b76d041ef64326c4f3d946",
+    "data/stb_metadata/config/final_extrinsic_sp_to_livox.txt": "dcf18c9606d697321ccd907221abad0abf8f113335106b80efcb3bae4a31b409",
+    "data/stb_development/DepthEstimate/Histogram/1.txt": "c4fc3a40fdda3e6ca77860eb307d96461d075e80e4b977709d533b0c9a03aa29",
+    "data/stb_development/DepthEstimate/gt/1.csv": "97614b5c9a808492e8e95129b6e68fd4490cfb02941c6d717d2be6ce6fcc4567",
+    "data/stb_development/scene1_histograms.npz": "15834336cbf2c148c31cbea8ab68dfc0d75c8cb0654cd32e8e0956fbdf055f10"
+  },
+  "settings": {
+    "bin_ps": 750,
+    "range_min_m": 0.25,
+    "range_max_m": 30,
+    "reference_assignment_pixel_radius": 0.75,
+    "reference_flat_spread_bins": 2.0,
+    "reference_min_points": 2
+  },
+  "notes": [
+    "Primary geometry uses supplied numeric rays/shift, statically decoded without executing any pickle globals.",
+    "Source raw-to-raw SP-to-Livox transform is applied as supplied. No ICP, fitted transform, depth bias, or truth-driven camera choice.",
+    "Official shift relation is checked against (peakbin-17)*bin_width-offset on calibration-valid pixels.",
+    "Livox is converted to the SP frame with the full inverse of the supplied4x4 matrix, not a transpose.",
+    "Reference pixels use nearest calibrated angular ray within0.75localpixel pitch, minimum range per pixel; flat mask depends only on Livox.",
+    "Raw argmax is a calibration baseline. Its reference consistency is not a proposed-method result.",
+    "No N1000 first-event model is used; no cycle count is invented. Other nine depth scenes remain untouched.",
+    "Livox geometry does not certify absence of hidden surfaces. No secondary false-positive or true-positive labels are inferred."
+  ]
+}

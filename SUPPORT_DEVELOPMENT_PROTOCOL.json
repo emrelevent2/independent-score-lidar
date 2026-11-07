@@ -1,0 +1,102 @@
+{
+  "status": "POST HOC DEVELOPMENT: closed localization cohort, including singleton stress. No independent performance claim.",
+  "created_utc": "2026-11-06T00:29:05.328579+00:00",
+  "source_sha256": {
+    "support_development.py": "db1609a7adf2ddd52f0dcd3901958d710a7399165b42d139a4ab39726a99b6dd",
+    "support_routing.py": "9af17e8ac5cf3d85efda89dd9a96fbd532418848776b23a1db568dd2b629cfa7"
+  },
+  "source_protocol_sha256": "10f753b4e2079cf3bc7f3dcc30bf55717ae97c3db291c9c4aedddc281d7a93a4",
+  "normalizers": {
+    "spatial": 3.498807651481002,
+    "local": 6.991672782561807
+  },
+  "variants": [
+    {
+      "name": "spatial",
+      "policy": "spatial",
+      "gate": 2.5
+    },
+    {
+      "name": "local",
+      "policy": "local",
+      "gate": 2.5
+    },
+    {
+      "name": "naive_union",
+      "policy": "naive_union",
+      "gate": 2.5
+    },
+    {
+      "name": "route_1.5",
+      "policy": "route",
+      "gate": 1.5
+    },
+    {
+      "name": "route_2.5",
+      "policy": "route",
+      "gate": 2.5
+    },
+    {
+      "name": "route_3.5",
+      "policy": "route",
+      "gate": 3.5
+    },
+    {
+      "name": "route_4.5",
+      "policy": "route",
+      "gate": 4.5
+    },
+    {
+      "name": "support_union_1.5",
+      "policy": "support_union",
+      "gate": 1.5
+    },
+    {
+      "name": "support_union_2.5",
+      "policy": "support_union",
+      "gate": 2.5
+    },
+    {
+      "name": "support_union_3.5",
+      "policy": "support_union",
+      "gate": 3.5
+    },
+    {
+      "name": "support_union_4.5",
+      "policy": "support_union",
+      "gate": 4.5
+    },
+    {
+      "name": "aligned_union_1.5",
+      "policy": "aligned_union",
+      "gate": 1.5
+    },
+    {
+      "name": "aligned_union_2.5",
+      "policy": "aligned_union",
+      "gate": 2.5
+    },
+    {
+      "name": "aligned_union_3.5",
+      "policy": "aligned_union",
+      "gate": 3.5
+    },
+    {
+      "name": "aligned_union_4.5",
+      "policy": "aligned_union",
+      "gate": 4.5
+    }
+  ],
+  "alpha": [
+    0.005,
+    0.01
+  ],
+  "selection_utility": "At0.005:0.5*(main recall+singleton recall)-0.5*(main wrong-rate+singleton wrong-rate), with null count <=25/2000. Prefer smaller gate on exact tie.",
+  "notes": [
+    "Support is a donor-only variance-inspired proxy, not a statistical confidence bound.",
+    "Simple score normalization uses CLOSED development null thresholds. It is fixed preprocessing, not an assertion that head scores are p-values.",
+    "Joint policy is recalibrated on the development nulls for this screen; a fresh independent calibration is mandatory for any final test.",
+    "Main and singleton are equally weighted in selection; never conceal singleton failure with the larger main denominator.",
+    "No existing frozen source or result is modified. All current test outcomes are development for a future hybrid."
+  ]
+}

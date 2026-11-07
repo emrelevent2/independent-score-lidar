@@ -1,0 +1,207 @@
+{
+  "status": "Additional DEVELOPMENT after negative support-only routing; all test histograms still unread.",
+  "created_utc": "2026-11-06T01:38:15.705115+00:00",
+  "source_sha256": {
+    "agreement_development.py": "80152f038ddf61c9e22cfdadbdb63ee68d3768f2db60c2ea35cf68a4796c47b3",
+    "agreement_policy.py": "49a34d1ce85e170d8dfc9f016156d4f4f85e220fceb2f533a4bd38e2a9395760",
+    "real_poisson_analysis_v2.py": "da0759485f0960194413808149c20b9e99ce3a318d290c13b9ef07a29099b04d"
+  },
+  "prior_analysis_sha256": "cd8cfb84693d3ad21bdc9b864af9fcd26ce1e36054bf2b3318bc0a689da1dcad",
+  "prior_calibration_sha256": "3089587a5d91e215c7366d07aec08be2434adcbbc9208b6e645bf2c06b1e4097",
+  "manifest_sha256": "82278b3ab44a53a1515036203e96e8b070b6445de14211514d61338eb6357843",
+  "settings": [
+    {
+      "distance": 4.0,
+      "bonus": 0.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "bonus": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 0.5,
+      "blend": 0.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "bonus": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 1.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "bonus": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 2.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 4.0,
+      "bonus": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "bonus": 2.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 0.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "bonus": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 0.5,
+      "blend": 0.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "bonus": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 1.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "bonus": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 2.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 8.0,
+      "bonus": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "bonus": 2.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 0.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "bonus": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 0.5,
+      "blend": 0.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "bonus": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 1.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "bonus": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 2.0,
+      "blend": 0.0
+    },
+    {
+      "distance": 16.0,
+      "bonus": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "bonus": 2.0,
+      "blend": 1.0
+    }
+  ],
+  "kinds": [
+    "gaussian",
+    "empirical"
+  ],
+  "primary_alpha": 0.01,
+  "selection": "Maximize sum of recovered pairs across3attenuations, constrained to accepted-unmatched count on known-one queries <= selected local baseline at EACH attenuation. Include unchanged local fallback. Tie: fewer unmatched, smaller bonus, smaller distance, smaller blend, Gaussian.",
+  "notes": [
+    "A finite supervised development search; its gains are not independent confirmation.",
+    "Role-invariant local/donor pair association; boost only if BOTH local returns agree with donors and donor support>=3.5.",
+    "Report nudging changes both local positions using the matched donor pair. Local score remains the base.",
+    "Every candidate is recalibrated on the same399known-one development calibration pixels.",
+    "No physical false-positive or e-value claim. Test outcome cannot select candidates."
+  ]
+}

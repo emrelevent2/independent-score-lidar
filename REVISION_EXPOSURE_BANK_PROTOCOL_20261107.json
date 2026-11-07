@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_BEFORE_REVISED_INTERPOLATION_EFFICACY",
+  "source_sha256": "c3998ef6fecb7a71ac79343b278f372f329caabc712107ac8fd471c4493827e9",
+  "first_bank_protocol_sha256": "d9133ffaaad4cbdebaaf3ee7d10f7222dba62eb9a884c12c6d21669b14accd8d",
+  "common_protocol_sha256": "d4aac0c7f063c768c7c34477856259c860020aa52f38783104742c03f9eb3bd8",
+  "motivation": "First known-active bank held-out abs log variance error median .0634, p95 .3202, max .6699. Exact division by lambda is available analytically and should not be approximated by grid interpolation.",
+  "construction": "Same 40000 training paths, cells, seeds and averages. At each cell recover mean E from mean(E/lambda)*known lambda. Convex interpolation/rotation of mean exposure, then divide by exact current null rate lambda. Same phase-rate nuisance projection and safe localizer. Original and common calibration branches on all 640 records. Same 199 refits/lookup/scan repeated. Frozen first-bank results retained.",
+  "validation": "Before efficacy run, held-out 32 profiles and 6400 independent paths used for first-bank audit. Report all 7232 variance directions. Predeclared engineering requirement: p95 abs log variance error below .3202, no nonpositive variances. If not met, report validation and do not substitute this version as more accurate.",
+  "audit_sha256": "cbe9f66a8e635cf406747383702c72d54a2241fafb71360f3b9f19417d192560"
+}

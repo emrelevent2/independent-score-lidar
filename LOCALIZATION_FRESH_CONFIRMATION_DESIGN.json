@@ -1,0 +1,44 @@
+{
+  "status": "FROZEN_CONDITIONAL_CONFIRMATION_DESIGN_BEFORE_FRESH_LOCALIZATION_AGGREGATE_OUTCOMES",
+  "development_protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "full_joint_control_manifest_sha256": "74f793835e2ee143b53166dccf64ab00b20194d739d8d264bef4fac8797695eb",
+  "authorization_scope": "Local PC numerical research and article preparation. No external submission, contact, publishing or hardware execution.",
+  "execution_gate": "Run only after all640 development cases complete, the primary preliminary rule passes, all independent main/localization/parent-warning audits pass, BOTH full-LR controls complete on all640/all199 common paths, their independent integrity/warning audits pass, and all point comparison rules against both controls pass. No favorable-alpha, subgroup or ablation substitution.",
+  "algorithm": "Identical frozen independent-bank/null-refit score plus identical one-start observed-record localization. Same numerical bounds, iteration tolerances, Gaussian-bin response, recovery/initial/terminal model, rank statistic, alpha and location tolerance. No retraining on development or confirmation labels. Training bank remains the independently frozen original bank.",
+  "design": {
+    "regimes": "All4 original regimes with original photon fluxes, recovery pairs and acquisition cycles.",
+    "families": "All4 positive and all3 null query/context families, original nuisance perturbations and original16 donors.",
+    "positive_per_family_regime": 80,
+    "null_per_family_regime": 160,
+    "total_positive": 1280,
+    "total_null": 1920,
+    "total_cases": 3200,
+    "query_seed_base": 37419865021,
+    "bootstrap_seed_base": 650000000000,
+    "bootstrap_replicates": 199,
+    "alpha": 0.01,
+    "location_tolerance_bins": 2,
+    "note": "Five times the development sample count, selected prospectively because erroneous declarations are rare. B199 retains the same finite-Monte-Carlo testing algorithm; it is not a high-resolution or exact-composite-null guarantee. Every adaptive statistic and full-LR step repeats inside its own calibration paths."
+  },
+  "methods": "All15 development pipelines plus BOTH frozen legacy and equal-information full-LR references. Matched censored-score pipelines receive identical post-score likelihood-localization opportunity under their own observation model. No comparator removed to obtain success.",
+  "primary_endpoint_contrasts": [
+    "localized_full_bank vs localized_safe_score_original",
+    "localized_full_bank vs localized_safe_score_common"
+  ],
+  "primary_effects": {
+    "correct_detection_gain": "Difference in correctly localized declarations divided by1280 positive cases.",
+    "total_error_reduction": "Comparator minus primary wrong-location plus null-false declarations divided by3200 cases.",
+    "category_checks": "No observed increase in wrong-location or null-false counts separately versus either matched censored-score control. Report separate counts/rates/intervals; do not call this a proof of zero risk or population noninferiority at zero margin."
+  },
+  "uncertainty": {
+    "paired_stratified_bootstrap_replicates": 10000,
+    "bootstrap_seed": 9627148305,
+    "strata": "The28 fixed regime/family strata. Resample complete query outcomes within each stratum, preserving all method pairings and fixed stratum sample sizes.",
+    "primary_interval_rule": "For each of the4 prespecified primary effects (2 contrasts x2 endpoints), require a positive lower one-sided98.75percent stratified paired percentile-bootstrap bound. This is a Bonferroni nominal0.05 assessment with approximate bootstrap coverage, not a finite-sample certificate.",
+    "additional_reporting": "All method counts and category-specific rates, marginal Wilson intervals, paired gain/loss and error-fix/new-error tables by stratum. Binomial discordance-tail summaries may be descriptive, but must not be called an exact heterogeneous-population weak-null test. Do not hide zero/rare counts behind a degenerate bootstrap interval."
+  },
+  "fidelity_gates": "In addition to primary endpoint interval/category checks, retain the development point-rule requirements against all raw and matched comparators, including the unlocalized bank and empirical full-score controls. Primary must also have at least as many correct detections and no increase in wrong/null separately versus BOTH full-LR references. Any point failure or unresolved numerical audit prevents the requested joint-superiority completion claim.",
+  "audits": "All3200 query/context data and observed fits/localizers, all rank calculations and all endpoint totals independently replayed. Fresh-study control output paths isolated. First case in every regime/family selected before outcomes for whole-worker replay; independent quadrature/localizer checks and every explicitly recorded numerical-warning sensitivity audit. Pin source graph and new execution wrapper manifest before the first confirmation query. Main and control SQLites and completions individually hashed.",
+  "execution_wrapper_status": "Not yet implemented or started. This is a locked scientific design; the later wrapper may change sample counts and seeds only as listed here, and must preserve all frozen scientific methods. Its sources must be pinned before generating confirmation data.",
+  "scope": "Conditional future confirmation plan, NOT current efficacy evidence or submission readiness. Current fresh640 development is still running and no partial efficacy totals were inspected when this design was frozen. Model mismatch/physical assumptions and publication novelty remain explicit article limitations."
+}

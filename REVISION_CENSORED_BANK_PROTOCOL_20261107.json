@@ -1,0 +1,17 @@
+{
+  "status": "FROZEN_BEFORE_NEW_ABLATION",
+  "source_sha256": "22fcb20563945b6695aed41c5d1c361b3c69b3a13c6da3c4a4562c4f79d5cd72",
+  "original_study_protocol_sha256": "a659740550ff5baf51404a37602b1ca411e6afe63f456eb0c560ebbdcd9b22a3",
+  "original_bank_protocol_sha256": "ed333d4697cb727c6f38dd96e1ee3a556cb0dab6d2e32ce7b395483ffe645424",
+  "original_data_sha256": "6a2d5d5a6c1bfdc8ca1fabbc00d929d8a286a6c93ad0dbc1fbd30b352a8dbecd",
+  "training": "Same 40000 independent null paths/cells/seeds as full bank. Verify all 200 original path hashes. Average diagonal E_r/lambda_r, not full OPG.",
+  "query": "All 640 original queries. Same known-active pilot, score gradient, quarter-grid, exclusion, 1e-12 nuisance pseudoinverse and safe localizer as original localized safe control. Replace only information weights by independent known-active bank. No-hidden controls copied exactly.",
+  "calibration": "199 original-safe-null paths per query, original seeds. Repeat safe-null fit, bank lookup and score scan on every draw. Observed-only safe localization.",
+  "inference": "Paired mechanistic ablation on existing data, not an independent confirmation.",
+  "workers": 4,
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  }
+}

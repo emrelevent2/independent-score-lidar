@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "analysis_sha256": "a737f00ec706d05f17e109adc4ed27cbf03cdbcfee4ce328947c3442fde0619a",
+  "protocol_sha256": "330622efcaf8393a9b9161abfd87c4f8edf79007517405851243f0bdbdc81ec0",
+  "source_sha256": "14bc6ef8beea7373df3a81da80a50d325224244ceb41f7f2d030ce8a91db8212",
+  "rows": [
+    {
+      "file": "FGS_td048_2019_01_28_acq1.mat",
+      "replayed": 299,
+      "heldout_gap_count": 20000,
+      "mean_log_score_gain": 0.7522023680202067,
+      "burst_component_total_mass": 1.0000000000000004,
+      "mesh_refinement_mean_change_in_contrast": 2.42796975692966e-07
+    },
+    {
+      "file": "FGS_td048_2019_01_28_acq2.mat",
+      "replayed": 299,
+      "heldout_gap_count": 20000,
+      "mean_log_score_gain": -2.086373999458102e-08,
+      "burst_component_total_mass": 1.0,
+      "mesh_refinement_mean_change_in_contrast": 4.0825217231336786e-10
+    }
+  ]
+}

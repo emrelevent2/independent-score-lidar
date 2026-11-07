@@ -1,0 +1,103 @@
+{
+  "status": "FROZEN_BEFORE_HETEROGENEOUS_TWO_DEAD_TIME_CONTEXT_DATA",
+  "sources": {
+    "safe_donor_development.py": "bfb9111b16e35f74e349e77f65779cee80bbd16873e089ec77b40199c7262ff7",
+    "safe_donor_alternative.py": "5a3313e14b6e798bdfa8d7b1360f9a0340d1c4ffd02787c17d51c867079b10f6",
+    "certified_safe_components.py": "9087daa14ea6d3d4541b6ce33ac02d7cf00dac7422ec93792f9421274545faea",
+    "certified_safe_null.py": "8407ea4a75a79d36012708a20ef81e1397a570504f21ac03f4b4d8a55a019400",
+    "continuous_rate_profile.py": "ccc28f240bcf4067330eb4ddf8443405ccb0f1b8d202d73242b538c3e7948b08",
+    "safe_deadtime_exposure.py": "c5e47cf59873c23e86392f997f76749d3d6d8a5dc3219d0d13c8f75c4544bf19",
+    "deadtime_path_bootstrap.py": "01feac2e052aa36404210269eda6355de4a3f9826b7e4369342671b1e5e6999f",
+    "deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5",
+    "deadtime_scan.py": "7ab8180f8127a0cb255711095eefad929003ccef0217ad5f40412b064fb5f69a"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "numba": "0.59.1",
+    "flint": "0.9.0"
+  },
+  "methods": [
+    "local_bootstrap",
+    "donor_bootstrap",
+    "donor_certified"
+  ],
+  "settings": {
+    "bins": 64,
+    "sigma": 1.5,
+    "cycles_default": 1500,
+    "donors": 16,
+    "positive_per_family_regime": 16,
+    "null_per_family_regime": 32,
+    "bootstrap_replicates": 199,
+    "seed_base": 4129361691,
+    "primary_phase": 15.3,
+    "phase_jitter_uniform": [
+      -0.4,
+      0.4
+    ],
+    "alpha": 0.01,
+    "tolerance": 2,
+    "cover_initial_cells": 8,
+    "cover_max_boxes": 192
+  },
+  "regimes": [
+    {
+      "name": "moderate",
+      "a": 0.8,
+      "b": 0.3,
+      "c": 0.065,
+      "gap": 12,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 40.0
+    },
+    {
+      "name": "near",
+      "a": 0.8,
+      "b": 1.0,
+      "c": 0.09,
+      "gap": 6,
+      "cycles": 1500,
+      "td": 126.7,
+      "te": 80.0
+    },
+    {
+      "name": "bright_hidden",
+      "a": 2.4,
+      "b": 0.8,
+      "c": 0.15,
+      "gap": 10,
+      "cycles": 1000,
+      "td": 31.7,
+      "te": 80.0
+    },
+    {
+      "name": "weak_hidden",
+      "a": 0.25,
+      "b": 0.1,
+      "c": 0.035,
+      "gap": 20,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 100.0
+    }
+  ],
+  "families": {
+    "positive": [
+      "coherent",
+      "isolated",
+      "misleading"
+    ],
+    "null": [
+      "clean_null",
+      "borrow_null"
+    ]
+  },
+  "design": "Within each case all17pixels share a fixed primary delay/amplitude/background;photon noise independent by pixel. Coherent neighbors share secondary;isolated neighbors have no secondary;misleading neighbors have secondary10bins displaced. Borrow-null query has no secondary but all donors do. Same query supplied to every method. Local control uses query only;both donor methods use identical16extra pixels. No assertion of information-budget equality with local control or optimality versus every spatial method.",
+  "alternative": "Donor-only pooled two-pulse fit;3/4mass on4spatial amplitude factors,1/4on all admissible integer relative offsets times3weak amplitudes. Proper original weights never renormalized or chosen with query. Query chooses MAP component for reported location only. Mixture/borrowing/inference principles are established,not new general ideas.",
+  "calibration": "Shared199latent-two-detector bootstrap paths at observed fitted single-return null;fully warm-start refit all3nullparameters per path. Local statistic=fine projected scan;donor statistic=fixed proper mixture loglik minus numerical null maximum. Both p-values approximate composite-null plug-in tests,not exact1%guarantees. Certified donor uses Arb lower numerator and complete continuous-delay/unbounded-amplitude null upper at1/100;known sigma/D and idealized bin-constant intensity required.",
+  "primary_rule": "Exploratory practical donor_bootstrap strictly more correct AND strictly fewer total errors(wrong positive+null) than local_bootstrap,with no more wrong or null separately. Report certified method separately against ALL controls and every family;do not demand/claim uniform superiority. No new efficacy confirmation if primary fails.",
+  "scope": "New DEVELOPMENT.192positive/256null observations,16contextpixels each. Not prior v5/oneD confirmation. No physical quantization/jitter/afterpulsing/recovery uncertainty guarantee. Same model-safe interval restriction for controls;not a full latent-state likelihood or claim of optimal information use. Proper null/tangent/censoring ideas are prior art."
+}

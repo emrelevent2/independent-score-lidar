@@ -1,0 +1,19 @@
+NUMERICAL VERIFICATION AND REPLAY NOTES
+
+These details support reproducibility and are not an appendix to the article.
+
+\subsection{Numerical verification}
+An independent inverse-hazard simulator and electronics filter generated 1.6 million gaps. The largest empirical cumulative-distribution discrepancy from the likelihood was 0.00517, below the predefined family-wise threshold of 0.00720. Independent segment quadrature checked 224 density and five-parameter derivative evaluations with differences below $10^{-14}$ in the fixtures. On 64 additional records, forward/reverse log-likelihood and phase-score differences were at most $5.69\times10^{-14}$ and $8.53\times10^{-14}$.
+
+The full bank was checked on 6400 independent null records from 32 held-out profiles. Across 7232 admissible secondary directions, median, 95th-percentile and maximum absolute log variance ratios were 0.05197, 0.13131 and 0.38426. The predefined limits were $\log1.15$, $\log1.35$ and $\log2$. Training and validation used independent paths.
+
+On the same independent profiles, direct known-active information interpolation has absolute log variance errors of 0.06339, 0.32019 and 0.66990 at the median, 95th percentile and maximum. Interpolating exposure before exact rate division reduces these to 0.01205, 0.27907 and 0.50594. The bank ablation therefore includes both direct information interpolation and its more accurate exposure-based control. Independent QR projection checks agree with the implemented known-active bank scores within $4.27\times10^{-14}$.
+
+All reported decisions were independently replayed, and fitted likelihoods were checked by independent quadrature. Detailed numerical checks and replay instructions are supplied with the analysis code.
+
+The stratified paired bootstrap was specified after cohort generation. This timing is preserved in article_data.json, the analysis protocols and the manuscript Limitations paragraph.
+
+Measured-data model extension: MEASURED_RECOVERY_PROTOCOL_20261107.json; tools/measurement_recovery_model.py; tools/measurement_recovery_study.py; tools/audit_measurement_recovery.py. Original frozen simulation source, data and results were not modified. The measured-data analysis does not use a newly trained detector score bank. Public raw data are obtained from the original authors; they are not redistributed in the source archive.
+
+MEASURED-DATA MODEL DEVELOPMENT AND VALIDATION
+The recovery-only model was fitted on 20000 calibration gaps per file and inspected on a separate 20000-gap development segment. Its descriptive CDF distances were .24269 and .03220 (low/high flux). That low-flux failure motivated the clustered-transition component; earlier fits, predictions and scores are retained. The extension form was fixed in MEASURED_CLUSTER_PROTOCOL_20261107.json before its fitting/evaluation. Its parameters use the same calibration segment; final assessment uses previously unused pairs40400:60400 per file. Code: measured_cluster_extension.py; all values independently replayed in audit_measured_cluster.py. The mixture is a working transition law and does not identify clustering as afterpulsing. No random-recovery detector bank was trained and no measured two-surface detection accuracy is claimed. The fixed-recovery detector retains 199 calibration draws. No 999-draw or exactly matched false-alarm experiment has been performed.

@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "pages": 13,
+  "word_count": 9119,
+  "appendices": 0,
+  "figures": 6,
+  "references": 13,
+  "rank_checks_including_three_levels": 40320,
+  "all_complete_comparisons_recounted": true,
+  "all_regimes_and_nulls_recounted": true,
+  "source_input_hashes_verified": true,
+  "body_fonts": [
+    "/AKHCZK+CMMI7",
+    "/BZIVMZ+TimesNewRomanPS-BoldItalicMT",
+    "/CAFSZL+CMSY10",
+    "/DDIEWW+CMR7",
+    "/DZGKAF+CMEX7",
+    "/FKPJSN+CMEX10",
+    "/FZDNHS+CMR5",
+    "/GJMHKB+MSBM10",
+    "/GQYLQL+CMR6",
+    "/IHAIZV+TimesNewRomanPSMT",
+    "/IXFAWU+TimesNewRomanPS-BoldMT",
+    "/JAGKKY+CMMI8",
+    "/KPXLOM+CMR8",
+    "/LPOGEQ+CMSY6",
+    "/NITCSQ+CMBX10",
+    "/NOMARO+CMMI6",
+    "/PVTTLK+CMMI5",
+    "/TQTHRL+TimesNewRomanPS-ItalicMT",
+    "/UBBQTN+CMSY5",
+    "/UTACNV+CMSY7",
+    "/VDVGTR+CMR10",
+    "/WXMALW+CMSY8",
+    "/YEUUOC+CMMI10"
+  ],
+  "figure_fonts": {
+    "fig01_model.pdf": [
+      "/FHXFSG+TimesNewRomanPSMT"
+    ],
+    "fig02_regimes.pdf": [
+      "/FHXFSG+TimesNewRomanPSMT"
+    ],
+    "fig03_operating.pdf": [
+      "/FHXFSG+TimesNewRomanPSMT"
+    ],
+    "fig04_power.pdf": [
+      "/FHXFSG+TimesNewRomanPSMT"
+    ],
+    "fig05_cost.pdf": [
+      "/FHXFSG+TimesNewRomanPSMT"
+    ],
+    "fig06_measurements.pdf": [
+      "/FHXFSG+TimesNewRomanPSMT"
+    ]
+  },
+  "reference_body_12word_overlap": [],
+  "all_final_pages_visually_inspected": true,
+  "pdf_sha256": "33d6eb460f1b6cdf67fdfa330b6fa5c4cd8e8fa3c6e17246ae0f53c3675ef205",
+  "data_sha256": "bca9459318f8ba8892c7012c36ec4f66073ea8d3c644b03a4ab0f45cba8f13eb",
+  "source_hashes": {
+    "manuscript/ded_style_article_v2/glrt_results.tex": "7c56e68ad28cc57a73cc1104cf86dfcbfcf51581d260c2b9073eb355f1d1bd03",
+    "manuscript/ded_style_article_v2/measured_results.tex": "3e15bd33ad59e513ccc96da820fd7d567067f861a13f1391116c73cd0ed75d85",
+    "manuscript/ded_style_article_v2/normalization_results.tex": "19e6a8fce946a25b375941045aac55b210b14f48f6674b7529db5dab10081a00",
+    "manuscript/ded_style_article_v2/power_results.tex": "84ce2a29d2619e5ce64373d3e52212147e326e5cc36fb6bbac92be2cb48967c2",
+    "manuscript/ded_style_article_v2/references.tex": "e686d91c0334f80139136d7133e5f3174a0b103d65801bc1a2a62aee936276bc",
+    "manuscript/ded_style_article_v2/robustness_results.tex": "45942a7364ef3f2730d9548a4a8c7d05763f3815beb926322cc994563d969928",
+    "manuscript/ded_style_article_v2/section01_introduction.tex": "cf28bf56a88d9de0265cd82e1659e1c32c5592b3b8476d71983a4c5df677eafd",
+    "manuscript/ded_style_article_v2/section02_model.tex": "6bb97d3b91a3de63be95611e43112d5efdb1b34b4d56a71c2131b5b0600720e5",
+    "manuscript/ded_style_article_v2/section03_information.tex": "f1bfa0ee9bc5dea7595e16adbfcc3dc4801a262b3837e035d10b9b41053f6e9f",
+    "manuscript/ded_style_article_v2/section04_method.tex": "381aae271f48db86fcf0df2a4d9aa5ca2c47edb060bcee1123d2ebbdcd21230f",
+    "manuscript/ded_style_article_v2/section05_results.tex": "ee7244bbd15b79e7a151ad2d6a60bf986cd2e65bcf98caa8f22c6d1c6247dd01",
+    "manuscript/ded_style_article_v2/section06_conclusion.tex": "1bf3a58799feba8634d5f8cb29cb48d3be06d235d197d20c9e523cd0036bbc46",
+    "manuscript/ded_style_article_v2/table_ablations.tex": "e95e6d3cdefc45457fa81e414a2555e97c43047f2efd13d7e6e8ea7673875cbe",
+    "manuscript/ded_style_article_v2/table_measured.tex": "ef79d36984750c77c77350554fd5e8e5e01aa1054d1415521cb96aca6711d582",
+    "manuscript/ded_style_article_v2/table_regimes.tex": "a9957509f140f68aaedc61e09ac81d55097fa9e2dd6f6d81cb1219c697b4b6c9",
+    "manuscript/ded_style_article_v2/table_robustness.tex": "832a16e80e1e42b8ff6918522f20939e866c84a6b14ac89e3d52d90d1f585f16",
+    "manuscript/ded_style_article_v2/weak_return_two_recovery_revised.tex": "a06401865cd19948ed48f5fe92ed8b5aa1c1ad2c347864db1dc7108b47a082c7"
+  },
+  "page_hashes": {
+    "page-01.png": "c6e3dbac6f56e705a1776966b76621c37c3e1ce58860cf64a00b024f7f578cb2",
+    "page-02.png": "931ee41922419a885e2cd7df804a47da814e322d87d59912f8e26edddc976bcf",
+    "page-03.png": "8d68068805f4e49e63d714f13910fad9e346145aad2d281c8abb29183efa3257",
+    "page-04.png": "bff8dc11abbbda08621a9e0869bfcf51c446abc0d7500f6bf31d85d5d249653b",
+    "page-05.png": "bb2fc037c260edfb04c092a05af9e430fda78b9d225adaf2ee34f56b80d2f7aa",
+    "page-06.png": "bde57023c7616ea5c10ec778049877dbc84d54bd325acdff6c31d71a16d35db6",
+    "page-07.png": "61d60d4cb518608f5a9293062d70a4192406367d50812f39251e18fa50275292",
+    "page-08.png": "243f665e00f642f70be938fa792b4157ecd0139c150be55a934a8995c8fff6b6",
+    "page-09.png": "2dbd7ad921542e4adad808812d762bab940c7ce3ebcbdc597ae4f8d16c1a3f7f",
+    "page-10.png": "b6a51736135c5b81b2a5babb06362c7636e5264a92df5d845364b6adfa59d0fd",
+    "page-11.png": "3e6adf666d4e357e0b26cd68d4c14e41fc3d438df496bd6003885ea0e334c908",
+    "page-12.png": "0775ea84f3b76169fc63ad0c7f4acec0579d7c23e520ca9d5b1be7bbe8472002",
+    "page-13.png": "132b8e0a893461c1e266e91b47ff089201fbf20d7618aa6c89babfafa3baa37c"
+  },
+  "qa_source_sha256": "50776bb5644dd4917917283600d694d2ab368a788606d6dcde45f5eb7059179c"
+}

@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_ON_ALREADY_CLOSED_DEVELOPMENT_BEFORE_OMNIBUS_EVALUATION",
+  "sources": {
+    "src\\closed_omnibus_location_diagnostic.py": "542f0eb30aa123fc9daa43c04e0c47091e219d37b326948f6232429e0897c0a0",
+    "src/paired_rank_fusion.py": "872929c244583f022dc7bdb55a2010de4a2addc8f81893b12394600411e9b8fe"
+  },
+  "inputs": {
+    "results\\safe_donor_development_v1\\records.sqlite3": "419ff5e2750de52c50333e92af6abebe12a1ee11ca60718402e446cda40f2aa2",
+    "results\\safe_donor_spatial_control_v1\\records.sqlite3": "6c86ac9ac012e9f3f0c5e7b744432c7e4943e825c969ee1182dffafed4d874e4",
+    "results\\safe_donor_development_v1\\analysis.json": "fca8d240981417908dffd046bbd170e0b2a3915b7302cd0804b2589f59cdacd0",
+    "results\\safe_donor_spatial_control_v1\\analysis.json": "a7e1b516ed65a774ff6f56651e81eae284d392324274d19cc5a0e6a892d3caf8"
+  },
+  "rules": "Joint symmetric minP rank of local,spatial-prior and fixed-mixture likelihood statistics. Smallest component p selects location,local then spatial on ties. Compare original MAP location versus unweighted maximum component likelihood when mixture is selected. Original numerator weights/presence statistics unchanged;no ground truth in either selector.",
+  "scope": "New CLOSED development hypotheses after failed methods;not prospective efficacy or novelty proof. Standard joint resampling/omnibus and marginal-test/profile-localization ideas. Any promotion needs fresh independently frozen data."
+}

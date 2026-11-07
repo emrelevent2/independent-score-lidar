@@ -1,0 +1,181 @@
+{
+  "status": "CLOSED previous routing test is DEVELOPMENT for this new pure localization rule. It cannot independently confirm it.",
+  "created_utc": "2026-11-06T01:47:47.139214+00:00",
+  "settings": [
+    {
+      "distance": 2.0,
+      "fraction": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 2.0,
+      "fraction": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 2.0,
+      "fraction": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 2.0,
+      "fraction": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 2.0,
+      "fraction": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 2.0,
+      "fraction": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 2.0,
+      "fraction": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 2.0,
+      "fraction": 2.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "fraction": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "fraction": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "fraction": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "fraction": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "fraction": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "fraction": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 4.0,
+      "fraction": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 4.0,
+      "fraction": 2.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "fraction": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "fraction": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "fraction": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "fraction": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "fraction": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "fraction": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 8.0,
+      "fraction": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 8.0,
+      "fraction": 2.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "fraction": 0.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "fraction": 0.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "fraction": 0.5,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "fraction": 0.5,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "fraction": 1.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "fraction": 1.0,
+      "blend": 1.0
+    },
+    {
+      "distance": 16.0,
+      "fraction": 2.0,
+      "blend": 0.5
+    },
+    {
+      "distance": 16.0,
+      "fraction": 2.0,
+      "blend": 1.0
+    }
+  ],
+  "source_sha256": {
+    "guarded_development.py": "209a6c88e6ca2b0c80131a232ab3de6335880ccdc6c29db9e935bd508995c070",
+    "guarded_localization.py": "74a17f30ec876503e63c092392e8ed19d6b28a2cf0fc900a4543bc521c802f75",
+    "support_routing.py": "9af17e8ac5cf3d85efda89dd9a96fbd532418848776b23a1db568dd2b629cfa7",
+    "analyze_routing_confirmation.py": "386b4683eef1d592724fdd88881cbf305eb4a6477dc9e20f2401065e783e7cc9"
+  },
+  "base_analysis_sha256": "018f19637c59e438bf46bb7df09f9aa20c0f047030bb7d305edc3487db58967f",
+  "manifest_sha256": "df2cc7a2d2d2872bcb344ae7f530c1160d6b0fa29d910d69c04dd48c12fcfe4c",
+  "primary_alpha": 0.005,
+  "selection": "Keep EXACT local score and threshold. Maximize coherent+singleton correct, constrained to no reduction of correct and no increase of wrong depth in EACH of coherent,singleton,filament,crossing_step. Include unchanged local fallback. Tie: fewer changed reports, smaller distance, larger fraction, smaller blend.",
+  "notes": [
+    "Every candidate has the identical null declarations by algebraic score identity, not a calibration claim.",
+    "All previous stress geometries become development for this new rule. Fresh confirmation is mandatory.",
+    "Real-data working-count extension remains a separate frozen comparison; this simulator-specific count noise proxy is not silently applied there."
+  ]
+}

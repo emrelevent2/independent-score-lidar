@@ -1,0 +1,7 @@
+{
+  "status": "FROZEN_BEFORE_COMMON_GENERATOR_ABLATION",
+  "source_sha256": "cc9a92ea5961dc9fe931f9f15e8aa686f1d16239872756972761598f75d7b284",
+  "original_ablation_protocol_sha256": "d9133ffaaad4cbdebaaf3ee7d10f7222dba62eb9a884c12c6d21669b14accd8d",
+  "bank_sha256": "2416954a86d4b251a299f01bf1ea6918c9829548a7a4a00987dcfbc353da66d8",
+  "design": "Same observed censored-bank statistic and safe localizer as original-generator ablation. Replace only calibration generator and bootstrap warm start by original common full-null fit. Regenerate all 199 common paths; verify exact path hashes and original-common safe scores against frozen rows. All 640 rows, no-hidden exact copies. This closes the generator-matched factorial comparison; mechanistic reanalysis, not independent confirmation."
+}

@@ -1,0 +1,30 @@
+{
+  "status": "POST HOC DEVELOPMENT on closed localization confirmation; no independent new-method evidence.",
+  "created_utc": "2026-11-06T00:31:08.874388+00:00",
+  "source_sha256": {
+    "disagreement_development.py": "3853d56bb16e5dcebf4f67e156ac7680a5e099e613d7b80ebc45af61f282170f",
+    "disagreement_routing.py": "8b9ded9a27c28ae42c55b781350b81061e46de75de999f1c66113be11c8d5fe5",
+    "support_routing.py": "9af17e8ac5cf3d85efda89dd9a96fbd532418848776b23a1db568dd2b629cfa7"
+  },
+  "normalizers": {
+    "spatial": 3.498807651481002,
+    "local": 6.991672782561807
+  },
+  "gate": 3.5,
+  "ratios": [
+    null,
+    1.25,
+    1.5,
+    2.0
+  ],
+  "separation_for_override": 4.0,
+  "alpha": [
+    0.005,
+    0.01
+  ],
+  "selection": "Same equal-main/singleton correct-minus-wrong utility at0.005; null<=25/2000; simpler baseline wins exact tie.",
+  "notes": [
+    "Strongly separated local candidate can override a confident but misplaced donor proposal.",
+    "No fresh inputs exist. All variants including failures will remain in the development record."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "FROZEN_BEFORE_FRESH_NUMERICAL_FIXTURES",
+  "sources": {
+    "src/ct_dual_reverse.py": "c21f8aaa67aec3bf82c580dcde324e9ee4b63b3cc52ba668c1f4eedd9edce386",
+    "src/test_ct_dual_reverse.py": "5d3dc3d729df46e8524831593b89203b1e0118cef810f6a2b91e6450e8398dd8",
+    "tools/check_ct_reverse_kernel.py": "87380ef417d8c5422aaa4991abbf9083df210f606a77564e0cd25b14d394c989"
+  },
+  "continuous_model_protocol_sha256": "2509fa4123faf5bf8eac8ccab51786da29d3c7b8a7a0465b4a333de160ec51ee",
+  "seed_base": 6198432701,
+  "profiles_per_regime": 16,
+  "bins": 64,
+  "sigma": 1.5,
+  "cycles": 200,
+  "regimes": [
+    [
+      83.7,
+      40.0
+    ],
+    [
+      126.7,
+      80.0
+    ],
+    [
+      31.7,
+      80.0
+    ],
+    [
+      83.7,
+      100.0
+    ]
+  ],
+  "criterion": "All64freshrecords:fullvalue,64phasegradients,eachinitial/transition/terminalscorepiece againstfrozenforwardkernel. First2profiles/regime additionallyagainst32pointquadrature5parametergradient. Maxpieceabserror<1e-6andmaxfullLLerror<1e-7. No fit/detection/threshold/utility claim.",
+  "scope": "Established reverse-mode differentiation of same positive continuouspathlaw. Alloldfrozenmodel/efficacysourcesunchanged. Newversion isengineeringpreparationonly;mustnotreplaceoldstudyhalfway. DomainTe<=3Td,floatingnotintervalarithmetic."
+}

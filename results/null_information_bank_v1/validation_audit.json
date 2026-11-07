@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "all32validation_profiles_keys_and_hashes_checked": true,
+  "all6400continuous_validation_paths_regenerated": 6400,
+  "whole200record_reference_matrix_replays": 4,
+  "independent_phase_interpolation_checks": 32,
+  "independent_Cholesky_QR_projected_variance_ratios": 7232,
+  "max_independent_interpolation_entry_gap": 4.656612873077393e-10,
+  "max_independent_variance_ratio_gap": 6.8833827526759706e-15,
+  "validation_sha256": "389f7123239d3137f92a39074206ef82047c128f93891bc04f6c7fbb72f6029d",
+  "bank_sha256": "aee2cc7ca58b5986dd4c27d86ba841675215fb2f48738ea7b956cf3804b594d8",
+  "seconds": 20.742650600150228,
+  "scope": "Allvalidationprovenanceand32independentinterpolations/weightedQRvarianceprofiles;4fullreferencecellreplays800paths. Numericalweightapproximationonly,not calibrated detector efficacy or exact finite Fisher/physical validity."
+}

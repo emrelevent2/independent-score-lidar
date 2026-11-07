@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "cells": 200,
+  "null_paths": 40000,
+  "path_hash_checks": 200,
+  "bank_sha256": "2416954a86d4b251a299f01bf1ea6918c9829548a7a4a00987dcfbc353da66d8",
+  "protocol_sha256": "d9133ffaaad4cbdebaaf3ee7d10f7222dba62eb9a884c12c6d21669b14accd8d",
+  "seconds": 11.909449900034815
+}

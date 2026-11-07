@@ -1,0 +1,41 @@
+{
+  "status": "Fixed development frame selected without inspecting histograms or annotations.",
+  "created_utc": "2026-11-06T00:49:10.048277+00:00",
+  "commit": "cadc5d7a0fa0cf5e6f49973ba3633198c4c3c02d",
+  "selection": "Lexically first labeled frame of deviceP2 Sequence21, matching histogram by timestamp.",
+  "source_sha256": {
+    "stb_semantic_download.py": "c6357eab2d9930607528d50592538f81da5c1c213185d46d9bf8ca1ab6aa722d",
+    "stb_remote_zip.py": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca"
+  },
+  "files": [
+    {
+      "archive": "Annotations/p2/Sequence21.zip",
+      "archive_bytes": 30602679,
+      "member": {
+        "name": "Sequence21/RawDataHistogramMap_frame_0_1770221118237615_semantic.npy",
+        "bytes": 33030272,
+        "compressed_bytes": 126428,
+        "crc32": 807829447,
+        "header_offset": 41
+      }
+    },
+    {
+      "archive": "Histogram/p2.zip",
+      "archive_bytes": 7079798249,
+      "member": {
+        "name": "p2/Sequence21/RawDataHistogramMap_frame_0_1770221118237615.txt",
+        "bytes": 67421665,
+        "compressed_bytes": 4370085,
+        "crc32": 4218982401,
+        "header_offset": 77
+      }
+    }
+  ],
+  "notes": [
+    "Only selected members, never the full7GBhistogram archive, are downloaded.",
+    "CRC32 and downloaded-member SHA256 recorded. Entire remote archive SHA is not claimed locally verified.",
+    "Public semantic windows were labeled by histogram peak peeling; they are not independent physical measurements of every hidden surface.",
+    "Unlabeled bins/pixels are not automatically true background or proof of no secondary surface.",
+    "Development only. No real-method performance is claimed by this acquisition."
+  ]
+}

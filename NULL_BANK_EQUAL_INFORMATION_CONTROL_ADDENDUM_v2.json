@@ -1,0 +1,18 @@
+{
+  "supersedes_addendum_sha256": "f5a2afb4235ca84b06f1ffc9a41a1320007674cfdac1a8e8c6b0f3e328af086c",
+  "technical_correction": "BeforeANYcontrolcohortdata:fixamplitude-basedprimarysortingforunrefinedfeasiblefull-scorepoints. Preserveallv1sources/protocol;main640sourcesandrecordsunchanged.",
+  "status": "FROZEN_ADDITIVE_STRONGER_CONTROL_BEFORE_ANY_MAIN_ENDPOINT_TOTALS",
+  "main_protocol_sha256": "1776595183a32e5e74cb1ad7fdb20af0e6cb566e334c15499617b5ecf7d13bf9",
+  "sources": {
+    "full_information_joint_reference_v2.py": "d222a6a55c63b38a4128ace32d55c33c0894f62b2f6bb623ca79beb001b3db1f",
+    "test_full_information_joint_reference_v2.py": "2cb82a07d31c986a5ab0a3cc1f48fa8ba092d70eb18fba40574928e6713f4ca2",
+    "null_bank_equal_information_control_v2.py": "b38808e434f55c34794fab290c6eb171eed4c922a90467a04d9a0099c4a5e66d"
+  },
+  "main_committed_cases_at_addendum": 376,
+  "primary_method_and_all12main_pipeline_sources_unchanged": true,
+  "reason": "Legacyfulljointreferenceinitializesonlyfrom6censoredfitsandmaymissasecondaryvisibleinthefullinformation. StrongercomparisonmustgettheSAMEbank/fullphasegradientasprimary.",
+  "method": "Keepfrozenlegacyfulljointsolutionasfeasiblebaseline;add6separatedquarterbinfull-bank-scorestarts,refinetop2fullscorestartsandbestnewinitialfulllikelihood(atmost3additional5parameterfits),keepmaxofallinitial/refined/legacy/nullsolutions. Repeatallselection/fullnullrefitsinsideeverycommonbootstrapdraw. No globalMLclaim.",
+  "execution": "ConditionalonMAINpreliminarypassandmainauditsPASS,computeBOTHlegacyandstrongerreferenceforALL640queriesandALL199commonpaths. Samegenerators/seeds/recovery/contextdatasets/2bintolerance/alpha.01. No favorable-subgroupshortcut. Computeexpensivecontrolsisdeferredonlywhenprimaryhasalreadyfailed,notwaivedforpublication.",
+  "gate": "PRIMARYmusthaveatleastcorrectandnomorewrongandnomorenullthanBOTHfulljointcontrols. Allcomparisonintegrityandnumerical-warningauditsMUSTpassbeforefreshconfirmation. Addendumcanonlystrengthenreadinessrequirements;itdoesnotpromoteanotherprimaryorchangealpha.",
+  "scope": "Additionalpre-metricsrobustnesscomparator,not primaryefficacyresults orconfirmation. Genericexpectedinformation/score/MLingredientsestablished. Mainprotocolandscientificrecordsremainunchanged."
+}

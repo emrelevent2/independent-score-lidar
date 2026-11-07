@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_ADDITIVE_STRONGER_CONTROL_BEFORE_ANY_MAIN_ENDPOINT_TOTALS",
+  "main_protocol_sha256": "1776595183a32e5e74cb1ad7fdb20af0e6cb566e334c15499617b5ecf7d13bf9",
+  "sources": {
+    "full_information_joint_reference.py": "be4770275ccb34ccb50e04055bbb0625fef3243618de18c0b724e8020a97ee6d",
+    "test_full_information_joint_reference.py": "d6ba9a6f2aab556c84ad18d344c4beb23798dd687e68e155ad66ae292f326d24",
+    "null_bank_equal_information_control.py": "ec3909330fd14c8d8e62ddcd504c47ee44277a0e04b4122f5164c4aaeb7a1e55"
+  },
+  "main_committed_cases_at_addendum": 369,
+  "primary_method_and_all12main_pipeline_sources_unchanged": true,
+  "reason": "Legacyfulljointreferenceinitializesonlyfrom6censoredfitsandmaymissasecondaryvisibleinthefullinformation. StrongercomparisonmustgettheSAMEbank/fullphasegradientasprimary.",
+  "method": "Keepfrozenlegacyfulljointsolutionasfeasiblebaseline;add6separatedquarterbinfull-bank-scorestarts,refinetop2fullscorestartsandbestnewinitialfulllikelihood(atmost3additional5parameterfits),keepmaxofallinitial/refined/legacy/nullsolutions. Repeatallselection/fullnullrefitsinsideeverycommonbootstrapdraw. No globalMLclaim.",
+  "execution": "ConditionalonMAINpreliminarypassandmainauditsPASS,computeBOTHlegacyandstrongerreferenceforALL640queriesandALL199commonpaths. Samegenerators/seeds/recovery/contextdatasets/2bintolerance/alpha.01. No favorable-subgroupshortcut. Computeexpensivecontrolsisdeferredonlywhenprimaryhasalreadyfailed,notwaivedforpublication.",
+  "gate": "PRIMARYmusthaveatleastcorrectandnomorewrongandnomorenullthanBOTHfulljointcontrols. Allcomparisonintegrityandnumerical-warningauditsMUSTpassbeforefreshconfirmation. Addendumcanonlystrengthenreadinessrequirements;itdoesnotpromoteanotherprimaryorchangealpha.",
+  "scope": "Additionalpre-metricsrobustnesscomparator,not primaryefficacyresults orconfirmation. Genericexpectedinformation/score/MLingredientsestablished. Mainprotocolandscientificrecordsremainunchanged."
+}

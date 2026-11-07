@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_BEFORE_BASE_ENDPOINT_ANALYSIS_OR_SPATIAL_CONTROL_EXECUTION",
+  "base_protocol_sha256": "ea22d485979b9e36a417b654ecea345d354939f50c5e5cd15fdf8570a132d77c",
+  "sources": {
+    "src\\safe_spatial_control_addendum.py": "39d73108932dadf0a1e7bcab80a399d305d3984e75b459ad928b7137cc19a9cc",
+    "src/safe_prior_score.py": "679dc744942621c2da39912547fb3de95904dff5dfd68f6ff7bffdaba6a551c8"
+  },
+  "base_data_generation_already_started": true,
+  "comparator": "Classical nuisance-projected score at same donor spatial center and all same coverage centers,weighted max with prior3/4spatial and1/4uniformcoverage. Same16contextpixels as proposed method,sameknownsigma/recovery,same199twoDbootstrap paths and fully refitted nullparameters. No new data or oracletruth in comparator.",
+  "additional_gate": "Retain original primary criterion. Separately require practical donor mixture strictly more correct AND fewer total errors than this equal-context control,with no more wrong/null separately,before claiming practical superiority over a strong spatial test. If it fails,report failure even if local-only primary passes.",
+  "audit": "During control calculation regenerate every base observation/donor predictor/allbootstrap paths and all base bootstrap statistics;do not replace original results/times. Fixed selected refit draws additionally compared to source three-start fits.",
+  "scope": "Additional DEVELOPMENT comparator prespecified before endpoint analysis,not a new independent confirmation. Generic matched scores/prior weighting and bootstrap are prior art;no e-value guarantee for this maximum."
+}

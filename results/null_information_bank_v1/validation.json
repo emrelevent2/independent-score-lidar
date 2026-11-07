@@ -1,0 +1,912 @@
+{
+  "status": "NUMERICAL_WEIGHT_APPROXIMATION_PASS",
+  "profiles": [
+    {
+      "case": {
+        "ri": 0,
+        "index": 0,
+        "theta": [
+          3.915807109466148,
+          54.01492291978304,
+          0.9312698967573572
+        ],
+        "seed": 9128387044
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 109409,
+        "observed_arrays_sha256": "3fc557399d46e55a33854253558c8a180d0fcf3eb43002a682d711049c491aa1",
+        "minimum_eigenvalue": 20.172245472511445
+      },
+      "bank_minimum_eigenvalue": 39.665064690801756,
+      "reference_minimum_eigenvalue": 20.172245472511445,
+      "file": "validation\\0.npz",
+      "sha256": "7c2b61b767484a8a9e31ca57007c215a2b531e3930473f16e62df11c27f56b8d",
+      "variance_ratio_quantiles": [
+        1.0287997357140481,
+        1.0694417648209935,
+        1.2648867362291845,
+        1.4685314888509031
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 1,
+        "theta": [
+          3.3356705384045617,
+          22.308262764019787,
+          1.771096513545925
+        ],
+        "seed": 9130387047
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 115340,
+        "observed_arrays_sha256": "b99900d08a91c739756ac0a52ee0cba8e8985b3fd699c80adcbce1b1bf4c9fa6",
+        "minimum_eigenvalue": 24.233508810741082
+      },
+      "bank_minimum_eigenvalue": 41.17819486249504,
+      "reference_minimum_eigenvalue": 24.233508810741082,
+      "file": "validation\\1.npz",
+      "sha256": "28ad9be2df3219cd74b914b9cbbe6d629f266c2979c730d0a1f0d0b3552eb191",
+      "variance_ratio_quantiles": [
+        1.0139288840438534,
+        1.0519854951656924,
+        1.135825821322115,
+        1.314001682013705
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 2,
+        "theta": [
+          4.031159258065542,
+          33.941219721551704,
+          1.4523708737994636
+        ],
+        "seed": 9132387050
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 113531,
+        "observed_arrays_sha256": "b22c22bc2dc55c15a9cee101528893c37c3ecfffdcbda709438218b53fca075d",
+        "minimum_eigenvalue": 13.636634540815725
+      },
+      "bank_minimum_eigenvalue": 27.48057030304815,
+      "reference_minimum_eigenvalue": 13.636634540815725,
+      "file": "validation\\2.npz",
+      "sha256": "35ee7a328d41fce3118b7970e1f4bc1cd2835301a92e5508cf661342ae95d523",
+      "variance_ratio_quantiles": [
+        0.9988689826832161,
+        1.057623557396294,
+        1.158903297698604,
+        1.3210300788978968
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 3,
+        "theta": [
+          4.083247903972198,
+          9.330384830091099,
+          1.8049105529934548
+        ],
+        "seed": 9134387053
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 115709,
+        "observed_arrays_sha256": "abde2b64eceb624e63a90649d74ddc42cc6d9107e044c6d27beaba49e48b5ba0",
+        "minimum_eigenvalue": 10.896998267688629
+      },
+      "bank_minimum_eigenvalue": 21.604855207148628,
+      "reference_minimum_eigenvalue": 10.896998267688629,
+      "file": "validation\\3.npz",
+      "sha256": "21a4faca87616e1109cc1db33518b341de1bc866c1d48200d7986901dfbd5c21",
+      "variance_ratio_quantiles": [
+        0.9861476618769197,
+        1.0527421234714631,
+        1.0917647950959966,
+        1.308958494746901
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 4,
+        "theta": [
+          3.5452015201846576,
+          46.40786433964885,
+          1.9004692856336662
+        ],
+        "seed": 9136387056
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 116088,
+        "observed_arrays_sha256": "c7be320d7d43e6dc1637b43b73e919579792df701fc15bb2d8c2e588816e1d8f",
+        "minimum_eigenvalue": 18.628036439246912
+      },
+      "bank_minimum_eigenvalue": 34.01978493291736,
+      "reference_minimum_eigenvalue": 18.628036439246912,
+      "file": "validation\\4.npz",
+      "sha256": "c5038771dfc43029d5f10ed8ea72d09469b7bc36b927fff5f25643f43c515aa2",
+      "variance_ratio_quantiles": [
+        1.027495926831786,
+        1.0731343474662924,
+        1.1820130541787837,
+        1.3645626634210533
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 5,
+        "theta": [
+          4.02942040087426,
+          31.306292440730893,
+          1.9089026098683881
+        ],
+        "seed": 9138387059
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 116223,
+        "observed_arrays_sha256": "898731acc70a36745eb743706d296ee31d029de67e3f2fff616f1663cdb1a0c1",
+        "minimum_eigenvalue": 11.580540696598362
+      },
+      "bank_minimum_eigenvalue": 22.011762255653636,
+      "reference_minimum_eigenvalue": 11.580540696598362,
+      "file": "validation\\5.npz",
+      "sha256": "69023acc2e0e684c5127cdab3e40e77707dc47c0cbb8809d50e6c19868f1d60f",
+      "variance_ratio_quantiles": [
+        1.012869386726157,
+        1.068322500401817,
+        1.1366092618650172,
+        1.2241989547051788
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 6,
+        "theta": [
+          2.834612208266157,
+          13.273964602277076,
+          1.7172512844584205
+        ],
+        "seed": 9140387062
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 114816,
+        "observed_arrays_sha256": "e898e1c8caf719fde911132f84a3f033b5937d942ac371b6576ad91471b6a427",
+        "minimum_eigenvalue": 44.71668185711538
+      },
+      "bank_minimum_eigenvalue": 57.462634490528465,
+      "reference_minimum_eigenvalue": 44.71668185711538,
+      "file": "validation\\6.npz",
+      "sha256": "78d9ca68898fddfe7a458c9b78901006aa38117a80880a4a23f5c8d0aa4a845f",
+      "variance_ratio_quantiles": [
+        0.9918856800974376,
+        1.0329701213676976,
+        1.0982705498627703,
+        1.1539570618549049
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 7,
+        "theta": [
+          1.4118862723072083,
+          53.713184108433886,
+          0.44456868526739446
+        ],
+        "seed": 9142387065
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 97178,
+        "observed_arrays_sha256": "76fbe02edb0a396f6e90b32cb627f9a49ab43dd9b11bf4858ef729ffcf095343",
+        "minimum_eigenvalue": 516.1900734424369
+      },
+      "bank_minimum_eigenvalue": 582.5184853355734,
+      "reference_minimum_eigenvalue": 516.1900734424369,
+      "file": "validation\\7.npz",
+      "sha256": "5daef5fbec7417fcafd211b88b6219c47d10f22c69ef066bc52f36f13039dfb5",
+      "variance_ratio_quantiles": [
+        0.9893223858989614,
+        1.0587821412824243,
+        1.1575665037207017,
+        1.215693582185402
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 8,
+        "theta": [
+          3.2994196785984076,
+          42.9269851845186,
+          1.1660063229609545
+        ],
+        "seed": 9144387068
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 111150,
+        "observed_arrays_sha256": "f0f89bb34a5415a18f50457a7408ba419fd2a913d980e04c47c7766123edd97c",
+        "minimum_eigenvalue": 36.223820045333355
+      },
+      "bank_minimum_eigenvalue": 58.67913071602308,
+      "reference_minimum_eigenvalue": 36.223820045333355,
+      "file": "validation\\8.npz",
+      "sha256": "9669941c2012079668a5efb972765eef26c44f5d7e6b4e5244ef18985873903c",
+      "variance_ratio_quantiles": [
+        1.0359123133067538,
+        1.0933199478475637,
+        1.280384936000194,
+        1.3667937081949209
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 9,
+        "theta": [
+          3.8631213095696735,
+          19.971322253185654,
+          1.5604680618606825
+        ],
+        "seed": 9146387071
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 114222,
+        "observed_arrays_sha256": "a6c564c9f712b4dd8e73b2dca4c050b841bad6576c4f719725e901c9e17f48d1",
+        "minimum_eigenvalue": 16.272239481650836
+      },
+      "bank_minimum_eigenvalue": 30.615618880083666,
+      "reference_minimum_eigenvalue": 16.272239481650836,
+      "file": "validation\\9.npz",
+      "sha256": "a0a1281b1205748396c909580c7286cfeb6e61db9af9399313706360411ae1b4",
+      "variance_ratio_quantiles": [
+        0.9734618406892791,
+        1.0291718276421074,
+        1.1812793240166168,
+        1.2921298116123974
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 10,
+        "theta": [
+          3.4592347504241023,
+          8.805519343871993,
+          1.789156767739973
+        ],
+        "seed": 9148387074
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 115436,
+        "observed_arrays_sha256": "4683dc9b1dfd3cec395ca28586186eb6539bb46d8ae24086bdc153d86a2be046",
+        "minimum_eigenvalue": 21.796870065186013
+      },
+      "bank_minimum_eigenvalue": 38.45170690515272,
+      "reference_minimum_eigenvalue": 21.796870065186013,
+      "file": "validation\\10.npz",
+      "sha256": "a56cd159176cc0893bcdc2aaad29d109dd98c552f37e2253cc26df3da88c25d4",
+      "variance_ratio_quantiles": [
+        1.017091271480122,
+        1.056025255079996,
+        1.156739207331618,
+        1.2513295627808607
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 11,
+        "theta": [
+          3.798266272656821,
+          0.5315668540277088,
+          1.7833657883505118
+        ],
+        "seed": 9150387077
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 115519,
+        "observed_arrays_sha256": "887e201e1ce178bb712ceea8fb8e8cf5bd05235cf2cf2268a70a6c63e97b6334",
+        "minimum_eigenvalue": 15.405485812708108
+      },
+      "bank_minimum_eigenvalue": 29.12196417419737,
+      "reference_minimum_eigenvalue": 15.405485812708108,
+      "file": "validation\\11.npz",
+      "sha256": "18c1ccdfa3dfd4e2e91c220371daae2d90194237d22fbb31ede194b7c237133f",
+      "variance_ratio_quantiles": [
+        1.0070033072000766,
+        1.048022399835058,
+        1.1867070665285246,
+        1.31660616144507
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 12,
+        "theta": [
+          2.9272845465308763,
+          9.98793235599399,
+          0.7185605765086817
+        ],
+        "seed": 9152387080
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 106747,
+        "observed_arrays_sha256": "d97ea3d98fb037eba20bd4a07424ed60aed03ea65d4ae3529ded3cf92eaf1dd2",
+        "minimum_eigenvalue": 67.41061066711822
+      },
+      "bank_minimum_eigenvalue": 94.08976798766412,
+      "reference_minimum_eigenvalue": 67.41061066711822,
+      "file": "validation\\12.npz",
+      "sha256": "dbc1992a27e38d1e0e4215216c8508d2bdd4ca10cc5294acd990d30daf9430ff",
+      "variance_ratio_quantiles": [
+        1.0105115708914845,
+        1.0643605057135754,
+        1.169914219120675,
+        1.1931403486188759
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 13,
+        "theta": [
+          2.1953887865449397,
+          2.344628249895287,
+          1.5530411087982097
+        ],
+        "seed": 9154387083
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 113226,
+        "observed_arrays_sha256": "21a6a4b9d87994dd2a702c4317bf902ab476da442ded88a0f3b7dd9d6a5a14fe",
+        "minimum_eigenvalue": 101.71077294263839
+      },
+      "bank_minimum_eigenvalue": 122.69447298408804,
+      "reference_minimum_eigenvalue": 101.71077294263839,
+      "file": "validation\\13.npz",
+      "sha256": "c44d332b937c46261ea3422cf59cbda5a75f3802f6511dcd89c60475ad007b8c",
+      "variance_ratio_quantiles": [
+        0.9976396948385192,
+        1.0217424566922635,
+        1.0900715891134416,
+        1.1691240446130011
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 14,
+        "theta": [
+          3.164993915965384,
+          34.47147701443896,
+          1.4541298011174542
+        ],
+        "seed": 9156387086
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 113326,
+        "observed_arrays_sha256": "935e5d76eec41bb72a2b293166f56d731465d78214755a6da6adccbc4170aac3",
+        "minimum_eigenvalue": 33.84649456568729
+      },
+      "bank_minimum_eigenvalue": 53.762042966293336,
+      "reference_minimum_eigenvalue": 33.84649456568729,
+      "file": "validation\\14.npz",
+      "sha256": "9440d0503aae133f5b5816909c1fcceddefb4841e9f157d7514d5bf084010830",
+      "variance_ratio_quantiles": [
+        1.0318767343702395,
+        1.0599635245080432,
+        1.2544196198546977,
+        1.3895958296344684
+      ]
+    },
+    {
+      "case": {
+        "ri": 0,
+        "index": 15,
+        "theta": [
+          1.8942693538944135,
+          17.724854340700908,
+          1.4287686168199194
+        ],
+        "seed": 9158387089
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 111732,
+        "observed_arrays_sha256": "0d5f859e1fbdf87a9d373f1f969fcfed6eab3be352c2e739e3593dac4f13d8bb",
+        "minimum_eigenvalue": 158.93841903471622
+      },
+      "bank_minimum_eigenvalue": 201.59791134874217,
+      "reference_minimum_eigenvalue": 158.93841903471622,
+      "file": "validation\\15.npz",
+      "sha256": "2c48ffa7c32984a1fe2b8fa01e1c69adf96b3a22134850cc47ba83c5d85f183e",
+      "variance_ratio_quantiles": [
+        1.0344607892825757,
+        1.073595534527449,
+        1.20417725391074,
+        1.2277544602610193
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 16,
+        "theta": [
+          0.4345706993485818,
+          4.1014266877618795,
+          0.07030101574985302
+        ],
+        "seed": 9160387092
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 84293,
+        "observed_arrays_sha256": "14bc71ab6801e092fa4660a5a2af803ab4d5ed53eefc59222d2c8d887672ddfe",
+        "minimum_eigenvalue": 7210.245240151318
+      },
+      "bank_minimum_eigenvalue": 7685.796342334494,
+      "reference_minimum_eigenvalue": 7210.245240151318,
+      "file": "validation\\16.npz",
+      "sha256": "a5f2c3b043105694f773382eaa544ebc39f5435d6487e2fc0c340bc74403486e",
+      "variance_ratio_quantiles": [
+        0.9884078167914956,
+        1.0537919532225115,
+        1.153564460505385,
+        1.168642512180293
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 17,
+        "theta": [
+          0.38323431145518627,
+          32.42320835078425,
+          0.1714472356210249
+        ],
+        "seed": 9162387095
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 87049,
+        "observed_arrays_sha256": "3d4763c2815af9fb9ad7e4760583536f5625c33479f81898a2b1123d3b4c132a",
+        "minimum_eigenvalue": 7511.836459347933
+      },
+      "bank_minimum_eigenvalue": 8128.378953310389,
+      "reference_minimum_eigenvalue": 7511.836459347933,
+      "file": "validation\\17.npz",
+      "sha256": "6709d69faf7dacc7250c5c3fd8942a2fd5470729e221b7fc5bafa21dc11822a0",
+      "variance_ratio_quantiles": [
+        1.0178096065129056,
+        1.0560537137910497,
+        1.1121443645364515,
+        1.1231626358656348
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 18,
+        "theta": [
+          0.3163855999150771,
+          58.82536870729224,
+          0.11309718135481431
+        ],
+        "seed": 9164387098
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 76169,
+        "observed_arrays_sha256": "2bcf9a924d41b3bfacd19d02309762d14fd06f950243c7f7e934030d41f083fd",
+        "minimum_eigenvalue": 10791.941343863444
+      },
+      "bank_minimum_eigenvalue": 11661.708419285695,
+      "reference_minimum_eigenvalue": 10791.941343863444,
+      "file": "validation\\18.npz",
+      "sha256": "d4c199265caa6bb5eadbfea54310816697ab9d413b76c51a69c6dd40f94d171a",
+      "variance_ratio_quantiles": [
+        0.9565667493777004,
+        1.0395434903353409,
+        1.080481286933691,
+        1.0989606276316184
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 19,
+        "theta": [
+          0.4116722618945845,
+          26.58181120720618,
+          0.11026048794922712
+        ],
+        "seed": 9166387101
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 85273,
+        "observed_arrays_sha256": "ab947a37080fba23f0c2433f134487db06d8bb9f3f86474238d2ad0f00966a35",
+        "minimum_eigenvalue": 7493.92597215812
+      },
+      "bank_minimum_eigenvalue": 8043.906465444347,
+      "reference_minimum_eigenvalue": 7493.92597215812,
+      "file": "validation\\19.npz",
+      "sha256": "d3accf392bf64c056574d851049e8c54ebb85348f7b6b4bc37dbe47f093876c2",
+      "variance_ratio_quantiles": [
+        0.9431207903262276,
+        1.0346295526104494,
+        1.1100024460321891,
+        1.155503295424557
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 20,
+        "theta": [
+          0.14114071134852527,
+          58.63542156013149,
+          0.11617666465187955
+        ],
+        "seed": 9168387104
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 54997,
+        "observed_arrays_sha256": "5aca531bc556f3ed45ed3c4f79893bf24de70003533a62f60c331ebf0f23b300",
+        "minimum_eigenvalue": 27691.38304157841
+      },
+      "bank_minimum_eigenvalue": 28699.91089887115,
+      "reference_minimum_eigenvalue": 27691.38304157841,
+      "file": "validation\\20.npz",
+      "sha256": "93b49d6731e0ab17e17efe6fe13078b1cde42cffb5a15c8cbe8bc14cc79e3342",
+      "variance_ratio_quantiles": [
+        0.9600493583136549,
+        1.0317616340333018,
+        1.0692303625491075,
+        1.077738914885127
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 21,
+        "theta": [
+          0.40536636462344416,
+          44.11380588166363,
+          0.10254243116892266
+        ],
+        "seed": 9170387107
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 84295,
+        "observed_arrays_sha256": "2bf05b0d1c1763308a3f3b069f524b5b0a8180fb3ddcc48a9f01d03564f85336",
+        "minimum_eigenvalue": 7600.400453450577
+      },
+      "bank_minimum_eigenvalue": 8280.086118677695,
+      "reference_minimum_eigenvalue": 7600.400453450577,
+      "file": "validation\\21.npz",
+      "sha256": "c9456ddbf3f3e19a09121775f4e1938ca586a1824b913a8f6a65e9f8b9b04701",
+      "variance_ratio_quantiles": [
+        0.9178707827963755,
+        1.0055110315289788,
+        1.0571432853585894,
+        1.069163443220273
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 22,
+        "theta": [
+          0.14832032832587,
+          62.2886926726388,
+          0.05934371560227351
+        ],
+        "seed": 9172387110
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 47143,
+        "observed_arrays_sha256": "edff35381f35e25f5e1a6c45180f6ab38b0498568e4ecb6c6bf0ee332359228f",
+        "minimum_eigenvalue": 28886.451771833297
+      },
+      "bank_minimum_eigenvalue": 29757.01461753063,
+      "reference_minimum_eigenvalue": 28886.451771833297,
+      "file": "validation\\22.npz",
+      "sha256": "4815411c7476f4b185f03e6f9461d0f54c1af78bb648217b2e99288c1eb9413c",
+      "variance_ratio_quantiles": [
+        0.9638279053304157,
+        1.0371080014780092,
+        1.1536275819988522,
+        1.191920454330523
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 23,
+        "theta": [
+          0.2367163830670119,
+          27.546821210399308,
+          0.07566209985957284
+        ],
+        "seed": 9174387113
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 62924,
+        "observed_arrays_sha256": "bb4469481a6dac50d991aea42fcacdb63f7ff7fe110d7f882f9b05b0efbdcbbd",
+        "minimum_eigenvalue": 16014.53158300813
+      },
+      "bank_minimum_eigenvalue": 16304.724573906946,
+      "reference_minimum_eigenvalue": 16014.53158300813,
+      "file": "validation\\23.npz",
+      "sha256": "9c80f44c0423868dcaf4c713ef20035a757dafbb2749ca9b830c068008e7e58a",
+      "variance_ratio_quantiles": [
+        0.9722831085401915,
+        1.049075957026027,
+        1.1182313738830412,
+        1.1331501011640497
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 24,
+        "theta": [
+          0.4455535665470772,
+          63.86631499546587,
+          0.1676236509820832
+        ],
+        "seed": 9176387116
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 91595,
+        "observed_arrays_sha256": "8433d3c5856688451465adb4bb9d6d22a8d7a78e5e1243a95427913cc20ecd11",
+        "minimum_eigenvalue": 6251.640926197052
+      },
+      "bank_minimum_eigenvalue": 6652.591240826021,
+      "reference_minimum_eigenvalue": 6251.640926197052,
+      "file": "validation\\24.npz",
+      "sha256": "fd349c8577f687da726d48b4f115e59e2ec87407a004c8f058c615880d2d1eee",
+      "variance_ratio_quantiles": [
+        0.9493214496462659,
+        1.0560175891659322,
+        1.1110990576382482,
+        1.1310706670277995
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 25,
+        "theta": [
+          0.33375314474616785,
+          50.93120477967964,
+          0.1455385616730541
+        ],
+        "seed": 9178387119
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 80931,
+        "observed_arrays_sha256": "a931932854a17129c84a6c0952536f2d1d853c8399994e2fd53c7053665c012a",
+        "minimum_eigenvalue": 9547.121218846978
+      },
+      "bank_minimum_eigenvalue": 10282.818567497503,
+      "reference_minimum_eigenvalue": 9547.121218846978,
+      "file": "validation\\25.npz",
+      "sha256": "2ad2677fa5d217eb1b328aae393fadc966d906d6dc886e5cda4e2cc8d28c3967",
+      "variance_ratio_quantiles": [
+        1.0099367447632386,
+        1.0727587446647266,
+        1.1110628336238046,
+        1.1252309519220343
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 26,
+        "theta": [
+          0.30219991724447326,
+          56.520193947319925,
+          0.08265846020881933
+        ],
+        "seed": 9180387122
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 71646,
+        "observed_arrays_sha256": "c3baac6f0c3d03a208d949992bee3ad56240c2cadba37047eb32a74248ccf7ac",
+        "minimum_eigenvalue": 11573.232665975369
+      },
+      "bank_minimum_eigenvalue": 12205.877106838647,
+      "reference_minimum_eigenvalue": 11573.232665975369,
+      "file": "validation\\26.npz",
+      "sha256": "1395454535e2a84dddeb99add8211188e3318d3ea4a74b944f4a181f2aa2347e",
+      "variance_ratio_quantiles": [
+        0.9806486347261626,
+        1.0562691595311438,
+        1.102828458081176,
+        1.1112243497782395
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 27,
+        "theta": [
+          0.3191594688448118,
+          4.816752599930737,
+          0.13438006363500854
+        ],
+        "seed": 9182387125
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 78888,
+        "observed_arrays_sha256": "010f3ccecdf09abf1c068b818f03292a454bb79d9fa659cc04169d3fab152d13",
+        "minimum_eigenvalue": 10380.586934747515
+      },
+      "bank_minimum_eigenvalue": 11173.66476172236,
+      "reference_minimum_eigenvalue": 10380.586934747515,
+      "file": "validation\\27.npz",
+      "sha256": "3808f3970c0fb008b27c052fb36e04309af3fc54cd7d3108b372cc7df3cec959",
+      "variance_ratio_quantiles": [
+        0.9815114932931346,
+        1.0409199755105614,
+        1.0866592724822355,
+        1.096480609672946
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 28,
+        "theta": [
+          0.2846962378800662,
+          19.27412754334371,
+          0.09621310749539924
+        ],
+        "seed": 9184387128
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 71212,
+        "observed_arrays_sha256": "aff5fa915318acd025bb0157db51393afcd78710cfe4d6d5a93704bc6262a64b",
+        "minimum_eigenvalue": 12250.102573727521
+      },
+      "bank_minimum_eigenvalue": 12736.701825157765,
+      "reference_minimum_eigenvalue": 12250.102573727521,
+      "file": "validation\\28.npz",
+      "sha256": "ae33d78110dc1e2622ece9cd43a293b22f90884e667226153a04db9f63af62ec",
+      "variance_ratio_quantiles": [
+        0.9389253740202959,
+        1.0196283141087537,
+        1.0837579918427491,
+        1.1112291928941265
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 29,
+        "theta": [
+          0.26130147269811976,
+          34.98319299619144,
+          0.1240149095186398
+        ],
+        "seed": 9186387131
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 71328,
+        "observed_arrays_sha256": "1dcfbf9c586a7b27527593722626a287ca402374b05137debb213b103f5b092a",
+        "minimum_eigenvalue": 13304.584937020383
+      },
+      "bank_minimum_eigenvalue": 13610.540873219035,
+      "reference_minimum_eigenvalue": 13304.584937020383,
+      "file": "validation\\29.npz",
+      "sha256": "4a1a973302be6906398e0d5ef264867aac617d47adacf758b1ad928b04214890",
+      "variance_ratio_quantiles": [
+        0.9809740332488602,
+        1.0358648202974758,
+        1.0839137929035354,
+        1.097221413376622
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 30,
+        "theta": [
+          0.2372160798317359,
+          28.656672423421817,
+          0.12912974687779852
+        ],
+        "seed": 9188387134
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 69010,
+        "observed_arrays_sha256": "33b37f8b0092b0c8fe99710cb5e332889995d964d9a6b51443cc286b85d990d1",
+        "minimum_eigenvalue": 15026.262754573041
+      },
+      "bank_minimum_eigenvalue": 15150.80033257921,
+      "reference_minimum_eigenvalue": 15026.262754573041,
+      "file": "validation\\30.npz",
+      "sha256": "3590e8095b456a76f3ea1ef30ce253846820868c1e7da309123b03ea4f6aefd8",
+      "variance_ratio_quantiles": [
+        0.9908483542045741,
+        1.08241428159169,
+        1.1161273346121892,
+        1.131048107712776
+      ]
+    },
+    {
+      "case": {
+        "ri": 1,
+        "index": 31,
+        "theta": [
+          0.2537169820692895,
+          23.648573002530206,
+          0.07052084343684739
+        ],
+        "seed": 9190387137
+      },
+      "metadata": {
+        "records": 200,
+        "observed_events": 64471,
+        "observed_arrays_sha256": "c60c022e9d2abdbce27ba377caefd8c62af9aaadae26475e5fba1f8db6ef5923",
+        "minimum_eigenvalue": 15039.631429629168
+      },
+      "bank_minimum_eigenvalue": 14847.318317695248,
+      "reference_minimum_eigenvalue": 15039.631429629168,
+      "file": "validation\\31.npz",
+      "sha256": "42c3a894ecc9cc3522d3a7209aad6634e618adcac3f5dd6c4d014b5535868f93",
+      "variance_ratio_quantiles": [
+        0.9471591228951942,
+        1.0803072433494383,
+        1.164501471945216,
+        1.1951159370572773
+      ]
+    }
+  ],
+  "reference_records": 6400,
+  "secondary_direction_checks": 7232,
+  "absolute_log_variance_ratio_quantiles": {
+    "median": 0.05197298567503973,
+    "p95": 0.1313101084425505,
+    "max": 0.3842629142941287
+  },
+  "bank_sha256": "aee2cc7ca58b5986dd4c27d86ba841675215fb2f48738ea7b956cf3804b594d8",
+  "protocol_sha256": "ed333d4697cb727c6f38dd96e1ee3a556cb0dab6d2e32ce7b395483ffe645424",
+  "seconds": 36.227103600045666,
+  "scope": "Independentnullsimulation/interpolation and expected-informationweightingareestablished. FiniteMonteCarloandphase-rotation/interpolationapproximationsremain. Knownwidth/recovery/initialstate;no physicalvalidation,uniformriskguaranteeornewstatisticaltheorem. No efficacycohortproduceduntiltraining/validation/sourcechecks complete."
+}

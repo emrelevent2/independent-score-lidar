@@ -1,0 +1,80 @@
+{
+  "status": "FROZEN_BEFORE_NEW_SIMULATED_SCANS",
+  "source_hashes": {
+    "deadtime_scan_development.py": "039c9d6cfc54bba7f6f7a8e0dabe04f062cbab04f7dbddda1c6adaf196b1cd70",
+    "deadtime_scan.py": "7ab8180f8127a0cb255711095eefad929003ccef0217ad5f40412b064fb5f69a",
+    "deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5",
+    "test_deadtime_scan.py": "ef38d48a305b997296633b43c69cda3fddbbb8cdf98567fb8ec657fa31142784",
+    "test_deadtime_exposure.py": "53d8ebdebe9a4d8375c3e9f049eedca6a234e2f568396a0d9f53c4ab6a280ec7"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "methods": [
+    "histogram",
+    "rounded_ded",
+    "duration_raw",
+    "duration_efficient",
+    "duration_glrt"
+  ],
+  "regimes": [
+    {
+      "name": "moderate_long",
+      "a": 0.8,
+      "b": 0.3,
+      "cycles": 1500,
+      "dead": 83.7,
+      "secondary": 0.065,
+      "gap": 12
+    },
+    {
+      "name": "near_double_period",
+      "a": 0.8,
+      "b": 1.0,
+      "cycles": 1500,
+      "dead": 126.7,
+      "secondary": 0.09,
+      "gap": 6
+    },
+    {
+      "name": "high_flux_short",
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "dead": 31.7,
+      "secondary": 0.15,
+      "gap": 10
+    },
+    {
+      "name": "low_flux_long",
+      "a": 0.25,
+      "b": 0.1,
+      "cycles": 1500,
+      "dead": 83.7,
+      "secondary": 0.035,
+      "gap": 20
+    }
+  ],
+  "settings": {
+    "bins": 64,
+    "sigma": 1.5,
+    "primary_phase": 15.3,
+    "phase_jitter_uniform": [
+      -0.4,
+      0.4
+    ],
+    "seed_base": 624815731,
+    "calibration_null_per_regime": 199,
+    "test_null_per_regime": 64,
+    "test_positive_per_regime": 64,
+    "alpha": 0.01,
+    "tolerance_bins": 2,
+    "initial_state": "active"
+  },
+  "calibration": "Per-method/per-regime Monte Carlo rank p=(1+count(cal>=test))/(199+1);declare p<=.01. Calibration excludes all test scores;truth used only for evaluation. Exchangeability only in the prespecified simulator mixture,not composite-null uniformity.",
+  "strong_control": "Continuous-duration five-parameter multistart GLRT; six separated scan seeds plus nested null,continuous delays. Numerical local optimization,not a certified global maximum. RoundedDED control includes partial-active bins as whole opportunities,matching source discretization principle;known likelihood,not claiming new theory.",
+  "continuation_rule": "Exploratory only: duration_efficient gains correct over rounded_ded with no more wrong-positive or null declarations,AND retains >=90% GLRT correct with no more wrong/null and >=2x median pipeline speed. Failure retained. Fresh confirmation and further priority review needed even if pass.",
+  "scope": "New synthetic DEVELOPMENT grid for a distinct cross-cycle dead-time observation model. Not independent confirmation of old first-event CASPI method,not FPGA speed,not real physical accuracy,not Q1 readiness."
+}

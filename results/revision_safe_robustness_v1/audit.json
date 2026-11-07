@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cases": 864,
+  "acquisition_hash_matches": 864,
+  "domain_incompatible": 1,
+  "observed_safe_score_and_localizer_replays": 863,
+  "rank_checks": 863,
+  "warning_draws_checked": 0,
+  "observed_optimizer_warnings": [],
+  "operating_point_changes": [],
+  "records_sha256": "00b8799417cb5cd87d965d366cd83da871905d0e23effe8175d75c3a0f90201a",
+  "main_robust_records_sha256": "f2759c68fe13187f8ad3cf1d63fef6bc8e1ea14030deabea2cbcd020859370fc",
+  "protocol_sha256": "4b3a77c4d4454048b503fe0f258074218cc0a732f78824a297d0a282af97974f",
+  "auditor_sha256": "1158772b4ab293cd0552e7b96fd50ad46becc93b151d4d58edc823d5f14cdd98",
+  "seconds": 3751.3254278998356
+}

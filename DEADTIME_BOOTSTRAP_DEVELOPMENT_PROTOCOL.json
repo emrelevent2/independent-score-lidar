@@ -1,0 +1,82 @@
+{
+  "status": "FROZEN_BEFORE_NEW_UNKNOWN_NUISANCE_DATA",
+  "sources": {
+    "deadtime_bootstrap_development.py": "1397c1bae05490fdcf4c1d4304e531c17b18b34588ca0b335599bce12970ff24",
+    "deadtime_path_bootstrap.py": "01feac2e052aa36404210269eda6355de4a3f9826b7e4369342671b1e5e6999f",
+    "test_deadtime_path_bootstrap.py": "faae3f1d6b01f06f630d41fe599fc9dd3aec0a0d0ca8556026b16f495cfadc08",
+    "deadtime_scan.py": "7ab8180f8127a0cb255711095eefad929003ccef0217ad5f40412b064fb5f69a",
+    "deadtime_exposure.py": "051b585a200f622f24c37f151fa99d840f8cc65506c7c99707a0c891239148f5"
+  },
+  "environment": {
+    "python": "3.11.7",
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "numba": "0.59.1"
+  },
+  "methods": [
+    "duration_projected",
+    "duration_onestep",
+    "duration_refit",
+    "rounded_refit"
+  ],
+  "regimes": [
+    {
+      "name": "moderate_long",
+      "a": 0.8,
+      "b": 0.3,
+      "cycles": 1500,
+      "dead": 83.7,
+      "secondary": 0.065,
+      "gap": 12
+    },
+    {
+      "name": "near_double_period",
+      "a": 0.8,
+      "b": 1.0,
+      "cycles": 1500,
+      "dead": 126.7,
+      "secondary": 0.09,
+      "gap": 6
+    },
+    {
+      "name": "high_flux_short",
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "dead": 31.7,
+      "secondary": 0.15,
+      "gap": 10
+    },
+    {
+      "name": "low_flux_long",
+      "a": 0.25,
+      "b": 0.1,
+      "cycles": 1500,
+      "dead": 83.7,
+      "secondary": 0.035,
+      "gap": 20
+    }
+  ],
+  "settings": {
+    "bins": 64,
+    "sigma": 1.5,
+    "primary_phase": 15.3,
+    "phase_jitter_uniform": [
+      -0.4,
+      0.4
+    ],
+    "seed_base": 3748261731,
+    "null_per_regime": 64,
+    "positive_per_regime": 32,
+    "bootstrap_replicates": 199,
+    "alpha": 0.01,
+    "tolerance": 2,
+    "subdivision": 4,
+    "initial_state": "active,known"
+  },
+  "calibration": "Each observed path fits a,tau,B from its own counts/exposure,or rounded opportunities. No oracle flux,delay or secondary truth enters bootstrap. Known sigma and dead time assumed. Simulate continuous nonparalyzable event paths at fitted null;do not conditionally simulate independent Poisson counts given E. Plug-in p=(1+sum(Tboot>=Tobs))/200 is approximate for composite null;no finite-sample or uniform claim.",
+  "refit_scope": "Three-parameter numerical local MLE at each bootstrap,initialized at observed generating fit;not certified global. Source-style three-start fits audit first/last bootstrap draw for fixed selected cases,without replacing the original fits. Any material likelihood discrepancy is a control-validity warning,not silently ignored.",
+  "timing": "JIT warmup excluded. Observed fit+scan and generated-path stages shared and measured separately;per-method seconds are sums of required observed+path+calibration stages,not separately measured whole pipelines. Timings not isolated,cold or FPGA claims.",
+  "primary_rule": "Exploratory: projected method strictly more correct than quarter-bin rounded_refit AND strictly fewer total errors(wrong positive+null). No more wrong/null separately. Also retain >=95% correct of duration_refit with no more wrong/null. If fail,no fresh efficacy confirmation. No retuning alpha or per-case location selection.",
+  "scope": "New DEVELOPMENT on a cross-cycle physical simulator,not old first-event v5 confirmation. Four-times finer scan is applied to every score control. No independent real multi-surface ground truth,novelty or Q1 readiness established."
+}

@@ -1,0 +1,108 @@
+{
+  "status": "Prospective annotation-eligibility selection. No test histogram or method output read.",
+  "created_utc": "2026-11-06T01:07:22.837678+00:00",
+  "source_sha256": "5de081a50e1daa6cc05811693263086977029cf8ee25bef5399573ce8d60e2d3",
+  "range_reader_sha256": "0964d9bc9a90ce50b06ed12b5cff3766d09253b4f4c8a999f62d3ccccf61bdca",
+  "candidates": [
+    {
+      "sequence": 2,
+      "archive": "Annotations/p1/Sequence2.zip",
+      "archive_bytes": 37333328
+    },
+    {
+      "sequence": 3,
+      "archive": "Annotations/p1/Sequence3.zip",
+      "archive_bytes": 99339250
+    },
+    {
+      "sequence": 4,
+      "archive": "Annotations/p1/Sequence4.zip",
+      "archive_bytes": 58901782
+    },
+    {
+      "sequence": 5,
+      "archive": "Annotations/p1/Sequence5.zip",
+      "archive_bytes": 37624737
+    },
+    {
+      "sequence": 6,
+      "archive": "Annotations/p1/Sequence6.zip",
+      "archive_bytes": 42037304
+    },
+    {
+      "sequence": 8,
+      "archive": "Annotations/p1/Sequence8.zip",
+      "archive_bytes": 12882026
+    },
+    {
+      "sequence": 9,
+      "archive": "Annotations/p1/Sequence9.zip",
+      "archive_bytes": 21586380
+    },
+    {
+      "sequence": 10,
+      "archive": "Annotations/p1/Sequence10.zip",
+      "archive_bytes": 6258310
+    },
+    {
+      "sequence": 11,
+      "archive": "Annotations/p1/Sequence11.zip",
+      "archive_bytes": 28765724
+    },
+    {
+      "sequence": 12,
+      "archive": "Annotations/p1/Sequence12.zip",
+      "archive_bytes": 23715989
+    },
+    {
+      "sequence": 13,
+      "archive": "Annotations/p1/Sequence13.zip",
+      "archive_bytes": 12943298
+    },
+    {
+      "sequence": 14,
+      "archive": "Annotations/p1/Sequence14.zip",
+      "archive_bytes": 39590810
+    },
+    {
+      "sequence": 15,
+      "archive": "Annotations/p1/Sequence15.zip",
+      "archive_bytes": 9621790
+    },
+    {
+      "sequence": 16,
+      "archive": "Annotations/p1/Sequence16.zip",
+      "archive_bytes": 28686108
+    },
+    {
+      "sequence": 17,
+      "archive": "Annotations/p1/Sequence17.zip",
+      "archive_bytes": 67784474
+    },
+    {
+      "sequence": 18,
+      "archive": "Annotations/p1/Sequence18.zip",
+      "archive_bytes": 43123225
+    },
+    {
+      "sequence": 19,
+      "archive": "Annotations/p1/Sequence19.zip",
+      "archive_bytes": 36482729
+    },
+    {
+      "sequence": 20,
+      "archive": "Annotations/p1/Sequence20.zip",
+      "archive_bytes": 74292177
+    }
+  ],
+  "frame_rule": "Lexically first annotation member in each listed sequence.",
+  "pixel_eligibility": "Exactly2known intervals1--13,gap>=8bins,query>=4pixels from image edge; >=100eligible pixels perframe.",
+  "selection": "First4eligible sequences in numeric sequence order,or all if fewer4. Sequence7is development and excluded. Sequence1already inspected and excluded.",
+  "notes": [
+    "Eligibility depends only on provided annotations, not detector outcome, photon counts or an easy-looking histogram.",
+    "Class14Unknown and0Unlabeled are never negative ground truth.",
+    "All screened counts retained. Selected test histograms must not be downloaded/evaluated until real-method settings are frozen.",
+    "Known semantic windows originate from full-histogram peak peeling, not independent physical depth measurements.",
+    "This is a conditional annotated-frame cohort, not a representative random sample of all real scenes."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "status": "FROZEN_BEFORE_INDEPENDENT_NULL_TRAINING_AND_VALIDATION",
+  "sources": {
+    "src/null_information_bank.py": "2865fa3867104be8673f3f8fce8aff34ddd87253e1c2d56f8f46fe5751f7df2b",
+    "src/test_null_information_bank.py": "5ff8bdb9deb46db241e2c12000f23fc48d95d352b71e4ac6efe28472eacc0641",
+    "tools/train_null_information_bank.py": "270753b3eae26bd65f53a3218fda89bbb916b1ec372b4761a9ad0d4e16b139c2"
+  },
+  "model_protocol_sha256": "2af63893b041e7247cd89b3523a7e78b482603230876883831bda74990d3b86e",
+  "grid_multipliers": [
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "fractional_phases": [
+    0.0,
+    0.25,
+    0.5,
+    0.75
+  ],
+  "base_phase_integer": 15,
+  "records_per_cell": 200,
+  "training_seed_base": 8124790163,
+  "validation_seed_base": 9126387041,
+  "validation_profiles_per_regime": 16,
+  "validation_records_per_profile": 200,
+  "validation_amplitude_multipliers": [
+    0.55,
+    1.8
+  ],
+  "validation_background_multipliers": [
+    0.5,
+    2.4
+  ],
+  "bins": 64,
+  "sigma": 1.5,
+  "regimes": [
+    {
+      "index": 2,
+      "name": "bright_hidden",
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "td": 31.7,
+      "te": 80.0
+    },
+    {
+      "index": 3,
+      "name": "weak_hidden",
+      "a": 0.25,
+      "b": 0.1,
+      "cycles": 1500,
+      "td": 83.7,
+      "te": 100.0
+    }
+  ],
+  "execution": {
+    "workers": 4,
+    "threads": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    }
+  },
+  "training": "200gridcells:2recoveryregimesx5amplitudesx5backgroundsx4fractionalphases. Each200freshknown-nullcompletecontinuousrecords;no secondaryphotons,efficacylabelsorfittedquerydata. Pool64phaseper-factorOPG(sum/Nrecords),symmetrize. No eigenvaluefloor. Persistatomiccellfiles and hashes. Separatefreshknown-nullvalidation32profilesx200records witharbitraryfullperiodphase.",
+  "lookup": "Convex trilinear weights:logamplitude,logbackground,linearfractionalphase;integerphase rotation includingfractionalwrap. Parameterclampsdeclaredandflagged,noexcludedqueries. Matrixis a numerical fixedscore-weightSURROGATE:rotationdoesNOTexactlypreservefiniteinitiallyactiveboundarylaw. Allquerylikelihoods/calibrationsretainoriginalphysics. No claimexactfiniteFisher.",
+  "validation": "Independent200recordreferenceinformationper32profiles. Forall256secondarytemplatesexcludingwithin2.5sigmaofknownprimary,compare nuisance-projectedbankvariance with referencevariance. Aggregateabslogratio median<=log1.15,95quantile<=log1.35,max<=log2;allvariancespositive,PSDrelativeeigenlower>=-1e-10. This numerical-approximationgate isNOT a detection/power/Q1gate. Bothoriginalhiddenregimes/allphases/fluxrangeskept;no queryoutcome-basedtuning.",
+  "scope": "Independentnullsimulation/interpolation and expected-informationweightingareestablished. FiniteMonteCarloandphase-rotation/interpolationapproximationsremain. Knownwidth/recovery/initialstate;no physicalvalidation,uniformriskguaranteeornewstatisticaltheorem. No efficacycohortproduceduntiltraining/validation/sourcechecks complete."
+}
