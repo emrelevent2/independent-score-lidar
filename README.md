@@ -2,7 +2,7 @@
 
 Research software and saved experiment outputs for **Independent score
 normalization for weak-return detection in single-photon lidar**,
-Vecdi Emre Levent, FenerbahÃ§e University.
+Vecdi Emre Levent, Fenerbahçe University.
 
 The method is a statistical signal detector. Its input is an event-time record,
 a known pulse template, acquisition settings and an independently trained null
@@ -82,7 +82,7 @@ Full reruns are much more expensive than saved-output verification.
 ## Measured inputs
 
 Original data: J. Rapp et al., *High-flux single-photon lidar*, Optica 8,
-30â€“39 (2021), https://doi.org/10.1364/OPTICA.403190.
+30–39 (2021), https://doi.org/10.1364/OPTICA.403190.
 The source authors provide their data-download link in
 https://github.com/Goyal-STIR-Group/HighFluxSPL.
 
