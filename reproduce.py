@@ -70,5 +70,11 @@ def check():
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--check',action='store_true');p.add_argument('--figures',action='store_true');a=p.parse_args()
     if not(a.check or a.figures):p.error('choose --check and/or --figures')
-    if a.check:check()
+    if a.check:
+        check()
+        subprocess.run([sys.executable,'tools/audit_calibrated_recovery.py'],cwd=ROOT,check=True)
+        subprocess.run([sys.executable,'tools/audit_semisynthetic_recovery.py'],cwd=ROOT,check=True)
+        subprocess.run([sys.executable,'tools/audit_extended_measured_nulls.py'],cwd=ROOT,check=True)
     if a.figures:subprocess.run([sys.executable,'tools/build_revision_article.py','--require-complete'],cwd=ROOT,check=True)
+
+    if a.figures:subprocess.run([sys.executable,'tools/build_calibrated_recovery_assets.py'],cwd=ROOT,check=True)

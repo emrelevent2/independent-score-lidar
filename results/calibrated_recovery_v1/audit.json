@@ -1,0 +1,80 @@
+{
+  "status": "PASS",
+  "records": 6302,
+  "all_saved_decisions_recounted": true,
+  "independent_rank_decisions_recounted": true,
+  "distinct_query_paths": 6302,
+  "original_mismatch_hashes_matched": 864,
+  "physical_acquisitions_reconstructed": 0,
+  "bank_checks": [
+    {
+      "name": "nominal",
+      "sha256": "8d2899037fda464b7406cd4da050c007e403d9d5aa0604c5a17fea8a6846aed0",
+      "minimum_eigenvalue": 0.07815086949961762,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "detector_minus5",
+      "sha256": "07ebe033a0cffdfd6644d862b0cbbb33e2f1c9321d730fa7516e1d432d0f91ae",
+      "minimum_eigenvalue": 0.019769843044843943,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "detector_plus5",
+      "sha256": "1a813e020bdf1e5951908764647f97115aa8396eb64b698b83253caf82aa5933",
+      "minimum_eigenvalue": 0.1456501808534211,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "electronics_minus2",
+      "sha256": "783f07fbc0fd24253715390b88abbcd966462bac17de5005a98a7c72dfbbce7a",
+      "minimum_eigenvalue": 0.15045899241449448,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "electronics_plus2",
+      "sha256": "fc61aea180e8a03911f2f9edebfe36e13243dcc7079e2a06d39422bd9d2fcc19",
+      "minimum_eigenvalue": 0.0535936535984744,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "jitter_0p1",
+      "sha256": "f2967ff4c9b41b0cda9f03558d05efe36fbd275383d6a3e18a2f932a9eb8f3cb",
+      "minimum_eigenvalue": 0.09122990245060647,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "jitter_0p5",
+      "sha256": "21b174420f292d1ac25f5491b59b36cfdbd69ba9c1de314b9f67dde9a330f5cf",
+      "minimum_eigenvalue": 7.483028153157637,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "afterpulse_1pct",
+      "sha256": "b6cf614a9af2b1b5fc783ccf860b9cbe0abf1b40fd235e29eb465aae5db8ee59",
+      "minimum_eigenvalue": 0.38340612111335853,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "afterpulse_5pct",
+      "sha256": "a88bc1376e9d6306f46d6acecf3931609669c3d5403942bf6a7f2e54e37fe77f",
+      "minimum_eigenvalue": 0.07318531110715168,
+      "max_asymmetry": 0.0
+    },
+    {
+      "name": "measured_high",
+      "sha256": "72012e9cebad5033160caef631b49a6ac846e684e0d13604a0326f351326772b",
+      "minimum_eigenvalue": 381.18062163077957,
+      "max_asymmetry": 0.0
+    }
+  ],
+  "kernel_checks": "PASS",
+  "optimizer_warning_counts": {},
+  "protocol_sha256": "8821a865ce1be4d5dc3689020ba1a30b2d816dd7987543df342bb1ad5499caf7",
+  "analysis_sha256": "32874e568b8919fb8fe565db5b424d3358da36f71ae3499cf3549b62c4bb2b20",
+  "source_hashes": {
+    "src\\calibrated_recovery.py": "7059a89dfa9b8d3cd10ba6049bb3585da7fe4ae165c939dfc3b797d71502e476",
+    "tools\\calibrated_recovery_study.py": "65b522dbf6fc5f01060025986c817385c81545d488b7155500112b712b5f4d6f"
+  },
+  "external_journal_submission": false
+}

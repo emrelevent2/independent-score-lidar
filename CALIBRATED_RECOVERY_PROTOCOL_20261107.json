@@ -1,0 +1,546 @@
+{
+  "status": "FIXED_BEFORE_EXTENSION_DETECTION_OUTCOMES",
+  "source_hashes": {
+    "src\\calibrated_recovery.py": "7059a89dfa9b8d3cd10ba6049bb3585da7fe4ae165c939dfc3b797d71502e476",
+    "tools\\calibrated_recovery_study.py": "65b522dbf6fc5f01060025986c817385c81545d488b7155500112b712b5f4d6f"
+  },
+  "sensor_calibration": {
+    "nominal": {
+      "name": "nominal",
+      "mu": 80.06972481971943,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.378966147357659,
+            15.304081055761369,
+            0.7830054784930955,
+            80.06984986980174,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.281559047597383,
+          "success": true,
+          "evaluations": 17,
+          "seconds": 5.822211100021377
+        },
+        {
+          "x": [
+            2.378826087980933,
+            15.304066466357513,
+            0.7830803398973136,
+            80.06972481971943,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2815590471808775,
+          "success": true,
+          "evaluations": 17,
+          "seconds": 5.8726192999165505
+        }
+      ],
+      "calibration_events": 1594,
+      "calibration_data_sha256": "138cc3e2220c34fa3f0e8bcbebffe91b53a158330d675255ae41c264cd248ecd",
+      "minimum_calibration_gap": 80.08818877441081,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "detector_minus5": {
+      "name": "detector_minus5",
+      "mu": 80.16276291385365,
+      "sd": 0.19365795589926177,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.3679814338052574,
+            15.32530037300841,
+            0.7363310447567347,
+            80.16440916655718,
+            -1.628763175788155
+          ],
+          "negative_mean_logdensity": 3.2515640126197067,
+          "success": true,
+          "evaluations": 10,
+          "seconds": 3.4105257000774145
+        },
+        {
+          "x": [
+            2.3680679379848892,
+            15.325401622071558,
+            0.7363617383542597,
+            80.16276291385365,
+            -1.6416617899548305
+          ],
+          "negative_mean_logdensity": 3.251563909132432,
+          "success": true,
+          "evaluations": 19,
+          "seconds": 6.545423800125718
+        }
+      ],
+      "calibration_events": 1583,
+      "calibration_data_sha256": "cf3520dcd4a897791caf87f12784977cd3ba56705349b9195cbbab1fe4d9f452",
+      "minimum_calibration_gap": 80.05778669397296,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "detector_plus5": {
+      "name": "detector_plus5",
+      "mu": 80.04995035018796,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.4153493695408996,
+            15.29439589861433,
+            0.7970759619040354,
+            80.04995035018796,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2921981268362095,
+          "success": true,
+          "evaluations": 18,
+          "seconds": 6.181380100082606
+        },
+        {
+          "x": [
+            2.415050492850011,
+            15.294441823765853,
+            0.797015140923237,
+            80.0498485941131,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2921981283446438,
+          "success": true,
+          "evaluations": 17,
+          "seconds": 5.8805240001529455
+        }
+      ],
+      "calibration_events": 1601,
+      "calibration_data_sha256": "e40f0694d5dfaa8a8b5d0bb5822a2297861e2f381aeb0b3763d625ba6ef931b9",
+      "minimum_calibration_gap": 80.06977261957945,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "electronics_minus2": {
+      "name": "electronics_minus2",
+      "mu": 78.38285984916526,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.3583963608365996,
+            15.331999149135529,
+            0.7743083135920753,
+            78.38288053871204,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.300085507977124,
+          "success": true,
+          "evaluations": 18,
+          "seconds": 5.858353099785745
+        },
+        {
+          "x": [
+            2.3584019564939975,
+            15.331934249968343,
+            0.7742953435831591,
+            78.38285984916526,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3000855073571342,
+          "success": true,
+          "evaluations": 20,
+          "seconds": 6.608178899856284
+        }
+      ],
+      "calibration_events": 1603,
+      "calibration_data_sha256": "645c91096f4e16bfc841e983eb46fef06a901c24ef54ffb58d3ef30b9818e8c1",
+      "minimum_calibration_gap": 78.41775507916464,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "electronics_plus2": {
+      "name": "electronics_plus2",
+      "mu": 81.77607792392115,
+      "sd": 0.17596602267473083,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.516419325519778,
+            15.288916518344687,
+            0.8132973487721483,
+            81.77607792392115,
+            -1.7374643555655953
+          ],
+          "negative_mean_logdensity": 3.2615648174596146,
+          "success": true,
+          "evaluations": 21,
+          "seconds": 7.380787699948996
+        },
+        {
+          "x": [
+            2.516331341763211,
+            15.288925752421289,
+            0.8132855279364181,
+            81.77595007026756,
+            -1.7363553056841263
+          ],
+          "negative_mean_logdensity": 3.261564817752827,
+          "success": true,
+          "evaluations": 26,
+          "seconds": 9.472586799878627
+        }
+      ],
+      "calibration_events": 1587,
+      "calibration_data_sha256": "476f4dfdd7c00bf2f9aeb603c888efd17c0835d772a8b4323ba754e23bb61a5c",
+      "minimum_calibration_gap": 81.62125210589147,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "jitter_0p1": {
+      "name": "jitter_0p1",
+      "mu": 80.04754763503635,
+      "sd": 0.06,
+      "jitter": 0.1,
+      "candidates": [
+        {
+          "x": [
+            2.4078490995791144,
+            15.294690307177232,
+            0.8170580798252042,
+            80.04754763503635,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3027453602141685,
+          "success": true,
+          "evaluations": 21,
+          "seconds": 205.27102290000767
+        },
+        {
+          "x": [
+            2.4080251984226413,
+            15.294744895637622,
+            0.8170700689650975,
+            80.04759195774723,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3027453613328785,
+          "success": true,
+          "evaluations": 19,
+          "seconds": 183.40457129990682
+        }
+      ],
+      "calibration_events": 1608,
+      "calibration_data_sha256": "8c5ea4e0155ddd976cf6e63b1a83a41b1a773bc68286f56d5e874c3ced1d69e7",
+      "minimum_calibration_gap": 80.0185679819624,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "jitter_0p5": null,
+    "afterpulse_1pct": {
+      "name": "afterpulse_1pct",
+      "mu": 79.97645645813496,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.5507167578013896,
+            15.321328257427194,
+            0.8239363184066,
+            79.97645645813496,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2734482171282933,
+          "success": true,
+          "evaluations": 24,
+          "seconds": 8.230018800124526
+        },
+        {
+          "x": [
+            2.5501091171208468,
+            15.321048563167027,
+            0.8238630272482551,
+            79.97647330203847,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2734482293182032,
+          "success": true,
+          "evaluations": 31,
+          "seconds": 10.82778920000419
+        }
+      ],
+      "calibration_events": 1603,
+      "calibration_data_sha256": "adf656e46e1c3b659a511b47ed83ffa3c1ee7aef25444072f8b65a9634ab95c4",
+      "minimum_calibration_gap": 80.00092967544333,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "afterpulse_5pct": {
+      "name": "afterpulse_5pct",
+      "mu": 80.04725256766352,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.4597488304694815,
+            15.369025280355887,
+            0.8634719373074929,
+            80.04725256766352,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3102739594594675,
+          "success": true,
+          "evaluations": 18,
+          "seconds": 6.220321099972352
+        },
+        {
+          "x": [
+            2.459634211022175,
+            15.369015580550146,
+            0.8634460401214625,
+            80.04728624923656,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3102739595039696,
+          "success": true,
+          "evaluations": 19,
+          "seconds": 6.754439799813554
+        }
+      ],
+      "calibration_events": 1618,
+      "calibration_data_sha256": "e168b6d7d31308632c6374ae4532555e46c9f2b86b6100534ef6a4691a3c9b73",
+      "minimum_calibration_gap": 80.07999915088294,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "measured_high": {
+      "name": "measured_high",
+      "mu": 51.301154000589655,
+      "sd": 0.9470429460923485,
+      "jitter": 0.0,
+      "source": "Existing independent high-flux measured calibration segment [100,20100)",
+      "source_sha256": "f6eb7c8c691c420d6cba237df691da32916314b7080c3c95cd30b2e4950ca4d7"
+    }
+  },
+  "settings": {
+    "nominal": {
+      "name": "nominal",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "nominal",
+        "td_scale": 1.0,
+        "te_scale": 1.0,
+        "jitter": 0.0,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "detector_minus5": {
+      "name": "detector_minus5",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "detector_minus5",
+        "td_scale": 0.95,
+        "te_scale": 1.0,
+        "jitter": 0.0,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "detector_plus5": {
+      "name": "detector_plus5",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "detector_plus5",
+        "td_scale": 1.05,
+        "te_scale": 1.0,
+        "jitter": 0.0,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "electronics_minus2": {
+      "name": "electronics_minus2",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "electronics_minus2",
+        "td_scale": 1.0,
+        "te_scale": 0.98,
+        "jitter": 0.0,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "electronics_plus2": {
+      "name": "electronics_plus2",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "electronics_plus2",
+        "td_scale": 1.0,
+        "te_scale": 1.02,
+        "jitter": 0.0,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "jitter_0p1": {
+      "name": "jitter_0p1",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.1,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "jitter_0p1",
+        "td_scale": 1.0,
+        "te_scale": 1.0,
+        "jitter": 0.1,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "jitter_0p5": {
+      "name": "jitter_0p5",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.5,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "jitter_0p5",
+        "td_scale": 1.0,
+        "te_scale": 1.0,
+        "jitter": 0.5,
+        "afterpulse": 0.0
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "afterpulse_1pct": {
+      "name": "afterpulse_1pct",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "afterpulse_1pct",
+        "td_scale": 1.0,
+        "te_scale": 1.0,
+        "jitter": 0.0,
+        "afterpulse": 0.01
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "afterpulse_5pct": {
+      "name": "afterpulse_5pct",
+      "td": 31.7,
+      "nominal_te": 80.0,
+      "mu": 80.0,
+      "sd": 0.1,
+      "jitter": 0.0,
+      "a": 2.4,
+      "b": 0.8,
+      "cycles": 1000,
+      "unit_ns": 1.0,
+      "measured_template": false,
+      "condition": {
+        "name": "afterpulse_5pct",
+        "td_scale": 1.0,
+        "te_scale": 1.0,
+        "jitter": 0.0,
+        "afterpulse": 0.05
+      },
+      "acquisition": "original_mismatch_records"
+    },
+    "measured_high": {
+      "name": "measured_high",
+      "td": 31.999744000000003,
+      "nominal_te": 51.199590400000005,
+      "mu": 51.301154000589655,
+      "sd": 0.9470429460923485,
+      "jitter": 0.0,
+      "a": 0.3834771386915133,
+      "b": 2.0925230475823984,
+      "cycles": 1000,
+      "unit_ns": 1.5625125001000006,
+      "measured_template": true,
+      "acquisition": "measured_random_recovery"
+    }
+  },
+  "pending_calibration": "Any null entry is a not-yet-completed output of the fixed independent sensor-fit algorithm, not a free choice. It is read from sensor_<name>.json at execution and all final fitted outputs are hash-pinned in analysis.json. No query outcomes determine the fit.",
+  "previous_mismatch_protocol_sha256": "248fb89339d6ac7592b87eb395db1ac5fe0266e0b61595ab1b5aae456c85718e",
+  "previous_results": "The original 864 mismatch acquisitions and their fixed-law outcomes were previously inspected. This extension reuses every acquisition and reports all conditions. New sensor calibration, normalization training and cohort threshold simulations use disjoint seeds.",
+  "model": "Electronics recovery normal truncated to [Td,3Td], integrated inside each transition density with eight probability-space Gauss-Legendre nodes. Up to two hidden avalanches. Jitter: three-point Gauss-Hermite for preceding endpoint; split succeeding-endpoint error at every event-rate bin boundary and use three-point Gauss-Legendre per segment over +/-7 standard deviations. Integrated pair criterion, not exact noisy-path likelihood. Complete simulated paths retain shared endpoint errors. One strongest histogram-template peak starts the null fit.",
+  "calibration": "Independent sensor calibration precedes all queries. Independent matrix bank: two amplitudes (0.7,1.3)*nominal, two backgrounds (0.75,1.25)*nominal, fractional phases 0,0.5 at integer origin15; eight acquisitions/cell. Convex interpolation and integer phase rotation, as in original bank. Independent cohort-level null calibration: 499 paths drawn over stated nuisance ranges. Each path refits nuisance parameters and scans all candidate delays. This is population-mixture calibration, not original per-query bootstrap; all extension methods use the same calibration paths.",
+  "null_training_records": 499,
+  "matrix_records_per_cell": 8,
+  "alpha": 0.01,
+  "recovery_order": 8,
+  "jitter_order": 3,
+  "seeds": {
+    "bank": 93271000001,
+    "threshold": 104772000001,
+    "measured_positive": 119372000001
+  },
+  "evaluation": "Original 32 positive and64 null acquisitions in all nine mismatch conditions. Measured-setting simulation: measured high-flux pulse shape, measured fitted a/B/Td/recovery; ratios0.0625,0.125,0.25,64 positives per ratio and128 nulls, separation10bins (15.625ns). Public measured nulls:128 disjoint1000-cycle blocks after calibration/development/evaluation segments. Known single-surface records evaluate false alarms only. Simulated second returns are added to incident flux before both recovery clocks.",
+  "endpoints": "All records: applicability, declaration, correct/wrong localization, detection miss; conditional location RMSE reported with count. Bin tolerance2; thresholds estimated on training only; no outcome-dependent scenario removal.",
+  "practical": "This stage addresses M2/M3. No new equal-population-FAR superiority claim over GLRT, no physical two-surface measurement, no real-time claim.",
+  "workers": 12
+}

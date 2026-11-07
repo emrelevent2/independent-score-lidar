@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "1c4f0546a7e259e4db19f194a4186248240387e1de08dd7a5ab3d42f00030810",
+  "parent_analysis_sha256": "32874e568b8919fb8fe565db5b424d3358da36f71ae3499cf3549b62c4bb2b20",
+  "records": 192,
+  "source_blocks": 64,
+  "zero_injection_roundtrips": 64,
+  "hidden_avalanches_completed": 24030,
+  "quadrature_max_absolute_difference": 3.552713678800501e-15,
+  "rows": [
+    {
+      "ratio": 0.0625,
+      "method": "calibrated",
+      "records": 64,
+      "declared": 6,
+      "correct_secondary": 6,
+      "wrong_secondary": 0,
+      "conditional_secondary_rmse": 0.3862284272386155
+    },
+    {
+      "ratio": 0.0625,
+      "method": "censored",
+      "records": 64,
+      "declared": 1,
+      "correct_secondary": 1,
+      "wrong_secondary": 0,
+      "conditional_secondary_rmse": 0.0722720250303368
+    },
+    {
+      "ratio": 0.125,
+      "method": "calibrated",
+      "records": 64,
+      "declared": 26,
+      "correct_secondary": 26,
+      "wrong_secondary": 0,
+      "conditional_secondary_rmse": 0.2817781232503741
+    },
+    {
+      "ratio": 0.125,
+      "method": "censored",
+      "records": 64,
+      "declared": 8,
+      "correct_secondary": 7,
+      "wrong_secondary": 1,
+      "conditional_secondary_rmse": 1.7966783792755567
+    },
+    {
+      "ratio": 0.25,
+      "method": "calibrated",
+      "records": 64,
+      "declared": 55,
+      "correct_secondary": 55,
+      "wrong_secondary": 0,
+      "conditional_secondary_rmse": 0.3010650065092799
+    },
+    {
+      "ratio": 0.25,
+      "method": "censored",
+      "records": 64,
+      "declared": 31,
+      "correct_secondary": 31,
+      "wrong_secondary": 0,
+      "conditional_secondary_rmse": 0.2822024160788005
+    }
+  ]
+}

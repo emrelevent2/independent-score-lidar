@@ -1,0 +1,38 @@
+{
+  "name": "afterpulse_1pct",
+  "mu": 79.97645645813496,
+  "sd": 0.06,
+  "jitter": 0.0,
+  "candidates": [
+    {
+      "x": [
+        2.5507167578013896,
+        15.321328257427194,
+        0.8239363184066,
+        79.97645645813496,
+        -2.8134107167600364
+      ],
+      "negative_mean_logdensity": 3.2734482171282933,
+      "success": true,
+      "evaluations": 24,
+      "seconds": 8.230018800124526
+    },
+    {
+      "x": [
+        2.5501091171208468,
+        15.321048563167027,
+        0.8238630272482551,
+        79.97647330203847,
+        -2.8134107167600364
+      ],
+      "negative_mean_logdensity": 3.2734482293182032,
+      "success": true,
+      "evaluations": 31,
+      "seconds": 10.82778920000419
+    }
+  ],
+  "calibration_events": 1603,
+  "calibration_data_sha256": "adf656e46e1c3b659a511b47ed83ffa3c1ee7aef25444072f8b65a9634ab95c4",
+  "minimum_calibration_gap": 80.00092967544333,
+  "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+}

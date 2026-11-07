@@ -1,0 +1,3 @@
+method,records,applicable,false_alarms,first128_alarms,additional896_alarms,interval
+calibrated,1024,1024,6,0,6,"[0.0021532323522918087, 0.01270947416054966]"
+censored,1024,1024,6,1,5,"[0.0021532323522918087, 0.01270947416054966]"

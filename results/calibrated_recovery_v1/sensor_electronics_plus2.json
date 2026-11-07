@@ -1,0 +1,38 @@
+{
+  "name": "electronics_plus2",
+  "mu": 81.77607792392115,
+  "sd": 0.17596602267473083,
+  "jitter": 0.0,
+  "candidates": [
+    {
+      "x": [
+        2.516419325519778,
+        15.288916518344687,
+        0.8132973487721483,
+        81.77607792392115,
+        -1.7374643555655953
+      ],
+      "negative_mean_logdensity": 3.2615648174596146,
+      "success": true,
+      "evaluations": 21,
+      "seconds": 7.380787699948996
+    },
+    {
+      "x": [
+        2.516331341763211,
+        15.288925752421289,
+        0.8132855279364181,
+        81.77595007026756,
+        -1.7363553056841263
+      ],
+      "negative_mean_logdensity": 3.261564817752827,
+      "success": true,
+      "evaluations": 26,
+      "seconds": 9.472586799878627
+    }
+  ],
+  "calibration_events": 1587,
+  "calibration_data_sha256": "476f4dfdd7c00bf2f9aeb603c888efd17c0835d772a8b4323ba754e23bb61a5c",
+  "minimum_calibration_gap": 81.62125210589147,
+  "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+}

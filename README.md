@@ -19,8 +19,7 @@ normalization bank. It reports a secondary-return decision and estimated locatio
 - The extended-start full-likelihood-ratio reference gives 196 correct,
   one wrong location and two null alarms. Different observed false-alarm counts
   must be retained when interpreting that comparison.
-- The measured experiment fits and predicts single-surface timestamp gaps.
-  It does not provide measured two-surface detection accuracy.
+- Measured timestamps evaluate both the observation model and single-surface detector false alarms. A separate, explicitly semi-synthetic study completes latent photon paths from measured records and injects a known weak return before sensor filtering. It does not provide physically measured two-surface accuracy.
 
 ## Install
 
@@ -136,9 +135,73 @@ modules document the numerical dependency graph.
 ## Boundaries and availability
 
 Calibration uses 199 null draws, not 999. The data do not establish performance
-at exactly matched population false-alarm rates. The measured variable-recovery
-model has not been used to retrain the main detector's normalization bank.
+at exactly matched population false-alarm rates. The original fixed-recovery bank remains unchanged. A separate calibrated extension trains sensor-specific banks and thresholds with variable recovery and timestamp jitter.
 No physical two-surface experiment or superiority over CASPI is claimed.
 
 This repository accompanies a manuscript prepared for submission; it is not
 a claim of journal acceptance. Contact: emre.levent@fbu.edu.tr.
+
+## Calibrated recovery and measured-path injection
+
+The extension integrates a truncated-normal electronics recovery distribution
+inside each transition density. With jitter it uses an integrated pair criterion,
+not the exact joint likelihood of the noisy record. Complete noisy paths are
+simulated for calibration so adjacent gaps retain their shared endpoint errors.
+Independent 3000-period single-surface records fit recovery in each mismatch
+condition; detector recovery stays nominal and jitter is an instrument input.
+
+Each sensor has 64 independent matrix-training acquisitions and 499 separate
+null calibration acquisitions. These provide cohort-level calibration over the
+specified nuisance population, not the original query-specific 199-draw bootstrap.
+The nine mismatch conditions reuse all original 864 acquisitions. Both score
+methods share the calibration paths and use their own thresholds.
+
+The high-flux measured study uses the measured pulse and independent recovery
+fit. It tests 192 simulated positives,128 simulated nulls,and128 disjoint measured
+single-surface blocks. A prospectively extended measured-null evaluation uses1024
+blocks,including the first128,and gives 6/1024 calibrated-detector alarms.
+The semi-synthetic study completes unrecorded avalanches and suppressed incident
+photons conditional on64 measured blocks,including the terminal no-record interval.
+All64 source traces are reproduced exactly at zero injection. An independent
+secondary photon stream is then added before both recovery filters. At a12.5%
+amplitude ratio the injected-secondary correct counts are 26/64 and
+7/64 for the calibrated and censored methods. Ratios reuse the same
+source blocks; their results are not independent pooled observations.
+
+The terminal-complete version2 is the reported injection study. Version1 and its
+protocol are retained as an earlier boundary-handling diagnostic. The amendment
+changes only completion after the last measured record; all source blocks,
+injection strengths,seeds and estimators stay fixed. Raw third-party MAT files
+are still obtained from the source authors and are not redistributed here.
+
+Saved-output checks and the extension figure/tables:
+
+```sh
+python tools/audit_calibrated_recovery.py
+python tools/audit_semisynthetic_recovery.py
+python tools/audit_extended_measured_nulls.py
+python tools/build_calibrated_recovery_assets.py
+```
+
+After obtaining the measured inputs,the original Windows study entrypoints are:
+
+```sh
+python tools/calibrated_recovery_study.py calibrate
+python tools/calibrated_recovery_study.py train
+python tools/calibrated_recovery_study.py threshold
+python tools/calibrated_recovery_study.py evaluate
+python tools/calibrated_recovery_study.py public
+python tools/analyze_calibrated_recovery_complete.py
+python tools/semisynthetic_recovery_tail.py run
+python tools/semisynthetic_recovery_tail.py analyze
+python tools/extended_measured_nulls.py run
+python tools/extended_measured_nulls.py analyze
+```
+
+Retain the supplied frozen protocols. Do not run `freeze` again. Completed
+sensor fits are retained; simulation runners resume missing records. A fresh
+recomputation requires a separate checkout with the relevant outputs moved
+aside. The new source hashes are checked byte-for-byte; `.gitattributes` preserves
+them. Full study reruns are expensive; saved-output verification needs no raw
+measurements. Recovery-fit uncertainty,unknown jitter,and physical two-surface
+validation remain distinct from these calibrated experiments.

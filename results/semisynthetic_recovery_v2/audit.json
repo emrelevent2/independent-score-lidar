@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "records": 192,
+  "source_blocks": 64,
+  "zero_injection_roundtrips": 64,
+  "decisions_recounted": true,
+  "source_block_hashes_matched": true,
+  "maximum_quadrature_difference": 3.552713678800501e-15,
+  "analysis_sha256": "34b4bb2be5fb33a99427539193b6b42c624804d81486bdc16b87d8013b53a6b0"
+}

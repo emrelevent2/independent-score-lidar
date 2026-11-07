@@ -1,0 +1,38 @@
+{
+  "name": "detector_minus5",
+  "mu": 80.16276291385365,
+  "sd": 0.19365795589926177,
+  "jitter": 0.0,
+  "candidates": [
+    {
+      "x": [
+        2.3679814338052574,
+        15.32530037300841,
+        0.7363310447567347,
+        80.16440916655718,
+        -1.628763175788155
+      ],
+      "negative_mean_logdensity": 3.2515640126197067,
+      "success": true,
+      "evaluations": 10,
+      "seconds": 3.4105257000774145
+    },
+    {
+      "x": [
+        2.3680679379848892,
+        15.325401622071558,
+        0.7363617383542597,
+        80.16276291385365,
+        -1.6416617899548305
+      ],
+      "negative_mean_logdensity": 3.251563909132432,
+      "success": true,
+      "evaluations": 19,
+      "seconds": 6.545423800125718
+    }
+  ],
+  "calibration_events": 1583,
+  "calibration_data_sha256": "cf3520dcd4a897791caf87f12784977cd3ba56705349b9195cbbab1fe4d9f452",
+  "minimum_calibration_gap": 80.05778669397296,
+  "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+}

@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "cfab19d1ef26024dff31241e665e3a09d51e8e5d017b45c288700d99464c92fe",
+  "parent_analysis_sha256": "32874e568b8919fb8fe565db5b424d3358da36f71ae3499cf3549b62c4bb2b20",
+  "rows": [
+    {
+      "method": "calibrated",
+      "records": 1024,
+      "applicable": 1024,
+      "false_alarms": 6,
+      "first128_alarms": 0,
+      "additional896_alarms": 6,
+      "interval": [
+        0.0021532323522918087,
+        0.01270947416054966
+      ]
+    },
+    {
+      "method": "censored",
+      "records": 1024,
+      "applicable": 1024,
+      "false_alarms": 6,
+      "first128_alarms": 1,
+      "additional896_alarms": 5,
+      "interval": [
+        0.0021532323522918087,
+        0.01270947416054966
+      ]
+    }
+  ]
+}

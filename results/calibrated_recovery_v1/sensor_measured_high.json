@@ -1,0 +1,8 @@
+{
+  "name": "measured_high",
+  "mu": 51.301154000589655,
+  "sd": 0.9470429460923485,
+  "jitter": 0.0,
+  "source": "Existing independent high-flux measured calibration segment [100,20100)",
+  "source_sha256": "f6eb7c8c691c420d6cba237df691da32916314b7080c3c95cd30b2e4950ca4d7"
+}

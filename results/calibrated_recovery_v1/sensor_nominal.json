@@ -1,0 +1,38 @@
+{
+  "name": "nominal",
+  "mu": 80.06972481971943,
+  "sd": 0.06,
+  "jitter": 0.0,
+  "candidates": [
+    {
+      "x": [
+        2.378966147357659,
+        15.304081055761369,
+        0.7830054784930955,
+        80.06984986980174,
+        -2.8134107167600364
+      ],
+      "negative_mean_logdensity": 3.281559047597383,
+      "success": true,
+      "evaluations": 17,
+      "seconds": 5.822211100021377
+    },
+    {
+      "x": [
+        2.378826087980933,
+        15.304066466357513,
+        0.7830803398973136,
+        80.06972481971943,
+        -2.8134107167600364
+      ],
+      "negative_mean_logdensity": 3.2815590471808775,
+      "success": true,
+      "evaluations": 17,
+      "seconds": 5.8726192999165505
+    }
+  ],
+  "calibration_events": 1594,
+  "calibration_data_sha256": "138cc3e2220c34fa3f0e8bcbebffe91b53a158330d675255ae41c264cd248ecd",
+  "minimum_calibration_gap": 80.08818877441081,
+  "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+}

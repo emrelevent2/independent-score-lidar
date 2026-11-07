@@ -1,0 +1,951 @@
+{
+  "status": "COMPLETE",
+  "protocol_sha256": "8821a865ce1be4d5dc3689020ba1a30b2d816dd7987543df342bb1ad5499caf7",
+  "records": 6302,
+  "thresholds": {
+    "nominal": {
+      "calibrated": 16.497421572508372,
+      "censored": 25.505159750397596
+    },
+    "detector_minus5": {
+      "calibrated": 15.854433951270186,
+      "censored": 24.52554294663131
+    },
+    "detector_plus5": {
+      "calibrated": 14.287668861932783,
+      "censored": 23.137491696669354
+    },
+    "electronics_minus2": {
+      "calibrated": 14.799246832560907,
+      "censored": 18.910008429639046
+    },
+    "electronics_plus2": {
+      "calibrated": 17.327152634602164,
+      "censored": 19.6570680844508
+    },
+    "jitter_0p1": {
+      "calibrated": 15.527647277960392,
+      "censored": 24.828309812478345
+    },
+    "jitter_0p5": {
+      "calibrated": 17.871054894351527,
+      "censored": 25.87605903045997
+    },
+    "afterpulse_1pct": {
+      "calibrated": 18.077156055152024,
+      "censored": 24.021897871705683
+    },
+    "afterpulse_5pct": {
+      "calibrated": 15.962029106591123,
+      "censored": 22.388993852690035
+    },
+    "measured_high": {
+      "calibrated": 18.748197193936644,
+      "censored": 21.71115871623905
+    }
+  },
+  "rows": [
+    {
+      "name": "nominal",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 14,
+      "correct": 13,
+      "wrong": 1,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.4987242366009437,
+      "threshold": 16.497421572508372
+    },
+    {
+      "name": "nominal",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 4,
+      "correct": 4,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 0.6194475199000274,
+      "threshold": 25.505159750397596
+    },
+    {
+      "name": "detector_minus5",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 11,
+      "correct": 11,
+      "wrong": 0,
+      "false_alarms": 2,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0038071813818723673,
+        0.10837052222451714
+      ],
+      "conditional_secondary_rmse": 0.9172497336167921,
+      "threshold": 15.854433951270186
+    },
+    {
+      "name": "detector_minus5",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 2,
+      "correct": 1,
+      "wrong": 1,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 5.516923557082342,
+      "threshold": 24.52554294663131
+    },
+    {
+      "name": "detector_plus5",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 14,
+      "correct": 14,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 0.5349300163804965,
+      "threshold": 14.287668861932783
+    },
+    {
+      "name": "detector_plus5",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 9,
+      "correct": 9,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 0.8216498659765816,
+      "threshold": 23.137491696669354
+    },
+    {
+      "name": "electronics_minus2",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 17,
+      "correct": 17,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 0.6485376971615497,
+      "threshold": 14.799246832560907
+    },
+    {
+      "name": "electronics_minus2",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 8,
+      "correct": 7,
+      "wrong": 1,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 1.0257763679209762,
+      "threshold": 18.910008429639046
+    },
+    {
+      "name": "electronics_plus2",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 13,
+      "correct": 11,
+      "wrong": 2,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.1582390098458009,
+      "threshold": 17.327152634602164
+    },
+    {
+      "name": "electronics_plus2",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 9,
+      "correct": 8,
+      "wrong": 1,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 0.8770011134513583,
+      "threshold": 19.6570680844508
+    },
+    {
+      "name": "jitter_0p1",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 16,
+      "correct": 15,
+      "wrong": 1,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.0457613447280454,
+      "threshold": 15.527647277960392
+    },
+    {
+      "name": "jitter_0p1",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 5,
+      "correct": 5,
+      "wrong": 0,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 0.8951724302021619,
+      "threshold": 24.828309812478345
+    },
+    {
+      "name": "jitter_0p5",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 8,
+      "correct": 7,
+      "wrong": 1,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.4333208891297196,
+      "threshold": 17.871054894351527
+    },
+    {
+      "name": "jitter_0p5",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 5,
+      "correct": 4,
+      "wrong": 1,
+      "false_alarms": 0,
+      "unavailable": 1,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.8618958867021331,
+      "threshold": 25.87605903045997
+    },
+    {
+      "name": "afterpulse_1pct",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 11,
+      "correct": 10,
+      "wrong": 1,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.1888846486191404,
+      "threshold": 18.077156055152024
+    },
+    {
+      "name": "afterpulse_1pct",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 3,
+      "correct": 2,
+      "wrong": 1,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 2.478940585181496,
+      "threshold": 24.021897871705683
+    },
+    {
+      "name": "afterpulse_5pct",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 8,
+      "correct": 8,
+      "wrong": 0,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.05600908938663656
+      ],
+      "conditional_secondary_rmse": 1.0342925077121723,
+      "threshold": 15.962029106591123
+    },
+    {
+      "name": "afterpulse_5pct",
+      "kind": "evaluate",
+      "ratio": null,
+      "method": "censored",
+      "positives": 32,
+      "nulls": 64,
+      "declared": 6,
+      "correct": 4,
+      "wrong": 2,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00039551251405066395,
+        0.08401032643435369
+      ],
+      "conditional_secondary_rmse": 6.721569889588718,
+      "threshold": 22.388993852690035
+    },
+    {
+      "name": "measured_high",
+      "kind": "evaluate",
+      "ratio": 0.0625,
+      "method": "calibrated",
+      "positives": 64,
+      "nulls": 128,
+      "declared": 5,
+      "correct": 5,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": 0.3378813656193519,
+      "threshold": 18.748197193936644
+    },
+    {
+      "name": "measured_high",
+      "kind": "evaluate",
+      "ratio": 0.0625,
+      "method": "censored",
+      "positives": 64,
+      "nulls": 128,
+      "declared": 2,
+      "correct": 1,
+      "wrong": 1,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": 19.630570641223777,
+      "threshold": 21.71115871623905
+    },
+    {
+      "name": "measured_high",
+      "kind": "evaluate",
+      "ratio": 0.125,
+      "method": "calibrated",
+      "positives": 64,
+      "nulls": 128,
+      "declared": 27,
+      "correct": 27,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": 0.3249683686477979,
+      "threshold": 18.748197193936644
+    },
+    {
+      "name": "measured_high",
+      "kind": "evaluate",
+      "ratio": 0.125,
+      "method": "censored",
+      "positives": 64,
+      "nulls": 128,
+      "declared": 5,
+      "correct": 5,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": 0.2835602558067847,
+      "threshold": 21.71115871623905
+    },
+    {
+      "name": "measured_high",
+      "kind": "evaluate",
+      "ratio": 0.25,
+      "method": "calibrated",
+      "positives": 64,
+      "nulls": 128,
+      "declared": 54,
+      "correct": 54,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": 0.27446457188942947,
+      "threshold": 18.748197193936644
+    },
+    {
+      "name": "measured_high",
+      "kind": "evaluate",
+      "ratio": 0.25,
+      "method": "censored",
+      "positives": 64,
+      "nulls": 128,
+      "declared": 29,
+      "correct": 27,
+      "wrong": 2,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": 4.989416621431217,
+      "threshold": 21.71115871623905
+    },
+    {
+      "name": "measured_high",
+      "kind": "public",
+      "ratio": null,
+      "method": "calibrated",
+      "positives": 0,
+      "nulls": 128,
+      "declared": 0,
+      "correct": 0,
+      "wrong": 0,
+      "false_alarms": 0,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.0,
+        0.028408053443543906
+      ],
+      "conditional_secondary_rmse": null,
+      "threshold": 18.748197193936644
+    },
+    {
+      "name": "measured_high",
+      "kind": "public",
+      "ratio": null,
+      "method": "censored",
+      "positives": 0,
+      "nulls": 128,
+      "declared": 0,
+      "correct": 0,
+      "wrong": 0,
+      "false_alarms": 1,
+      "unavailable": 0,
+      "false_alarm_interval": [
+        0.00019777581466176456,
+        0.0427590319142204
+      ],
+      "conditional_secondary_rmse": null,
+      "threshold": 21.71115871623905
+    }
+  ],
+  "sensor_calibration": {
+    "nominal": {
+      "name": "nominal",
+      "mu": 80.06972481971943,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.378966147357659,
+            15.304081055761369,
+            0.7830054784930955,
+            80.06984986980174,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.281559047597383,
+          "success": true,
+          "evaluations": 17,
+          "seconds": 5.822211100021377
+        },
+        {
+          "x": [
+            2.378826087980933,
+            15.304066466357513,
+            0.7830803398973136,
+            80.06972481971943,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2815590471808775,
+          "success": true,
+          "evaluations": 17,
+          "seconds": 5.8726192999165505
+        }
+      ],
+      "calibration_events": 1594,
+      "calibration_data_sha256": "138cc3e2220c34fa3f0e8bcbebffe91b53a158330d675255ae41c264cd248ecd",
+      "minimum_calibration_gap": 80.08818877441081,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "detector_minus5": {
+      "name": "detector_minus5",
+      "mu": 80.16276291385365,
+      "sd": 0.19365795589926177,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.3679814338052574,
+            15.32530037300841,
+            0.7363310447567347,
+            80.16440916655718,
+            -1.628763175788155
+          ],
+          "negative_mean_logdensity": 3.2515640126197067,
+          "success": true,
+          "evaluations": 10,
+          "seconds": 3.4105257000774145
+        },
+        {
+          "x": [
+            2.3680679379848892,
+            15.325401622071558,
+            0.7363617383542597,
+            80.16276291385365,
+            -1.6416617899548305
+          ],
+          "negative_mean_logdensity": 3.251563909132432,
+          "success": true,
+          "evaluations": 19,
+          "seconds": 6.545423800125718
+        }
+      ],
+      "calibration_events": 1583,
+      "calibration_data_sha256": "cf3520dcd4a897791caf87f12784977cd3ba56705349b9195cbbab1fe4d9f452",
+      "minimum_calibration_gap": 80.05778669397296,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "detector_plus5": {
+      "name": "detector_plus5",
+      "mu": 80.04995035018796,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.4153493695408996,
+            15.29439589861433,
+            0.7970759619040354,
+            80.04995035018796,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2921981268362095,
+          "success": true,
+          "evaluations": 18,
+          "seconds": 6.181380100082606
+        },
+        {
+          "x": [
+            2.415050492850011,
+            15.294441823765853,
+            0.797015140923237,
+            80.0498485941131,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2921981283446438,
+          "success": true,
+          "evaluations": 17,
+          "seconds": 5.8805240001529455
+        }
+      ],
+      "calibration_events": 1601,
+      "calibration_data_sha256": "e40f0694d5dfaa8a8b5d0bb5822a2297861e2f381aeb0b3763d625ba6ef931b9",
+      "minimum_calibration_gap": 80.06977261957945,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "electronics_minus2": {
+      "name": "electronics_minus2",
+      "mu": 78.38285984916526,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.3583963608365996,
+            15.331999149135529,
+            0.7743083135920753,
+            78.38288053871204,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.300085507977124,
+          "success": true,
+          "evaluations": 18,
+          "seconds": 5.858353099785745
+        },
+        {
+          "x": [
+            2.3584019564939975,
+            15.331934249968343,
+            0.7742953435831591,
+            78.38285984916526,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3000855073571342,
+          "success": true,
+          "evaluations": 20,
+          "seconds": 6.608178899856284
+        }
+      ],
+      "calibration_events": 1603,
+      "calibration_data_sha256": "645c91096f4e16bfc841e983eb46fef06a901c24ef54ffb58d3ef30b9818e8c1",
+      "minimum_calibration_gap": 78.41775507916464,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "electronics_plus2": {
+      "name": "electronics_plus2",
+      "mu": 81.77607792392115,
+      "sd": 0.17596602267473083,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.516419325519778,
+            15.288916518344687,
+            0.8132973487721483,
+            81.77607792392115,
+            -1.7374643555655953
+          ],
+          "negative_mean_logdensity": 3.2615648174596146,
+          "success": true,
+          "evaluations": 21,
+          "seconds": 7.380787699948996
+        },
+        {
+          "x": [
+            2.516331341763211,
+            15.288925752421289,
+            0.8132855279364181,
+            81.77595007026756,
+            -1.7363553056841263
+          ],
+          "negative_mean_logdensity": 3.261564817752827,
+          "success": true,
+          "evaluations": 26,
+          "seconds": 9.472586799878627
+        }
+      ],
+      "calibration_events": 1587,
+      "calibration_data_sha256": "476f4dfdd7c00bf2f9aeb603c888efd17c0835d772a8b4323ba754e23bb61a5c",
+      "minimum_calibration_gap": 81.62125210589147,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "jitter_0p1": {
+      "name": "jitter_0p1",
+      "mu": 80.04754763503635,
+      "sd": 0.06,
+      "jitter": 0.1,
+      "candidates": [
+        {
+          "x": [
+            2.4078490995791144,
+            15.294690307177232,
+            0.8170580798252042,
+            80.04754763503635,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3027453602141685,
+          "success": true,
+          "evaluations": 21,
+          "seconds": 205.27102290000767
+        },
+        {
+          "x": [
+            2.4080251984226413,
+            15.294744895637622,
+            0.8170700689650975,
+            80.04759195774723,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3027453613328785,
+          "success": true,
+          "evaluations": 19,
+          "seconds": 183.40457129990682
+        }
+      ],
+      "calibration_events": 1608,
+      "calibration_data_sha256": "8c5ea4e0155ddd976cf6e63b1a83a41b1a773bc68286f56d5e874c3ced1d69e7",
+      "minimum_calibration_gap": 80.0185679819624,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "jitter_0p5": {
+      "name": "jitter_0p5",
+      "mu": 79.61004360919281,
+      "sd": 0.06,
+      "jitter": 0.5,
+      "candidates": [
+        {
+          "x": [
+            2.274155670414426,
+            15.347771113282084,
+            0.8028239080743003,
+            79.61004360919281,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.370840474524136,
+          "success": true,
+          "evaluations": 24,
+          "seconds": 696.7321685999632
+        },
+        {
+          "x": [
+            2.2745984827274355,
+            15.348022663203526,
+            0.80290556915028,
+            79.60990318786952,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.370840478698324,
+          "success": true,
+          "evaluations": 22,
+          "seconds": 735.3288018000312
+        }
+      ],
+      "calibration_events": 1605,
+      "calibration_data_sha256": "17850b6ddcfb5e13cef0a60f422f3f27e348a01bcf1e098eb5aae1a0b178dccc",
+      "minimum_calibration_gap": 78.87665390806069,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "afterpulse_1pct": {
+      "name": "afterpulse_1pct",
+      "mu": 79.97645645813496,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.5507167578013896,
+            15.321328257427194,
+            0.8239363184066,
+            79.97645645813496,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2734482171282933,
+          "success": true,
+          "evaluations": 24,
+          "seconds": 8.230018800124526
+        },
+        {
+          "x": [
+            2.5501091171208468,
+            15.321048563167027,
+            0.8238630272482551,
+            79.97647330203847,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.2734482293182032,
+          "success": true,
+          "evaluations": 31,
+          "seconds": 10.82778920000419
+        }
+      ],
+      "calibration_events": 1603,
+      "calibration_data_sha256": "adf656e46e1c3b659a511b47ed83ffa3c1ee7aef25444072f8b65a9634ab95c4",
+      "minimum_calibration_gap": 80.00092967544333,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "afterpulse_5pct": {
+      "name": "afterpulse_5pct",
+      "mu": 80.04725256766352,
+      "sd": 0.06,
+      "jitter": 0.0,
+      "candidates": [
+        {
+          "x": [
+            2.4597488304694815,
+            15.369025280355887,
+            0.8634719373074929,
+            80.04725256766352,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3102739594594675,
+          "success": true,
+          "evaluations": 18,
+          "seconds": 6.220321099972352
+        },
+        {
+          "x": [
+            2.459634211022175,
+            15.369015580550146,
+            0.8634460401214625,
+            80.04728624923656,
+            -2.8134107167600364
+          ],
+          "negative_mean_logdensity": 3.3102739595039696,
+          "success": true,
+          "evaluations": 19,
+          "seconds": 6.754439799813554
+        }
+      ],
+      "calibration_events": 1618,
+      "calibration_data_sha256": "e168b6d7d31308632c6374ae4532555e46c9f2b86b6100534ef6a4691a3c9b73",
+      "minimum_calibration_gap": 80.07999915088294,
+      "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+    },
+    "measured_high": {
+      "name": "measured_high",
+      "mu": 51.301154000589655,
+      "sd": 0.9470429460923485,
+      "jitter": 0.0,
+      "source": "Existing independent high-flux measured calibration segment [100,20100)",
+      "source_sha256": "f6eb7c8c691c420d6cba237df691da32916314b7080c3c95cd30b2e4950ca4d7"
+    }
+  },
+  "sensor_output_hashes": {
+    "nominal": "8b6f081930e16381209bb909a0684c59275c26e08eb80f512bb64c30fa24be74",
+    "detector_minus5": "28279d21117a306f433ff6f9ca141eeb84eb9387d11c9423304307fbea2f4f6f",
+    "detector_plus5": "4d868bcfa4484b22222ea3f3354fd1b54bcb1af08cf30a490cd89016e047a7a9",
+    "electronics_minus2": "e43ec3b2026d044edb2fd7798fc626ccc371584c0c45b68f0efd31e2b884ccb8",
+    "electronics_plus2": "0cbab593127bf75856e85f5fe97cf09682358ef11ace032d54826533a1878782",
+    "jitter_0p1": "f80deb55f72cf574d532919ca0fe35bd9ead129f8513e3fb422fe124207d8def",
+    "jitter_0p5": "549b1e6525b854103e4a08fbb8144e1f844a4a84debae95d3d63dc2f1924086d",
+    "afterpulse_1pct": "f39af3ba0be93dfbff4e4dddf806791cc6def15e277e05e69115986be9449ac2",
+    "afterpulse_5pct": "5a3be92281dc62b2045c6f7c2517272191412ec5050cf40a3c4077384dc3a0c2",
+    "measured_high": "01e652cb6d157d9350d13c3b99805d379de843835a9bfa139493b77ad16c37c2"
+  },
+  "unavailable_calibration_draws": {
+    "nominal": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "detector_minus5": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "detector_plus5": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "electronics_minus2": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "electronics_plus2": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "jitter_0p1": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "jitter_0p5": {
+      "calibrated": 0,
+      "censored": 4
+    },
+    "afterpulse_1pct": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "afterpulse_5pct": {
+      "calibrated": 0,
+      "censored": 0
+    },
+    "measured_high": {
+      "calibrated": 0,
+      "censored": 0
+    }
+  },
+  "unavailable_rule": "All499 draws retained; unavailable exposure statistic is a non-declaration, ordered as -infinity. Query availability is reported separately.",
+  "postprocessor_sha256": "435f31563ee02e70f18391d257dbb8d9d31141d1f80b3fd6a22f87c44d4d1f16"
+}

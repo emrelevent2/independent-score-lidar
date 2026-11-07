@@ -1,0 +1,7 @@
+ratio,method,records,declared,correct_secondary,wrong_secondary,conditional_secondary_rmse
+0.0625,calibrated,64,6,6,0,0.3862284272386155
+0.0625,censored,64,1,1,0,0.0722720250303368
+0.125,calibrated,64,26,26,0,0.2817781232503741
+0.125,censored,64,8,7,1,1.7966783792755567
+0.25,calibrated,64,55,55,0,0.3010650065092799
+0.25,censored,64,31,31,0,0.2822024160788005

@@ -1,0 +1,10 @@
+{
+  "status": "FIXED_BEFORE_ADDITIONAL_MEASURED_BLOCK_OUTCOMES",
+  "source_sha256": "8b5962153d1f695811be8424e890cae3c4cc1f38d274b4b6c311e6d88ca6e889",
+  "parent_protocol_sha256": "8821a865ce1be4d5dc3689020ba1a30b2d816dd7987543df342bb1ad5499caf7",
+  "total_blocks": 1024,
+  "rationale": "The first128 measured outcomes are already known (calibrated0,censored1). Extend the same deterministic block schedule to1024 to estimate measured false-alarm frequency more precisely; no threshold,model,bank or block selection changes.",
+  "source": "OD0 acq2. First frame after event70400 plus1000-period buffer. Nonoverlapping1000-period blocks indexed0..1023; indices128..1023 are additional. The first64 blocks used for counterfactual injections remain fixed.",
+  "endpoints": "All1024 measured declarations,exact binomial descriptive intervals and applicability; first128 and additional896 also reported separately. Serial dependence and single-scene scope are retained; no inference of measured two-surface accuracy.",
+  "workers": 12
+}

@@ -1,0 +1,18 @@
+{
+  "status": "COMPLETE",
+  "records": 640,
+  "seconds": 31.0741286999546,
+  "component_seconds": {
+    "nominal": 0.0,
+    "detector_minus5": 0.0,
+    "detector_plus5": 0.0,
+    "electronics_minus2": 0.0,
+    "electronics_plus2": 0.0,
+    "jitter_0p1": 0.0,
+    "jitter_0p5": 225.2027510998305,
+    "afterpulse_1pct": 0.0,
+    "afterpulse_5pct": 0.0,
+    "measured_high": 0.0
+  },
+  "protocol_sha256": "8821a865ce1be4d5dc3689020ba1a30b2d816dd7987543df342bb1ad5499caf7"
+}

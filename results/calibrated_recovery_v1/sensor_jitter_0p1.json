@@ -1,0 +1,38 @@
+{
+  "name": "jitter_0p1",
+  "mu": 80.04754763503635,
+  "sd": 0.06,
+  "jitter": 0.1,
+  "candidates": [
+    {
+      "x": [
+        2.4078490995791144,
+        15.294690307177232,
+        0.8170580798252042,
+        80.04754763503635,
+        -2.8134107167600364
+      ],
+      "negative_mean_logdensity": 3.3027453602141685,
+      "success": true,
+      "evaluations": 21,
+      "seconds": 205.27102290000767
+    },
+    {
+      "x": [
+        2.4080251984226413,
+        15.294744895637622,
+        0.8170700689650975,
+        80.04759195774723,
+        -2.8134107167600364
+      ],
+      "negative_mean_logdensity": 3.3027453613328785,
+      "success": true,
+      "evaluations": 19,
+      "seconds": 183.40457129990682
+    }
+  ],
+  "calibration_events": 1608,
+  "calibration_data_sha256": "8c5ea4e0155ddd976cf6e63b1a83a41b1a773bc68286f56d5e874c3ced1d69e7",
+  "minimum_calibration_gap": 80.0185679819624,
+  "source": "Independent 3000-cycle single-surface acquisition; Td nominal, jitter supplied as instrument setting"
+}

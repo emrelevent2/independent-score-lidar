@@ -1,0 +1,23 @@
+{
+  "status": "FIXED_BEFORE_TERMINAL_COMPLETE_COUNTERFACTUAL_RESULTS",
+  "source_sha256": "6c972bce55d891b344d5214821d21cdb697f2eaa88083da11e515836c9b0dd71",
+  "parent_protocol_sha256": "8821a865ce1be4d5dc3689020ba1a30b2d816dd7987543df342bb1ad5499caf7",
+  "source_blocks": "First64 of the128 prospectively selected disjoint OD0 public blocks, after event70400 and1000-period buffer. Reuse across three injection strengths; no independence claim across strengths.",
+  "ratios": [
+    0.0625,
+    0.125,
+    0.25
+  ],
+  "separation_bins": 10.0,
+  "separation_perturbation": 0.35,
+  "blocks": 64,
+  "seed_base": 134719000001,
+  "augmentation": "Condition on each source block and its fitted one-return rate. For every gap sample zero/one hidden avalanche from the calibrated transition law (R<=2Td). Sample recovery R conditional on the path and observed gap. Complete incident Poisson photons during all detector-dead intervals. Source recorded-event recovery marks are posterior draws; all other photon marks are prior draws. Counterfactual acquisition is conditioned on its first recorded event; no photons injected before that anchor. Apply both physical recovery filters to all incident photons, not a merge of recorded streams.",
+  "computation": "Hidden-event mixture weight integrated by16-point Gauss-Legendre on segments split at rate edges and recovery-CDF transition points; exact rejection sampling inside the selected hidden path. Gaussian recovery truncated to[Td,2Td] (the mass above2Td under high-flux calibration is below1e-39).",
+  "checks": "All64 source traces must be reproduced at zero injection. Complete background photon path is shared across all ratios. Separate injection seeds, no selection by detector output. Quadrature refinement checked before efficacy. Score bank and499-record thresholds are unchanged from measured-sensor study.",
+  "endpoints": "Secondary-return declarations, injected-secondary localization within2bins, wrong-secondary count, and secondary RMSE conditional on declaration. No measured primary-surface ground truth is inferred. Compare calibrated and censored methods on identical counterfactual records. Public128 single-surface null results supply the measured false-alarm evaluation.",
+  "workers": 12,
+  "terminal_source_sha256": "69bcbc51b6380d10fd99647856c5905b184da5071c0459f7634a88a34668fa0d",
+  "earlier_protocol_sha256": "41c40eff2886e9a489600a1deccfb50b46d85d099b8b9eee2d0ba6f9848e3e6e",
+  "amendment": "Review of latent boundary handling identified that the earlier completion chose no unrecorded avalanche after the last source event. Here the entire terminal incident path and recovery mark are sampled by rejection conditional on no additional record before acquisition end. The earlier192 outcomes are retained. Blocks, ratios, target seeds and inference are unchanged. This is a physical boundary correction, not outcome-based tuning."
+}

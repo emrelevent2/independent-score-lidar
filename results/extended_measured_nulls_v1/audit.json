@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "records": 1024,
+  "additional_records": 896,
+  "unique_source_hashes": 1024,
+  "decisions_recounted": true,
+  "analysis_sha256": "4addc4b8b55a9b6ae08f51f49ec29b1b177cb63928c5c3a093de5ba23676f50a"
+}
